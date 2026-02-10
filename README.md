@@ -178,7 +178,8 @@ After downloading, note the directory path. Each task instance in the dataset co
 For each task instance, use the following command:
 
 ```bash
-python research_agent/examples/run_reproducibility_evaluation.py <workspace_dir>
+cd research_agent
+python examples/run_reproducibility_evaluation.py <workspace_dir>
 ```
 
 Where `<workspace_dir>` is the path to the task instance directory (containing `paper.pdf`, `should_reproduce.txt`, and `replication_package/`).

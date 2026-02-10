@@ -30,7 +30,8 @@ The `benchmark` directory contains:
 2. **Run evaluation**: Use the following command for each instance:
 
 ```bash
-python research_agent/examples/run_reproducibility_evaluation.py <workspace_dir>
+cd research_agent
+python examples/run_reproducibility_evaluation.py <workspace_dir>
 ```
 
 Where `<workspace_dir>` is the path to the instance directory in REPRO-Bench (containing `paper.pdf`, `should_reproduce.txt`, and `replication_package/`).
