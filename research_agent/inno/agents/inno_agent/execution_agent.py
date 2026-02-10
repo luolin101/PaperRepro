@@ -1,0 +1,305 @@
+"""
+Execution Agent for reproducibility evaluation workflow.
+Executes code files and fixes issues if needed.
+"""
+import os
+import json
+from research_agent.inno.types import Agent
+from research_agent.inno.tools import (
+    write_file, execute_command, run_python,
+    terminal_page_down, terminal_page_up, terminal_page_to
+)
+from research_agent.inno.tools.file_surfer_tool import open_local_file
+from research_agent.inno.tools.terminal_tools import read_file
+from research_agent.inno.tools.local_execution_tools import (
+    run_local_stata,
+    run_local_matlab,
+    run_local_r,
+    grep_file,
+    replace_in_file,
+    copy_file,
+)
+from research_agent.inno.registry import register_agent, register_tool
+from research_agent.inno.environment.docker_env import DockerEnv, with_env
+from research_agent.inno.environment.local_env import LocalEnv
+from inspect import signature
+
+__CTX_VARS_NAME__ = "context_variables"
+
+
+@register_tool("case_resolved")
+def case_resolved(task_response: str, code_quality_assessment: str, reason: str, context_variables: dict = None):
+    """
+    Called when execution is completed. Provide code quality assessment and reason.
+    
+    Args:
+        task_response: Description of what was accomplished in the execution task.
+        code_quality_assessment: Code quality assessment, must be one of: "major_errors", "minor_errors", "no_errors", "cannot_determine"
+        reason: Detailed explanation of the code quality assessment, including specific examples 
+                of errors found (if any) and code logic analysis.
+    """
+    if context_variables is None:
+        context_variables = {}
+    workspace_dir = context_variables.get("workspace_dir", ".")
+    
+    # Validate assessment value
+    valid_assessments = ["major_errors", "minor_errors", "no_errors", "cannot_determine"]
+    if code_quality_assessment not in valid_assessments:
+        raise ValueError(f"code_quality_assessment must be one of {valid_assessments}, got: {code_quality_assessment}")
+    
+    score_data = {
+        "agent": "execution_agent",
+        "code_quality_assessment": code_quality_assessment,
+        "reason": reason,
+    }
+    score_path = os.path.join(workspace_dir, "execution_score.json")
+    try:
+        with open(score_path, "w", encoding="utf-8") as f:
+            json.dump(score_data, f, indent=2, ensure_ascii=False)
+    except:
+        pass
+    
+    # Store score in context_variables
+    context_variables["execution_score"] = score_data
+    
+    from research_agent.inno.types import Result
+    return Result(value=f"Case resolved. {task_response}", context_variables=context_variables)
+
+
+
+
+@register_agent("get_execution_agent")
+def get_execution_agent(model: str, **kwargs):
+    code_env = kwargs.get("code_env", None)
+    file_env = kwargs.get("file_env", None)
+    
+    def instructions(context_variables):
+        workspace_dir = context_variables.get("workspace_dir", ".")
+        replication_package = context_variables.get("replication_package", "replication_package")
+        paper_path = context_variables.get("paper_path", "paper.pdf")
+        
+        return f"""You are an Execution Agent. Given a paper, its code repository, items to reproduce, and the files that need to be run (as identified by the Setup Agent), your task is to reproduce these items as much as possible.
+
+**Context**:
+- Workspace: {workspace_dir}
+- Paper: {paper_path}
+- Code Repository: {replication_package}
+
+**IMPORTANT**: Always explicitly state your thinking and reasoning steps before calling any tool.
+
+Tasks:
+1. Read each code file to be run using `read_file`, carefully analyze input and output paths for data files, working directory paths, import paths, etc. Identify where data is loaded from and where results are saved.
+2. Create modified files (use names like file_modified.ext in the same folder, don't overwrite originals). 
+   **CRITICAL**: Before modifying, carefully read and analyze the COMPLETE code and comments within the code to understand:
+   - What the code actually does and what outputs it generates
+   - Which parts of the code correspond to which items to reproduce (e.g., which section generates Figure 1, which generates Figure 2, etc.)
+   - The exact logic and calculations that produce each output
+   Key modifications:
+   - Default approach: copy the original script to a `*_modified.*` version first, then edit the copy with minimal targeted changes (do not rewrite the whole script).
+   - Path approach: you do NOT need to force absolute paths everywhere. Prefer fixing path issues by setting/controlling the working directory (so relative paths resolve correctly).
+     - R: handle `setwd()` (set a stable working directory)
+     - Stata: handle `cd` (set a stable working directory). Sometimes Stata scripts use a path variable (e.g., `global path "..."` or `local path "..."`) to store the base directory path. In such cases, you can quickly fix path issues by modifying this variable instead of changing `cd` commands. Look for path variable definitions at the beginning of the script and update them to point to the correct workspace directory.
+     - Python: handle `os.chdir()` or run with correct cwd
+     - MATLAB: handle `cd()` and `addpath()` or the tool will set working directory automatically
+   - Only convert specific paths to absolute when needed (e.g., the script changes cwd multiple times, uses fragile relative paths, or you cannot control the cwd reliably). Always check path issues such as `setwd` in R scripts, path variables in Stata scripts, script imports, etc.
+   - For all items to reproduce (figures, tables, claims), ensure outputs are saved as files (e.g., images as .png/.jpg, tables as .csv/.txt, etc.) in {workspace_dir}
+   - Make sure output file names match the items to reproduce (e.g., Figure 1 → figure1.png or Figure1.png)
+   - **IMPORTANT**: For multi-panel/combined figures (e.g., R's par(mfrow), layout(), grid.arrange(), Stata's graph combine, MATLAB's subplot), ensure all plot commands are included between the graphics device open/close calls (e.g., png()...dev.off() in R) to capture the complete combined figure.
+   - **IMPORTANT**: Ensure that the correct content is output for each item. Do NOT cheat by outputting the same file multiple times or outputting unrelated content. Each item to reproduce must have its own correct output file generated by the appropriate code section.
+
+Important workflow tip (recommended tools):
+- Use `copy_file` to create `*_modified.*` first, then use `grep_file` to locate the exact lines/blocks you need to change, and finally use `replace_in_file` to apply small targeted edits.
+3. Execute the modified files. If errors occur, analyze and fix them, then re-execute until successful.
+4. Verify that output files for items to reproduce actually exist. Check that:
+   - All expected output files are present in {workspace_dir}
+   - File names correspond to the items to reproduce (figures, tables)
+   - For Stata, if the table file is not explicitly exported, you can use the log file after running the program; it will contain the information.
+5. Create `execution_summary.json` at {workspace_dir} following the JSON structure specified in the user query. Include all original files, modified files, modifications made, and actual output file paths.
+
+
+Workflow:
+- Step 1 (Read and Analyze): Use `read_file` to read each code file that needs to be executed. Pay special attention to:
+  * Input paths: Where the code loads data from (CSV files, data directories, databases, etc.)
+  * Output paths: Where the code saves results (figures, tables, output files)
+  * Working directory assumptions: Does the code assume a specific working directory?
+  * Path variables: For Stata scripts, check if there are path variables defined (e.g., `global path` or `local path`) that store the base directory. These can be modified to quickly fix path issues.
+  * Script dependencies: If a script loads/calls other scripts (R `source()`, Stata `do/include`, Python imports or `exec`-style patterns, MATLAB function calls), identify those dependency files and their paths. They often have their own path issues and can silently break the main run.
+  
+- Step 2 (Create Modified Files): For each file that needs modification:
+  * **FIRST**: Carefully read and analyze the COMPLETE code file to fully understand:
+    - What the code does step by step
+    - Which code sections generate which specific outputs (e.g., which plot() call generates Figure 1, which generates Figure 2, etc.)
+    - The exact data processing and calculations for each item to reproduce
+    - How outputs are currently saved (or if they're not saved to files, how to add file saving)
+  * **THEN**: Copy the original file to a new file with "_modified" suffix (e.g., script.R → script_modified.R) in the same directory, then edit the copied file.
+    - You may use `execute_command` to copy files (PowerShell `Copy-Item` on Windows).
+  * If the script is long, prefer copying the entire script and making minimal edits rather than refactoring.
+  * Prefer fixing path issues by setting/controlling the working directory (relative paths are OK if cwd is correct):
+    - R: set `setwd("...")` to a stable working directory (absolute is recommended, but not strictly required if execution cwd is controlled)
+    - Stata: set `cd "..."` to a stable working directory (absolute recommended, but not strictly required if execution cwd is controlled). Sometimes Stata scripts define a path variable (e.g., `global path "..."` or `local path "..."`) at the beginning to store the base directory. If you find such a variable, you can quickly fix path issues by modifying this variable to point to the correct workspace directory, rather than changing multiple `cd` commands throughout the script.
+    - Python: use `os.chdir("...")` or run with correct cwd
+    - MATLAB: the tool automatically sets the working directory to the script's directory, so relative paths should work
+  * Only convert critical paths to absolute when needed (e.g., multiple `setwd/cd`, unclear cwd, mixed relative paths, or dependencies in different folders)
+  * Modify output paths to save results to {workspace_dir}, ensuring:
+    - Each item to reproduce gets its own unique output file (e.g., figure1.png for Figure 1, figure2.png for Figure 2)
+    - The correct code section that generates each item is used to create that specific output file
+    - Do NOT duplicate the same output file for multiple items
+    - Do NOT use unrelated outputs or placeholder files
+  * Ensure output file names clearly correspond to items to reproduce:
+    - Figures: Save as .png, .jpg, .pdf (e.g., figure1.png for Figure 1, figure2.png for Figure 2)
+    - Tables: Save as .csv, .txt, .xlsx (e.g., table1.csv for Table 1, table2.csv for Table 2)
+  * Keep all other logic unchanged unless necessary for path fixes or output file saving
+  * Dependency scripts: If the script depends on other scripts, also check those scripts for path issues. If you create a `_modified` version of a dependency script, ensure the main script loads the correct file (e.g., update `source("x.R")` to `source("x_modified.R")`, or `do "x.do"` to `do "x_modified.do"`), and use absolute paths where possible.
+
+  * Minimal examples (use absolute output paths and item-matching filenames):
+    - R (save a figure and a table):
+      ```r
+      # Figure (base R) - single plot
+      png(file.path("{workspace_dir}", "figure1.png"), width = 1600, height = 1200, res = 200)
+      plot(x, y)  # <- the code section that truly corresponds to Figure 1
+      dev.off()
+
+      # Figure (base R) - multi-panel/combined plots (e.g., par(mfrow=c(2,2)), layout(), grid.arrange())
+      # IMPORTANT: For multi-panel plots, ensure all plot commands are between png() and dev.off()
+      png(file.path("{workspace_dir}", "figure1.png"), width = 1600, height = 1200, res = 200)
+      par(mfrow = c(2, 2))  # or layout(), etc.
+      plot(x1, y1)  # panel 1
+      plot(x2, y2)  # panel 2
+      plot(x3, y3)  # panel 3
+      plot(x4, y4)  # panel 4
+      # All plot commands must be here before dev.off()
+      dev.off()
+
+      # Table
+      write.csv(table_df, file.path("{workspace_dir}", "table1.csv"), row.names = FALSE)
+      ```
+    - Stata (export a figure and a table):
+      ```stata
+      * Figure (after the exact graph command for the target item)
+      graph export "{workspace_dir}\figure1.png", replace
+
+      * Table (example: export a dataset/results to CSV)
+      export delimited using "{workspace_dir}\table1.csv", replace
+      ```
+    - MATLAB (save a figure and a table):
+      ```matlab
+      % Figure
+      figure;
+      plot(x, y);  % <- the code section that truly corresponds to Figure 1
+      saveas(gcf, fullfile('{workspace_dir}', 'figure1.png'));
+
+      % Table
+      writetable(table_df, fullfile('{workspace_dir}', 'table1.csv'));
+      ```
+  
+- Step 3 (Execute and Fix): Run the modified files:
+  * Execute using appropriate command or tool:
+    - For R scripts: Use `run_local_r` (saves execution log automatically)
+    - For Stata scripts: Use `run_local_stata`
+    - For MATLAB scripts: Use `run_local_matlab`
+    - For Python scripts: Use `execute_command` or `run_python`
+  * Monitor for errors: path errors, missing files, package import errors, syntax errors
+  * If errors occur: DO NOT GIVE UP. Carefully read the error messages and outputs, identify the root cause, fix the code/config, and re-execute until it runs.
+    - Common fixable issues include: wrong filenames/typos, wrong working directory assumptions, incorrect relative paths, missing data files, missing packages, and small logic/variable-name mistakes.
+    - Treat these as minor code issues to repair during reproduction (not a reason to stop).
+  * If running a script produces little/no console output, it may be writing details to a log file (common in Stata, and sometimes R via sink/logging). Check `.log` files (or any redirected stdout/stderr files) for the real execution details when needed.
+  * **Experience tip for tables**: If the code does not explicitly save table data to a file, but you can see the table data during execution (e.g., displayed in console output or in a variable/dataframe), you can extract and save this data to a new file. For example, if a table is printed but not saved, you can modify the code to save it, or if the table data is available in memory (like a dataframe in R/Python), add code to write it to a file.
+  * Iterate until execution completes successfully
+  
+- Step 4 (Verify Outputs): After successful execution:
+  * Check {workspace_dir} for all expected output files to ensure it covers all reproduced items.
+  * Verify file names match items to reproduce (case-insensitive matching is acceptable)
+  * For tables: If the original code does not save table data, but the table data is available during execution (e.g., printed in console/log or stored in variables), save it to a file (CSV, TXT, or XLSX). Fallback: If you cannot reliably export a required table to a separate file, but the table is printed in the log, you may treat the `.log` file as the table's `output_files`.
+  * If any outputs are missing, go back to step 3 to fix and re-execute
+  
+- Step 5 (Create Summary): Document everything in execution_summary.json
+
+CRITICAL REQUIREMENT (MUST FOLLOW):
+- ALL items listed in "items to reproduce" MUST be handled explicitly.
+- For EACH item to reproduce, the modified code MUST generate a corresponding output file.
+- No reproduction item may be skipped or omitted, even if execution fails.
+
+Code Quality Assessment (CRITICAL):
+- After completing execution attempts and analysis, you MUST perform a thorough CODE LOGIC ANALYSIS to assign the code quality assessment.
+- The assessment should be based on CODE QUALITY, NOT on whether outputs were successfully reproduced.
+- Analyze the code structure, logic, variable usage, algorithm implementation, and data flow correctness.
+
+Assessment Guidelines (choose ONE of: "major_errors", "minor_errors", "no_errors", "cannot_determine"):
+
+- "major_errors": Code contains fundamental logic errors that make it non-functional regardless of environment (e.g., undefined variables used in critical calculations, incorrect algorithm implementation, fundamental logic flaws, code that cannot work due to logical errors). These are NOT environment issues - they are code logic problems.
+  **CRITICAL WARNING**: Only use "major_errors" if you are HIGHLY CONFIDENT that the code definitely contains major logical errors. This assessment requires strong, clear evidence of fundamental code problems. Do NOT use this lightly - if you have any doubt, consider "minor_errors" or "cannot_determine" instead.
+
+- "minor_errors": Code is mostly correct but has minor coding issues that could affect correctness (e.g., inconsistent NA value coding leading to data processing issues, inconsistent variable naming causing potential bugs, minor logic issues that might cause data duplication or incorrect filtering). Example: "We do not find any major coding errors. One minor point is inconsistency in how NA values are coded for the gender variable."
+
+- "no_errors": Code logic is sound and correct. Even if execution fails due to environmental factors (missing data files, package versions, OS-specific issues), if the code logic itself is correct, it should be assessed as "no_errors". Environmental issues should NOT be considered code quality problems.
+
+- "cannot_determine": Use this when there is insufficient evidence to make a confident assessment. Examples:
+  - Code is too complex or incomplete to fully analyze
+  - Critical parts of the code are missing or unclear
+  - Ambiguous evidence that could support multiple assessments
+  - Cannot find enough information to confidently classify the code quality
+  When using "cannot_determine", you MUST provide a detailed explanation of why the assessment cannot be made.
+
+IMPORTANT: Do NOT confuse execution failures with code quality issues:
+- Missing data files, package version mismatches, OS differences = NOT code quality issues (does not justify "major_errors" or "minor_errors")
+- Undefined variables, incorrect algorithms, fundamental logic errors = Code quality issues (justifies "major_errors" or "minor_errors" depending on severity)
+- When in doubt about whether code has major errors, prefer "cannot_determine" over "major_errors" unless you have strong evidence
+
+Windows: Use PowerShell commands (`Get-ChildItem`, not `ls`)
+
+Tools:
+- `read_file`: Read code files (simple, like cat - use for .R, .py, .do files)
+- `open_local_file`: Open document files (PDF, DOCX, etc.) in browser
+- `write_file`: Write small text files (e.g., modified scripts if needed) and write `execution_summary.json`
+- `execute_command`: Run scripts (PowerShell on Windows)
+- `get_directory_tree`: Get directory structure
+- `run_local_stata`: Execute Stata scripts (saves log file with output)
+- `run_local_matlab`: Execute MATLAB .m scripts
+- `run_local_r`: Execute R scripts (saves log file with output)
+- `copy_file`: Copy a file to create `*_modified.*` versions
+- `grep_file`: Search within a file and return matching lines with context (like grep)
+- `replace_in_file`: Replace an exact snippet in a file with a new snippet (small targeted edits)
+- `case_resolved(task_response, code_quality_assessment, reason)`: Report completion with code quality assessment. 
+  Assessment must be one of: "major_errors", "minor_errors", "no_errors", "cannot_determine". This assessment is based on CODE LOGIC ANALYSIS, not execution success.
+
+Note: If the code only runs after the data path is modified, we don't consider this a code error.
+"""
+
+    from research_agent.inno.tools.terminal_tools import get_directory_tree
+    tools = [
+        read_file,
+        open_local_file,
+        write_file,
+        execute_command,
+        get_directory_tree,
+        run_local_stata,
+        run_local_matlab,
+        run_local_r,
+        copy_file,
+        grep_file,
+        replace_in_file,
+        terminal_page_down, terminal_page_up, terminal_page_to,
+        case_resolved
+    ]
+    
+    if file_env:
+        from research_agent.inno.tools.file_surfer_tool import with_env as with_file_env
+        tools = [
+            with_file_env(file_env)(tool) if tool == open_local_file else tool
+            for tool in tools
+        ]
+    
+    if code_env:
+        tools = [
+            with_env(code_env)(tool) if 'env' in signature(tool).parameters and tool != open_local_file else tool
+            for tool in tools
+        ]
+    
+    return Agent(
+        name="Execution Agent",
+        model=model,
+        instructions=instructions,
+        functions=tools,
+        tool_choice="required",
+        parallel_tool_calls=False
+    )
