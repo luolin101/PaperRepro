@@ -184,20 +184,7 @@ python examples/run_reproducibility_evaluation.py <workspace_dir>
 
 Where `<workspace_dir>` is the path to the task instance directory (containing `paper.pdf`, `should_reproduce.txt`, and `replication_package/`).
 
-For REPRO-Bench-S evaluation, refer to the [benchmark-s README](benchmark/README.md) for detailed instructions.
-
-## Citation
-
-If you use this tool in your research, please cite:
-
-```bibtex
-@misc{paperrepro2025,
-  title={PaperRepro: Automated Computational Reproducibility Assessment for Social Science Papers},
-  author={Your Name},
-  year={2025},
-  url={https://github.com/your-org/AI-Researcher}
-}
-```
+For REPRO-Bench-S evaluation, refer to the [benchmark README](benchmark/README.md) for detailed instructions.
 
 ## Acknowledgement 
 
