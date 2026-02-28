@@ -56,11 +56,42 @@ SKIP_CACHE=0
 
 ## Usage
 
-### Basic Usage
+### 🔥 Web GUI
 
-Run the reproducibility evaluation workflow:
+We provide a web interface for running reproducibility evaluation. Start the server with:
 
 ```bash
+uv pip install -r web/requirements-web.txt
+uv run uvicorn web.main:app --reload --host 0.0.0.0 --port 8000
+```
+
+Or from the project root:
+
+```bash
+python web/run_web.py
+```
+
+Then open **http://127.0.0.1:8000** in your browser. You will see the following interface:
+
+![PaperRepro Web GUI](./assest/home.png)
+
+**How to use (three steps):**
+
+1. **Upload** — In the top section, upload your materials:
+   - **Paper PDF**: the manuscript to evaluate (click or drag into the first card).
+   - **Code package**: a ZIP of your replication code (second card); it will be extracted into `replication_package/`.
+   - **Items to reproduce**: list one item per line (e.g. `Figure 1`, `Table 2`, `Claim 1`) in the third card.
+   Then click **Upload and create workspace**.
+
+2. **Configure** — In the "Config & run" section, click **Configure** to set environment variables (API base, API key, model names, etc.). These are saved to the project `.env` and loaded when you run. You only need to do this once (or when you change API or models).
+
+3. **Run** — Click **Run** to start the evaluation. The pipeline (Setup → Execution → Scoring → Summary) will run and the four agent cards will update as each step completes. When finished, use **Download reproducibility report** to get the report.
+
+Uploaded files are stored under `workspaces/<job_id>/` in the project directory.
+
+### Command-line
+
+```
 cd research_agent
 python examples/run_reproducibility_evaluation.py <workspace_dir>
 ```
@@ -84,7 +115,7 @@ workspace_dir/
 Control which agents run using the `AGENTS_TO_RUN` environment variable (4-digit string: Setup, Execution, Scoring, Summary):
 
 ```bash
-# Run all agents (default: 1111)
+# Run all four agents
 export AGENTS_TO_RUN=1111
 python examples/run_reproducibility_evaluation.py workspace_dir
 
@@ -176,13 +207,12 @@ After downloading, note the directory path. Each task instance in the dataset co
 ### Running Evaluation
 
 For each task instance, use the following command:
-
 ```bash
 cd research_agent
 python examples/run_reproducibility_evaluation.py <workspace_dir>
 ```
 
-Where `<workspace_dir>` is the path to the task instance directory (containing `paper.pdf`, `should_reproduce.txt`, and `replication_package/`).
+Here `<workspace_dir>` is the path to the task instance directory (containing `paper.pdf`, `should_reproduce.txt`, and `replication_package/`).
 
 For REPRO-Bench-S evaluation, refer to the [benchmark README](benchmark/README.md) for detailed instructions.
 

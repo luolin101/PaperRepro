@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PaperRepro - Reproducibility Evaluation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #fafafa;
+      --surface: #ffffff;
+      --surface-elevated: #ffffff;
+      --border: #e5e7eb;
+      --border-strong: #d1d5db;
+      --text: #111827;
+      --text-muted: #6b7280;
+      --accent: #4f46e5;
+      --accent-hover: #4338ca;
+      --accent-dim: rgba(79, 70, 229, 0.08);
+      --success: #059669;
+      --warning: #d97706;
+      --radius: 12px;
+      --radius-sm: 8px;
+      --font: 'DM Sans', system-ui, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+      --shadow: 0 1px 3px rgba(0,0,0,0.08);
+      --shadow-card: 0 1px 2px rgba(0,0,0,0.05);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font);
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 0 0 0.35rem;
+      letter-spacing: -0.03em;
+      color: var(--text);
+    }
+    .subtitle {
+      color: var(--text-muted);
+      margin-bottom: 2.5rem;
+      font-size: 1rem;
+    }
+    section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      margin-bottom: 1.5rem;
+      box-shadow: var(--shadow-card);
+    }
+    section h2 {
+      font-size: 0.75rem;
+      font-weight: 600;
+      margin: 0 0 1.25rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    /* Upload cards row */
+    .upload-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+    @media (max-width: 768px) {
+      .upload-row { grid-template-columns: 1fr; }
+    }
+    .upload-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+      transition: border-color 0.2s, background 0.2s;
+      display: flex;
+      flex-direction: column;
+      min-height: 160px;
+    }
+    .upload-card .card-title {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text);
+      margin: 0 0 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .upload-card .card-title::before {
+      content: '';
+      display: inline-block;
+      width: 4px;
+      height: 1em;
+      border-radius: 2px;
+      background: var(--accent);
+      flex-shrink: 0;
+    }
+    .upload-card .card-hint {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 0.5rem;
+      line-height: 1.4;
+    }
+    /* Click-to-upload drop zone */
+    .drop-zone {
+      flex: 1;
+      min-height: 100px;
+      border: 2px dashed var(--border-strong);
+      border-radius: var(--radius-sm);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+      margin-top: 0.5rem;
+      position: relative;
+    }
+    .drop-zone:hover, .drop-zone.dragover {
+      border-color: var(--accent);
+      background: var(--accent-dim);
+    }
+    .drop-zone input[type="file"] {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      cursor: pointer;
+    }
+    .drop-zone .drop-text {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      pointer-events: none;
+    }
+    .drop-zone .drop-text strong { color: var(--accent); }
+    .drop-zone .drop-filename {
+      font-size: 0.8rem;
+      color: var(--success);
+      margin-top: 0.35rem;
+      pointer-events: none;
+    }
+    .upload-card.text-card textarea {
+      margin-top: 0.5rem;
+      flex: 1;
+      min-height: 80px;
+      resize: vertical;
+    }
+    .upload-submit {
+      display: flex;
+      justify-content: center;
+      margin-top: 0.5rem;
+    }
+    .upload-submit .btn { min-width: 220px; }
+    /* Control panel: Config + Run in one section */
+    .control-panel {
+      display: grid;
+      grid-template-columns: 1fr 1.6fr;
+      gap: 0;
+      align-items: start;
+    }
+    @media (max-width: 700px) {
+      .control-panel { grid-template-columns: 1fr; }
+    }
+    .control-block {
+      padding: 0 1.5rem 0 0;
+    }
+    @media (max-width: 700px) {
+      .control-block { padding: 0 0 1.5rem 0; border-bottom: 1px solid var(--border); }
+      .control-block:last-of-type { border-bottom: none; padding-bottom: 0; }
+    }
+    .control-block.run-block { padding-left: 1.5rem; padding-right: 0; border-left: 1px solid var(--border); }
+    @media (max-width: 700px) {
+      .control-block.run-block { border-left: none; padding-left: 0; }
+    }
+    .control-block h3 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text);
+      margin: 0 0 0.35rem;
+    }
+    .control-block .block-desc {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+      line-height: 1.45;
+    }
+    .control-block .block-desc code {
+      font-family: var(--font-mono);
+      font-size: 0.75em;
+      padding: 0.1em 0.35em;
+      background: var(--bg);
+      border-radius: 4px;
+      color: var(--text);
+    }
+    .control-block .btn-wrap { margin-bottom: 1rem; }
+    .pipeline-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 0.75rem;
+    }
+    .run-cta .btn { padding: 0.65rem 1.5rem; font-size: 1rem; min-width: 140px; }
+    label {
+      display: block;
+      margin-bottom: 0.35rem;
+      font-weight: 500;
+      color: var(--text);
+    }
+    input[type="text"],
+    input[type="password"],
+    textarea {
+      width: 100%;
+      padding: 0.6rem 0.75rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      color: var(--text);
+      font-family: inherit;
+      font-size: 0.95rem;
+    }
+    textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+    .field { margin-bottom: 1rem; }
+    .field:last-child { margin-bottom: 0; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.6rem 1.2rem;
+      font-family: inherit;
+      font-size: 0.95rem;
+      font-weight: 500;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.05s;
+    }
+    .btn:active { transform: scale(0.98); }
+    .btn-primary {
+      background: var(--accent);
+      color: white;
+    }
+    .btn-primary:hover { background: var(--accent-hover); }
+    .btn-secondary {
+      background: var(--surface);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .btn-secondary:hover { background: var(--bg); border-color: var(--border-strong); }
+    .btn:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+    /* Config modal */
+    .modal-backdrop {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      z-index: 100;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+    .modal-backdrop.open { display: flex; }
+    .modal {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+      width: 100%;
+      max-width: 480px;
+      max-height: 90vh;
+      overflow: auto;
+    }
+    .modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .modal-header h3 { margin: 0; font-size: 1.1rem; }
+    .modal-close {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      font-size: 1.25rem;
+      cursor: pointer;
+      padding: 0.25rem;
+      line-height: 1;
+    }
+    .modal-close:hover { color: var(--text); }
+    .modal-body { padding: 1.25rem; }
+    .modal-body .field { margin-bottom: 1rem; }
+    .modal-footer {
+      padding: 1rem 1.25rem;
+      border-top: 1px solid var(--border);
+      display: flex;
+      gap: 0.75rem;
+      justify-content: flex-end;
+    }
+    /* Agents strip */
+    .agents {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.75rem;
+      margin: 1rem 0;
+    }
+    .agent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1.25rem 0.75rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .agent.pending { background: var(--bg); }
+    .agent.pending .agent-icon { background: var(--border); color: var(--text-muted); }
+    .agent.running { border-color: var(--accent); background: var(--accent-dim); }
+    .agent.done { border-color: var(--success); }
+    .agent-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+    .agent.running .agent-icon {
+      background: var(--accent);
+      color: white;
+      animation: pulse 1s ease-in-out infinite;
+    }
+    .agent.done .agent-icon {
+      background: var(--success);
+      color: white;
+    }
+    .agent-name { font-size: 0.8rem; color: var(--text-muted); text-align: center; font-weight: 500; }
+    @keyframes pulse { 50% { opacity: 0.8; } }
+    /* Status message */
+    .status-msg {
+      margin-top: 0.75rem;
+      padding: 0.6rem;
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    .status-msg.error { background: #fef2f2; color: #dc2626; white-space: pre-wrap; word-break: break-all; max-height: 20em; overflow: auto; }
+    .status-msg.success { background: #f0fdf4; color: var(--success); }
+    .download-row {
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .download-row a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.9rem;
+    }
+    .download-row a:hover { text-decoration: underline; }
+    .hint { font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>PaperRepro</h1>
+    <p class="subtitle">Upload paper and code, run reproducibility evaluation, and download the report.</p>
+
+    <section>
+      <h2>Upload</h2>
+      <form id="uploadForm">
+        <div class="upload-row">
+          <div class="upload-card">
+            <span class="card-title">Paper PDF</span>
+            <div class="drop-zone" id="paperDropZone" data-input="paperInput">
+              <span class="drop-text"><strong>Click to upload</strong> or drag and drop</span>
+              <span class="drop-filename" id="paperFilename"></span>
+              <input type="file" name="paper" accept=".pdf" id="paperInput" />
+            </div>
+            <span class="card-hint">PDF — the manuscript to evaluate</span>
+          </div>
+          <div class="upload-card">
+            <span class="card-title">Code package</span>
+            <div class="drop-zone" id="codeDropZone" data-input="codeZipInput">
+              <span class="drop-text"><strong>Click to upload</strong> or drag and drop</span>
+              <span class="drop-filename" id="codeZipFilename"></span>
+              <input type="file" name="code_zip" accept=".zip" id="codeZipInput" />
+            </div>
+            <span class="card-hint">ZIP → extracted to replication_package/</span>
+          </div>
+          <div class="upload-card text-card">
+            <span class="card-title">Items to reproduce</span>
+            <textarea name="should_reproduce" placeholder="Figure 1&#10;Table 2&#10;Claim 1" rows="3"></textarea>
+            <span class="card-hint">One per line: Figure 1, Table 2, Claim 1…</span>
+          </div>
+        </div>
+        <div class="upload-submit">
+          <button type="submit" class="btn btn-primary">Upload and create workspace</button>
+        </div>
+        <p id="uploadResult" class="status-msg" style="display:none;"></p>
+      </form>
+    </section>
+
+    <section>
+      <h2>Config &amp; run</h2>
+      <div class="control-panel">
+        <div class="control-block">
+          <h3>Environment</h3>
+          <p class="block-desc">API base, keys, and model names. Saved to <code>.env</code> and loaded when you run.</p>
+          <div class="btn-wrap">
+            <button type="button" class="btn btn-secondary" id="openConfig">Configure</button>
+          </div>
+        </div>
+        <div class="control-block run-block">
+          <h3>Run evaluation</h3>
+          <p id="runHint" class="block-desc">Upload first, then start the pipeline.</p>
+          <div class="run-cta btn-wrap">
+            <button type="button" class="btn btn-primary" id="runBtn" disabled>Run</button>
+          </div>
+          <p class="pipeline-label">Pipeline</p>
+          <div class="agents" id="agentsStrip">
+            <div class="agent pending" data-agent="setup">
+              <div class="agent-icon">1</div>
+              <span class="agent-name">Setup</span>
+            </div>
+            <div class="agent pending" data-agent="execution">
+              <div class="agent-icon">2</div>
+              <span class="agent-name">Execution</span>
+            </div>
+            <div class="agent pending" data-agent="scoring">
+              <div class="agent-icon">3</div>
+              <span class="agent-name">Scoring</span>
+            </div>
+            <div class="agent pending" data-agent="summary">
+              <div class="agent-icon">4</div>
+              <span class="agent-name">Summary</span>
+            </div>
+          </div>
+          <p id="runStatus" class="status-msg" style="display:none;"></p>
+          <div class="download-row" id="downloadRow" style="display: none;">
+            <a href="#" id="downloadReport">Download reproducibility report</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="modal-backdrop" id="configModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3>ENV config</h3>
+        <button type="button" class="modal-close" id="closeConfig" aria-label="Close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="field">
+          <label>OPENAI_API_BASE</label>
+          <input type="text" id="cfg_openai_base" placeholder="https://api.openai.com/v1/" />
+        </div>
+        <div class="field">
+          <label>OPENAI_API_KEY</label>
+          <input type="password" id="cfg_openai_key" placeholder="sk-..." />
+        </div>
+        <div class="field">
+          <label>SETUP_AGENT_MODEL</label>
+          <input type="text" id="cfg_setup_model" placeholder="openai/gpt-4o" />
+        </div>
+        <div class="field">
+          <label>EXECUTION_AGENT_MODEL</label>
+          <input type="text" id="cfg_exec_model" placeholder="openai/gpt-4o" />
+        </div>
+        <div class="field">
+          <label>SCORING_AGENT_MODEL</label>
+          <input type="text" id="cfg_scoring_model" placeholder="openai/gpt-4o" />
+        </div>
+        <div class="field">
+          <label>SUMMARY_AGENT_MODEL</label>
+          <input type="text" id="cfg_summary_model" placeholder="openai/gpt-4o" />
+        </div>
+        <div class="field">
+          <label>STATA_PATH (optional)</label>
+          <input type="text" id="cfg_stata_path" />
+        </div>
+        <div class="field">
+          <label>STATA_EDITION (optional)</label>
+          <input type="text" id="cfg_stata_edition" placeholder="mp" />
+        </div>
+        <div class="field">
+          <label>SKIP_CACHE (0/1)</label>
+          <input type="text" id="cfg_skip_cache" placeholder="0" />
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" id="cancelConfig">Cancel</button>
+        <button type="button" class="btn btn-primary" id="saveConfig">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let currentJobId = null;
+    let pollTimer = null;
+
+    const uploadForm = document.getElementById('uploadForm');
+    const uploadResult = document.getElementById('uploadResult');
+    const runBtn = document.getElementById('runBtn');
+    const runHint = document.getElementById('runHint');
+    const agentsStrip = document.getElementById('agentsStrip');
+    const runStatus = document.getElementById('runStatus');
+    const downloadRow = document.getElementById('downloadRow');
+    const downloadReport = document.getElementById('downloadReport');
+
+    function showMsg(el, text, type) {
+      el.textContent = text;
+      el.className = 'status-msg' + (type ? ' ' + type : '');
+      el.style.display = 'block';
+    }
+
+    function setupDropZone(zoneId, inputId, filenameId) {
+      var zone = document.getElementById(zoneId);
+      var input = document.getElementById(inputId);
+      var filenameEl = document.getElementById(filenameId);
+      zone.addEventListener('click', function(e) { if (e.target === zone || e.target.closest('.drop-text') || e.target.closest('.drop-filename')) input.click(); });
+      input.addEventListener('change', function() {
+        filenameEl.textContent = this.files.length ? this.files[0].name : '';
+      });
+      zone.addEventListener('dragover', function(e) { e.preventDefault(); zone.classList.add('dragover'); });
+      zone.addEventListener('dragleave', function() { zone.classList.remove('dragover'); });
+      zone.addEventListener('drop', function(e) {
+        e.preventDefault();
+        zone.classList.remove('dragover');
+        if (e.dataTransfer.files.length) {
+          var dt = new DataTransfer();
+          dt.items.add(e.dataTransfer.files[0]);
+          input.files = dt.files;
+          filenameEl.textContent = e.dataTransfer.files[0].name;
+        }
+      });
+    }
+    setupDropZone('paperDropZone', 'paperInput', 'paperFilename');
+    setupDropZone('codeDropZone', 'codeZipInput', 'codeZipFilename');
+
+    uploadForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const fd = new FormData();
+      const paper = uploadForm.querySelector('input[name="paper"]').files[0];
+      const codeZip = uploadForm.querySelector('input[name="code_zip"]').files[0];
+      const shouldReproduce = uploadForm.querySelector('textarea[name="should_reproduce"]').value;
+      if (paper) fd.append('paper', paper);
+      if (codeZip) fd.append('code_zip', codeZip);
+      if (shouldReproduce) fd.append('should_reproduce', shouldReproduce);
+      try {
+        const r = await fetch('/api/upload', { method: 'POST', body: fd });
+        if (!r.ok) throw new Error(await r.text());
+        const data = await r.json();
+        currentJobId = data.job_id;
+        showMsg(uploadResult, 'Workspace created: ' + data.workspace_dir, 'success');
+        runBtn.disabled = false;
+        runHint.textContent = 'Click Run to start evaluation.';
+        downloadRow.style.display = 'none';
+        uploadForm.reset();
+        document.getElementById('paperFilename').textContent = '';
+        document.getElementById('codeZipFilename').textContent = '';
+      } catch (err) {
+        showMsg(uploadResult, 'Upload failed: ' + err.message, 'error');
+      }
+    });
+
+    document.getElementById('openConfig').addEventListener('click', async () => {
+      try {
+        const r = await fetch('/api/config');
+        const c = await r.json();
+        document.getElementById('cfg_openai_base').value = c.OPENAI_API_BASE || '';
+        document.getElementById('cfg_openai_key').value = c.OPENAI_API_KEY || '';
+        document.getElementById('cfg_setup_model').value = c.SETUP_AGENT_MODEL || '';
+        document.getElementById('cfg_exec_model').value = c.EXECUTION_AGENT_MODEL || '';
+        document.getElementById('cfg_scoring_model').value = c.SCORING_AGENT_MODEL || '';
+        document.getElementById('cfg_summary_model').value = c.SUMMARY_AGENT_MODEL || '';
+        document.getElementById('cfg_stata_path').value = c.STATA_PATH || '';
+        document.getElementById('cfg_stata_edition').value = c.STATA_EDITION || '';
+        document.getElementById('cfg_skip_cache').value = c.SKIP_CACHE || '0';
+      } catch (e) {
+        console.error(e);
+      }
+      document.getElementById('configModal').classList.add('open');
+    });
+
+    function closeModal() {
+      document.getElementById('configModal').classList.remove('open');
+    }
+    document.getElementById('closeConfig').addEventListener('click', closeModal);
+    document.getElementById('cancelConfig').addEventListener('click', closeModal);
+
+    document.getElementById('saveConfig').addEventListener('click', async () => {
+      const payload = {
+        OPENAI_API_BASE: document.getElementById('cfg_openai_base').value || null,
+        OPENAI_API_KEY: document.getElementById('cfg_openai_key').value || null,
+        SETUP_AGENT_MODEL: document.getElementById('cfg_setup_model').value || null,
+        EXECUTION_AGENT_MODEL: document.getElementById('cfg_exec_model').value || null,
+        SCORING_AGENT_MODEL: document.getElementById('cfg_scoring_model').value || null,
+        SUMMARY_AGENT_MODEL: document.getElementById('cfg_summary_model').value || null,
+        STATA_PATH: document.getElementById('cfg_stata_path').value || null,
+        STATA_EDITION: document.getElementById('cfg_stata_edition').value || null,
+        SKIP_CACHE: document.getElementById('cfg_skip_cache').value || null,
+      };
+      try {
+        const r = await fetch('/api/config', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+        if (!r.ok) throw new Error(await r.text());
+        closeModal();
+      } catch (e) {
+        alert('Save failed: ' + e.message);
+      }
+    });
+
+    function setAgentState(agent, state) {
+      const el = document.querySelector('.agent[data-agent="' + agent + '"]');
+      if (!el) return;
+      el.classList.remove('pending', 'running', 'done');
+      el.classList.add(state);
+      const icon = el.querySelector('.agent-icon');
+      if (state === 'done') icon.textContent = '✓';
+      else if (state === 'running') icon.textContent = '…';
+      else icon.textContent = { setup: '1', execution: '2', scoring: '3', summary: '4' }[agent];
+    }
+
+    function updateAgents(data) {
+      agentsStrip.style.display = 'grid';
+      const agents = data.agents || {};
+      const list = ['setup', 'execution', 'scoring', 'summary'];
+      let runningSet = false;
+      list.forEach(a => {
+        let state = agents[a] === 'done' ? 'done' : 'pending';
+        if (data.status === 'running' && state === 'pending' && !runningSet) {
+          state = 'running';
+          runningSet = true;
+        }
+        setAgentState(a, state);
+      });
+    }
+
+    runBtn.addEventListener('click', async () => {
+      if (!currentJobId) return;
+      runBtn.disabled = true;
+      runStatus.style.display = 'none';
+      try {
+        const r = await fetch('/api/run/' + currentJobId, { method: 'POST' });
+        if (r.status === 409) {
+          showMsg(runStatus, 'Run already in progress.', 'error');
+          runBtn.disabled = false;
+          return;
+        }
+        if (!r.ok) throw new Error(await r.text());
+      } catch (e) {
+        showMsg(runStatus, 'Start failed: ' + e.message, 'error');
+        runBtn.disabled = false;
+        return;
+      }
+      showMsg(runStatus, 'Evaluation started. Please wait…');
+      updateAgents({ status: 'running', agents: { setup: 'pending', execution: 'pending', scoring: 'pending', summary: 'pending' } });
+
+      function poll() {
+        fetch('/api/run/' + currentJobId + '/status')
+          .then(r => r.json())
+          .then(data => {
+            updateAgents(data);
+            if (data.status === 'running') {
+              pollTimer = setTimeout(poll, 1500);
+              return;
+            }
+            if (data.status === 'done') {
+              showMsg(runStatus, 'Evaluation complete. You can download the report.', 'success');
+              downloadReport.href = '/api/run/' + currentJobId + '/report';
+              downloadReport.download = data.report_type === 'pdf' ? 'reproducibility_report.pdf' : 'reproducibility_report.md';
+              downloadRow.style.display = 'flex';
+            } else if (data.status === 'error') {
+              var errText = data.error || 'Unknown error';
+              showMsg(runStatus, 'Run error:\n' + errText, 'error');
+            }
+            runBtn.disabled = false;
+          })
+          .catch(() => {
+            runBtn.disabled = false;
+            showMsg(runStatus, 'Failed to get status', 'error');
+          });
+      }
+      poll();
+    });
+  </script>
+</body>
+</html>

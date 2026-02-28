@@ -11,15 +11,23 @@ The workspace_dir should contain:
         Format: Figure 1, Table 1, Claim 1, etc.
 """
 import asyncio
+import io
 import os
 import sys
 import builtins
 from pathlib import Path
+
+# On Windows, force stdout/stderr to UTF-8 so tool output (e.g. read_file with \u2022, curly quotes)
+# does not trigger GBK encoding errors and cause the Execution Agent to be reported as error.
+if sys.platform == "win32" and hasattr(sys.stdout, "buffer"):
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace", line_buffering=True)
+if sys.platform == "win32" and hasattr(sys.stderr, "buffer"):
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace", line_buffering=True)
+
 from research_agent.inno.workflow.reproducibility_flow import ReproducibilityFlow
 from research_agent.inno.environment.local_env import LocalEnv, LocalEnvConfig
 from research_agent.inno.environment.markdown_browser import RequestsMarkdownBrowser
 
-# 保存原始内置 print，避免 safe_print 递归调用自己
 _ORIGINAL_PRINT = builtins.print
 
 
@@ -42,8 +50,6 @@ def safe_print(*args, **kwargs):
             safe_args.append(s)
         _ORIGINAL_PRINT(*safe_args, **kwargs)
 
-# 全局替换内置 print，避免在 workflow/agent 代码里的普通 print
-# 因 GBK 编码问题导致整个流程中断。
 builtins.print = safe_print
 
 # Load environment variables from .env file if it exists
@@ -193,11 +199,9 @@ async def main(workspace_dir: str):
         viewport_size=1024 * 4
     )
     
-    # 读取 agent 运行配置（默认保持原有行为: 只跑 summary，但支持通过环境变量覆盖）
-    agents_str = os.getenv("AGENTS_TO_RUN", "1110")  # 例如: 1111=全部, 0010=只 scoring
+    agents_str = os.getenv("AGENTS_TO_RUN", "1111")
     agents_to_run = parse_agents_to_run(agents_str)
 
-    # 可选：通过环境变量为四个 agent 单独指定模型（如果不设，就用默认）
     setup_model = os.getenv("SETUP_AGENT_MODEL") or None
     execution_model = os.getenv("EXECUTION_AGENT_MODEL") or None
     scoring_model = os.getenv("SCORING_AGENT_MODEL") or None
@@ -256,6 +260,7 @@ if __name__ == "__main__":
         sys.exit(1)
     
     workspace_dir = sys.argv[1]
+    safe_print(f"[PaperRepro] Evaluation started for workspace: {workspace_dir}")
     
     # In batch mode we want to be more tolerant: log errors but avoid
     # non‑zero exit codes for unexpected exceptions so the batch
