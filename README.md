@@ -225,7 +225,7 @@ For REPRO-Bench-S evaluation, refer to the [benchmark README](benchmark/README.m
 If you found this work helpful, please consider citing it using the following:
 
 ```bibtex
-@misc{zhang2026paperreproautomatedcomputationalreproducibility,
+@misc{zhang2026paperrepro,
       title={PaperRepro: Automated Computational Reproducibility Assessment for Social Science Papers}, 
       author={Linhao Zhang and Tong Xia and Jinghua Piao and Lizhen Cui and Yong Li},
       year={2026},
