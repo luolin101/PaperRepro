@@ -220,3 +220,18 @@ For REPRO-Bench-S evaluation, refer to the [benchmark README](benchmark/README.m
 
 * [AI-Researcher](https://github.com/HKUDS/AI-Researcher)
 * [LiteLLM](https://github.com/BerriAI/litellm)
+
+## Citation
+If you found this work helpful, please consider citing it using the following:
+
+```bibtex
+@misc{zhang2026paperreproautomatedcomputationalreproducibility,
+      title={PaperRepro: Automated Computational Reproducibility Assessment for Social Science Papers}, 
+      author={Linhao Zhang and Tong Xia and Jinghua Piao and Lizhen Cui and Yong Li},
+      year={2026},
+      eprint={2603.00058},
+      archivePrefix={arXiv},
+      primaryClass={cs.CY},
+      url={https://arxiv.org/abs/2603.00058}, 
+}
+```
