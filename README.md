@@ -2,6 +2,18 @@
 
 This repository provides an automated system for assessing the computational reproducibility of social science papers. The system uses AI agents to understand replication packages, execute code, and evaluate reproducibility scores.
 
+## Project Structure
+
+```
+PaperRepro/
+├── research_agent/   # Core agent workflow and execution tools
+├── web/              # Web GUI
+├── benchmark/        # Benchmark evaluation scripts and docs
+├── extra_set/        # 20 additional social science examples
+├── prompts/          # System prompts for the four agents
+└── assest/           # Images and static assets
+```
+
 ## Installation
 
 ### Using uv (Recommended)
@@ -53,18 +65,6 @@ SKIP_CACHE=0
 - Stata: Required only if you need to execute Stata code (`STATA_PATH` and `STATA_EDITION`)
 - MATLAB: Automatically detected from system PATH if installed
 - Cache: Set `SKIP_CACHE=1` to disable caching
-
-## Project Structure
-
-```
-PaperRepro/
-├── research_agent/   # Core agent workflow and execution tools
-├── web/              # Web GUI
-├── benchmark/        # Benchmark evaluation scripts and docs
-├── extra_set/        # 20 additional social science examples
-├── prompts/          # System prompts for the four agents
-└── assest/           # Images and static assets
-```
 
 ## Usage
 
