@@ -1,0 +1,61 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf390
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 LucidaGrande;\f2\fmodern\fcharset0 CourierNewPSMT;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{square\}}{\leveltext\leveltemplateid101\'01\uc0\u9642 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\margl1440\margr1440\vieww12240\viewh16280\viewkind1
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc
+
+\f0\fs20 \cf0 \ul \ulc0 Replication File for Child-Adoption Matching\
+\ulnone \
+Allan Collard-Wexler\
+August 27, 2013\
+\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 \ul \ulc0 A. Underlying Data File:\ulnone \
+\
+\pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\pardirnatural
+\ls1\ilvl0\cf0 {\listtext	1.	}Detailed information on BMOs (email files): pdf_data_short.dta.\
+{\listtext	2.	}Applications of PAPs: ChoicePanel_AEJ1.do.\
+{\listtext	3.	}Information on disposition of BMOs: case_data_all.dta, case_data_all2.dta.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 \
+This data was collected from the adoptlink.com website. There are two separate webpages we are interested in:\
+\pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\pardirnatural
+\ls2\ilvl0\cf0 {\listtext	
+\f1 \uc0\u9642 
+\f0 	}Grid (http://www.adoptlink.com/domestic_grid.htm): This is the list of currently available children on the website. This yields the choice panel.\
+{\listtext	
+\f1 \uc0\u9642 
+\f0 	}Cases(http://www.adoptlink.com/status.htm): This is the list of children who have been placed on the website in the past, the disposition of BMOs. \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 \
+\ul B. Program Files:\ulnone \
+\
+The programs for the project can be run from make_child_adoption_matching.sh. These include:\
+\
+stata-mp -b do ChoicePanel_AEJ1.do  \
+stata-mp -b do Matching_Regression_Match-Not_AEJ.do\
+stata-mp -b do Matching_Regression_AEJ_2.do \
+\
+\
+\ul C. Listing of Directory\ulnone \
+\
+
+\fs18 \
+
+\f2 -rw-r--r--  1 collardwexler  staff   796M Aug 27  2012 ChoicePanel2.dta\
+-rw-rw-rw-@ 1 collardwexler  staff    36K Aug 27 14:01 ChoicePanel_AEJ1.do\
+-rw-rw-rw-@ 1 collardwexler  staff    13K Aug 27 14:06 Matching_Regression_AEJ_2.do\
+-rw-rw-rw-@ 1 collardwexler  staff    18K Jun 11 17:12 Matching_Regression_Match-Not_AEJ.do\
+-rw-r--r--  1 collardwexler  staff   2.6M Aug 31  2010 case_data_all.dta\
+-rw-r--r--  1 collardwexler  staff   2.8M Apr 10 10:23 case_data_all_2.dta\
+-rw-r--r--@ 1 collardwexler  staff   189B Aug 27 13:50 make_child_adoption_matching.sh\
+-rw-r--r--  1 collardwexler  staff   971K Mar 14  2012 pdf_data_short.dta\
+
+\f0\fs20 \
+}

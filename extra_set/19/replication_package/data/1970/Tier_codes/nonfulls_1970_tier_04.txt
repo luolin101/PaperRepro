@@ -1,0 +1,531 @@
+Statefip	County	SMSA	jurcode	Tract	Block	Border	Tier	pairno
+006	037	Los Angeles	losangca	1243	101	10	1	1
+006	037	Los Angeles	losangca	1243	102	10	1	1
+006	037	Los Angeles	losangca	1243	103	10	1	1
+006	037	Los Angeles	losangca	1243	109	10	1	1
+006	037	Los Angeles	losangca	1243	110	10	1	1
+006	037	Los Angeles	losangca	1253	114	10	1	1
+006	037	Los Angeles	losangca	1253	113	10	1	1
+006	037	Los Angeles	losangca	1253	111	10	1	1
+006	037	Los Angeles	losangca	1253	110	10	1	1
+006	037	Los Angeles	losangca	1253	117	10	1	1
+006	037	Los Angeles	losangca	1253	103	10	1	1
+006	037	Los Angeles	losangca	1253	108	10	1	1
+006	037	Los Angeles	losangca	1253	101	10	1	1
+006	037	Los Angeles	losangca	1431	107	10	1	1
+006	037	Los Angeles	losangca	1431	108	10	1	1
+006	037	Los Angeles	losangca	1431	109	10	1	1
+006	037	Los Angeles	losangca	1431	113	10	1	1
+006	037	Los Angeles	losangca	1431	115	10	1	1
+006	037	Los Angeles	losangca	1883	101	11	1	1
+006	037	Los Angeles	losangca	1883	102	11	1	1
+006	037	Los Angeles	losangca	2349	209	12	1	1
+006	037	Los Angeles	losangca	2349	304	12	1	1
+006	037	Los Angeles	losangca	2349	305	12	1	1
+006	037	Los Angeles	losangca	2351	113	12	1	1
+006	037	Los Angeles	losangca	2351	114	12	1	1
+006	037	Los Angeles	losangca	2351	201	12	1	1
+006	037	Los Angeles	losangca	2351	202	12	1	1
+006	037	Los Angeles	losangca	2351	203	12	1	1
+006	037	Los Angeles	losangca	2351	204	12	1	1
+006	037	Los Angeles	losangca	2351	314	12	1	1
+006	037	Los Angeles	losangca	2351	401	12	1	1
+006	037	Los Angeles	losangca	2351	402	12	1	1
+006	037	Los Angeles	losangca	2351	403	12	1	1
+006	037	Los Angeles	losangca	2351	404	12	1	1
+006	037	Los Angeles	losangca	2384	415	12	1	1
+006	037	Los Angeles	losangca	2384	401	12	1	1
+006	037	Los Angeles	losangca	2384	317	12	1	1
+006	037	Los Angeles	losangca	2384	316	12	1	1
+006	037	Los Angeles	losangca	2385	501	12	1	1
+006	037	Los Angeles	losangca	2385	504	12	1	1
+006	037	Los Angeles	losangca	2385	505	12	1	1
+006	037	Los Angeles	losangca	2385	511	12	1	1
+006	037	Los Angeles	losangca	2731	505	15	1	1
+006	037	Los Angeles	losangca	2731	506	15	1	1
+006	037	Los Angeles	losangca	2731	507	15	1	1
+006	037	Los Angeles	glendaca	3014	306	8	1	1
+006	037	Los Angeles	glendaca	3014	307	8	1	1
+006	037	Los Angeles	glendaca	3014	406	8	1	1
+006	037	Los Angeles	glendaca	3014	407	8	1	1
+006	037	Los Angeles	glendaca	3014	412	8	1	1
+006	037	Los Angeles	glendaca	3016	711	8	1	1
+006	037	Los Angeles	glendaca	3016	710	8	1	1
+006	037	Los Angeles	glendaca	3016	613	8	1	1
+006	037	Los Angeles	glendaca	3016	612	8	1	1
+006	037	Los Angeles	glendaca	3024	304	11	1	1
+006	037	Los Angeles	glendaca	3024	303	11	1	1
+006	037	Los Angeles	burbanca	3102	102	8	1	1
+006	037	Los Angeles	burbanca	3102	101	8	1	1
+006	037	Los Angeles	burbanca	3111	209	10	1	1
+006	037	Los Angeles	burbanca	3111	301	10	1	1
+006	037	Los Angeles	burbanca	3111	410	10	1	1
+006	037	Los Angeles	burbanca	3111	411	10	1	1
+006	037	Los Angeles	burbanca	3111	412	10	1	1
+006	037	Los Angeles	burbanca	3112	406	10	1	1
+006	037	Los Angeles	burbanca	3112	405	10	1	1
+006	037	Los Angeles	burbanca	3112	306	10	1	1
+006	037	Los Angeles	burbanca	3112	305	10	1	1
+006	037	Los Angeles	burbanca	3112	304	10	1	1
+006	037	Los Angeles	burbanca	3116	501	10	1	1
+006	037	Los Angeles	burbanca	3116	416	10	1	1
+006	037	Los Angeles	burbanca	3116	415	10	1	1
+006	037	Los Angeles	burbanca	3116	401	10	1	1
+006	037	Los Angeles	burbanca	3118	206	8	1	1
+006	037	Los Angeles	burbanca	3118	205	8	1	1
+006	037	Los Angeles	burbanca	3118	105	8	1	1
+006	037	Los Angeles	burbanca	3118	101	8	1	1
+006	037	Los Angeles	downeyca	5518	608	20	1	1
+006	037	Los Angeles	downeyca	5518	607	20	1	1
+006	037	Los Angeles	downeyca	5518	606	20	1	1
+006	037	Los Angeles	downeyca	5518	605	20	1	1
+006	037	Los Angeles	downeyca	5518	604	20	1	1
+006	037	Los Angeles	downeyca	5518	506	20	1	1
+006	037	Los Angeles	downeyca	5518	501	20	1	1
+006	037	Los Angeles	downeyca	5518	410	20	1	1
+006	037	Los Angeles	downeyca	5518	409	20	1	1
+006	037	Los Angeles	downeyca	5518	203	20	1	1
+006	037	Los Angeles	downeyca	5518	202	20	1	1
+006	037	Los Angeles	downeyca	5518	201	20	1	1
+006	037	Los Angeles	downeyca	5518	107	20	1	1
+006	037	Los Angeles	downeyca	5518	101	20	1	1
+006	037	Los Angeles	bellflca	5532	701	20	1	1
+006	037	Los Angeles	bellflca	5532	606	20	1	1
+006	037	Los Angeles	bellflca	5532	605	20	1	1
+006	037	Los Angeles	bellflca	5532	604	20	1	1
+006	037	Los Angeles	bellflca	5532	507	20	1	1
+006	037	Los Angeles	bellflca	5532	506	20	1	1
+006	037	Los Angeles	bellflca	5532	401	20	1	1
+006	037	Los Angeles	bellflca	5532	306	20	1	1
+006	037	Los Angeles	bellflca	5532	302	20	1	1
+006	037	Los Angeles	bellflca	5532	203	20	1	1
+006	037	Los Angeles	bellflca	5532	101	20	1	1
+006	037	Los Angeles	longbeca	5712	101	18	1	1
+006	037	Los Angeles	longbeca	5712	108	18	1	1
+006	037	Los Angeles	longbeca	5712	201	18	1	1
+006	037	Los Angeles	longbeca	5712	210	18	1	1
+006	037	Los Angeles	longbeca	5712	301	18	1	1
+006	037	Los Angeles	lakewoca	5713	101	18	1	1
+006	037	Los Angeles	lakewoca	5713	107	18	1	1
+006	037	Los Angeles	redondca	6212	210	13	1	1
+006	037	Los Angeles	redondca	6212	209	13	1	1
+006	037	Los Angeles	redondca	6212	201	13	1	1
+006	037	Los Angeles	redondca	6212	115	13	1	1
+006	037	Los Angeles	redondca	6214	109	13	1	1
+006	037	Los Angeles	redondca	6214	110	13	1	1
+006	037	Los Angeles	redondca	6214	107	13	1	1
+006	037	Los Angeles	redondca	6214	106	13	1	1
+006	037	Los Angeles	redondca	6214	104	13	1	1
+006	037	Los Angeles	redondca	6214	103	13	1	1
+006	037	Los Angeles	redondca	6214	102	13	1	1
+006	037	Los Angeles	redondca	6214	101	13	1	1
+006	037	Los Angeles	redondca	6505	810	13	1	1
+006	037	Los Angeles	redondca	6505	809	13	1	1
+006	037	Los Angeles	redondca	6505	808	13	1	1
+006	037	Los Angeles	santamca	7022	307	15	1	1
+006	037	Los Angeles	santamca	7022	308	15	1	1
+006	037	Los Angeles	santamca	7022	311	15	1	1
+006	037	Los Angeles	santamca	7022	312	15	1	1
+006	037	Los Angeles	santamca	7022	401	15	1	1
+006	037	Los Angeles	santamca	7022	811	15	1	1
+006	037	Los Angeles	losangca	123102	102	10	1	1
+006	037	Los Angeles	losangca	123102	103	10	1	1
+006	037	Los Angeles	losangca	123102	208	10	1	1
+006	037	Los Angeles	losangca	123102	301	10	1	1
+006	037	Los Angeles	losangca	123102	302	10	1	1
+006	037	Los Angeles	losangca	264302	208	15	1	1
+006	037	Los Angeles	losangca	264302	303	15	1	1
+006	037	Los Angeles	losangca	264302	310	15	1	1
+006	037	Los Angeles	losangca	264302	308	15	1	1
+006	037	Los Angeles	losangca	264302	309	15	1	1
+006	037	Los Angeles	losangca	264302	408	15	1	1
+006	037	Los Angeles	losangca	264302	407	15	1	1
+006	037	Los Angeles	losangca	264302	404	15	1	1
+006	037	Los Angeles	losangca	267402	204	15	1	1
+006	037	Los Angeles	losangca	267402	210	15	1	1
+006	037	Los Angeles	losangca	267402	211	15	1	1
+006	037	Los Angeles	lakewoca	571101	401	18	1	1
+006	037	Los Angeles	lakewoca	571101	309	18	1	1
+006	037	Los Angeles	lakewoca	571102	402	18	1	1
+006	037	Los Angeles	lakewoca	571102	401	18	1	1
+006	037	Los Angeles	lakewoca	571102	308	18	1	1
+006	037	Los Angeles	inglewca	600701	101	12	1	1
+006	037	Los Angeles	inglewca	600701	112	12	1	1
+006	037	Los Angeles	inglewca	600701	201	12	1	1
+006	037	Los Angeles	inglewca	600702	101	12	1	1
+006	037	Los Angeles	inglewca	600702	102	12	1	1
+006	037	Los Angeles	inglewca	600901	415	12	1	1
+006	037	Los Angeles	inglewca	600901	414	12	1	1
+006	037	Los Angeles	inglewca	600901	412	12	1	1
+006	037	Los Angeles	inglewca	600901	411	12	1	1
+006	037	Los Angeles	inglewca	600901	306	12	1	1
+006	037	Los Angeles	inglewca	600901	305	12	1	1
+006	037	Los Angeles	inglewca	600901	304	12	1	1
+006	037	Los Angeles	inglewca	600901	303	12	1	1
+006	037	Los Angeles	inglewca	600901	102	12	1	1
+006	037	Los Angeles	inglewca	600901	101	12	1	1
+006	037	Los Angeles	inglewca	600901	106	12	1	1
+006	037	Los Angeles	inglewca	600901	109	12	1	1
+006	037	Los Angeles	inglewca	600901	110	12	1	1
+006	037	Los Angeles	redondca	620702	215	13	1	1
+006	037	Los Angeles	redondca	620702	214	13	1	1
+006	037	Los Angeles	redondca	621301	213	13	1	1
+006	037	Los Angeles	redondca	621301	108	13	1	1
+006	037	Los Angeles	redondca	621301	101	13	1	1
+006	037	Los Angeles	redondca	621302	203	13	1	1
+006	037	Los Angeles	redondca	621302	507	13	1	1
+006	037	Los Angeles	redondca	621302	508	13	1	1
+006	037	Los Angeles	redondca	621302	512	13	1	1
+006	037	Los Angeles	redondca	621302	513	13	1	1
+006	037	Los Angeles	redondca	621302	501	13	1	1
+006	037	Los Angeles	torranca	650603	108	13	1	1
+006	037	Los Angeles	torranca	650603	113	13	1	1
+006	037	Los Angeles	torranca	650603	211	13	1	1
+006	037	Los Angeles	torranca	650702	507	13	1	1
+006	037	Los Angeles	torranca	650702	501	13	1	1
+006	037	Los Angeles	torranca	650702	406	13	1	1
+006	037	Los Angeles	torranca	650702	405	13	1	1
+006	037	Los Angeles	torranca	651201	310	13	1	1
+006	037	Los Angeles	torranca	651201	309	13	1	1
+006	037	Los Angeles	torranca	651201	308	13	1	1
+006	037	Los Angeles	torranca	651201	301	13	1	1
+006	037	Los Angeles	torranca	651201	110	13	1	1
+006	037	Los Angeles	torranca	651301	101	13	1	1
+006	037	Los Angeles	torranca	651301	202	13	1	1
+006	037	Los Angeles	torranca	651301	203	13	1	1
+006	037	Los Angeles	torranca	651301	205	13	1	1
+006	037	Los Angeles	torranca	651301	504	13	1	1
+006	037	Los Angeles	torranca	651301	505	13	1	1
+006	037	Los Angeles	torranca	651301	508	13	1	1
+006	037	Los Angeles	torranca	651301	507	13	1	1
+006	037	Los Angeles	torranca	651301	506	13	1	1
+006	037	Los Angeles	torranca	651301	501	13	1	1
+006	037	Los Angeles	torranca	651301	408	13	1	1
+006	037	Los Angeles	torranca	651301	407	13	1	1
+006	037	Los Angeles	santamca	701201	115	15	1	1
+006	037	Los Angeles	santamca	701201	201	15	1	1
+006	037	Los Angeles	santamca	701201	210	15	1	1
+006	037	Los Angeles	santamca	701201	211	15	1	1
+006	037	Los Angeles	santamca	701601	207	15	1	1
+006	037	Los Angeles	santamca	701601	206	15	1	1
+006	037	Los Angeles	santamca	701601	203	15	1	1
+006	037	Los Angeles	santamca	701601	202	15	1	1
+006	037	Los Angeles	santamca	701601	105	15	1	1
+006	037	Los Angeles	santamca	701601	104	15	1	1
+006	037	Los Angeles	santamca	701601	101	15	1	1
+006	037	Los Angeles	santamca	701601	102	15	1	1
+006	037	Los Angeles	santamca	701601	103	15	1	1
+006	037	Los Angeles	santamca	701602	101	15	1	1
+006	037	Los Angeles	santamca	701602	102	15	1	1
+017	031	Chicago	chicagil	0101	103	1	1	1
+017	031	Chicago	chicagil	0101	101	1	1	1
+017	031	Chicago	chicagil	0101	117	1	1	1
+017	031	Chicago	chicagil	0202	513	1	1	1
+017	031	Chicago	chicagil	0202	608	1	1	1
+017	031	Chicago	chicagil	0202	607	1	1	1
+017	031	Chicago	chicagil	0202	402	1	1	1
+017	031	Chicago	chicagil	0202	401	1	1	1
+017	031	Chicago	chicagil	0202	309	1	1	1
+017	031	Chicago	chicagil	0202	103	1	1	1
+017	031	Chicago	chicagil	0202	102	1	1	1
+017	031	Chicago	chicagil	0202	101	1	1	1
+017	031	Chicago	chicagil	2505	712	2	1	1
+017	031	Chicago	chicagil	2505	711	2	1	1
+017	031	Chicago	chicagil	2505	305	2	1	1
+017	031	Chicago	chicagil	2505	304	2	1	1
+017	031	Chicago	chicagil	2505	303	2	1	1
+017	031	Chicago	chicagil	2505	302	2	1	1
+017	031	Chicago	chicagil	2505	301	2	1	1
+017	031	Chicago	chicagil	2505	214	2	1	1
+017	031	Chicago	chicagil	2505	211	2	1	1
+017	031	Chicago	chicagil	2505	210	2	1	1
+017	031	Chicago	chicagil	2505	207	2	1	1
+017	031	Chicago	chicagil	2505	206	2	1	1
+017	031	Chicago	chicagil	2505	203	2	1	1
+017	031	Chicago	chicagil	2505	202	2	1	1
+017	031	Chicago	chicagil	2514	507	2	1	1
+017	031	Chicago	chicagil	2514	506	2	1	1
+017	031	Chicago	chicagil	2514	503	2	1	1
+017	031	Chicago	chicagil	2514	502	2	1	1
+017	031	Chicago	chicagil	2514	405	2	1	1
+017	031	Chicago	chicagil	2514	404	2	1	1
+017	031	Chicago	chicagil	2514	401	2	1	1
+017	031	Chicago	chicagil	2514	307	2	1	1
+017	031	Chicago	chicagil	2520	404	2	1	1
+017	031	Chicago	chicagil	2520	403	2	1	1
+017	031	Chicago	chicagil	2520	304	2	1	1
+017	031	Chicago	chicagil	2520	301	2	1	1
+017	031	Chicago	chicagil	2521	606	2	1	1
+017	031	Chicago	chicagil	2521	504	2	1	1
+017	031	Chicago	chicagil	2521	501	2	1	1
+017	031	Chicago	chicagil	2524	216	2	1	1
+017	031	Chicago	chicagil	2524	215	2	1	1
+017	031	Chicago	chicagil	2524	208	2	1	1
+017	031	Chicago	chicagil	2524	207	2	1	1
+017	031	Chicago	evanstil	8100	201	1	1	1
+017	031	Chicago	evanstil	8100	311	1	1	1
+017	031	Chicago	evanstil	8100	305	1	1	1
+017	031	Chicago	evanstil	8100	304	1	1	1
+017	031	Chicago	evanstil	8103	706	1	1	1
+017	031	Chicago	evanstil	8103	714	1	1	1
+017	031	Chicago	evanstil	8103	715	1	1	1
+017	031	Chicago	evanstil	8103	302	1	1	1
+017	031	Chicago	evanstil	8103	301	1	1	1
+017	031	Chicago	evanstil	8103	212	1	1	1
+017	031	Chicago	evanstil	8103	211	1	1	1
+017	031	Chicago	oakparil	8122	102	2	1	1
+017	031	Chicago	oakparil	8122	103	2	1	1
+017	031	Chicago	oakparil	8122	104	2	1	1
+017	031	Chicago	oakparil	8122	105	2	1	1
+017	031	Chicago	oakparil	8122	106	2	1	1
+017	031	Chicago	oakparil	8122	107	2	1	1
+017	031	Chicago	oakparil	8122	108	2	1	1
+017	031	Chicago	oakparil	8122	407	2	1	1
+017	031	Chicago	oakparil	8122	408	2	1	1
+017	031	Chicago	oakparil	8122	409	2	1	1
+017	031	Chicago	oakparil	8122	410	2	1	1
+017	031	Chicago	oakparil	8122	411	2	1	1
+017	031	Chicago	oakparil	8122	412	2	1	1
+017	031	Chicago	oakparil	8122	413	2	1	1
+017	031	Chicago	oakparil	8122	414	2	1	1
+017	031	Chicago	oakparil	8125	208	2	1	1
+017	031	Chicago	oakparil	8125	204	2	1	1
+017	031	Chicago	oakparil	8125	203	2	1	1
+017	031	Chicago	oakparil	8125	107	2	1	1
+017	031	Chicago	oakparil	8125	106	2	1	1
+017	031	Chicago	oakparil	8126	202	2	1	1
+017	031	Chicago	oakparil	8126	201	2	1	1
+017	031	Chicago	oakparil	8126	106	2	1	1
+017	031	Chicago	oakparil	8126	101	2	1	1
+017	031	Chicago	oakparil	8130	101	2	1	1
+017	031	Chicago	oakparil	8130	108	2	1	1
+017	031	Chicago	oakparil	8130	201	2	1	1
+017	031	Chicago	oakparil	8130	202	2	1	1
+017	031	Chicago	oakparil	8131	202	2	1	1
+017	031	Chicago	oakparil	8131	201	2	1	1
+017	031	Chicago	oakparil	8131	108	2	1	1
+017	031	Chicago	oakparil	8131	104	2	1	1
+017	031	Chicago	oakparil	8131	101	2	1	1
+025	017	Boston	brooklma	3507	601	4	1	1
+025	017	Boston	brooklma	3507	506	4	1	1
+025	017	Boston	brooklma	3508	102	4	1	1
+025	017	Boston	brooklma	3508	103	4	1	1
+025	017	Boston	brooklma	3508	107	4	1	1
+025	017	Boston	brooklma	3508	108	4	1	1
+025	017	Boston	brooklma	3508	201	4	1	1
+025	017	Boston	brooklma	3508	203	4	1	1
+025	017	Boston	brooklma	3509	410	4	1	1
+025	017	Boston	brooklma	3509	408	4	1	1
+025	017	Boston	brooklma	3509	404	4	1	1
+025	017	Boston	brooklma	3509	405	4	1	1
+025	017	Boston	brooklma	3509	403	4	1	1
+025	017	Boston	brooklma	3509	308	4	1	1
+025	017	Boston	brooklma	3509	307	4	1	1
+025	017	Boston	brooklma	3509	306	4	1	1
+025	017	Boston	brooklma	3509	305	4	1	1
+025	017	Boston	brooklma	3509	303	4	1	1
+025	017	Boston	brooklma	3509	302	4	1	1
+025	017	Boston	brooklma	3509	209	4	1	1
+025	017	Boston	brooklma	3509	208	4	1	1
+025	017	Boston	brooklma	3509	207	4	1	1
+025	017	Boston	brooklma	3509	206	4	1	1
+025	017	Boston	brooklma	3509	205	4	1	1
+025	017	Boston	brooklma	3509	204	4	1	1
+025	017	Boston	brooklma	3509	203	4	1	1
+025	017	Boston	brooklma	3510	501	4	1	1
+025	017	Boston	brooklma	3510	406	4	1	1
+025	017	Boston	brooklma	3510	403	4	1	1
+025	017	Boston	brooklma	3510	402	4	1	1
+025	017	Boston	brooklma	3510	401	4	1	1
+025	017	Boston	brooklma	3510	307	4	1	1
+025	017	Boston	brooklma	3510	306	4	1	1
+025	017	Boston	brooklma	3510	305	4	1	1
+025	017	Boston	brooklma	3510	304	4	1	1
+025	017	Boston	brooklma	3510	303	4	1	1
+025	017	Boston	brooklma	3510	702	4	1	1
+025	017	Boston	brooklma	3510	609	4	1	1
+025	017	Boston	brooklma	3510	608	4	1	1
+025	017	Boston	bostonma	3536	501	4	1	1
+025	017	Boston	bostonma	3536	302	4	1	1
+025	017	Boston	bostonma	3536	203	4	1	1
+025	017	Boston	bostonma	3536	202	4	1	1
+025	017	Boston	bostonma	3536	201	4	1	1
+025	017	Boston	bostonma	3536	106	4	1	1
+025	017	Boston	bostonma	3536	101	4	1	1
+025	017	Boston	bostonma	3545	103	4	1	1
+025	017	Boston	bostonma	3545	102	4	1	1
+025	017	Boston	bostonma	3545	101	4	1	1
+025	017	Boston	bostonma	3547	109	4	1	1
+025	017	Boston	bostonma	3547	108	4	1	1
+025	017	Boston	bostonma	3547	107	4	1	1
+025	017	Boston	bostonma	3547	103	4	1	1
+025	017	Boston	bostonma	3547	102	4	1	1
+025	017	Boston	bostonma	3547	101	4	1	1
+025	017	Boston	bostonma	3547	206	4	1	1
+025	017	Boston	bostonma	3550	406	4	1	1
+025	017	Boston	bostonma	3550	405	4	1	1
+025	017	Boston	bostonma	3550	404	4	1	1
+025	017	Boston	bostonma	3550	403	4	1	1
+025	017	Boston	bostonma	3550	402	4	1	1
+025	017	Boston	bostonma	3550	401	4	1	1
+025	017	Boston	bostonma	3550	309	4	1	1
+025	017	Boston	bostonma	3550	308	4	1	1
+025	017	Boston	bostonma	3550	307	4	1	1
+025	017	Boston	bostonma	3550	306	4	1	1
+025	017	Boston	bostonma	3550	305	4	1	1
+025	017	Boston	bostonma	3550	304	4	1	1
+025	017	Boston	bostonma	3550	303	4	1	1
+025	017	Boston	bostonma	3550	302	4	1	1
+025	017	Boston	bostonma	3550	301	4	1	1
+025	017	Boston	bostonma	3550	102	4	1	1
+025	017	Boston	bostonma	3550	202	4	1	1
+025	021	Boston	brooklma	4001	102	3	1	1
+025	021	Boston	brooklma	4001	103	3	1	1
+025	021	Boston	brooklma	4001	104	3	1	1
+025	021	Boston	brooklma	4001	105	3	1	1
+025	021	Boston	brooklma	4001	110	3	1	1
+025	021	Boston	brooklma	4001	202	3	1	1
+025	021	Boston	brooklma	4001	201	3	1	1
+025	021	Boston	brooklma	4001	205	3	1	1
+025	021	Boston	brooklma	4001	206	3	1	1
+025	021	Boston	brooklma	4001	207	3	1	1
+025	021	Boston	brooklma	4001	208	3	1	1
+025	021	Boston	brooklma	4001	209	3	1	1
+025	021	Boston	brooklma	4002	102	3	1	1
+025	021	Boston	brooklma	4002	305	3	1	1
+025	021	Boston	brooklma	4002	306	3	1	1
+025	021	Boston	brooklma	4002	307	3	1	1
+025	021	Boston	brooklma	4003	101	3	1	1
+025	021	Boston	brooklma	4003	102	3	1	1
+025	021	Boston	brooklma	4003	302	3	1	1
+025	021	Boston	brooklma	4003	303	3	1	1
+025	021	Boston	brooklma	4003	307	3	1	1
+025	021	Boston	brooklma	4004	109	3	1	1
+025	021	Boston	brooklma	4004	201	3	1	1
+025	021	Boston	brooklma	4006	101	3	1	1
+025	021	Boston	brooklma	4006	102	3	1	1
+025	021	Boston	brooklma	4006	108	3	1	1
+025	021	Boston	brooklma	4006	109	3	1	1
+025	021	Boston	brooklma	4006	110	3	1	1
+025	021	Boston	brooklma	4006	111	3	1	1
+025	021	Boston	brooklma	4006	112	3	1	1
+025	021	Boston	brooklma	4006	201	3	1	1
+025	021	Boston	brooklma	4010	306	3	1	1
+025	021	Boston	brooklma	4011	301	3	1	1
+025	021	Boston	brooklma	4011	116	3	1	1
+025	021	Boston	brooklma	4011	115	3	1	1
+025	021	Boston	brooklma	4011	117	3	1	1
+025	021	Boston	brooklma	4011	118	3	1	1
+025	021	Boston	brooklma	4011	119	3	1	1
+025	021	Boston	brooklma	4011	120	3	1	1
+025	021	Boston	brooklma	4012	118	3	1	1
+025	021	Boston	brooklma	4012	214	3	1	1
+025	021	Boston	brooklma	4012	216	3	1	1
+025	021	Boston	brooklma	4012	217	3	1	1
+025	021	Boston	brooklma	4012	218	3	1	1
+025	021	Boston	brooklma	4012	219	3	1	1
+025	021	Boston	brooklma	4012	220	3	1	1
+025	021	Boston	brooklma	4012	213	3	1	1
+025	021	Boston	brooklma	4012	221	3	1	1
+025	021	Boston	brooklma	4012	222	3	1	1
+025	021	Boston	brooklma	4012	223	3	1	1
+025	021	Boston	brooklma	4012	301	3	1	1
+025	021	Boston	brooklma	4012	302	3	1	1
+025	021	Boston	brooklma	4012	303	3	1	1
+025	021	Boston	brooklma	4012	308	3	1	1
+025	021	Boston	brooklma	4012	310	3	1	1
+025	021	Boston	brooklma	4012	401	3	1	1
+025	025	Boston	bostonma	0005	204	3	1	1
+025	025	Boston	bostonma	0005	205	3	1	1
+025	025	Boston	bostonma	0005	206	3	1	1
+025	025	Boston	bostonma	0005	306	3	1	1
+025	025	Boston	bostonma	0005	401	3	1	1
+025	025	Boston	bostonma	0005	404	3	1	1
+025	025	Boston	bostonma	0005	407	3	1	1
+025	025	Boston	bostonma	0005	501	3	1	1
+025	025	Boston	bostonma	0005	406	3	1	1
+025	025	Boston	bostonma	0005	502	3	1	1
+025	025	Boston	bostonma	0005	506	3	1	1
+025	025	Boston	bostonma	0005	503	3	1	1
+025	025	Boston	bostonma	0005	507	3	1	1
+025	025	Boston	bostonma	0005	601	3	1	1
+025	025	Boston	bostonma	0007	102	3	1	1
+025	025	Boston	bostonma	0007	103	3	1	1
+025	025	Boston	bostonma	0007	104	3	1	1
+025	025	Boston	bostonma	0007	106	3	1	1
+025	025	Boston	bostonma	0007	201	3	1	1
+025	025	Boston	bostonma	0007	202	3	1	1
+025	025	Boston	bostonma	0007	204	3	1	1
+025	025	Boston	bostonma	0007	203	3	1	1
+025	025	Boston	bostonma	0007	205	3	1	1
+025	025	Boston	bostonma	0007	303	3	1	1
+025	025	Boston	bostonma	0007	304	3	1	1
+025	025	Boston	bostonma	0007	305	3	1	1
+025	025	Boston	bostonma	0007	306	3	1	1
+025	025	Boston	bostonma	0007	401	3	1	1
+025	025	Boston	bostonma	0101	704	3	1	1
+025	025	Boston	bostonma	0101	112	3	1	1
+025	025	Boston	bostonma	0101	705	3	1	1
+025	025	Boston	bostonma	0102	801	3	1	1
+025	025	Boston	bostonma	0102	702	3	1	1
+025	025	Boston	bostonma	0102	701	3	1	1
+025	025	Boston	bostonma	0102	603	3	1	1
+025	025	Boston	bostonma	0102	602	3	1	1
+025	025	Boston	bostonma	0102	601	3	1	1
+025	025	Boston	bostonma	1106	710	3	1	1
+025	025	Boston	bostonma	1106	711	3	1	1
+025	025	Boston	bostonma	1106	712	3	1	1
+025	025	Boston	bostonma	1106	713	3	1	1
+025	025	Boston	bostonma	1106	104	3	1	1
+025	025	Boston	bostonma	1106	103	3	1	1
+025	025	Boston	bostonma	1106	102	3	1	1
+025	025	Boston	bostonma	1106	101	3	1	1
+025	025	Boston	bostonma	1201	607	3	1	1
+025	025	Boston	bostonma	1201	608	3	1	1
+025	025	Boston	bostonma	1201	701	3	1	1
+025	025	Boston	bostonma	1201	710	3	1	1
+025	025	Boston	bostonma	1201	801	3	1	1
+025	025	Boston	bostonma	1201	102	3	1	1
+025	025	Boston	bostonma	1201	101	3	1	1
+025	025	Boston	bostonma	1301	904	3	1	1
+025	025	Boston	bostonma	1301	101	3	1	1
+025	025	Boston	bostonma	1301	102	3	1	1
+025	025	Boston	bostonma	1301	106	3	1	1
+025	025	Boston	bostonma	1301	104	3	1	1
+025	025	Boston	bostonma	1301	103	3	1	1
+026	163	Detroit	dearbomi	0834	505	5	1	1
+026	163	Detroit	dearbomi	0834	506	5	1	1
+026	163	Detroit	dearbomi	0834	605	5	1	1
+026	163	Detroit	dearbomi	0834	606	5	1	1
+026	163	Detroit	dearbomi	0834	614	5	1	1
+026	163	Detroit	dearbomi	0834	610	5	1	1
+026	163	Detroit	dearbomi	0834	701	5	1	1
+026	163	Detroit	dearbomi	0834	702	5	1	1
+026	163	Detroit	dearbomi	0834	703	5	1	1
+026	163	Detroit	dearbomi	0834	704	5	1	1
+026	163	Detroit	dearbomi	0834	705	5	1	1
+026	163	Detroit	dearbomi	0834	706	5	1	1
+026	163	Detroit	dearbomi	0834	707	5	1	1
+026	163	Detroit	dearbomi	0834	812	5	1	1
+026	163	Detroit	dearbomi	0834	813	5	1	1
+026	163	Detroit	dearbomi	0834	814	5	1	1
+026	163	Detroit	dearbomi	0834	815	5	1	1
+026	163	Detroit	dearbomi	0834	105	5	1	1
+026	163	Detroit	detroimi	20502	101	5	1	1
+026	163	Detroit	detroimi	20502	107	5	1	1
+026	163	Detroit	detroimi	20502	108	5	1	1
+026	163	Detroit	detroimi	20502	201	5	1	1
+026	163	Detroit	detroimi	20502	204	5	1	1
+026	163	Detroit	detroimi	20502	205	5	1	1
+026	163	Detroit	detroimi	20502	208	5	1	1
+026	163	Detroit	detroimi	20502	301	5	1	1
+026	163	Detroit	detroimi	20502	304	5	1	1
+026	163	Detroit	detroimi	20502	305	5	1	1
+026	163	Detroit	detroimi	20502	308	5	1	1
+026	163	Detroit	detroimi	20502	309	5	1	1
+026	163	Detroit	detroimi	35101	102	5	1	1
+026	163	Detroit	detroimi	35101	101	5	1	1
+026	163	Detroit	detroimi	35102	201	5	1	1
+026	163	Detroit	detroimi	35102	109	5	1	1
+026	163	Detroit	detroimi	35102	102	5	1	1
+026	163	Detroit	detroimi	35102	101	5	1	1

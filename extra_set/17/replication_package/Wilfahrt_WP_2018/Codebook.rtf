@@ -1,0 +1,715 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww13500\viewh12380\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 ************************************************************************************************\
+************************************************************************************************\
+* Replication Materials for \'93Precolonial Legacies and Institutional Congruence in Public Goods Delivery: Evidence from Decentralized West Africa" \
+* Author: Martha Wilfahrt\
+* Journal: World Politics 70(2)\
+* Version Date: 6 January 2018\
+************************************************************************************************\
+************************************************************************************************\
+\
+********************\
+/// FILE: VillageData.dta\
+********************\
+\
+/// Unit of observation: village\
+\
+* VARIABLE: 
+\b Avg_CG_Transfers
+\b0  Average yearly fiscal transfers (
+\i Fonds de Dotation de la D\'e9centralisation
+\i0 ) in dollars from the central government to a rural community, 2009-12\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \ul \ulc0 Source\ulnone : Direction des Collectivities Locales\
+\
+* VARIABLE: 
+\b CR_2002_num / CR_2009_num / CR_2012_num 
+\b0 Number assigned to each 
+\i communaut\'e9 rurale
+\i0  or local government (villages are nested in local governments) existing in 2002, 2009 and 2012 respectively\
+\
+* VARIABLE: 
+\b Centr_DiscountRate_20km
+\b0  A discount-decay function of an area's level of centralization at 8 time periods between 1500-1880 Areas are coded as centralized 0-1 for each time period based on whether or not they fall within a 20km buffer of a pre-colonial capital or key city\
+\ul Source\ulnone : Author coded, misc historical sources\
+\
+* VARIABLE: 
+\b Ch_Teacher_Student_Ratio_T1
+\b0  / 
+\b Ch_Teacher_Student_Ratio_T2
+\b0  The number of new, central-state appointed teachers assigned to a region per student-aged capita between 2002-09 / 2009-12; measure is standardized to a 0-1 scale\
+\ul Source\ulnone : Author coded, misc historical sources\
+\
+* VARIABLE: 
+\b Congruence_20km_CRavg_T1
+\b0  / 
+\b Congruence_20km_CRavg_T2
+\b0  Average congruence score (Congruence_20km_T1
+\b ) 
+\b0 by local government for each time period\
+\ul Source\ulnone : Author coded, misc historical sources\
+\
+* VARIABLE: 
+\b Congruence_20km_Regavg_T1
+\b0  / 
+\b Congruence_20km_Regavg_T2
+\b0  Average congruence score (Congruence_20km_T1
+\b ) 
+\b0 by region for each time period\
+\ul Source\ulnone : Author coded, misc historical sources\
+\
+* VARIABLE: 
+\b Congruence_20km_T1 /  Congruence_20km_T2 
+\b0 A discount-decay function of a village's congruence with the dominant level of precolonial centralization in the local government, thus that a village receives a 1 if it is 'congruent' and a 0 if not; coded by time period with centralization measured as a 20km buffer from a key precolonial power center\
+\ul Source\ulnone : Author coded, misc historical sources\
+\
+* VARIABLE: 
+\b Congruence_25km_T1 /  Congruence_25km_T2 
+\b0 A discount-decay function of a village's congruence with the dominant level of precolonial centralization in the local government, thus that a village receives a 1 if it is 'congruent' and a 0 if not; coded by time period with centralization measured as a 25km buffer from a key precolonial power center\
+\ul Source\ulnone : Author coded, misc historical sources\
+\
+* VARIABLE: 
+\b Congruence_30km_T1 /  Congruence_30km_T2 
+\b0 A discount-decay function of a village's congruence with the dominant level of precolonial centralization in the local government, thus that a village receives a 1 if it is 'congruent' and a 0 if not; coded by time period with centralization measured as a 30km buffer from a key precolonial power center\
+\ul Source\ulnone : Author coded, misc historical sources\
+\
+* VARIABLE: 
+\b Congruence_Index_20km
+\b0  / 
+\b Congruence_Index_25km
+\b0  / 
+\b Congruence_Index_30km
+\b0  Bockstette, Chanda and Putterman's (2002) state antiquity index with a discount-decay function All variables within 20, 25 and 30km of pre-colonial capitals are assigned the score for the level of 'statehood' of a kingdom at 8 time periods between 1500-1880 \
+\ul Source\ulnone : Author coded, misc historical sources\
+\
+* VARIABLE: 
+\b Congruent_25_Dummy_T1
+\b0  / 
+\b Congruent_25_Dummy_T2
+\b0  / 
+\b Congruent_30_Dummy_T1
+\b0  / 
+\b Congruent_30_Dummy_T2
+\b0   A 0-1 measure where villages take a value of 1 if they fall within the 25 or 30km buffer of an area that was centralized in 1880\
+\ul Source\ulnone : Author coded, misc historical sources\
+\
+* VARIABLE: 
+\b Congruent_Dummy_2002
+\b0  / 
+\b Congruent_Dummy_2009
+\b0  A 0-1 measure where villages take a value of 1 if it was congruent with a 20km buffer of an area that was centralized in 1880\
+\ul Source\ulnone : Author coded, misc historical sources\
+\
+* VARIABLE: 
+\b D_Clinic_09_sqrt
+\b0  Square root of the minimum distance to the nearest clinic from a given village in 2009\
+\ul Source\ulnone : Author coded; Senegalese Ministry of Health\
+\
+* VARIABLE: 
+\b D_School_02_sqrt
+\b0  / 
+\b D_School_09_sqrt
+\b0  Square root of the minimum distance to the nearest school from a given village in 2002 / 2009\
+\ul Source\ulnone : Author coded; Senegalese Ministry of Education\
+\
+* VARIABLE: 
+\b Department_2002 / Department_2009 
+\b0 The Department (second-level administrative unit) that the local government falls within in 2002 or 2009 respectively\
+\
+* VARIABLE: 
+\b ELF_Arr_02
+\b0  / 
+\b ELF_Arr_09
+\b0  A Herfondihl Index of Ethnic Fragmentation; based on ethnic information of approximately 200 rural communities and averaged at the arrondissement level\
+\ul Source\ulnone : Author coding based on secondary documents and local planning materials\
+\
+* VARIABLE: 
+\b Ferlo_Zone
+\b0  A dummy variable that takes a value of 1 if a village falls within the Ferlo desert\
+\
+* VARIABLE: 
+\b Gap_parties2002
+\b0  / 
+\b Gap_parties2009
+\b0  The % gap between the winning and second place party at the nearest voting booth to a village in the 2002 / 2009 local elections\
+\ul Source\ulnone : Author coded; Direction Generale des Elections\
+\
+* VARIABLE: 
+\b Km_toRoad
+\b0  Village distance in kilometers to the nearest improved road\
+\
+* VARIABLE: 
+\b LL_Rainforest_grassland
+\b0  A 0-1 measure that takes a 1 when a village falls within Lowland Rainforest/Grassland\
+\ul Source\ulnone : White (1983)\
+\
+* VARIABLE: 
+\b Latitude
+\b0  A village's latitude\
+\ul Note\ulnone : Coordinates have been jittered by 0.00XX decimal degrees, the equivalent of about a half kilometer. \
+\
+* VARIABLE: 
+\b LnD_SocService_1902_km
+\b0  / 
+\b LnD_SocService_1912_km
+\b0  / 
+\b LnD_SocService_1932_km
+\b0  / 
+\b LnD_SocService_1952_km
+\b0  / 
+\b LnD_SocService_1972_km
+\b0  / 
+\b LnD_SocService_2002_km
+\b0  Logged distance in kilometers to the nearest social service (clinic or primary school) in 1902, 1912, 1932, 1952, 1972, 2002\
+\
+* VARIABLE: 
+\b LnD_waterway
+\b0  Logged distance between a village and the nearest navigable waterway\
+\ul Source\ulnone : Author Coded\
+\
+* VARIABLE: 
+\b LnPop2011
+\b0  Log of village population, 2011\
+\ul Source\ulnone : 
+\i Repetoire officiale du villages 
+\i0 2011, Gouvernment du Senegal\
+\
+* VARIABLE: 
+\b LnPop_1958
+\b0  Log of village population, 1958\
+\ul Source\ulnone : 1958 
+\i Repetoire des villages
+\i0 \
+\
+* VARIABLE: 
+\b Longitude
+\b0  A village's longitude\
+\ul Note\ulnone : Coordinates have been jittered by 0.00XX decimal degrees, the equivalent of about a half kilometer. \
+\
+* VARIABLE: 
+\b Mangrove
+\b0  A 0-1 measure that takes a 1 when a village falls within a Mangrove\
+\ul Source\ulnone : White (1983)\
+\
+* VARIABLE: 
+\b Murdock_Score
+\b0  Murdock estimate of the level of political centralization for the ethnic group a village falls within; 0 (acephalous) to four (highly centralized)\
+\ul Source\ulnone : Murdock (1981)\
+\
+* VARIABLE: 
+\b Murdock_TribeName
+\b0  The ethnic group that a village falls within in Murdock\'92s dataset \
+\ul Source\ulnone : Murdock (1981)\
+\
+* VARIABLE: 
+\b N_New_Clinics_CR_T2
+\b0  Count measure of number of new clinics built by a rural community, 2009-12\
+\ul Source\ulnone : Author Coded; Senegalese Ministry of Health\
+\
+* VARIABLE: 
+\b N_New_Schools_CR_T1
+\b0  / 
+\b N_New_Schools_CR_T2
+\b0  Count measure of number of schools built by a rural community, 2002-09 / 2009-12\
+\ul Source\ulnone : Author Coded; Senegalese Ministry of Education\
+\
+* VARIABLE: 
+\b N_SocServ_Built
+\b0  Number of social services (clinics and primary schools) built by the local government between 2009-12\
+\ul Source\ulnone : Author Coded; Senegalese Ministry of Education; Senegalese Ministry of Health\
+\
+* VARIABLE: 
+\b Natl_Coalition_CR02
+\b0  / 
+\b Natl_Coalition_CR09
+\b0  A 0-1 measure of whether or not the majority party in the rural council is aligned with the central state following the 2002 / 2009 elections\
+\ul Source\ulnone : Author coded; Direction Generale des Elections\
+\
+* VARIABLE: 
+\b New_Classrooms_T1
+\b0  / 
+\b New_Classrooms_T2
+\b0  A count measure of the number of new classrooms a school received in a given time period\
+\ul Source\ulnone : Senegalese Ministry of Education\
+\
+* VARIABLE: 
+\b New_Clinic_T1
+\b0  / 
+\b New_Clinic_T2
+\b0  A 0-1 measure of whether or not a village received access (within 5km) to a new health post or health hut in a given time period\
+\ul Source\ulnone : Senegalese Ministry of Health\
+\
+* VARIABLE: 
+\b New_Clinic_T2_3k
+\b0  / 
+\b New_Clinic_T2_1k
+\b0  A 0-1 measure of whether or not a village received access to a new clinic within 3km or 1km between 2009-12\
+\ul Source\ulnone : Senegalese Ministry of Health\
+\
+* VARIABLE: 
+\b New_Schools_T1
+\b0  / 
+\b New_Schools_T2
+\b0   A 0-1 measure of whether or not a village received access to a new school (within 3km) in a given time period\
+\ul Source\ulnone : Senegalese Ministry of Education\
+\
+* VARIABLE: 
+\b New_Schools_T2_2km
+\b0  / 
+\b New_Schools_T2_1km
+\b0  A 0-1 measure of whether or not a village received access to a new school within 2km or 1km in a given time period\
+\ul Source\ulnone : Senegalese Ministry of Education\
+\
+* VARIABLE: 
+\b New_SocService_1912
+\b0  / 
+\b New_SocService_1932
+\b0  / 
+\b New_SocService_1952
+\b0  / 
+\b New_SocService_1972
+\b0  / 
+\b New_SocService_2002
+\b0   / 
+\b New_SocService_2012
+\b0  Whether a village gained access to a new clinic and/or primary school between 1902-1912; 1912-32; 1932-52; 1952-72; 1972-2002; 2002-12\
+\ul Source\ulnone : Author Coded; Senegalese Ministry of Education; Senegalese Ministry of Health; AOF. Misc Years.
+\i  Rapport Statistique Ann\'e9e Scolaire.
+\i0  ANS 2G series; AOF. Misc Years.
+\i  Rapport Medical Annuel.
+\i0  ANS 2G series.\
+\
+* VARIABLE: 
+\b New_SocService_T2
+\b0  Whether a village gained access to a new locally provided social service (clinic and/or primary school) between 2009-12\
+\ul Source\ulnone : Author Coded; Senegalese Ministry of Education; Senegalese Ministry of Health\
+\
+* VARIABLE: 
+\b PercVillages_Clinics_CR09
+\b0  % villages in a rural community that have a health facility in 2009\
+\ul Source\ulnone : Author coded; Senegalese Ministry of Health\
+\
+* VARIABLE: 
+\b PercVillages_Schools_CR02
+\b0  / 
+\b PercVillages_Schools_CR09
+\b0  % villages in a rural community that have a primary school in 2002 / 2009\
+\ul Source\ulnone : Author coded; Senegalese Ministry of Education\
+\
+* VARIABLE: 
+\b Perc_CR_1900_T1
+\b0  / 
+\b Perc_CR_1900_T2
+\b0  The percent of villages in a local government (2002 and 2009 respectively) that are listed in the first French censuses\
+\ul Source\ulnone : Becker, et al (1983) ; Misc Historical Sources (ANS 1G:251; 1G:289-96)
+\b \
+
+\b0 \
+* VARIABLE: 
+\b Perc_CR_1958_T1
+\b0  / 
+\b Perc_CR_1958_T2 
+\b0 The percent of villages in a local government (2002 and 2009 respectively) that are listed in the 1958 village repetoire\
+\ul Source\ulnone : 1958 
+\i Repetoire des villages
+\i0\b \
+
+\b0 \
+* VARIABLE: 
+\b Perc_CR_Mouride_T1
+\b0  / 
+\b Perc_CR_Mouride_T1 
+\b0 Percent of villages in the local government whose names take a common marker of Mouride affiliation; "darou", "touba", "mbacke," "serigne," "mouride\'94, coded to each time period\
+\ul Source\ulnone : Author coded\
+\
+* VARIABLE: 
+\b Pop_Dens_3km / 
+\b0  
+\b Pop_Dens_5km
+\b0  Population Density in 3k and 5km area around the village respectively\
+\ul Source\ulnone : Author coded; 
+\i Repetoire officiale du villages 
+\i0 2011\
+\
+* VARIABLE: 
+\b Region_02
+\b0  / 
+\b Region_09 
+\b0 The region (first-level administrative unit) that the local government falls within in 2002 and 2009 respectively\
+\
+* VARIABLE:
+\b  Regional_Wealth
+\b0  An index of average household wealth, calculated at the arrondissement level in 2010\
+\ul Source\ulnone : Demographic and Health Survey, 2010\
+\
+* VARIABLE: 
+\b Sahel_Grassland_Bush
+\b0  A 0-1 measure that takes a 1 when a village falls within Sahel Grassland\
+\ul Source\ulnone : White (1983)\
+\
+* VARIABLE: 
+\b Student_Attendance_02_CR / Student_Attendance_09_CR
+\b0  Percent of school aged children attending school in a rural community in 2002 and 2009 respectively\
+\ul Source\ulnone : Author coded; Senegalese Ministry of Education\
+\
+* VARIABLE: 
+\b Student_Class_02
+\b0  / 
+\b Student_Class_09
+\b0  Number of students per classroom in 2002 / 2009\
+\ul Source\ulnone : Author coded; Senegalese Ministry of Education\
+\
+* VARIABLE: 
+\b Sudanian_Woodland
+\b0  A 0-1 measure that takes a 1 when a village falls within Sudanian Forest\
+\ul Source\ulnone : White (1983)\
+\
+* VARIABLE: 
+\b Touba
+\b0  A dummy variable that takes a score of 1 if the local government is the Holy City of Toub\
+\
+* VARIABLE: 
+\b UrbanCommune_02 / UrbanCommune_09 / UrbanCommune_12 
+\b0  Whether or not a village was an urban commune or not in 2002, 2009 and 2012 respectively\
+\
+* VARIABLE:
+\b  UrbanCommune_1902 / UrbanCommune_1932 / UrbanCommune_1952 / UrbanCommune_1972 
+\b0 Whether or not a village was historically an urban commune in 1902, 1932, 1952, and 1972 respectively\
+\
+* VARIABLE: 
+\b Village_1900 / Village_1958
+\b0  A dummy variable that takes a 1 if the village was listed in French colonial censuses from ~1900 and 1956 respectively\
+\ul Source\ulnone : Becker, et al (1983) ; Misc Historical Sources (ANS 1G:251; 1G:289-96); 1958 
+\i Repetoire des villages
+\i0\b \
+\
+
+\b0 * VARIABLE: 
+\b Village_Elevation
+\b0  Village elevation in meters\
+\ul Source\ulnone : USGS Global Elevation Grids (Systematic Subsample 75 arc-seconds)\
+\
+* VARIABLE: 
+\b Village_ID
+\b0  Unique identifier assigned to each village\
+\
+* VARIABLE: 
+\b WinningPercentVotes_02
+\b0   / 
+\b WinningPercentVotes_09
+\b0  % of votes going to the winning party at a voting booth in 2002 / 2009 local elections\
+\ul Source\ulnone : Author coded; Direction Generale des Elections
+\b \
+
+\b0 \
+\
+\
+********************\
+/// FILE: LocAllocT1.dta\
+********************\
+\
+/// Unit of observation: local governments, 2002\
+\
+* VARIABLE: 
+\b Avg_Elevation
+\b0  Average village elevation in a local government (2002)\
+\ul Source\ulnone : USGS Global Elevation Grids (Systematic Subsample 75 arc-seconds)\
+\
+* VARIABLE: 
+\b Avg_lnD_waterway
+\b0  Average logged distance between a local government\'92s villages and the nearest navigable waterway\
+\
+* VARIABLE: 
+\b CR_2002_num
+\b0  Identifier for each 
+\i communaut\'e9 rurale
+\i0  or local government existing in 2002\
+\
+* VARIABLE: 
+\b CR_PopDensity_T1
+\b0  Local government population density\
+\ul Source\ulnone : Author coded; 
+\i Repetoire officiale du villages 
+\i0 2011\
+\
+* VARIABLE: 
+\b Congruence_20km_CRavg_T1
+\b0  Average congruence score
+\b  
+\b0 by local government for each time period\
+\ul Source\ulnone : Author coded, misc historical sources\
+\
+* VARIABLE: 
+\b ELF_Arr_02
+\b0  A Herfondihl Index of Ethnic Fragmentation; based on ethnic information of approximately 200 rural communities and averaged at the arrondissement level\
+\ul Source\ulnone : Author coding based on secondary documents and local planning materials\
+\
+* VARIABLE: 
+\b Ferlo_Zone
+\b0  A dummy variable that takes a value of 1 if a local government falls within the Ferlo desert\
+\
+* VARIABLE: 
+\b GapParties_CR02
+\b0  The % gap between the winning and second place party at the nearest voting booth to a village in the 2002 local elections\
+\ul Source\ulnone : Author coded; Direction Generale des Elections\
+\
+* VARIABLE: 
+\b N_New_Schools_CR_T1
+\b0  Count measure of number of schools built by a rural community, 2002-09\
+\ul Source\ulnone : Author Coded; Senegalese Ministry of Education\
+\
+* VARIABLE: 
+\b Natl_Coaltion_CR02
+\b0  A 0-1 measure of whether or not the majority party in the rural council is aligned with the central state following the 2002 elections\
+\ul Source\ulnone : Author coded; Direction Generale des Elections\
+\
+* VARIABLE: 
+\b PercVillages_Schools_CR02
+\b0  % villages in a rural community that have a primary school in 2002\
+\ul Source\ulnone : Author coded; Senegalese Ministry of Education\
+\
+* VARIABLE: 
+\b Perc_CR_Mouride_T1
+\b0  Percent of villages in the local government (2002-09) whose names take a common marker of Mouride affiliation; "darou", "touba", "mbacke," "serigne," "mouride"\
+\ul Source\ulnone : Author coded\
+\
+* VARIABLE: 
+\b PopDIFF_MaxAttd_T1
+\b0  The difference between the number of students who would have been covered under the ideal-point locations for the maximize attendance model for primary schools and those that were actually covered by the built facility (zero means the ideal point was chosen) \
+\
+* VARIABLE: 
+\b PopDIFF_MaxCov_T1
+\b0  The difference between the number of students who would have been covered under the ideal-point locations for the maximize coverage model for primary schools and those that were actually covered by the built facility (zero means the ideal point was chosen) \
+\
+* VARIABLE: 
+\b Region_02_Num
+\b0  Identifier for each region in 2002; local governments are nested in regions\
+\
+* VARIABLE: 
+\b lnPop2012_CR02
+\b0  Logged population of 2002 local governments\
+\ul Source\ulnone : 
+\i Repetoire officiale du villages 
+\i0 2011, Gouvernment du Senegal \
+\
+\
+\
+\
+********************\
+/// FILE: LocAllocT2.dta\
+********************\
+\
+/// Unit of observation: local governments, 2009\
+\
+* VARIABLE: 
+\b Avg_Elevation
+\b0  Average village elevation in a local government (2002)\
+\ul Source\ulnone : USGS Global Elevation Grids (Systematic Subsample 75 arc-seconds)\
+\
+* VARIABLE: 
+\b Avg_lnD_waterway
+\b0  Average logged distance between a local government\'92s villages and the nearest navigable waterway\
+\
+* VARIABLE: 
+\b CR_2009_num
+\b0  Identifier for each 
+\i communaut\'e9 rurale
+\i0  or local government existing in 2009\
+\
+* VARIABLE: 
+\b CR_PopDensity_T2
+\b0  Local government population density\
+\ul Source\ulnone : Author coded; 
+\i Repetoire officiale du villages 
+\i0 2011\
+\
+* VARIABLE:  
+\b Congruence_20km_CRavg_T2
+\b0  Average congruence score
+\b  
+\b0 by local government for each time period\
+\ul Source\ulnone : Author coded, misc historical sources\
+\
+* VARIABLE: 
+\b ELF_Arr_09
+\b0  A Herfondihl Index of Ethnic Fragmentation; based on ethnic information of approximately 200 rural communities and averaged at the arrondissement level\
+\ul Source\ulnone : Author coding based on secondary documents and local planning materials\
+\
+* VARIABLE: 
+\b Ferlo_Zone
+\b0  A dummy variable that takes a value of 1 if a local government falls within the Ferlo desert\
+\
+* VARIABLE: 
+\b GapParties_CR09
+\b0  The % gap between the winning and second place party at the nearest voting booth to a village in the 2009 local elections\
+\ul Source\ulnone : Author coded; Direction Generale des Elections\
+\
+* VARIABLE:  
+\b N_New_Schools_CR_T2
+\b0  Count measure of number of schools built by a rural community, 2009-12\
+\ul Source\ulnone : Author Coded; Senegalese Ministry of Education\
+\
+* VARIABLE: 
+\b Natl_Coaltion_CR09
+\b0  A 0-1 measure of whether or not the majority party in the rural council is aligned with the central state following the 2009 elections\
+\ul Source\ulnone : Author coded; Direction Generale des Elections\
+\
+* VARIABLE: 
+\b PercVillages_Schools_CR09
+\b0  % villages in a rural community that have a primary school in 2009\
+\ul Source\ulnone : Author coded; Senegalese Ministry of Education\
+\
+* VARIABLE: 
+\b Perc_CR_Mouride_T2
+\b0  Percent of villages in the local government (2009-12) whose names take a common marker of Mouride affiliation; "darou", "touba", "mbacke," "serigne," "mouride"\
+\ul Source\ulnone : Author coded\
+\
+* VARIABLE: 
+\b PopDIFF_MaxAttd_T2
+\b0  The difference between the number of citizens who would have been covered under the ideal-point locations for the maximize attendance model for primary schools  and those that were actually covered by the built facility (zero means the ideal point was chosen) \
+\
+* VARIABLE: 
+\b PopDIFF_MaxCov_T2
+\b0  The difference between the number of students who would have been covered under the ideal-point locations for the maximize coverage model for primary schools and those that were actually covered by the built facility (zero means the ideal point was chosen) \
+\
+* VARIABLE: 
+\b PopDIFF_Health_MaxAttd_T2
+\b0  The difference between the number of citizens who would have been covered under the ideal-point locations for the maximize attendance model for clinics  and those that were actually covered by the built facility (zero means the ideal point was chosen) \
+\
+* VARIABLE: 
+\b PopDIFF_Health_MaxCov_T2
+\b0  The difference between the number of students who would have been covered under the ideal-point locations for the maximize coverage model for clinics and those that were actually covered by the built facility (zero means the ideal point was chosen) \
+\
+* VARIABLE: 
+\b Region_09_Num
+\b0  Identifier for each region in 2009; local governments are nested in regions\
+\
+* VARIABLE: 
+\b lnPop2012_CR09
+\b0  Logged population of 2009 local governments\
+\ul Source\ulnone : 
+\i Repetoire officiale du villages 
+\i0 2011, Gouvernment du Senegal\
+\
+\
+\
+\
+*********************\
+/// FILE: PlaceboTests.dta\
+*********************\
+\
+/// Unit of observation: village\
+\
+* VARIABLE: 
+\b CR_2002_num 
+\b0 Number assigned to each 
+\i communaut\'e9 rurale
+\i0  or local government (villages are nested in local governments) existing in 2002\
+\
+* VARIABLE: 
+\b Congruence_20km_T1 
+\b0 A discount-decay function of a village's congruence with the dominant level of precolonial centralization in the local government, thus that a village receives a 1 if it is 'congruent' and a 0 if not with centralization measured as a 20km buffer from a key precolonial power center\
+\ul Source\ulnone : Author coded, misc historical sources\
+\
+* VARIABLE: 
+\b Department_2002 
+\b0 The Department (second-level administrative unit) that the local government falls within in 2002\
+\
+* VARIABLE: 
+\b Dept_RoadDensity_00
+\b0  Percent of villages in the department with access (<1km) to an improved road in 2000\
+\ul Source\ulnone : ANSD Enquete Villages 2002, 2009\
+\
+* VARIABLE: 
+\b ElectricGrid_5km_00
+\b0  Whether or not a village is within 5km of another village with electricity in 2000; proxy for proximity to electric grid\
+\ul Source\ulnone : ANSD Enquete Villages 2002, 2009\
+\
+* VARIABLE: 
+\b Electricity_00
+\b0  Whether or not a village is electrified in 2000\
+\ul Source\ulnone : ANSD Enquete Villages 2002, 2009\
+\
+* VARIABLE: 
+\b Improved_Road_00
+\b0  Whether or not a village has access (< 1km) to an improved road in 2000\
+\ul Source\ulnone : ANSD Enquete Villages 2002, 2009\
+\
+* VARIABLE: 
+\b LnPop2011
+\b0  Log of village population, 2011\
+\ul Source\ulnone : 
+\i Repetoire officiale du villages 
+\i0 2011, Gouvernment du Senegal\
+\
+* VARIABLE: 
+\b New_Electricity
+\b0  A 0-1 measure of whether or not a village was electrified during the dime period\
+\ul Source\ulnone : ANSD Enquete Villages 2002, 2009\
+\
+* VARIABLE: 
+\b New_HighSchool
+\b0  A 0-1 measure of whether or not a village (population greater than 1000) received a high school in the given time period\
+\ul Source\ulnone : ANSD Enquete Villages 2002, 2009\
+\
+* VARIABLE: 
+\b New_Improved_Road
+\b0  A 0-1 measure of whether or not a village received access to an improved road in the given time period\
+\ul Source\ulnone : ANSD Enquete Villages 2002, 2009\
+\
+* VARIABLE: 
+\b Perc_CR_Mouride_T1
+\b0  Percent of villages in the local government (2002-09) whose names take a common marker of Mouride affiliation; "darou", "touba", "mbacke," "serigne," "mouride"\
+\ul Source\ulnone : Author coded\
+\
+* VARIABLE: 
+\b Perc_VillSchools_09_02_Dept
+\b0  % villages in the department that have a primary school in 2002\
+\ul Source\ulnone : Author coded; Senegalese Ministry of Education\
+\
+* VARIABLE: 
+\b Pop2012_Communes
+\b0  Population of villages, including urban communes\
+\ul Source\ulnone : Author coded; 
+\i Repetoire officiale du villages 
+\i0 2011\
+\
+* VARIABLE: 
+\b Pop_Dens_5km
+\b0  Population Density in 5km area around the village\
+\ul Source\ulnone : Author coded; 
+\i Repetoire officiale du villages 
+\i0 2011\
+\
+* VARIABLE: 
+\b Region_02
+\b0  The region (first-level administrative unit) that the local government falls within in 2002\
+\
+* VARIABLE:
+\b  Regional_Wealth
+\b0  An index of average household wealth, calculated at the arrondissement level in 2010\
+\ul Source\ulnone : Demographic and Health Survey, 2010\
+\
+* VARIABLE: 
+\b Student_Attendance_02_CR
+\b0  Percent of school aged children attending school in a rural community in 2002\
+\ul Source\ulnone : Author coded; Senegalese Ministry of Education\
+\
+* VARIABLE: 
+\b UrbanCommune_02
+\b0  Whether or not a village was an urban commune or not in 2002\
+\
+* VARIABLE: 
+\b Village_ID
+\b0  Unique identifier assigned to each village\
+\
+\
+\
+\
+}

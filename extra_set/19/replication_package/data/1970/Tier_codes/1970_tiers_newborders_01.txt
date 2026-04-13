@@ -1,0 +1,3939 @@
+Statefip	State_text	Countyfip	County_text	Borderno	Jurcode	Tract	Block	Tierno
+6	CA	37	Los Angeles	317	losangca	1043	101	1
+6	CA	37	Los Angeles	317	losangca	1043	102	1
+6	CA	37	Los Angeles	317	losangca	1043	103	2
+6	CA	37	Los Angeles	317	losangca	1043	104	2
+6	CA	37	Los Angeles	317	losangca	1043	105	3
+6	CA	37	Los Angeles	317	losangca	1043	106	3
+6	CA	37	Los Angeles	317	losangca	1043	107	4
+6	CA	37	Los Angeles	317	losangca	1043	108	4
+6	CA	37	Los Angeles	317	losangca	1043	109	5
+6	CA	37	Los Angeles	317	losangca	1043	110	5
+6	CA	37	Los Angeles	317	losangca	1043	201	7
+6	CA	37	Los Angeles	317	losangca	1043	509	8
+6	CA	37	Los Angeles	317	losangca	1043	602	7
+6	CA	37	Los Angeles	317	losangca	1043	603	6
+6	CA	37	Los Angeles	317	losangca	1043	604	5
+6	CA	37	Los Angeles	317	losangca	1043	606	4
+6	CA	37	Los Angeles	317	losangca	1043	608	1
+6	CA	37	Los Angeles	317	losangca	1043	609	2
+6	CA	37	Los Angeles	317	losangca	1043	610	1
+6	CA	37	Los Angeles	317	losangca	1043	611	1
+6	CA	37	Los Angeles	317	losangca	1064	103	6
+6	CA	37	Los Angeles	317	losangca	1064	104	6
+6	CA	37	Los Angeles	317	losangca	1064	105	6
+6	CA	37	Los Angeles	317	losangca	1064	106	7
+6	CA	37	Los Angeles	317	losangca	1064	107	7
+6	CA	37	Los Angeles	317	losangca	1064	108	8
+6	CA	37	Los Angeles	317	losangca	1064	109	8
+6	CA	37	Los Angeles	317	losangca	1064	110	8
+6	CA	37	Los Angeles	317	losangca	1064	111	8
+6	CA	37	Los Angeles	317	losangca	1064	501	4
+6	CA	37	Los Angeles	317	losangca	1064	502	5
+6	CA	37	Los Angeles	317	losangca	1064	503	5
+6	CA	37	Los Angeles	317	losangca	1064	504	5
+6	CA	37	Los Angeles	317	losangca	1064	505	4
+6	CA	37	Los Angeles	317	losangca	1064	506	4
+6	CA	37	Los Angeles	317	losangca	1064	507	4
+6	CA	37	Los Angeles	317	losangca	1064	508	3
+6	CA	37	Los Angeles	317	losangca	1064	509	3
+6	CA	37	Los Angeles	317	losangca	1064	510	3
+6	CA	37	Los Angeles	317	losangca	1064	511	2
+6	CA	37	Los Angeles	317	losangca	1064	512	2
+6	CA	37	Los Angeles	317	losangca	1064	513	2
+6	CA	37	Los Angeles	317	losangca	1064	514	2
+6	CA	37	Los Angeles	317	losangca	1067	106	1
+6	CA	37	Los Angeles	317	losangca	1067	107	6
+6	CA	37	Los Angeles	317	losangca	1067	108	8
+6	CA	37	Los Angeles	317	losangca	1067	110	7
+6	CA	37	Los Angeles	317	losangca	1067	111	6
+6	CA	37	Los Angeles	317	losangca	1067	112	6
+6	CA	37	Los Angeles	317	losangca	1067	201	5
+6	CA	37	Los Angeles	317	losangca	1067	202	5
+6	CA	37	Los Angeles	317	losangca	1067	203	4
+6	CA	37	Los Angeles	317	losangca	1067	204	4
+6	CA	37	Los Angeles	317	losangca	1067	205	3
+6	CA	37	Los Angeles	317	losangca	1067	206	3
+6	CA	37	Los Angeles	317	losangca	1067	207	2
+6	CA	37	Los Angeles	317	losangca	1067	208	1
+6	CA	37	Los Angeles	317	losangca	1067	209	1
+6	CA	37	Los Angeles	317	losangca	1067	210	1
+6	CA	37	Los Angeles	317	losangca	1068	201	1
+6	CA	37	Los Angeles	317	losangca	1068	202	2
+6	CA	37	Los Angeles	317	losangca	1068	203	6
+6	CA	37	Los Angeles	317	losangca	1068	204	7
+6	CA	37	Los Angeles	317	losangca	1068	205	6
+6	CA	37	Los Angeles	317	losangca	1068	206	8
+6	CA	37	Los Angeles	317	losangca	1091	102	2
+6	CA	37	Los Angeles	317	losangca	1091	103	2
+6	CA	37	Los Angeles	317	losangca	1091	104	2
+6	CA	37	Los Angeles	317	losangca	1091	107	1
+6	CA	37	Los Angeles	317	losangca	1091	109	2
+6	CA	37	Los Angeles	317	losangca	1091	110	3
+6	CA	37	Los Angeles	317	losangca	1095	102	1
+6	CA	37	Los Angeles	317	losangca	1095	103	2
+6	CA	37	Los Angeles	317	losangca	1095	106	4
+6	CA	37	Los Angeles	317	losangca	1095	107	5
+6	CA	37	Los Angeles	317	losangca	1095	109	5
+6	CA	37	Los Angeles	317	losangca	1095	111	4
+6	CA	37	Los Angeles	317	losangca	1095	112	3
+6	CA	37	Los Angeles	317	losangca	1095	113	3
+6	CA	37	Los Angeles	317	losangca	1095	114	2
+6	CA	37	Los Angeles	317	losangca	1095	115	1
+6	CA	37	Los Angeles	317	losangca	1095	116	1
+6	CA	37	Los Angeles	317	losangca	1095	118	1
+6	CA	37	Los Angeles	317	losangca	1095	119	3
+6	CA	37	Los Angeles	317	losangca	1095	120	2
+6	CA	37	Los Angeles	317	losangca	1095	121	1
+6	CA	37	Los Angeles	317	losangca	1095	201	1
+6	CA	37	Los Angeles	317	losangca	1095	202	1
+6	CA	37	Los Angeles	317	losangca	1095	203	1
+6	CA	37	Los Angeles	317	losangca	1095	204	1
+6	CA	37	Los Angeles	317	losangca	1095	205	1
+6	CA	37	Los Angeles	317	losangca	1095	206	1
+6	CA	37	Los Angeles	317	losangca	1095	210	2
+6	CA	37	Los Angeles	317	losangca	1095	211	2
+6	CA	37	Los Angeles	317	losangca	1095	212	2
+6	CA	37	Los Angeles	317	losangca	1095	213	2
+6	CA	37	Los Angeles	317	losangca	1095	214	2
+6	CA	37	Los Angeles	317	losangca	1095	215	3
+6	CA	37	Los Angeles	317	losangca	1095	216	4
+6	CA	37	Los Angeles	317	losangca	1095	217	5
+6	CA	37	Los Angeles	317	losangca	1095	218	6
+6	CA	37	Los Angeles	319	losangca	1898	101	4
+6	CA	37	Los Angeles	319	losangca	1898	102	3
+6	CA	37	Los Angeles	319	losangca	1898	103	3
+6	CA	37	Los Angeles	319	losangca	1898	104	3
+6	CA	37	Los Angeles	319	losangca	1898	105	2
+6	CA	37	Los Angeles	319	losangca	1898	106	2
+6	CA	37	Los Angeles	319	losangca	1898	107	2
+6	CA	37	Los Angeles	319	losangca	1898	108	1
+6	CA	37	Los Angeles	319	losangca	1898	109	1
+6	CA	37	Los Angeles	319	losangca	1898	110	1
+6	CA	37	Los Angeles	319	losangca	1898	201	1
+6	CA	37	Los Angeles	319	losangca	1898	202	1
+6	CA	37	Los Angeles	319	losangca	1898	203	1
+6	CA	37	Los Angeles	319	losangca	1898	204	1
+6	CA	37	Los Angeles	319	losangca	1898	205	2
+6	CA	37	Los Angeles	319	losangca	1898	206	2
+6	CA	37	Los Angeles	319	losangca	1898	207	2
+6	CA	37	Los Angeles	319	losangca	1898	301	3
+6	CA	37	Los Angeles	319	losangca	1898	302	3
+6	CA	37	Los Angeles	319	losangca	1898	303	3
+6	CA	37	Los Angeles	319	losangca	1898	304	3
+6	CA	37	Los Angeles	319	losangca	1898	305	4
+6	CA	37	Los Angeles	319	losangca	1898	306	4
+6	CA	37	Los Angeles	319	losangca	1898	307	4
+6	CA	37	Los Angeles	319	losangca	1899	101	4
+6	CA	37	Los Angeles	319	losangca	1899	102	4
+6	CA	37	Los Angeles	319	losangca	1899	103	4
+6	CA	37	Los Angeles	319	losangca	1899	104	4
+6	CA	37	Los Angeles	319	losangca	1899	105	4
+6	CA	37	Los Angeles	319	losangca	1899	106	4
+6	CA	37	Los Angeles	319	losangca	1899	201	3
+6	CA	37	Los Angeles	319	losangca	1899	202	2
+6	CA	37	Los Angeles	319	losangca	1899	203	2
+6	CA	37	Los Angeles	319	losangca	1899	204	1
+6	CA	37	Los Angeles	319	losangca	1899	205	1
+6	CA	37	Los Angeles	319	losangca	1899	206	1
+6	CA	37	Los Angeles	319	losangca	1899	207	3
+6	CA	37	Los Angeles	319	losangca	1899	208	3
+6	CA	37	Los Angeles	319	losangca	1899	209	3
+6	CA	37	Los Angeles	319	losangca	1899	210	1
+6	CA	37	Los Angeles	319	losangca	1899	301	1
+6	CA	37	Los Angeles	319	losangca	1899	302	1
+6	CA	37	Los Angeles	319	losangca	1899	303	1
+6	CA	37	Los Angeles	319	losangca	1899	304	1
+6	CA	37	Los Angeles	319	losangca	1899	305	1
+6	CA	37	Los Angeles	319	losangca	1899	306	2
+6	CA	37	Los Angeles	319	losangca	1899	401	3
+6	CA	37	Los Angeles	319	losangca	1899	402	3
+6	CA	37	Los Angeles	319	losangca	1899	403	3
+6	CA	37	Los Angeles	319	losangca	1899	404	3
+6	CA	37	Los Angeles	319	losangca	1899	405	4
+6	CA	37	Los Angeles	319	losangca	1899	406	4
+6	CA	37	Los Angeles	319	losangca	1899	501	4
+6	CA	37	Los Angeles	319	losangca	1899	502	4
+6	CA	37	Los Angeles	319	losangca	1921	102	1
+6	CA	37	Los Angeles	319	losangca	1921	103	1
+6	CA	37	Los Angeles	319	losangca	1921	104	2
+6	CA	37	Los Angeles	319	losangca	1921	106	2
+6	CA	37	Los Angeles	319	losangca	1921	107	3
+6	CA	37	Los Angeles	319	losangca	1921	108	3
+6	CA	37	Los Angeles	319	losangca	1921	109	3
+6	CA	37	Los Angeles	319	losangca	1921	110	3
+6	CA	37	Los Angeles	319	losangca	1921	201	4
+6	CA	37	Los Angeles	319	losangca	1921	202	4
+6	CA	37	Los Angeles	319	losangca	1921	203	4
+6	CA	37	Los Angeles	319	losangca	1921	204	4
+6	CA	37	Los Angeles	319	losangca	1921	205	5
+6	CA	37	Los Angeles	319	losangca	1921	206	5
+6	CA	37	Los Angeles	319	losangca	1921	207	5
+6	CA	37	Los Angeles	319	losangca	1921	208	5
+6	CA	37	Los Angeles	319	losangca	1922	101	1
+6	CA	37	Los Angeles	319	losangca	1922	103	1
+6	CA	37	Los Angeles	319	losangca	1922	105	1
+6	CA	37	Los Angeles	319	losangca	1922	106	1
+6	CA	37	Los Angeles	319	losangca	1922	107	1
+6	CA	37	Los Angeles	319	losangca	1922	108	2
+6	CA	37	Los Angeles	319	losangca	1922	109	2
+6	CA	37	Los Angeles	319	losangca	1922	110	2
+6	CA	37	Los Angeles	319	losangca	1922	111	1
+6	CA	37	Los Angeles	319	losangca	1922	112	1
+6	CA	37	Los Angeles	319	losangca	1922	113	2
+6	CA	37	Los Angeles	319	losangca	1922	201	3
+6	CA	37	Los Angeles	319	losangca	1922	202	4
+6	CA	37	Los Angeles	319	losangca	1922	203	4
+6	CA	37	Los Angeles	319	losangca	1922	204	3
+6	CA	37	Los Angeles	319	losangca	1922	205	3
+6	CA	37	Los Angeles	319	losangca	1922	206	4
+6	CA	37	Los Angeles	319	losangca	1922	207	4
+6	CA	37	Los Angeles	319	losangca	1922	208	3
+6	CA	37	Los Angeles	319	losangca	1922	209	4
+6	CA	37	Los Angeles	319	losangca	1922	210	4
+6	CA	37	Los Angeles	319	losangca	1922	211	4
+6	CA	37	Los Angeles	319	losangca	1922	212	4
+6	CA	37	Los Angeles	319	losangca	1922	301	3
+6	CA	37	Los Angeles	319	losangca	1922	302	3
+6	CA	37	Los Angeles	319	losangca	1922	303	3
+6	CA	37	Los Angeles	319	losangca	1922	304	3
+6	CA	37	Los Angeles	319	losangca	1922	305	2
+6	CA	37	Los Angeles	319	losangca	1922	306	1
+6	CA	37	Los Angeles	319	losangca	1922	307	1
+6	CA	37	Los Angeles	319	losangca	1922	308	2
+6	CA	37	Los Angeles	319	losangca	1922	309	2
+6	CA	37	Los Angeles	319	losangca	1922	310	2
+6	CA	37	Los Angeles	319	losangca	1922	311	1
+6	CA	37	Los Angeles	319	losangca	1922	312	1
+6	CA	37	Los Angeles	319	losangca	1922	401	1
+6	CA	37	Los Angeles	319	losangca	1922	402	1
+6	CA	37	Los Angeles	319	losangca	1922	403	1
+6	CA	37	Los Angeles	319	losangca	1922	404	1
+6	CA	37	Los Angeles	319	losangca	1922	405	2
+6	CA	37	Los Angeles	319	losangca	1922	406	2
+6	CA	37	Los Angeles	319	losangca	1922	407	2
+6	CA	37	Los Angeles	319	losangca	1922	408	2
+6	CA	37	Los Angeles	319	losangca	1922	409	3
+6	CA	37	Los Angeles	319	losangca	1922	410	4
+6	CA	37	Los Angeles	319	losangca	1942	301	3
+6	CA	37	Los Angeles	319	losangca	1942	302	3
+6	CA	37	Los Angeles	319	losangca	1942	303	2
+6	CA	37	Los Angeles	319	losangca	1942	304	1
+6	CA	37	Los Angeles	319	losangca	1942	305	1
+6	CA	37	Los Angeles	319	losangca	1942	306	2
+6	CA	37	Los Angeles	319	losangca	1942	307	2
+6	CA	37	Los Angeles	319	losangca	1942	308	1
+6	CA	37	Los Angeles	319	losangca	1942	401	1
+6	CA	37	Los Angeles	319	losangca	1942	402	1
+6	CA	37	Los Angeles	319	losangca	1942	403	1
+6	CA	37	Los Angeles	319	losangca	1942	404	1
+6	CA	37	Los Angeles	319	losangca	1942	405	2
+6	CA	37	Los Angeles	319	losangca	1942	406	2
+6	CA	37	Los Angeles	319	losangca	1942	407	3
+6	CA	37	Los Angeles	319	losangca	1942	409	1
+6	CA	37	Los Angeles	319	losangca	1942	501	2
+6	CA	37	Los Angeles	319	losangca	1942	502	2
+6	CA	37	Los Angeles	319	losangca	1942	503	1
+6	CA	37	Los Angeles	319	losangca	1942	504	1
+6	CA	37	Los Angeles	319	losangca	1942	505	1
+6	CA	37	Los Angeles	319	losangca	1942	506	1
+6	CA	37	Los Angeles	319	losangca	1942	507	2
+6	CA	37	Los Angeles	319	losangca	1942	508	3
+6	CA	37	Los Angeles	319	losangca	1942	511	3
+6	CA	37	Los Angeles	319	losangca	1942	513	1
+6	CA	37	Los Angeles	319	losangca	1942	514	1
+6	CA	37	Los Angeles	319	losangca	1942	515	1
+6	CA	37	Los Angeles	319	losangca	1943	101	3
+6	CA	37	Los Angeles	319	losangca	1943	103	3
+6	CA	37	Los Angeles	319	losangca	1943	104	3
+6	CA	37	Los Angeles	319	losangca	1943	105	3
+6	CA	37	Los Angeles	319	losangca	1943	106	2
+6	CA	37	Los Angeles	319	losangca	1943	107	2
+6	CA	37	Los Angeles	319	losangca	1943	108	1
+6	CA	37	Los Angeles	319	losangca	1943	109	1
+6	CA	37	Los Angeles	319	losangca	1943	110	1
+6	CA	37	Los Angeles	319	losangca	1943	111	1
+6	CA	37	Los Angeles	319	losangca	1943	112	1
+6	CA	37	Los Angeles	319	losangca	1943	201	1
+6	CA	37	Los Angeles	319	losangca	1943	202	1
+6	CA	37	Los Angeles	319	losangca	1943	203	1
+6	CA	37	Los Angeles	319	losangca	1943	204	1
+6	CA	37	Los Angeles	319	losangca	1943	205	1
+6	CA	37	Los Angeles	319	losangca	1943	206	1
+6	CA	37	Los Angeles	319	losangca	1943	207	1
+6	CA	37	Los Angeles	319	losangca	1943	208	1
+6	CA	37	Los Angeles	319	losangca	1944	102	1
+6	CA	37	Los Angeles	319	losangca	1944	103	1
+6	CA	37	Los Angeles	319	losangca	1944	106	1
+6	CA	37	Los Angeles	319	losangca	1944	107	1
+6	CA	37	Los Angeles	319	losangca	1944	108	1
+6	CA	37	Los Angeles	319	losangca	1944	109	1
+6	CA	37	Los Angeles	319	losangca	1944	110	1
+6	CA	37	Los Angeles	319	losangca	1944	111	1
+6	CA	37	Los Angeles	319	losangca	1944	112	1
+6	CA	37	Los Angeles	319	losangca	1944	113	1
+6	CA	37	Los Angeles	319	losangca	1944	202	2
+6	CA	37	Los Angeles	319	losangca	1944	203	2
+6	CA	37	Los Angeles	319	losangca	1944	204	2
+6	CA	37	Los Angeles	319	losangca	1944	205	2
+6	CA	37	Los Angeles	319	losangca	1944	206	3
+6	CA	37	Los Angeles	319	losangca	1944	207	4
+6	CA	37	Los Angeles	319	losangca	1944	208	4
+6	CA	37	Los Angeles	319	losangca	1944	209	3
+6	CA	37	Los Angeles	319	losangca	1944	210	3
+6	CA	37	Los Angeles	319	losangca	1944	211	4
+6	CA	37	Los Angeles	319	losangca	1944	212	4
+6	CA	37	Los Angeles	319	losangca	1944	213	3
+6	CA	37	Los Angeles	319	losangca	1944	214	3
+6	CA	37	Los Angeles	319	losangca	1944	215	4
+6	CA	37	Los Angeles	319	losangca	1944	301	4
+6	CA	37	Los Angeles	319	losangca	1944	302	4
+6	CA	37	Los Angeles	319	losangca	1944	303	4
+6	CA	37	Los Angeles	319	losangca	1944	304	3
+6	CA	37	Los Angeles	319	losangca	1944	305	3
+6	CA	37	Los Angeles	319	losangca	1944	306	3
+6	CA	37	Los Angeles	319	losangca	1944	307	2
+6	CA	37	Los Angeles	319	losangca	1944	308	1
+6	CA	37	Los Angeles	319	losangca	1944	309	1
+6	CA	37	Los Angeles	319	losangca	1944	310	2
+6	CA	37	Los Angeles	319	losangca	1944	311	2
+6	CA	37	Los Angeles	319	losangca	1944	312	1
+6	CA	37	Los Angeles	319	losangca	1944	401	2
+6	CA	37	Los Angeles	319	losangca	1944	403	2
+6	CA	37	Los Angeles	319	losangca	1944	404	2
+6	CA	37	Los Angeles	319	losangca	1944	405	2
+6	CA	37	Los Angeles	319	losangca	1944	406	2
+6	CA	37	Los Angeles	319	losangca	1944	409	2
+6	CA	37	Los Angeles	319	losangca	1944	410	2
+6	CA	37	Los Angeles	319	losangca	1944	411	2
+6	CA	37	Los Angeles	319	losangca	1944	501	2
+6	CA	37	Los Angeles	319	losangca	1944	502	2
+6	CA	37	Los Angeles	319	losangca	1944	503	2
+6	CA	37	Los Angeles	319	losangca	1944	504	2
+6	CA	37	Los Angeles	319	losangca	1944	506	1
+6	CA	37	Los Angeles	319	losangca	1944	507	1
+6	CA	37	Los Angeles	319	losangca	1944	508	1
+6	CA	37	Los Angeles	319	losangca	1944	509	1
+6	CA	37	Los Angeles	319	losangca	1944	510	1
+6	CA	37	Los Angeles	319	losangca	1944	512	1
+6	CA	37	Los Angeles	319	losangca	1944	513	1
+6	CA	37	Los Angeles	321	losangca	2164	101	1
+6	CA	37	Los Angeles	321	losangca	2164	102	1
+6	CA	37	Los Angeles	321	losangca	2164	103	1
+6	CA	37	Los Angeles	321	losangca	2164	104	2
+6	CA	37	Los Angeles	321	losangca	2164	105	2
+6	CA	37	Los Angeles	321	losangca	2164	106	1
+6	CA	37	Los Angeles	321	losangca	2164	201	1
+6	CA	37	Los Angeles	321	losangca	2164	202	3
+6	CA	37	Los Angeles	321	losangca	2164	203	3
+6	CA	37	Los Angeles	321	losangca	2164	204	1
+6	CA	37	Los Angeles	321	losangca	2164	205	2
+6	CA	37	Los Angeles	321	losangca	2164	206	4
+6	CA	37	Los Angeles	321	losangca	2164	301	4
+6	CA	37	Los Angeles	321	losangca	2164	302	3
+6	CA	37	Los Angeles	321	losangca	2164	303	2
+6	CA	37	Los Angeles	321	losangca	2164	304	1
+6	CA	37	Los Angeles	321	losangca	2164	305	1
+6	CA	37	Los Angeles	321	losangca	2164	306	2
+6	CA	37	Los Angeles	321	losangca	2164	307	3
+6	CA	37	Los Angeles	321	losangca	2164	308	3
+6	CA	37	Los Angeles	321	losangca	2164	401	2
+6	CA	37	Los Angeles	321	losangca	2164	402	2
+6	CA	37	Los Angeles	321	losangca	2164	403	1
+6	CA	37	Los Angeles	321	losangca	2164	404	1
+6	CA	37	Los Angeles	321	losangca	2164	405	1
+6	CA	37	Los Angeles	321	losangca	2164	406	1
+6	CA	37	Los Angeles	321	losangca	2165	101	1
+6	CA	37	Los Angeles	321	losangca	2165	102	1
+6	CA	37	Los Angeles	321	losangca	2165	103	1
+6	CA	37	Los Angeles	321	losangca	2165	104	1
+6	CA	37	Los Angeles	321	losangca	2165	105	3
+6	CA	37	Los Angeles	321	losangca	2165	106	2
+6	CA	37	Los Angeles	321	losangca	2165	107	2
+6	CA	37	Los Angeles	321	losangca	2165	108	3
+6	CA	37	Los Angeles	321	losangca	2165	109	4
+6	CA	37	Los Angeles	321	losangca	2165	201	4
+6	CA	37	Los Angeles	321	losangca	2165	202	4
+6	CA	37	Los Angeles	321	losangca	2165	203	4
+6	CA	37	Los Angeles	321	losangca	2165	204	4
+6	CA	37	Los Angeles	321	losangca	2165	205	5
+6	CA	37	Los Angeles	321	losangca	2165	206	5
+6	CA	37	Los Angeles	321	losangca	2165	207	5
+6	CA	37	Los Angeles	321	losangca	2165	208	5
+6	CA	37	Los Angeles	321	losangca	2165	209	5
+6	CA	37	Los Angeles	321	losangca	2165	210	5
+6	CA	37	Los Angeles	321	losangca	2165	211	5
+6	CA	37	Los Angeles	321	losangca	2165	212	5
+6	CA	37	Los Angeles	321	losangca	2165	213	5
+6	CA	37	Los Angeles	318	losangca	2384	104	1
+6	CA	37	Los Angeles	318	losangca	2384	105	2
+6	CA	37	Los Angeles	318	losangca	2384	106	3
+6	CA	37	Los Angeles	318	losangca	2384	107	3
+6	CA	37	Los Angeles	318	losangca	2384	109	2
+6	CA	37	Los Angeles	318	losangca	2384	110	1
+6	CA	37	Los Angeles	318	losangca	2384	111	1
+6	CA	37	Los Angeles	318	losangca	2384	112	1
+6	CA	37	Los Angeles	318	losangca	2384	113	1
+6	CA	37	Los Angeles	318	losangca	2384	114	1
+6	CA	37	Los Angeles	318	losangca	2384	115	1
+6	CA	37	Los Angeles	318	losangca	2384	201	1
+6	CA	37	Los Angeles	318	losangca	2384	202	1
+6	CA	37	Los Angeles	318	losangca	2384	203	2
+6	CA	37	Los Angeles	318	losangca	2384	204	3
+6	CA	37	Los Angeles	318	losangca	2384	205	4
+6	CA	37	Los Angeles	318	losangca	2384	206	5
+6	CA	37	Los Angeles	318	losangca	2384	207	6
+6	CA	37	Los Angeles	318	losangca	2384	208	6
+6	CA	37	Los Angeles	318	losangca	2384	209	6
+6	CA	37	Los Angeles	318	losangca	2384	210	6
+6	CA	37	Los Angeles	318	losangca	2384	211	5
+6	CA	37	Los Angeles	318	losangca	2384	212	4
+6	CA	37	Los Angeles	318	losangca	2384	213	4
+6	CA	37	Los Angeles	318	losangca	2384	215	5
+6	CA	37	Los Angeles	318	losangca	2384	216	6
+6	CA	37	Los Angeles	318	losangca	2384	301	7
+6	CA	37	Los Angeles	318	losangca	2384	302	7
+6	CA	37	Los Angeles	318	losangca	2384	303	7
+6	CA	37	Los Angeles	318	losangca	2384	304	7
+6	CA	37	Los Angeles	318	losangca	2384	305	8
+6	CA	37	Los Angeles	318	losangca	2384	407	8
+6	CA	37	Los Angeles	318	losangca	2384	408	7
+6	CA	37	Los Angeles	318	losangca	2384	409	7
+6	CA	37	Los Angeles	318	losangca	2384	410	8
+6	CA	37	Los Angeles	318	losangca	2384	411	8
+6	CA	37	Los Angeles	318	losangca	2385	101	1
+6	CA	37	Los Angeles	318	losangca	2385	102	2
+6	CA	37	Los Angeles	318	losangca	2385	103	2
+6	CA	37	Los Angeles	318	losangca	2385	104	1
+6	CA	37	Los Angeles	318	losangca	2385	105	1
+6	CA	37	Los Angeles	318	losangca	2385	106	1
+6	CA	37	Los Angeles	318	losangca	2385	107	2
+6	CA	37	Los Angeles	318	losangca	2385	108	1
+6	CA	37	Los Angeles	318	losangca	2385	109	1
+6	CA	37	Los Angeles	318	losangca	2385	110	1
+6	CA	37	Los Angeles	318	losangca	2385	111	1
+6	CA	37	Los Angeles	318	losangca	2385	112	1
+6	CA	37	Los Angeles	318	losangca	2385	113	1
+6	CA	37	Los Angeles	318	losangca	2385	201	2
+6	CA	37	Los Angeles	318	losangca	2385	202	1
+6	CA	37	Los Angeles	318	losangca	2385	203	1
+6	CA	37	Los Angeles	318	losangca	2385	204	1
+6	CA	37	Los Angeles	318	losangca	2385	205	2
+6	CA	37	Los Angeles	318	losangca	2385	206	4
+6	CA	37	Los Angeles	318	losangca	2385	207	5
+6	CA	37	Los Angeles	318	losangca	2385	208	2
+6	CA	37	Los Angeles	318	losangca	2385	209	1
+6	CA	37	Los Angeles	318	losangca	2385	210	1
+6	CA	37	Los Angeles	318	losangca	2385	211	1
+6	CA	37	Los Angeles	318	losangca	2385	212	2
+6	CA	37	Los Angeles	318	losangca	2385	213	2
+6	CA	37	Los Angeles	318	losangca	2385	214	6
+6	CA	37	Los Angeles	318	losangca	2385	301	6
+6	CA	37	Los Angeles	318	losangca	2385	302	5
+6	CA	37	Los Angeles	318	losangca	2385	303	4
+6	CA	37	Los Angeles	318	losangca	2385	304	3
+6	CA	37	Los Angeles	318	losangca	2385	305	3
+6	CA	37	Los Angeles	318	losangca	2385	306	4
+6	CA	37	Los Angeles	318	losangca	2385	307	5
+6	CA	37	Los Angeles	318	losangca	2385	308	4
+6	CA	37	Los Angeles	318	losangca	2385	309	5
+6	CA	37	Los Angeles	318	losangca	2385	310	6
+6	CA	37	Los Angeles	318	losangca	2385	311	6
+6	CA	37	Los Angeles	318	losangca	2385	312	7
+6	CA	37	Los Angeles	318	losangca	2385	401	7
+6	CA	37	Los Angeles	318	losangca	2385	402	8
+6	CA	37	Los Angeles	318	losangca	2385	403	8
+6	CA	37	Los Angeles	318	losangca	2385	404	8
+6	CA	37	Los Angeles	318	losangca	2385	405	8
+6	CA	37	Los Angeles	318	losangca	2385	406	8
+6	CA	37	Los Angeles	318	losangca	2385	411	1
+6	CA	37	Los Angeles	318	losangca	2385	501	1
+6	CA	37	Los Angeles	318	losangca	2385	502	2
+6	CA	37	Los Angeles	318	losangca	2385	503	3
+6	CA	37	Los Angeles	318	losangca	2385	504	2
+6	CA	37	Los Angeles	318	losangca	2385	505	4
+6	CA	37	Los Angeles	318	losangca	2385	506	4
+6	CA	37	Los Angeles	318	losangca	2385	507	5
+6	CA	37	Los Angeles	318	losangca	2385	508	6
+6	CA	37	Los Angeles	318	losangca	2385	509	7
+6	CA	37	Los Angeles	318	losangca	2385	510	8
+6	CA	37	Los Angeles	318	losangca	2385	511	7
+6	CA	37	Los Angeles	318	losangca	2386	101	6
+6	CA	37	Los Angeles	318	losangca	2386	102	6
+6	CA	37	Los Angeles	318	losangca	2386	103	6
+6	CA	37	Los Angeles	318	losangca	2386	104	6
+6	CA	37	Los Angeles	318	losangca	2386	105	5
+6	CA	37	Los Angeles	318	losangca	2386	106	5
+6	CA	37	Los Angeles	318	losangca	2386	107	5
+6	CA	37	Los Angeles	318	losangca	2386	108	5
+6	CA	37	Los Angeles	318	losangca	2386	109	3
+6	CA	37	Los Angeles	318	losangca	2386	110	3
+6	CA	37	Los Angeles	318	losangca	2386	111	3
+6	CA	37	Los Angeles	318	losangca	2386	112	3
+6	CA	37	Los Angeles	318	losangca	2386	113	1
+6	CA	37	Los Angeles	318	losangca	2386	114	1
+6	CA	37	Los Angeles	318	losangca	2386	115	1
+6	CA	37	Los Angeles	318	losangca	2386	116	1
+6	CA	37	Los Angeles	318	losangca	2403	102	6
+6	CA	37	Los Angeles	318	losangca	2403	104	5
+6	CA	37	Los Angeles	318	losangca	2403	107	5
+6	CA	37	Los Angeles	318	losangca	2403	108	5
+6	CA	37	Los Angeles	318	losangca	2403	301	1
+6	CA	37	Los Angeles	318	losangca	2403	302	2
+6	CA	37	Los Angeles	318	losangca	2403	303	3
+6	CA	37	Los Angeles	318	losangca	2403	304	4
+6	CA	37	Los Angeles	318	losangca	2403	305	4
+6	CA	37	Los Angeles	318	losangca	2403	306	3
+6	CA	37	Los Angeles	318	losangca	2403	307	5
+6	CA	37	Los Angeles	318	losangca	2403	308	4
+6	CA	37	Los Angeles	318	losangca	2403	401	4
+6	CA	37	Los Angeles	318	losangca	2403	402	2
+6	CA	37	Los Angeles	318	losangca	2403	403	3
+6	CA	37	Los Angeles	318	losangca	2403	404	4
+6	CA	37	Los Angeles	318	losangca	2403	405	4
+6	CA	37	Los Angeles	318	losangca	2403	406	3
+6	CA	37	Los Angeles	318	losangca	2403	407	2
+6	CA	37	Los Angeles	318	losangca	2403	408	1
+6	CA	37	Los Angeles	318	losangca	2412	107	3
+6	CA	37	Los Angeles	318	losangca	2412	108	4
+6	CA	37	Los Angeles	318	losangca	2412	109	4
+6	CA	37	Los Angeles	318	losangca	2412	110	3
+6	CA	37	Los Angeles	318	losangca	2412	111	3
+6	CA	37	Los Angeles	318	losangca	2412	112	4
+6	CA	37	Los Angeles	318	losangca	2412	201	4
+6	CA	37	Los Angeles	318	losangca	2412	202	3
+6	CA	37	Los Angeles	318	losangca	2412	203	3
+6	CA	37	Los Angeles	318	losangca	2412	204	4
+6	CA	37	Los Angeles	318	losangca	2412	205	4
+6	CA	37	Los Angeles	318	losangca	2412	206	3
+6	CA	37	Los Angeles	318	losangca	2412	207	3
+6	CA	37	Los Angeles	318	losangca	2412	208	4
+6	CA	37	Los Angeles	318	losangca	2412	209	4
+6	CA	37	Los Angeles	318	losangca	2412	210	3
+6	CA	37	Los Angeles	318	losangca	2412	211	3
+6	CA	37	Los Angeles	318	losangca	2412	212	4
+6	CA	37	Los Angeles	318	losangca	2412	213	4
+6	CA	37	Los Angeles	318	losangca	2412	214	3
+6	CA	37	Los Angeles	318	losangca	2412	301	2
+6	CA	37	Los Angeles	318	losangca	2412	302	1
+6	CA	37	Los Angeles	318	losangca	2412	303	2
+6	CA	37	Los Angeles	318	losangca	2412	304	1
+6	CA	37	Los Angeles	318	losangca	2412	305	2
+6	CA	37	Los Angeles	318	losangca	2412	306	1
+6	CA	37	Los Angeles	318	losangca	2412	307	1
+6	CA	37	Los Angeles	318	losangca	2412	308	2
+6	CA	37	Los Angeles	318	losangca	2412	309	2
+6	CA	37	Los Angeles	318	losangca	2412	310	1
+6	CA	37	Los Angeles	318	losangca	2412	401	1
+6	CA	37	Los Angeles	318	losangca	2412	402	2
+6	CA	37	Los Angeles	318	losangca	2412	403	2
+6	CA	37	Los Angeles	318	losangca	2412	404	1
+6	CA	37	Los Angeles	318	losangca	2412	405	1
+6	CA	37	Los Angeles	318	losangca	2412	406	2
+6	CA	37	Los Angeles	321	losangca	2691	101	1
+6	CA	37	Los Angeles	321	losangca	2691	102	1
+6	CA	37	Los Angeles	321	losangca	2691	103	1
+6	CA	37	Los Angeles	321	losangca	2691	104	1
+6	CA	37	Los Angeles	321	losangca	2691	105	2
+6	CA	37	Los Angeles	321	losangca	2691	106	3
+6	CA	37	Los Angeles	321	losangca	2691	107	3
+6	CA	37	Los Angeles	321	losangca	2691	108	2
+6	CA	37	Los Angeles	321	losangca	2691	109	2
+6	CA	37	Los Angeles	321	losangca	2691	110	3
+6	CA	37	Los Angeles	321	losangca	2691	111	2
+6	CA	37	Los Angeles	321	losangca	2691	112	3
+6	CA	37	Los Angeles	321	losangca	2691	201	4
+6	CA	37	Los Angeles	321	losangca	2691	202	5
+6	CA	37	Los Angeles	321	losangca	2691	203	5
+6	CA	37	Los Angeles	321	losangca	2691	204	5
+6	CA	37	Los Angeles	321	losangca	2691	205	4
+6	CA	37	Los Angeles	321	losangca	2691	206	4
+6	CA	37	Los Angeles	321	losangca	2691	207	4
+6	CA	37	Los Angeles	321	losangca	2691	208	4
+6	CA	37	Los Angeles	321	losangca	2691	209	5
+6	CA	37	Los Angeles	321	losangca	2691	210	4
+6	CA	37	Los Angeles	321	losangca	2691	211	4
+6	CA	37	Los Angeles	321	losangca	2691	212	4
+6	CA	37	Los Angeles	321	losangca	2691	304	2
+6	CA	37	Los Angeles	321	losangca	2691	305	1
+6	CA	37	Los Angeles	321	losangca	2691	306	1
+6	CA	37	Los Angeles	321	losangca	2691	307	2
+6	CA	37	Los Angeles	321	losangca	2691	308	3
+6	CA	37	Los Angeles	321	losangca	2691	309	3
+6	CA	37	Los Angeles	321	losangca	2691	310	2
+6	CA	37	Los Angeles	321	losangca	2691	311	1
+6	CA	37	Los Angeles	321	losangca	2691	402	1
+6	CA	37	Los Angeles	321	losangca	2691	403	1
+6	CA	37	Los Angeles	321	losangca	2691	404	1
+6	CA	37	Los Angeles	321	losangca	2691	405	1
+6	CA	37	Los Angeles	321	losangca	2691	406	2
+6	CA	37	Los Angeles	321	losangca	2691	407	2
+6	CA	37	Los Angeles	321	losangca	2691	408	2
+6	CA	37	Los Angeles	321	losangca	2691	409	3
+6	CA	37	Los Angeles	321	losangca	2691	410	3
+6	CA	37	Los Angeles	321	losangca	2691	411	3
+6	CA	37	Los Angeles	320	losangca	2718	101	4
+6	CA	37	Los Angeles	320	losangca	2718	102	4
+6	CA	37	Los Angeles	320	losangca	2718	103	3
+6	CA	37	Los Angeles	320	losangca	2718	104	3
+6	CA	37	Los Angeles	320	losangca	2718	105	3
+6	CA	37	Los Angeles	320	losangca	2718	106	3
+6	CA	37	Los Angeles	320	losangca	2718	201	3
+6	CA	37	Los Angeles	320	losangca	2718	202	1
+6	CA	37	Los Angeles	320	losangca	2718	203	2
+6	CA	37	Los Angeles	320	losangca	2718	204	1
+6	CA	37	Los Angeles	320	losangca	2718	207	1
+6	CA	37	Los Angeles	320	losangca	2718	301	1
+6	CA	37	Los Angeles	320	losangca	2718	303	1
+6	CA	37	Los Angeles	320	losangca	2718	304	2
+6	CA	37	Los Angeles	320	losangca	2718	305	2
+6	CA	37	Los Angeles	320	losangca	2718	306	1
+6	CA	37	Los Angeles	320	losangca	2718	402	1
+6	CA	37	Los Angeles	320	losangca	2718	403	1
+6	CA	37	Los Angeles	320	losangca	2718	404	1
+6	CA	37	Los Angeles	320	losangca	2718	405	2
+6	CA	37	Los Angeles	320	losangca	2718	406	2
+6	CA	37	Los Angeles	320	losangca	2718	501	3
+6	CA	37	Los Angeles	320	losangca	2718	502	3
+6	CA	37	Los Angeles	320	losangca	2718	503	3
+6	CA	37	Los Angeles	320	losangca	2718	504	3
+6	CA	37	Los Angeles	320	losangca	2718	505	1
+6	CA	37	Los Angeles	320	losangca	2718	507	1
+6	CA	37	Los Angeles	320	losangca	2718	601	2
+6	CA	37	Los Angeles	320	losangca	2718	602	3
+6	CA	37	Los Angeles	320	losangca	2718	603	3
+6	CA	37	Los Angeles	320	losangca	2756	101	1
+6	CA	37	Los Angeles	320	losangca	2756	102	1
+6	CA	37	Los Angeles	320	losangca	2756	103	1
+6	CA	37	Los Angeles	320	losangca	2756	104	2
+6	CA	37	Los Angeles	320	losangca	2756	105	2
+6	CA	37	Los Angeles	320	losangca	2756	106	2
+6	CA	37	Los Angeles	320	losangca	2756	107	1
+6	CA	37	Los Angeles	320	losangca	2756	316	3
+6	CA	37	Los Angeles	317	sanferca	3201	101	1
+6	CA	37	Los Angeles	317	sanferca	3201	102	1
+6	CA	37	Los Angeles	317	sanferca	3201	103	1
+6	CA	37	Los Angeles	317	sanferca	3201	104	1
+6	CA	37	Los Angeles	317	sanferca	3201	105	1
+6	CA	37	Los Angeles	317	sanferca	3201	106	1
+6	CA	37	Los Angeles	317	sanferca	3201	107	1
+6	CA	37	Los Angeles	317	sanferca	3201	108	3
+6	CA	37	Los Angeles	317	sanferca	3201	109	3
+6	CA	37	Los Angeles	317	sanferca	3201	201	4
+6	CA	37	Los Angeles	317	sanferca	3201	202	6
+6	CA	37	Los Angeles	317	sanferca	3201	203	4
+6	CA	37	Los Angeles	317	sanferca	3201	204	4
+6	CA	37	Los Angeles	317	sanferca	3201	205	4
+6	CA	37	Los Angeles	317	sanferca	3201	206	4
+6	CA	37	Los Angeles	317	sanferca	3201	207	5
+6	CA	37	Los Angeles	317	sanferca	3201	208	6
+6	CA	37	Los Angeles	317	sanferca	3201	209	5
+6	CA	37	Los Angeles	317	sanferca	3201	210	7
+6	CA	37	Los Angeles	317	sanferca	3201	301	8
+6	CA	37	Los Angeles	317	sanferca	3201	304	8
+6	CA	37	Los Angeles	317	sanferca	3201	305	8
+6	CA	37	Los Angeles	317	sanferca	3201	306	8
+6	CA	37	Los Angeles	317	sanferca	3201	307	8
+6	CA	37	Los Angeles	317	sanferca	3201	308	8
+6	CA	37	Los Angeles	317	sanferca	3202	101	1
+6	CA	37	Los Angeles	317	sanferca	3202	102	1
+6	CA	37	Los Angeles	317	sanferca	3202	103	2
+6	CA	37	Los Angeles	317	sanferca	3202	104	3
+6	CA	37	Los Angeles	317	sanferca	3202	105	3
+6	CA	37	Los Angeles	317	sanferca	3202	106	4
+6	CA	37	Los Angeles	317	sanferca	3202	107	4
+6	CA	37	Los Angeles	317	sanferca	3202	108	4
+6	CA	37	Los Angeles	317	sanferca	3202	109	5
+6	CA	37	Los Angeles	317	sanferca	3202	110	5
+6	CA	37	Los Angeles	317	sanferca	3202	111	5
+6	CA	37	Los Angeles	317	sanferca	3202	112	6
+6	CA	37	Los Angeles	317	sanferca	3202	113	6
+6	CA	37	Los Angeles	317	sanferca	3202	114	6
+6	CA	37	Los Angeles	317	sanferca	3202	201	7
+6	CA	37	Los Angeles	317	sanferca	3202	202	7
+6	CA	37	Los Angeles	317	sanferca	3202	203	7
+6	CA	37	Los Angeles	317	sanferca	3202	204	8
+6	CA	37	Los Angeles	317	sanferca	3202	205	8
+6	CA	37	Los Angeles	317	sanferca	3202	206	8
+6	CA	37	Los Angeles	317	sanferca	3202	207	8
+6	CA	37	Los Angeles	317	sanferca	3202	301	8
+6	CA	37	Los Angeles	317	sanferca	3202	302	8
+6	CA	37	Los Angeles	317	sanferca	3202	303	8
+6	CA	37	Los Angeles	317	sanferca	3202	304	8
+6	CA	37	Los Angeles	317	sanferca	3202	305	6
+6	CA	37	Los Angeles	317	sanferca	3202	306	6
+6	CA	37	Los Angeles	317	sanferca	3202	307	6
+6	CA	37	Los Angeles	317	sanferca	3202	308	6
+6	CA	37	Los Angeles	317	sanferca	3202	309	6
+6	CA	37	Los Angeles	317	sanferca	3202	310	6
+6	CA	37	Los Angeles	317	sanferca	3202	311	7
+6	CA	37	Los Angeles	317	sanferca	3202	312	7
+6	CA	37	Los Angeles	317	sanferca	3202	313	6
+6	CA	37	Los Angeles	317	sanferca	3202	401	5
+6	CA	37	Los Angeles	317	sanferca	3202	402	4
+6	CA	37	Los Angeles	317	sanferca	3202	403	3
+6	CA	37	Los Angeles	317	sanferca	3202	404	4
+6	CA	37	Los Angeles	317	sanferca	3202	405	5
+6	CA	37	Los Angeles	317	sanferca	3202	406	5
+6	CA	37	Los Angeles	317	sanferca	3202	407	4
+6	CA	37	Los Angeles	317	sanferca	3202	408	4
+6	CA	37	Los Angeles	317	sanferca	3202	409	4
+6	CA	37	Los Angeles	317	sanferca	3202	410	2
+6	CA	37	Los Angeles	317	sanferca	3202	413	1
+6	CA	37	Los Angeles	317	sanferca	3202	611	8
+6	CA	37	Los Angeles	317	sanferca	3202	612	8
+6	CA	37	Los Angeles	317	sanferca	3202	613	8
+6	CA	37	Los Angeles	317	sanferca	3202	701	7
+6	CA	37	Los Angeles	317	sanferca	3202	702	6
+6	CA	37	Los Angeles	317	sanferca	3202	703	5
+6	CA	37	Los Angeles	317	sanferca	3202	704	5
+6	CA	37	Los Angeles	317	sanferca	3202	706	4
+6	CA	37	Los Angeles	317	sanferca	3202	707	4
+6	CA	37	Los Angeles	317	sanferca	3202	708	1
+6	CA	37	Los Angeles	317	sanferca	3202	709	2
+6	CA	37	Los Angeles	317	sanferca	3203	201	8
+6	CA	37	Los Angeles	317	sanferca	3203	205	8
+6	CA	37	Los Angeles	317	sanferca	3203	207	8
+6	CA	37	Los Angeles	317	sanferca	3203	208	8
+6	CA	37	Los Angeles	317	sanferca	3203	209	7
+6	CA	37	Los Angeles	317	sanferca	3203	210	7
+6	CA	37	Los Angeles	317	sanferca	3203	212	7
+6	CA	37	Los Angeles	317	sanferca	3203	213	7
+6	CA	37	Los Angeles	317	sanferca	3203	302	5
+6	CA	37	Los Angeles	317	sanferca	3203	303	5
+6	CA	37	Los Angeles	317	sanferca	3203	305	5
+6	CA	37	Los Angeles	317	sanferca	3203	312	4
+6	CA	37	Los Angeles	317	sanferca	3203	315	4
+6	CA	37	Los Angeles	317	sanferca	3203	408	3
+6	CA	37	Los Angeles	317	sanferca	3203	409	1
+6	CA	37	Los Angeles	317	sanferca	3203	410	1
+6	CA	37	Los Angeles	317	sanferca	3203	411	3
+6	CA	37	Los Angeles	317	sanferca	3203	412	3
+6	CA	37	Los Angeles	317	sanferca	3203	413	1
+6	CA	37	Los Angeles	317	sanferca	3203	414	1
+6	CA	37	Los Angeles	317	sanferca	3203	415	3
+6	CA	37	Los Angeles	317	sanferca	3203	416	1
+6	CA	37	Los Angeles	317	sanferca	3203	417	3
+6	CA	37	Los Angeles	317	sanferca	3203	502	4
+6	CA	37	Los Angeles	317	sanferca	3203	503	3
+6	CA	37	Los Angeles	317	sanferca	3203	504	3
+6	CA	37	Los Angeles	317	sanferca	3203	505	1
+6	CA	37	Los Angeles	317	sanferca	3203	506	1
+6	CA	37	Los Angeles	317	sanferca	3203	507	1
+6	CA	37	Los Angeles	317	sanferca	3203	508	1
+6	CA	37	Los Angeles	317	sanferca	3203	509	1
+6	CA	37	Los Angeles	317	sanferca	3203	513	3
+6	CA	37	Los Angeles	317	sanferca	3203	514	2
+6	CA	37	Los Angeles	317	sanferca	3203	516	1
+6	CA	37	Los Angeles	317	sanferca	3203	601	1
+6	CA	37	Los Angeles	317	sanferca	3203	602	2
+6	CA	37	Los Angeles	317	sanferca	3203	603	3
+6	CA	37	Los Angeles	317	sanferca	3203	604	1
+6	CA	37	Los Angeles	317	sanferca	3203	605	4
+6	CA	37	Los Angeles	317	sanferca	3203	606	4
+6	CA	37	Los Angeles	317	sanferca	3203	607	5
+6	CA	37	Los Angeles	317	sanferca	3203	608	6
+6	CA	37	Los Angeles	317	sanferca	3203	609	5
+6	CA	37	Los Angeles	317	sanferca	3203	610	6
+6	CA	37	Los Angeles	317	sanferca	3203	611	7
+6	CA	37	Los Angeles	317	sanferca	3203	612	6
+6	CA	37	Los Angeles	317	sanferca	3203	613	5
+6	CA	37	Los Angeles	317	sanferca	3203	614	4
+6	CA	37	Los Angeles	317	sanferca	3203	616	1
+6	CA	37	Los Angeles	317	sanferca	3203	702	1
+6	CA	37	Los Angeles	317	sanferca	3203	703	2
+6	CA	37	Los Angeles	317	sanferca	3203	704	3
+6	CA	37	Los Angeles	317	sanferca	3203	705	4
+6	CA	37	Los Angeles	317	sanferca	3203	706	5
+6	CA	37	Los Angeles	317	sanferca	3203	707	6
+6	CA	37	Los Angeles	317	sanferca	3203	708	7
+6	CA	37	Los Angeles	317	sanferca	3203	709	7
+6	CA	37	Los Angeles	317	sanferca	3203	712	6
+6	CA	37	Los Angeles	317	sanferca	3203	713	5
+6	CA	37	Los Angeles	317	sanferca	3203	717	3
+6	CA	37	Los Angeles	317	sanferca	3203	719	2
+6	CA	37	Los Angeles	317	sanferca	3203	720	1
+6	CA	37	Los Angeles	318	westmoca	6001	101	1
+6	CA	37	Los Angeles	318	westmoca	6001	103	1
+6	CA	37	Los Angeles	318	westmoca	6001	104	1
+6	CA	37	Los Angeles	318	westmoca	6001	105	1
+6	CA	37	Los Angeles	318	westmoca	6001	106	1
+6	CA	37	Los Angeles	318	westmoca	6001	107	1
+6	CA	37	Los Angeles	318	westmoca	6001	108	1
+6	CA	37	Los Angeles	318	westmoca	6001	109	1
+6	CA	37	Los Angeles	318	westmoca	6001	203	1
+6	CA	37	Los Angeles	318	westmoca	6001	204	1
+6	CA	37	Los Angeles	318	westmoca	6001	205	1
+6	CA	37	Los Angeles	318	westmoca	6001	206	1
+6	CA	37	Los Angeles	318	westmoca	6001	207	1
+6	CA	37	Los Angeles	318	westmoca	6001	301	1
+6	CA	37	Los Angeles	318	westmoca	6001	302	1
+6	CA	37	Los Angeles	318	westmoca	6004	101	1
+6	CA	37	Los Angeles	318	westmoca	6004	102	1
+6	CA	37	Los Angeles	318	westmoca	6004	103	3
+6	CA	37	Los Angeles	318	westmoca	6004	104	3
+6	CA	37	Los Angeles	318	westmoca	6004	105	4
+6	CA	37	Los Angeles	318	westmoca	6004	106	5
+6	CA	37	Los Angeles	318	westmoca	6004	107	4
+6	CA	37	Los Angeles	318	westmoca	6004	201	3
+6	CA	37	Los Angeles	318	westmoca	6004	202	3
+6	CA	37	Los Angeles	318	westmoca	6004	203	3
+6	CA	37	Los Angeles	318	westmoca	6004	204	3
+6	CA	37	Los Angeles	318	westmoca	6004	205	8
+6	CA	37	Los Angeles	318	westmoca	6004	206	7
+6	CA	37	Los Angeles	318	westmoca	6004	207	8
+6	CA	37	Los Angeles	318	westmoca	6004	303	2
+6	CA	37	Los Angeles	318	westmoca	6004	304	1
+6	CA	37	Los Angeles	318	westmoca	6004	305	1
+6	CA	37	Los Angeles	318	westmoca	6004	306	2
+6	CA	37	Los Angeles	318	westmoca	6004	307	3
+6	CA	37	Los Angeles	318	westmoca	6004	308	1
+6	CA	37	Los Angeles	318	westmoca	6004	401	4
+6	CA	37	Los Angeles	318	westmoca	6004	402	5
+6	CA	37	Los Angeles	318	westmoca	6004	403	5
+6	CA	37	Los Angeles	318	westmoca	6004	404	4
+6	CA	37	Los Angeles	318	westmoca	6004	405	4
+6	CA	37	Los Angeles	318	westmoca	6004	406	6
+6	CA	37	Los Angeles	319	wesholca	7001	105	1
+6	CA	37	Los Angeles	319	wesholca	7001	106	1
+6	CA	37	Los Angeles	319	wesholca	7001	107	1
+6	CA	37	Los Angeles	319	wesholca	7001	108	2
+6	CA	37	Los Angeles	319	wesholca	7001	109	1
+6	CA	37	Los Angeles	319	wesholca	7001	201	2
+6	CA	37	Los Angeles	319	wesholca	7001	204	1
+6	CA	37	Los Angeles	319	wesholca	7001	205	1
+6	CA	37	Los Angeles	319	wesholca	7001	206	1
+6	CA	37	Los Angeles	319	wesholca	7001	301	1
+6	CA	37	Los Angeles	319	wesholca	7001	302	1
+6	CA	37	Los Angeles	319	wesholca	7001	303	2
+6	CA	37	Los Angeles	319	wesholca	7001	304	2
+6	CA	37	Los Angeles	319	wesholca	7001	305	2
+6	CA	37	Los Angeles	319	wesholca	7001	306	2
+6	CA	37	Los Angeles	319	wesholca	7001	401	1
+6	CA	37	Los Angeles	319	wesholca	7001	402	1
+6	CA	37	Los Angeles	319	wesholca	7001	404	1
+6	CA	37	Los Angeles	319	wesholca	7001	405	1
+6	CA	37	Los Angeles	319	wesholca	7001	406	2
+6	CA	37	Los Angeles	319	wesholca	7001	501	1
+6	CA	37	Los Angeles	319	wesholca	7001	502	1
+6	CA	37	Los Angeles	319	wesholca	7001	503	1
+6	CA	37	Los Angeles	319	wesholca	7001	504	2
+6	CA	37	Los Angeles	319	wesholca	7001	505	2
+6	CA	37	Los Angeles	319	wesholca	7001	506	3
+6	CA	37	Los Angeles	319	wesholca	7001	601	3
+6	CA	37	Los Angeles	319	wesholca	7001	602	3
+6	CA	37	Los Angeles	319	wesholca	7001	603	3
+6	CA	37	Los Angeles	319	wesholca	7001	604	2
+6	CA	37	Los Angeles	319	wesholca	7001	605	2
+6	CA	37	Los Angeles	319	wesholca	7001	606	1
+6	CA	37	Los Angeles	319	wesholca	7001	701	1
+6	CA	37	Los Angeles	319	wesholca	7001	702	2
+6	CA	37	Los Angeles	319	wesholca	7001	703	2
+6	CA	37	Los Angeles	319	wesholca	7001	704	1
+6	CA	37	Los Angeles	319	wesholca	7001	705	2
+6	CA	37	Los Angeles	319	wesholca	7001	706	2
+6	CA	37	Los Angeles	319	wesholca	7001	801	2
+6	CA	37	Los Angeles	319	wesholca	7001	802	2
+6	CA	37	Los Angeles	319	wesholca	7001	803	1
+6	CA	37	Los Angeles	319	wesholca	7001	804	1
+6	CA	37	Los Angeles	319	wesholca	7001	805	1
+6	CA	37	Los Angeles	319	wesholca	7001	806	1
+6	CA	37	Los Angeles	319	wesholca	7002	101	1
+6	CA	37	Los Angeles	319	wesholca	7002	102	1
+6	CA	37	Los Angeles	319	wesholca	7002	103	2
+6	CA	37	Los Angeles	319	wesholca	7002	104	1
+6	CA	37	Los Angeles	319	wesholca	7002	105	1
+6	CA	37	Los Angeles	319	wesholca	7002	106	2
+6	CA	37	Los Angeles	319	wesholca	7002	201	2
+6	CA	37	Los Angeles	319	wesholca	7002	202	2
+6	CA	37	Los Angeles	319	wesholca	7002	203	2
+6	CA	37	Los Angeles	319	wesholca	7002	204	1
+6	CA	37	Los Angeles	319	wesholca	7002	205	1
+6	CA	37	Los Angeles	319	wesholca	7002	206	1
+6	CA	37	Los Angeles	319	wesholca	7002	301	1
+6	CA	37	Los Angeles	319	wesholca	7002	302	1
+6	CA	37	Los Angeles	319	wesholca	7002	304	1
+6	CA	37	Los Angeles	319	wesholca	7002	305	1
+6	CA	37	Los Angeles	319	wesholca	7002	401	1
+6	CA	37	Los Angeles	319	wesholca	7002	402	1
+6	CA	37	Los Angeles	319	wesholca	7002	403	1
+6	CA	37	Los Angeles	319	wesholca	7002	404	1
+6	CA	37	Los Angeles	319	wesholca	7002	502	2
+6	CA	37	Los Angeles	319	wesholca	7002	503	2
+6	CA	37	Los Angeles	319	wesholca	7002	504	1
+6	CA	37	Los Angeles	319	wesholca	7002	505	1
+6	CA	37	Los Angeles	319	wesholca	7003	101	1
+6	CA	37	Los Angeles	319	wesholca	7003	102	2
+6	CA	37	Los Angeles	319	wesholca	7003	103	2
+6	CA	37	Los Angeles	319	wesholca	7003	104	2
+6	CA	37	Los Angeles	319	wesholca	7003	105	1
+6	CA	37	Los Angeles	319	wesholca	7003	106	1
+6	CA	37	Los Angeles	319	wesholca	7003	201	2
+6	CA	37	Los Angeles	319	wesholca	7003	202	2
+6	CA	37	Los Angeles	319	wesholca	7003	203	2
+6	CA	37	Los Angeles	319	wesholca	7003	204	2
+6	CA	37	Los Angeles	319	wesholca	7003	205	2
+6	CA	37	Los Angeles	319	wesholca	7003	206	2
+6	CA	37	Los Angeles	319	wesholca	7003	207	2
+6	CA	37	Los Angeles	319	wesholca	7003	301	1
+6	CA	37	Los Angeles	319	wesholca	7003	302	1
+6	CA	37	Los Angeles	319	wesholca	7003	303	1
+6	CA	37	Los Angeles	319	wesholca	7003	304	1
+6	CA	37	Los Angeles	319	wesholca	7003	305	1
+6	CA	37	Los Angeles	319	wesholca	7003	306	1
+6	CA	37	Los Angeles	319	wesholca	7003	401	1
+17	IL	31	Cook	302	chicagil	7005	203	5
+17	IL	31	Cook	302	chicagil	7005	204	6
+17	IL	31	Cook	302	chicagil	7005	205	7
+17	IL	31	Cook	302	chicagil	7005	206	1
+6	CA	37	Los Angeles	320	culcitca	7026	103	8
+6	CA	37	Los Angeles	320	culcitca	7026	303	5
+6	CA	37	Los Angeles	320	culcitca	7026	304	5
+6	CA	37	Los Angeles	320	culcitca	7026	305	4
+6	CA	37	Los Angeles	320	culcitca	7026	306	4
+6	CA	37	Los Angeles	320	culcitca	7026	401	7
+6	CA	37	Los Angeles	320	culcitca	7026	403	7
+6	CA	37	Los Angeles	320	culcitca	7026	404	8
+6	CA	37	Los Angeles	320	culcitca	7026	405	8
+6	CA	37	Los Angeles	320	culcitca	7026	406	8
+6	CA	37	Los Angeles	320	culcitca	7026	407	7
+6	CA	37	Los Angeles	320	culcitca	7026	501	5
+6	CA	37	Los Angeles	320	culcitca	7026	502	4
+6	CA	37	Los Angeles	320	culcitca	7026	503	3
+6	CA	37	Los Angeles	320	culcitca	7026	504	2
+6	CA	37	Los Angeles	320	culcitca	7026	505	1
+6	CA	37	Los Angeles	320	culcitca	7026	506	1
+6	CA	37	Los Angeles	320	culcitca	7026	507	2
+6	CA	37	Los Angeles	320	culcitca	7026	508	2
+6	CA	37	Los Angeles	320	culcitca	7026	601	7
+6	CA	37	Los Angeles	320	culcitca	7026	602	7
+6	CA	37	Los Angeles	320	culcitca	7026	603	7
+6	CA	37	Los Angeles	320	culcitca	7026	604	7
+6	CA	37	Los Angeles	320	culcitca	7026	605	7
+6	CA	37	Los Angeles	320	culcitca	7026	606	7
+6	CA	37	Los Angeles	320	culcitca	7026	607	7
+6	CA	37	Los Angeles	320	culcitca	7026	608	3
+6	CA	37	Los Angeles	320	culcitca	7026	609	3
+6	CA	37	Los Angeles	320	culcitca	7026	610	3
+6	CA	37	Los Angeles	320	culcitca	7026	701	1
+6	CA	37	Los Angeles	320	culcitca	7026	702	2
+6	CA	37	Los Angeles	320	culcitca	7026	703	2
+6	CA	37	Los Angeles	320	culcitca	7026	704	5
+6	CA	37	Los Angeles	320	culcitca	7026	705	5
+6	CA	37	Los Angeles	320	culcitca	7026	707	5
+6	CA	37	Los Angeles	320	culcitca	7026	708	5
+6	CA	37	Los Angeles	320	culcitca	7026	709	5
+6	CA	37	Los Angeles	320	culcitca	7026	710	5
+6	CA	37	Los Angeles	320	culcitca	7026	801	1
+6	CA	37	Los Angeles	320	culcitca	7026	802	3
+6	CA	37	Los Angeles	320	culcitca	7026	803	2
+6	CA	37	Los Angeles	320	culcitca	7026	804	1
+6	CA	37	Los Angeles	320	culcitca	7026	805	1
+6	CA	37	Los Angeles	320	culcitca	7026	806	1
+6	CA	37	Los Angeles	320	culcitca	7026	807	2
+6	CA	37	Los Angeles	320	culcitca	7026	808	3
+6	CA	37	Los Angeles	320	culcitca	7026	809	4
+6	CA	37	Los Angeles	320	culcitca	7026	810	1
+6	CA	37	Los Angeles	320	culcitca	7027	101	5
+6	CA	37	Los Angeles	320	culcitca	7027	102	5
+6	CA	37	Los Angeles	320	culcitca	7027	103	5
+6	CA	37	Los Angeles	320	culcitca	7027	104	5
+6	CA	37	Los Angeles	320	culcitca	7027	105	4
+6	CA	37	Los Angeles	320	culcitca	7027	106	4
+6	CA	37	Los Angeles	320	culcitca	7027	107	4
+6	CA	37	Los Angeles	320	culcitca	7027	108	4
+6	CA	37	Los Angeles	320	culcitca	7027	109	3
+6	CA	37	Los Angeles	320	culcitca	7027	110	3
+6	CA	37	Los Angeles	320	culcitca	7027	111	3
+6	CA	37	Los Angeles	320	culcitca	7027	112	3
+6	CA	37	Los Angeles	320	culcitca	7027	113	2
+6	CA	37	Los Angeles	320	culcitca	7027	114	3
+6	CA	37	Los Angeles	320	culcitca	7027	115	3
+6	CA	37	Los Angeles	320	culcitca	7027	116	3
+6	CA	37	Los Angeles	320	culcitca	7027	201	1
+6	CA	37	Los Angeles	320	culcitca	7027	202	1
+6	CA	37	Los Angeles	320	culcitca	7027	203	4
+6	CA	37	Los Angeles	320	culcitca	7027	205	3
+6	CA	37	Los Angeles	320	culcitca	7027	206	3
+6	CA	37	Los Angeles	320	culcitca	7027	207	4
+6	CA	37	Los Angeles	320	culcitca	7027	208	4
+6	CA	37	Los Angeles	320	culcitca	7027	209	3
+6	CA	37	Los Angeles	320	culcitca	7027	210	3
+6	CA	37	Los Angeles	320	culcitca	7027	211	4
+6	CA	37	Los Angeles	320	culcitca	7027	212	4
+6	CA	37	Los Angeles	320	culcitca	7027	213	4
+6	CA	37	Los Angeles	320	culcitca	7027	214	4
+6	CA	37	Los Angeles	320	culcitca	7027	215	4
+6	CA	37	Los Angeles	320	culcitca	7027	302	3
+6	CA	37	Los Angeles	320	culcitca	7027	303	4
+6	CA	37	Los Angeles	320	culcitca	7027	304	4
+6	CA	37	Los Angeles	320	culcitca	7027	305	4
+6	CA	37	Los Angeles	320	culcitca	7027	306	4
+6	CA	37	Los Angeles	320	culcitca	7027	307	3
+6	CA	37	Los Angeles	320	culcitca	7027	308	3
+6	CA	37	Los Angeles	320	culcitca	7027	309	4
+6	CA	37	Los Angeles	320	culcitca	7027	310	4
+6	CA	37	Los Angeles	320	culcitca	7027	311	3
+6	CA	37	Los Angeles	320	culcitca	7027	312	3
+6	CA	37	Los Angeles	320	culcitca	7027	313	3
+6	CA	37	Los Angeles	320	culcitca	7027	401	1
+6	CA	37	Los Angeles	320	culcitca	7027	402	2
+6	CA	37	Los Angeles	320	culcitca	7027	403	2
+6	CA	37	Los Angeles	320	culcitca	7027	405	1
+6	CA	37	Los Angeles	320	culcitca	7027	406	2
+6	CA	37	Los Angeles	320	culcitca	7027	407	1
+6	CA	37	Los Angeles	320	culcitca	7027	408	2
+6	CA	37	Los Angeles	320	culcitca	7027	409	2
+6	CA	37	Los Angeles	320	culcitca	7027	410	2
+6	CA	37	Los Angeles	320	culcitca	7027	411	2
+6	CA	37	Los Angeles	320	culcitca	7027	412	2
+6	CA	37	Los Angeles	320	culcitca	7027	413	1
+6	CA	37	Los Angeles	320	culcitca	7027	415	1
+6	CA	37	Los Angeles	319	losangca	191901	103	8
+6	CA	37	Los Angeles	319	losangca	191901	104	7
+6	CA	37	Los Angeles	319	losangca	191901	105	6
+6	CA	37	Los Angeles	319	losangca	191901	106	6
+6	CA	37	Los Angeles	319	losangca	191901	110	8
+6	CA	37	Los Angeles	319	losangca	191901	111	8
+6	CA	37	Los Angeles	319	losangca	191901	212	3
+6	CA	37	Los Angeles	319	losangca	191901	213	2
+6	CA	37	Los Angeles	319	losangca	191901	214	1
+6	CA	37	Los Angeles	319	losangca	191901	215	1
+6	CA	37	Los Angeles	319	losangca	191901	216	2
+6	CA	37	Los Angeles	319	losangca	191901	217	3
+6	CA	37	Los Angeles	319	losangca	191901	218	4
+6	CA	37	Los Angeles	319	losangca	191901	219	5
+6	CA	37	Los Angeles	318	westmoca	600201	101	1
+6	CA	37	Los Angeles	318	westmoca	600201	102	1
+6	CA	37	Los Angeles	318	westmoca	600201	103	1
+6	CA	37	Los Angeles	318	westmoca	600201	104	1
+6	CA	37	Los Angeles	318	westmoca	600201	105	3
+6	CA	37	Los Angeles	318	westmoca	600201	106	6
+6	CA	37	Los Angeles	318	westmoca	600201	202	6
+6	CA	37	Los Angeles	318	westmoca	600201	203	3
+6	CA	37	Los Angeles	318	westmoca	600201	204	1
+6	CA	37	Los Angeles	318	westmoca	600201	205	1
+6	CA	37	Los Angeles	318	westmoca	600201	206	3
+6	CA	37	Los Angeles	318	westmoca	600201	207	6
+6	CA	37	Los Angeles	318	westmoca	600201	306	1
+6	CA	37	Los Angeles	318	westmoca	600202	201	5
+6	CA	37	Los Angeles	318	westmoca	600202	202	5
+6	CA	37	Los Angeles	318	westmoca	600202	203	5
+6	CA	37	Los Angeles	318	westmoca	600202	204	2
+6	CA	37	Los Angeles	318	westmoca	600202	205	2
+6	CA	37	Los Angeles	318	westmoca	600202	206	2
+6	CA	37	Los Angeles	318	westmoca	600202	207	2
+6	CA	37	Los Angeles	318	westmoca	600202	208	1
+6	CA	37	Los Angeles	318	westmoca	600202	209	1
+6	CA	37	Los Angeles	318	westmoca	600202	301	1
+6	CA	37	Los Angeles	318	westmoca	600202	302	2
+6	CA	37	Los Angeles	318	westmoca	600202	303	5
+6	CA	37	Los Angeles	318	westmoca	600202	304	5
+6	CA	37	Los Angeles	318	westmoca	600202	305	2
+6	CA	37	Los Angeles	318	westmoca	600202	306	2
+6	CA	37	Los Angeles	318	westmoca	600202	307	5
+6	CA	37	Los Angeles	318	westmoca	600301	103	1
+6	CA	37	Los Angeles	318	westmoca	600301	104	1
+6	CA	37	Los Angeles	318	westmoca	600301	105	5
+6	CA	37	Los Angeles	318	westmoca	600301	106	1
+6	CA	37	Los Angeles	318	westmoca	600301	201	1
+6	CA	37	Los Angeles	318	westmoca	600301	202	1
+6	CA	37	Los Angeles	318	westmoca	600301	203	3
+6	CA	37	Los Angeles	318	westmoca	600301	204	2
+6	CA	37	Los Angeles	318	westmoca	600301	205	1
+6	CA	37	Los Angeles	318	westmoca	600301	301	1
+6	CA	37	Los Angeles	318	westmoca	600301	302	2
+6	CA	37	Los Angeles	318	westmoca	600301	304	3
+6	CA	37	Los Angeles	318	westmoca	600301	305	4
+6	CA	37	Los Angeles	318	westmoca	600301	306	5
+6	CA	37	Los Angeles	318	westmoca	600301	307	6
+6	CA	37	Los Angeles	318	westmoca	600301	401	6
+6	CA	37	Los Angeles	318	westmoca	600301	402	5
+6	CA	37	Los Angeles	318	westmoca	600301	403	4
+6	CA	37	Los Angeles	318	westmoca	600301	404	5
+6	CA	37	Los Angeles	318	westmoca	600301	405	5
+6	CA	37	Los Angeles	318	westmoca	600301	406	5
+6	CA	37	Los Angeles	321	bevhilca	700901	101	4
+6	CA	37	Los Angeles	321	bevhilca	700901	102	4
+6	CA	37	Los Angeles	321	bevhilca	700901	103	3
+6	CA	37	Los Angeles	321	bevhilca	700901	104	2
+6	CA	37	Los Angeles	321	bevhilca	700901	105	2
+6	CA	37	Los Angeles	321	bevhilca	700901	107	1
+6	CA	37	Los Angeles	321	bevhilca	700901	202	1
+6	CA	37	Los Angeles	321	bevhilca	700901	203	1
+6	CA	37	Los Angeles	321	bevhilca	700901	205	2
+6	CA	37	Los Angeles	321	bevhilca	700901	206	1
+6	CA	37	Los Angeles	321	bevhilca	700901	207	1
+6	CA	37	Los Angeles	321	bevhilca	700901	208	2
+6	CA	37	Los Angeles	321	bevhilca	700901	209	2
+6	CA	37	Los Angeles	321	bevhilca	700901	210	1
+6	CA	37	Los Angeles	321	bevhilca	700901	211	1
+6	CA	37	Los Angeles	321	bevhilca	700901	301	1
+6	CA	37	Los Angeles	321	bevhilca	700901	302	2
+6	CA	37	Los Angeles	321	bevhilca	700901	303	2
+6	CA	37	Los Angeles	321	bevhilca	700901	304	2
+6	CA	37	Los Angeles	321	bevhilca	700901	305	3
+6	CA	37	Los Angeles	321	bevhilca	700901	306	3
+6	CA	37	Los Angeles	321	bevhilca	700901	307	4
+6	CA	37	Los Angeles	321	bevhilca	700901	308	3
+6	CA	37	Los Angeles	321	bevhilca	700901	401	2
+6	CA	37	Los Angeles	321	bevhilca	700901	402	2
+6	CA	37	Los Angeles	321	bevhilca	700901	403	2
+6	CA	37	Los Angeles	321	bevhilca	700901	404	1
+6	CA	37	Los Angeles	321	bevhilca	700901	405	1
+6	CA	37	Los Angeles	321	bevhilca	700901	406	1
+6	CA	37	Los Angeles	321	bevhilca	700901	407	1
+6	CA	37	Los Angeles	321	bevhilca	700901	408	1
+6	CA	37	Los Angeles	321	bevhilca	700901	501	1
+6	CA	37	Los Angeles	321	bevhilca	700901	502	1
+6	CA	37	Los Angeles	321	bevhilca	700901	503	2
+6	CA	37	Los Angeles	321	bevhilca	700901	504	2
+6	CA	37	Los Angeles	321	bevhilca	700901	505	3
+6	CA	37	Los Angeles	321	bevhilca	700901	506	3
+6	CA	37	Los Angeles	321	bevhilca	700901	507	4
+6	CA	37	Los Angeles	321	bevhilca	700901	508	4
+6	CA	37	Los Angeles	321	bevhilca	700902	101	4
+6	CA	37	Los Angeles	321	bevhilca	700902	102	4
+6	CA	37	Los Angeles	321	bevhilca	700902	103	4
+6	CA	37	Los Angeles	321	bevhilca	700902	104	4
+6	CA	37	Los Angeles	321	bevhilca	700902	105	3
+6	CA	37	Los Angeles	321	bevhilca	700902	106	3
+6	CA	37	Los Angeles	321	bevhilca	700902	107	3
+6	CA	37	Los Angeles	321	bevhilca	700902	108	3
+6	CA	37	Los Angeles	321	bevhilca	700902	201	2
+6	CA	37	Los Angeles	321	bevhilca	700902	202	1
+6	CA	37	Los Angeles	321	bevhilca	700902	203	1
+6	CA	37	Los Angeles	321	bevhilca	700902	204	2
+6	CA	37	Los Angeles	321	bevhilca	700902	205	2
+6	CA	37	Los Angeles	321	bevhilca	700902	206	1
+6	CA	37	Los Angeles	321	bevhilca	700902	207	2
+6	CA	37	Los Angeles	321	bevhilca	700902	208	1
+6	CA	37	Los Angeles	321	bevhilca	700902	301	1
+6	CA	37	Los Angeles	321	bevhilca	700902	302	1
+6	CA	37	Los Angeles	321	bevhilca	700902	303	1
+6	CA	37	Los Angeles	321	bevhilca	700902	304	1
+6	CA	37	Los Angeles	321	bevhilca	700902	306	1
+6	CA	37	Los Angeles	321	bevhilca	700902	307	1
+6	CA	37	Los Angeles	321	bevhilca	700902	309	2
+6	CA	37	Los Angeles	321	bevhilca	700902	310	2
+6	CA	37	Los Angeles	321	bevhilca	700902	311	2
+6	CA	37	Los Angeles	321	bevhilca	700902	312	2
+6	CA	37	Los Angeles	321	bevhilca	700902	313	2
+6	CA	37	Los Angeles	321	bevhilca	700902	402	3
+6	CA	37	Los Angeles	321	bevhilca	700902	403	3
+6	CA	37	Los Angeles	321	bevhilca	700902	404	3
+6	CA	37	Los Angeles	321	bevhilca	700902	405	3
+6	CA	37	Los Angeles	321	bevhilca	700902	406	4
+6	CA	37	Los Angeles	321	bevhilca	700902	407	4
+6	CA	37	Los Angeles	321	bevhilca	700902	408	4
+6	CA	37	Los Angeles	321	bevhilca	700902	409	4
+6	CA	37	Los Angeles	321	bevhilca	700902	410	4
+6	CA	37	Los Angeles	320	culcitca	702801	101	1
+6	CA	37	Los Angeles	320	culcitca	702801	103	1
+6	CA	37	Los Angeles	320	culcitca	702801	104	1
+6	CA	37	Los Angeles	320	culcitca	702801	105	1
+6	CA	37	Los Angeles	320	culcitca	702801	106	2
+6	CA	37	Los Angeles	320	culcitca	702801	107	2
+6	CA	37	Los Angeles	320	culcitca	702801	108	3
+6	CA	37	Los Angeles	320	culcitca	702801	109	3
+6	CA	37	Los Angeles	320	culcitca	702801	110	4
+6	CA	37	Los Angeles	320	culcitca	702801	201	3
+6	CA	37	Los Angeles	320	culcitca	702801	202	4
+6	CA	37	Los Angeles	320	culcitca	702801	203	4
+6	CA	37	Los Angeles	320	culcitca	702801	204	4
+6	CA	37	Los Angeles	320	culcitca	702801	205	3
+6	CA	37	Los Angeles	320	culcitca	702801	206	3
+6	CA	37	Los Angeles	320	culcitca	702801	207	3
+6	CA	37	Los Angeles	320	culcitca	702801	208	3
+6	CA	37	Los Angeles	320	culcitca	702801	209	3
+6	CA	37	Los Angeles	320	culcitca	702801	211	3
+6	CA	37	Los Angeles	320	culcitca	702801	301	3
+6	CA	37	Los Angeles	320	culcitca	702801	302	3
+6	CA	37	Los Angeles	320	culcitca	702801	304	3
+6	CA	37	Los Angeles	320	culcitca	702801	305	2
+6	CA	37	Los Angeles	320	culcitca	702801	306	2
+6	CA	37	Los Angeles	320	culcitca	702801	307	1
+6	CA	37	Los Angeles	320	culcitca	702801	308	1
+6	CA	37	Los Angeles	320	culcitca	702801	309	1
+6	CA	37	Los Angeles	320	culcitca	702801	310	1
+6	CA	37	Los Angeles	320	culcitca	702801	311	1
+6	CA	37	Los Angeles	320	culcitca	702801	312	1
+6	CA	37	Los Angeles	320	culcitca	702801	313	1
+6	CA	37	Los Angeles	320	culcitca	702801	314	1
+6	CA	37	Los Angeles	320	culcitca	702802	101	1
+6	CA	37	Los Angeles	320	culcitca	702802	102	1
+6	CA	37	Los Angeles	320	culcitca	702802	103	1
+6	CA	37	Los Angeles	320	culcitca	702802	104	2
+6	CA	37	Los Angeles	320	culcitca	702802	105	2
+6	CA	37	Los Angeles	320	culcitca	702802	106	3
+6	CA	37	Los Angeles	320	culcitca	702802	107	3
+6	CA	37	Los Angeles	320	culcitca	702802	108	3
+6	CA	37	Los Angeles	320	culcitca	702802	201	4
+6	CA	37	Los Angeles	320	culcitca	702802	209	4
+6	CA	37	Los Angeles	320	culcitca	702802	301	4
+6	CA	37	Los Angeles	320	culcitca	702802	302	4
+6	CA	37	Los Angeles	320	culcitca	702802	303	4
+6	CA	37	Los Angeles	320	culcitca	702802	304	4
+6	CA	37	Los Angeles	320	culcitca	702802	305	3
+6	CA	37	Los Angeles	320	culcitca	702802	306	3
+6	CA	37	Los Angeles	320	culcitca	702802	307	3
+6	CA	37	Los Angeles	320	culcitca	702802	308	3
+6	CA	37	Los Angeles	320	culcitca	702802	309	3
+6	CA	37	Los Angeles	320	culcitca	702802	310	3
+6	CA	37	Los Angeles	320	culcitca	702802	311	3
+6	CA	75	San Francisco	324	sanfraca	262	101	7
+6	CA	75	San Francisco	324	sanfraca	262	102	6
+6	CA	75	San Francisco	324	sanfraca	262	103	6
+6	CA	75	San Francisco	324	sanfraca	262	104	6
+6	CA	75	San Francisco	324	sanfraca	262	105	7
+6	CA	75	San Francisco	324	sanfraca	262	106	7
+6	CA	75	San Francisco	324	sanfraca	262	107	7
+6	CA	75	San Francisco	324	sanfraca	262	108	7
+6	CA	75	San Francisco	324	sanfraca	262	109	8
+6	CA	75	San Francisco	324	sanfraca	262	110	8
+6	CA	75	San Francisco	324	sanfraca	262	111	8
+6	CA	75	San Francisco	324	sanfraca	262	112	7
+6	CA	75	San Francisco	324	sanfraca	262	113	7
+6	CA	75	San Francisco	324	sanfraca	262	114	7
+6	CA	75	San Francisco	324	sanfraca	262	201	5
+6	CA	75	San Francisco	324	sanfraca	262	202	5
+6	CA	75	San Francisco	324	sanfraca	262	203	5
+6	CA	75	San Francisco	324	sanfraca	262	204	5
+6	CA	75	San Francisco	324	sanfraca	262	205	5
+6	CA	75	San Francisco	324	sanfraca	262	206	5
+6	CA	75	San Francisco	324	sanfraca	262	207	5
+6	CA	75	San Francisco	324	sanfraca	262	208	5
+6	CA	75	San Francisco	324	sanfraca	262	209	5
+6	CA	75	San Francisco	324	sanfraca	262	210	4
+6	CA	75	San Francisco	324	sanfraca	262	301	3
+6	CA	75	San Francisco	324	sanfraca	262	302	3
+6	CA	75	San Francisco	324	sanfraca	262	304	4
+6	CA	75	San Francisco	324	sanfraca	262	306	5
+6	CA	75	San Francisco	324	sanfraca	262	307	3
+6	CA	75	San Francisco	324	sanfraca	262	308	4
+6	CA	75	San Francisco	324	sanfraca	262	309	3
+6	CA	75	San Francisco	324	sanfraca	262	310	2
+6	CA	75	San Francisco	324	sanfraca	262	401	1
+6	CA	75	San Francisco	324	sanfraca	262	402	1
+6	CA	75	San Francisco	324	sanfraca	262	403	3
+6	CA	75	San Francisco	324	sanfraca	262	406	4
+6	CA	75	San Francisco	324	sanfraca	262	407	4
+6	CA	75	San Francisco	324	sanfraca	262	408	3
+6	CA	75	San Francisco	324	sanfraca	262	409	2
+6	CA	75	San Francisco	324	sanfraca	262	410	1
+6	CA	75	San Francisco	324	sanfraca	262	501	1
+6	CA	75	San Francisco	324	sanfraca	262	502	2
+6	CA	75	San Francisco	324	sanfraca	262	503	1
+6	CA	75	San Francisco	324	sanfraca	262	504	1
+6	CA	75	San Francisco	324	sanfraca	262	505	1
+6	CA	75	San Francisco	324	sanfraca	262	506	1
+6	CA	75	San Francisco	324	sanfraca	262	507	1
+6	CA	75	San Francisco	324	sanfraca	262	508	1
+6	CA	75	San Francisco	324	sanfraca	262	510	1
+6	CA	75	San Francisco	324	sanfraca	262	514	2
+6	CA	75	San Francisco	324	sanfraca	263	501	8
+6	CA	75	San Francisco	324	sanfraca	263	502	7
+6	CA	75	San Francisco	324	sanfraca	263	503	7
+6	CA	75	San Francisco	324	sanfraca	263	504	5
+6	CA	75	San Francisco	324	sanfraca	263	505	5
+6	CA	75	San Francisco	324	sanfraca	263	506	6
+6	CA	75	San Francisco	324	sanfraca	263	507	6
+6	CA	75	San Francisco	324	sanfraca	263	508	6
+6	CA	75	San Francisco	324	sanfraca	263	509	6
+6	CA	75	San Francisco	324	sanfraca	263	510	8
+6	CA	75	San Francisco	324	sanfraca	263	511	7
+6	CA	75	San Francisco	324	sanfraca	263	512	8
+6	CA	75	San Francisco	324	sanfraca	263	601	5
+6	CA	75	San Francisco	324	sanfraca	263	603	5
+6	CA	75	San Francisco	324	sanfraca	263	605	5
+6	CA	75	San Francisco	324	sanfraca	263	607	5
+6	CA	75	San Francisco	324	sanfraca	263	609	5
+6	CA	75	San Francisco	324	sanfraca	263	611	4
+6	CA	75	San Francisco	324	sanfraca	263	612	4
+6	CA	75	San Francisco	324	sanfraca	263	701	3
+6	CA	75	San Francisco	324	sanfraca	263	702	3
+6	CA	75	San Francisco	324	sanfraca	263	703	3
+6	CA	75	San Francisco	324	sanfraca	263	705	3
+6	CA	75	San Francisco	324	sanfraca	263	707	4
+6	CA	75	San Francisco	324	sanfraca	263	714	1
+6	CA	75	San Francisco	324	sanfraca	263	801	1
+6	CA	75	San Francisco	324	sanfraca	263	803	1
+6	CA	75	San Francisco	324	sanfraca	263	804	1
+6	CA	75	San Francisco	324	sanfraca	263	805	4
+6	CA	75	San Francisco	324	sanfraca	263	806	5
+6	CA	75	San Francisco	324	sanfraca	263	807	1
+6	CA	75	San Francisco	324	sanfraca	263	808	3
+6	CA	75	San Francisco	324	sanfraca	263	809	1
+6	CA	75	San Francisco	324	sanfraca	263	810	1
+6	CA	75	San Francisco	324	sanfraca	263	811	1
+6	CA	75	San Francisco	324	sanfraca	263	812	1
+6	CA	81	San Mateo	324	dalcitca	6004	306	5
+6	CA	81	San Mateo	324	dalcitca	6007	101	1
+6	CA	81	San Mateo	324	dalcitca	6007	103	1
+6	CA	81	San Mateo	324	dalcitca	6007	104	1
+6	CA	81	San Mateo	324	dalcitca	6007	105	1
+6	CA	81	San Mateo	324	dalcitca	6007	106	2
+6	CA	81	San Mateo	324	dalcitca	6007	107	3
+6	CA	81	San Mateo	324	dalcitca	6007	201	3
+6	CA	81	San Mateo	324	dalcitca	6007	202	2
+6	CA	81	San Mateo	324	dalcitca	6007	203	2
+6	CA	81	San Mateo	324	dalcitca	6007	204	3
+6	CA	81	San Mateo	324	dalcitca	6007	205	6
+6	CA	81	San Mateo	324	dalcitca	6007	206	6
+6	CA	81	San Mateo	324	dalcitca	6007	207	5
+6	CA	81	San Mateo	324	dalcitca	6007	208	5
+6	CA	81	San Mateo	324	dalcitca	6007	209	4
+6	CA	81	San Mateo	324	dalcitca	6007	301	4
+6	CA	81	San Mateo	324	dalcitca	6007	302	5
+6	CA	81	San Mateo	324	dalcitca	6007	303	6
+6	CA	81	San Mateo	324	dalcitca	6007	304	5
+6	CA	81	San Mateo	324	dalcitca	6007	305	5
+6	CA	81	San Mateo	324	dalcitca	6007	306	5
+6	CA	81	San Mateo	324	dalcitca	6007	307	6
+6	CA	81	San Mateo	324	dalcitca	6007	401	6
+6	CA	81	San Mateo	324	dalcitca	6007	402	5
+6	CA	81	San Mateo	324	dalcitca	6007	403	5
+6	CA	81	San Mateo	324	dalcitca	6007	404	6
+6	CA	81	San Mateo	324	dalcitca	6007	405	6
+6	CA	81	San Mateo	324	dalcitca	6007	406	5
+6	CA	81	San Mateo	324	dalcitca	6007	407	5
+6	CA	81	San Mateo	324	dalcitca	6007	408	6
+6	CA	81	San Mateo	324	dalcitca	6007	501	5
+6	CA	81	San Mateo	324	dalcitca	6007	503	4
+6	CA	81	San Mateo	324	dalcitca	6007	504	4
+6	CA	81	San Mateo	324	dalcitca	6007	505	4
+6	CA	81	San Mateo	324	dalcitca	6007	506	4
+6	CA	81	San Mateo	324	dalcitca	6007	507	4
+6	CA	81	San Mateo	324	dalcitca	6007	508	3
+6	CA	81	San Mateo	324	dalcitca	6007	509	3
+6	CA	81	San Mateo	324	dalcitca	6007	510	4
+6	CA	81	San Mateo	324	dalcitca	6007	511	4
+6	CA	81	San Mateo	324	dalcitca	6007	512	3
+6	CA	81	San Mateo	324	dalcitca	6007	602	1
+6	CA	81	San Mateo	324	dalcitca	6007	603	1
+6	CA	81	San Mateo	324	dalcitca	6007	604	2
+6	CA	81	San Mateo	324	dalcitca	6007	605	1
+6	CA	81	San Mateo	324	dalcitca	6007	606	1
+6	CA	81	San Mateo	324	dalcitca	6007	607	1
+6	CA	81	San Mateo	324	dalcitca	6007	608	3
+6	CA	81	San Mateo	324	dalcitca	6007	609	2
+6	CA	81	San Mateo	324	dalcitca	6007	610	1
+6	CA	81	San Mateo	324	dalcitca	6007	612	1
+6	CA	81	San Mateo	324	dalcitca	6007	613	1
+6	CA	81	San Mateo	324	dalcitca	6007	614	1
+8	CO	5	Arapahoe	309	englewco	57	101	1
+8	CO	5	Arapahoe	309	englewco	57	102	1
+8	CO	5	Arapahoe	309	englewco	57	103	1
+8	CO	5	Arapahoe	309	englewco	57	104	2
+8	CO	5	Arapahoe	309	englewco	57	105	2
+8	CO	5	Arapahoe	309	englewco	57	106	2
+8	CO	5	Arapahoe	309	englewco	57	107	3
+8	CO	5	Arapahoe	309	englewco	57	108	3
+8	CO	5	Arapahoe	309	englewco	57	109	3
+8	CO	5	Arapahoe	309	englewco	57	110	4
+8	CO	5	Arapahoe	309	englewco	57	111	4
+8	CO	5	Arapahoe	309	englewco	57	112	4
+8	CO	5	Arapahoe	309	englewco	57	201	5
+8	CO	5	Arapahoe	309	englewco	57	202	5
+8	CO	5	Arapahoe	309	englewco	57	203	5
+8	CO	5	Arapahoe	309	englewco	57	204	6
+8	CO	5	Arapahoe	309	englewco	57	205	6
+8	CO	5	Arapahoe	309	englewco	57	206	6
+8	CO	5	Arapahoe	309	englewco	57	209	8
+8	CO	5	Arapahoe	309	englewco	57	210	8
+8	CO	5	Arapahoe	309	englewco	57	213	8
+8	CO	5	Arapahoe	309	englewco	57	301	8
+8	CO	5	Arapahoe	309	englewco	57	302	7
+8	CO	5	Arapahoe	309	englewco	57	310	5
+8	CO	5	Arapahoe	309	englewco	57	311	6
+8	CO	5	Arapahoe	309	englewco	57	312	6
+8	CO	5	Arapahoe	309	englewco	57	313	6
+8	CO	5	Arapahoe	309	englewco	57	314	5
+8	CO	5	Arapahoe	309	englewco	57	315	5
+8	CO	5	Arapahoe	309	englewco	57	316	6
+8	CO	5	Arapahoe	309	englewco	57	317	6
+8	CO	5	Arapahoe	309	englewco	57	318	5
+8	CO	5	Arapahoe	309	englewco	57	401	4
+8	CO	5	Arapahoe	309	englewco	57	402	4
+8	CO	5	Arapahoe	309	englewco	57	403	4
+8	CO	5	Arapahoe	309	englewco	57	404	4
+8	CO	5	Arapahoe	309	englewco	57	405	4
+8	CO	5	Arapahoe	309	englewco	57	406	3
+8	CO	5	Arapahoe	309	englewco	57	407	3
+8	CO	5	Arapahoe	309	englewco	57	408	3
+8	CO	5	Arapahoe	309	englewco	57	409	3
+8	CO	5	Arapahoe	309	englewco	57	410	2
+8	CO	5	Arapahoe	309	englewco	57	411	2
+8	CO	5	Arapahoe	309	englewco	57	412	1
+8	CO	5	Arapahoe	309	englewco	57	413	1
+8	CO	5	Arapahoe	309	englewco	58	101	1
+8	CO	5	Arapahoe	309	englewco	58	102	2
+8	CO	5	Arapahoe	309	englewco	58	103	1
+8	CO	5	Arapahoe	309	englewco	58	104	1
+8	CO	5	Arapahoe	309	englewco	58	105	1
+8	CO	5	Arapahoe	309	englewco	58	106	1
+8	CO	5	Arapahoe	309	englewco	58	107	1
+8	CO	5	Arapahoe	309	englewco	58	108	1
+8	CO	5	Arapahoe	309	englewco	58	109	1
+8	CO	5	Arapahoe	309	englewco	58	110	2
+8	CO	5	Arapahoe	309	englewco	58	111	2
+8	CO	5	Arapahoe	309	englewco	58	201	2
+8	CO	5	Arapahoe	309	englewco	58	202	2
+8	CO	5	Arapahoe	309	englewco	58	203	3
+8	CO	5	Arapahoe	309	englewco	58	204	3
+8	CO	5	Arapahoe	309	englewco	58	205	3
+8	CO	5	Arapahoe	309	englewco	58	206	2
+8	CO	5	Arapahoe	309	englewco	58	207	2
+8	CO	5	Arapahoe	309	englewco	58	208	2
+8	CO	5	Arapahoe	309	englewco	58	209	2
+8	CO	5	Arapahoe	309	englewco	58	210	2
+8	CO	5	Arapahoe	309	englewco	58	211	2
+8	CO	5	Arapahoe	309	englewco	58	212	1
+8	CO	5	Arapahoe	309	englewco	58	213	1
+8	CO	5	Arapahoe	309	englewco	58	214	1
+8	CO	5	Arapahoe	309	englewco	58	301	1
+8	CO	5	Arapahoe	309	englewco	58	302	1
+8	CO	5	Arapahoe	309	englewco	58	303	1
+8	CO	5	Arapahoe	309	englewco	58	304	1
+8	CO	5	Arapahoe	309	englewco	58	305	1
+8	CO	5	Arapahoe	309	englewco	58	306	2
+8	CO	5	Arapahoe	309	englewco	58	307	2
+8	CO	5	Arapahoe	309	englewco	58	308	2
+8	CO	5	Arapahoe	309	englewco	58	309	2
+8	CO	5	Arapahoe	309	englewco	58	310	3
+8	CO	5	Arapahoe	309	englewco	58	311	3
+8	CO	5	Arapahoe	309	englewco	58	312	4
+8	CO	5	Arapahoe	309	englewco	58	313	4
+8	CO	5	Arapahoe	309	englewco	58	314	4
+8	CO	5	Arapahoe	309	englewco	58	315	4
+8	CO	5	Arapahoe	309	englewco	58	401	4
+8	CO	5	Arapahoe	309	englewco	58	402	4
+8	CO	5	Arapahoe	309	englewco	58	403	4
+8	CO	5	Arapahoe	309	englewco	58	404	4
+8	CO	5	Arapahoe	309	englewco	58	405	3
+8	CO	5	Arapahoe	309	englewco	58	406	3
+8	CO	5	Arapahoe	309	englewco	58	408	3
+8	CO	5	Arapahoe	309	englewco	58	409	2
+8	CO	5	Arapahoe	309	englewco	58	410	2
+8	CO	5	Arapahoe	309	englewco	58	411	2
+8	CO	5	Arapahoe	309	englewco	58	412	2
+8	CO	5	Arapahoe	309	englewco	58	413	1
+8	CO	5	Arapahoe	309	englewco	58	414	1
+8	CO	5	Arapahoe	309	englewco	58	415	1
+8	CO	5	Arapahoe	309	englewco	58	416	1
+8	CO	5	Arapahoe	309	englewco	59	101	1
+8	CO	5	Arapahoe	309	englewco	59	102	1
+8	CO	5	Arapahoe	309	englewco	59	103	1
+8	CO	5	Arapahoe	309	englewco	59	104	1
+8	CO	5	Arapahoe	309	englewco	59	105	2
+8	CO	5	Arapahoe	309	englewco	59	106	2
+8	CO	5	Arapahoe	309	englewco	59	107	2
+8	CO	5	Arapahoe	309	englewco	59	108	1
+8	CO	5	Arapahoe	309	englewco	59	109	1
+8	CO	5	Arapahoe	309	englewco	59	110	1
+8	CO	5	Arapahoe	309	englewco	59	112	3
+8	CO	5	Arapahoe	309	englewco	59	113	2
+8	CO	5	Arapahoe	309	englewco	59	114	2
+8	CO	5	Arapahoe	309	englewco	59	115	2
+8	CO	5	Arapahoe	309	englewco	59	116	2
+8	CO	5	Arapahoe	309	englewco	59	117	2
+8	CO	5	Arapahoe	309	englewco	59	118	1
+8	CO	5	Arapahoe	309	englewco	59	119	1
+8	CO	5	Arapahoe	309	englewco	59	120	1
+8	CO	5	Arapahoe	309	englewco	59	121	1
+8	CO	5	Arapahoe	309	englewco	59	122	2
+8	CO	5	Arapahoe	309	englewco	59	123	3
+8	CO	5	Arapahoe	309	englewco	59	201	4
+8	CO	5	Arapahoe	309	englewco	59	202	5
+8	CO	5	Arapahoe	309	englewco	59	203	5
+8	CO	5	Arapahoe	309	englewco	59	204	5
+8	CO	5	Arapahoe	309	englewco	59	205	4
+8	CO	5	Arapahoe	309	englewco	59	309	7
+8	CO	5	Arapahoe	309	englewco	59	310	6
+8	CO	5	Arapahoe	309	englewco	59	311	5
+8	CO	5	Arapahoe	309	englewco	59	312	5
+8	CO	5	Arapahoe	309	englewco	59	313	6
+8	CO	5	Arapahoe	309	englewco	59	314	7
+8	CO	5	Arapahoe	309	englewco	59	401	8
+8	CO	5	Arapahoe	309	englewco	59	406	8
+8	CO	31	Denver	310	denverco	47	208	8
+8	CO	31	Denver	310	denverco	47	209	4
+8	CO	31	Denver	310	denverco	47	210	2
+8	CO	31	Denver	310	denverco	47	211	2
+8	CO	31	Denver	310	denverco	47	212	1
+8	CO	31	Denver	310	denverco	47	213	1
+8	CO	31	Denver	310	denverco	47	302	2
+8	CO	31	Denver	310	denverco	47	303	2
+8	CO	31	Denver	310	denverco	47	304	3
+8	CO	31	Denver	310	denverco	47	305	4
+8	CO	31	Denver	310	denverco	47	306	5
+8	CO	31	Denver	310	denverco	47	307	6
+8	CO	31	Denver	310	denverco	47	308	7
+8	CO	31	Denver	310	denverco	47	309	8
+8	CO	31	Denver	310	denverco	47	310	8
+8	CO	31	Denver	310	denverco	47	311	8
+8	CO	31	Denver	310	denverco	47	404	8
+8	CO	31	Denver	310	denverco	47	405	8
+8	CO	31	Denver	310	denverco	47	406	7
+8	CO	31	Denver	310	denverco	47	407	7
+8	CO	31	Denver	310	denverco	47	408	6
+8	CO	31	Denver	310	denverco	47	409	5
+8	CO	31	Denver	310	denverco	47	410	4
+8	CO	31	Denver	310	denverco	47	411	3
+8	CO	31	Denver	310	denverco	47	412	2
+8	CO	31	Denver	310	denverco	47	413	2
+8	CO	31	Denver	310	denverco	47	414	1
+8	CO	31	Denver	310	denverco	47	501	1
+8	CO	31	Denver	310	denverco	47	502	1
+8	CO	31	Denver	310	denverco	47	503	2
+8	CO	31	Denver	310	denverco	47	504	3
+8	CO	31	Denver	310	denverco	47	505	4
+8	CO	31	Denver	310	denverco	47	506	5
+8	CO	31	Denver	310	denverco	47	507	8
+8	CO	31	Denver	310	denverco	47	508	7
+8	CO	31	Denver	310	denverco	47	509	7
+8	CO	31	Denver	310	denverco	47	510	6
+8	CO	31	Denver	310	denverco	47	511	5
+8	CO	31	Denver	310	denverco	47	512	4
+8	CO	31	Denver	310	denverco	47	513	3
+8	CO	31	Denver	310	denverco	47	514	2
+8	CO	31	Denver	310	denverco	47	515	1
+8	CO	31	Denver	310	denverco	701	102	8
+8	CO	31	Denver	310	denverco	701	103	7
+8	CO	31	Denver	310	denverco	701	104	7
+8	CO	31	Denver	310	denverco	701	105	7
+8	CO	31	Denver	310	denverco	701	106	7
+8	CO	31	Denver	310	denverco	701	107	8
+8	CO	31	Denver	310	denverco	701	109	8
+8	CO	31	Denver	310	denverco	701	204	8
+8	CO	31	Denver	310	denverco	701	205	7
+8	CO	31	Denver	310	denverco	701	206	7
+8	CO	31	Denver	310	denverco	701	207	7
+8	CO	31	Denver	310	denverco	701	208	7
+8	CO	31	Denver	310	denverco	701	209	8
+8	CO	31	Denver	310	denverco	701	304	1
+8	CO	31	Denver	310	denverco	701	305	1
+8	CO	31	Denver	310	denverco	701	306	3
+8	CO	31	Denver	310	denverco	701	307	3
+8	CO	31	Denver	310	denverco	701	308	4
+8	CO	31	Denver	310	denverco	701	309	5
+8	CO	31	Denver	310	denverco	701	310	5
+8	CO	31	Denver	310	denverco	701	311	6
+8	CO	31	Denver	310	denverco	701	312	5
+8	CO	31	Denver	310	denverco	701	313	4
+8	CO	31	Denver	310	denverco	701	314	3
+8	CO	31	Denver	310	denverco	701	315	2
+8	CO	31	Denver	310	denverco	701	316	1
+8	CO	31	Denver	310	denverco	701	401	1
+8	CO	31	Denver	310	denverco	701	402	2
+8	CO	31	Denver	310	denverco	701	403	3
+8	CO	31	Denver	310	denverco	701	404	4
+8	CO	31	Denver	310	denverco	701	405	5
+8	CO	31	Denver	310	denverco	701	406	6
+8	CO	31	Denver	310	denverco	701	407	6
+8	CO	31	Denver	310	denverco	701	408	5
+8	CO	31	Denver	310	denverco	701	409	4
+8	CO	31	Denver	310	denverco	701	410	3
+8	CO	31	Denver	310	denverco	701	411	2
+8	CO	31	Denver	310	denverco	701	412	2
+8	CO	31	Denver	310	denverco	701	413	1
+8	CO	31	Denver	310	denverco	701	414	1
+8	CO	31	Denver	310	denverco	901	504	8
+8	CO	31	Denver	310	denverco	901	505	7
+8	CO	31	Denver	310	denverco	901	506	7
+8	CO	31	Denver	310	denverco	901	508	8
+8	CO	31	Denver	310	denverco	901	509	6
+8	CO	31	Denver	310	denverco	901	510	5
+8	CO	31	Denver	310	denverco	901	511	4
+8	CO	31	Denver	310	denverco	901	512	1
+8	CO	31	Denver	310	denverco	901	601	7
+8	CO	31	Denver	310	denverco	901	602	7
+8	CO	31	Denver	310	denverco	901	603	6
+8	CO	31	Denver	310	denverco	901	604	5
+8	CO	31	Denver	310	denverco	901	605	4
+8	CO	31	Denver	310	denverco	901	606	3
+8	CO	31	Denver	310	denverco	901	607	2
+8	CO	31	Denver	310	denverco	901	608	1
+8	CO	31	Denver	310	denverco	901	609	1
+8	CO	31	Denver	310	denverco	901	610	2
+8	CO	31	Denver	310	denverco	901	611	3
+8	CO	31	Denver	310	denverco	901	612	4
+8	CO	31	Denver	310	denverco	901	613	5
+8	CO	31	Denver	310	denverco	901	614	1
+8	CO	31	Denver	310	denverco	901	615	5
+8	CO	31	Denver	310	denverco	902	104	8
+8	CO	31	Denver	310	denverco	902	105	8
+8	CO	31	Denver	310	denverco	902	111	8
+8	CO	31	Denver	310	denverco	902	112	8
+8	CO	31	Denver	310	denverco	902	113	8
+8	CO	31	Denver	310	denverco	902	203	8
+8	CO	31	Denver	310	denverco	902	204	8
+8	CO	31	Denver	310	denverco	902	209	8
+8	CO	31	Denver	310	denverco	902	210	8
+8	CO	31	Denver	310	denverco	902	215	8
+8	CO	31	Denver	310	denverco	902	301	6
+8	CO	31	Denver	310	denverco	902	303	8
+8	CO	31	Denver	310	denverco	902	304	7
+8	CO	31	Denver	310	denverco	902	305	6
+8	CO	31	Denver	310	denverco	902	306	6
+8	CO	31	Denver	310	denverco	902	308	4
+8	CO	31	Denver	310	denverco	902	309	4
+8	CO	31	Denver	310	denverco	902	310	5
+8	CO	31	Denver	310	denverco	902	311	4
+8	CO	31	Denver	310	denverco	902	312	2
+8	CO	31	Denver	310	denverco	902	313	3
+8	CO	31	Denver	310	denverco	902	314	2
+8	CO	31	Denver	310	denverco	902	315	1
+8	CO	31	Denver	310	denverco	902	316	2
+8	CO	31	Denver	310	denverco	902	317	1
+8	CO	31	Denver	310	denverco	902	401	1
+8	CO	31	Denver	310	denverco	902	402	2
+8	CO	31	Denver	310	denverco	902	403	3
+8	CO	31	Denver	310	denverco	902	404	4
+8	CO	31	Denver	310	denverco	902	405	5
+8	CO	31	Denver	310	denverco	902	406	6
+8	CO	31	Denver	310	denverco	902	407	7
+8	CO	31	Denver	310	denverco	902	408	8
+8	CO	31	Denver	310	denverco	902	409	7
+8	CO	31	Denver	310	denverco	902	410	6
+8	CO	31	Denver	310	denverco	902	411	5
+8	CO	31	Denver	310	denverco	902	412	4
+8	CO	31	Denver	310	denverco	902	413	3
+8	CO	31	Denver	310	denverco	902	414	2
+8	CO	31	Denver	310	denverco	902	415	1
+8	CO	31	Denver	310	denverco	902	416	1
+8	CO	31	Denver	310	denverco	902	417	2
+8	CO	31	Denver	310	denverco	902	418	4
+8	CO	31	Denver	310	denverco	902	419	6
+8	CO	31	Denver	310	denverco	902	420	7
+8	CO	31	Denver	310	denverco	902	421	8
+8	CO	31	Denver	310	denverco	902	501	7
+8	CO	31	Denver	310	denverco	902	502	7
+8	CO	31	Denver	310	denverco	902	504	6
+8	CO	31	Denver	310	denverco	902	505	5
+8	CO	31	Denver	310	denverco	902	506	4
+8	CO	31	Denver	310	denverco	902	507	3
+8	CO	31	Denver	310	denverco	902	508	2
+8	CO	31	Denver	310	denverco	902	509	1
+8	CO	31	Denver	310	denverco	902	510	2
+8	CO	31	Denver	310	denverco	902	511	3
+8	CO	31	Denver	310	denverco	902	512	4
+8	CO	31	Denver	310	denverco	902	513	5
+8	CO	31	Denver	310	denverco	902	514	6
+8	CO	31	Denver	310	denverco	902	515	6
+8	CO	31	Denver	310	denverco	902	516	7
+8	CO	31	Denver	310	denverco	902	517	7
+8	CO	31	Denver	310	denverco	902	518	7
+8	CO	31	Denver	310	denverco	902	519	6
+8	CO	31	Denver	310	denverco	902	520	5
+8	CO	31	Denver	310	denverco	902	521	4
+8	CO	31	Denver	310	denverco	902	522	3
+8	CO	31	Denver	310	denverco	902	523	1
+8	CO	31	Denver	309	denverco	1403	207	8
+8	CO	31	Denver	309	denverco	1403	208	8
+8	CO	31	Denver	309	denverco	1403	209	8
+8	CO	31	Denver	309	denverco	1403	210	7
+8	CO	31	Denver	309	denverco	1403	211	7
+8	CO	31	Denver	309	denverco	1403	212	7
+8	CO	31	Denver	309	denverco	1403	213	7
+8	CO	31	Denver	309	denverco	1403	214	6
+8	CO	31	Denver	309	denverco	1403	215	6
+8	CO	31	Denver	309	denverco	1403	216	6
+8	CO	31	Denver	309	denverco	1403	217	6
+8	CO	31	Denver	309	denverco	1403	301	5
+8	CO	31	Denver	309	denverco	1403	302	5
+8	CO	31	Denver	309	denverco	1403	303	5
+8	CO	31	Denver	309	denverco	1403	304	5
+8	CO	31	Denver	309	denverco	1403	306	4
+8	CO	31	Denver	309	denverco	1403	307	4
+8	CO	31	Denver	309	denverco	1403	308	4
+8	CO	31	Denver	309	denverco	1403	309	4
+8	CO	31	Denver	309	denverco	1403	310	3
+8	CO	31	Denver	309	denverco	1403	311	3
+8	CO	31	Denver	309	denverco	1403	312	3
+8	CO	31	Denver	309	denverco	1403	313	3
+8	CO	31	Denver	309	denverco	1403	314	2
+8	CO	31	Denver	309	denverco	1403	315	2
+8	CO	31	Denver	309	denverco	1403	316	2
+8	CO	31	Denver	309	denverco	1403	317	2
+8	CO	31	Denver	309	denverco	1403	318	1
+8	CO	31	Denver	309	denverco	1403	319	1
+8	CO	31	Denver	309	denverco	1403	320	1
+8	CO	31	Denver	309	denverco	1403	321	1
+8	CO	31	Denver	309	denverco	3002	101	6
+8	CO	31	Denver	309	denverco	3002	102	6
+8	CO	31	Denver	309	denverco	3002	103	6
+8	CO	31	Denver	309	denverco	3002	104	6
+8	CO	31	Denver	309	denverco	3002	105	6
+8	CO	31	Denver	309	denverco	3002	106	6
+8	CO	31	Denver	309	denverco	3002	108	6
+8	CO	31	Denver	309	denverco	3002	109	5
+8	CO	31	Denver	309	denverco	3002	110	5
+8	CO	31	Denver	309	denverco	3002	111	5
+8	CO	31	Denver	309	denverco	3002	112	5
+8	CO	31	Denver	309	denverco	3002	113	5
+8	CO	31	Denver	309	denverco	3002	201	4
+8	CO	31	Denver	309	denverco	3002	202	4
+8	CO	31	Denver	309	denverco	3002	203	4
+8	CO	31	Denver	309	denverco	3002	204	3
+8	CO	31	Denver	309	denverco	3002	205	3
+8	CO	31	Denver	309	denverco	3002	206	3
+8	CO	31	Denver	309	denverco	3002	207	1
+8	CO	31	Denver	309	denverco	3002	208	2
+8	CO	31	Denver	309	denverco	3002	209	2
+8	CO	31	Denver	309	denverco	3002	210	2
+8	CO	31	Denver	309	denverco	3002	211	1
+8	CO	31	Denver	309	denverco	3002	212	1
+8	CO	31	Denver	309	denverco	3002	213	1
+8	CO	31	Denver	309	denverco	3002	301	1
+8	CO	31	Denver	309	denverco	3002	302	1
+8	CO	31	Denver	309	denverco	3002	303	1
+8	CO	31	Denver	309	denverco	3002	304	1
+8	CO	31	Denver	309	denverco	3002	305	1
+8	CO	31	Denver	309	denverco	3002	306	2
+8	CO	31	Denver	309	denverco	3002	307	2
+8	CO	31	Denver	309	denverco	3002	309	2
+8	CO	31	Denver	309	denverco	3002	310	2
+8	CO	31	Denver	309	denverco	3002	402	3
+8	CO	31	Denver	309	denverco	3002	403	3
+8	CO	31	Denver	309	denverco	3002	404	4
+8	CO	31	Denver	309	denverco	3002	405	4
+8	CO	31	Denver	309	denverco	3002	406	5
+8	CO	31	Denver	309	denverco	3002	407	5
+8	CO	31	Denver	309	denverco	3002	408	5
+8	CO	31	Denver	309	denverco	3002	409	5
+8	CO	31	Denver	309	denverco	3002	410	6
+8	CO	31	Denver	309	denverco	3002	411	6
+8	CO	31	Denver	309	denverco	3002	412	6
+8	CO	31	Denver	309	denverco	3002	413	6
+8	CO	31	Denver	309	denverco	3005	101	3
+8	CO	31	Denver	309	denverco	3005	102	3
+8	CO	31	Denver	309	denverco	3005	103	3
+8	CO	31	Denver	309	denverco	3005	104	3
+8	CO	31	Denver	309	denverco	3005	105	2
+8	CO	31	Denver	309	denverco	3005	106	2
+8	CO	31	Denver	309	denverco	3005	107	2
+8	CO	31	Denver	309	denverco	3005	108	2
+8	CO	31	Denver	309	denverco	3005	109	2
+8	CO	31	Denver	309	denverco	3005	110	1
+8	CO	31	Denver	309	denverco	3005	111	1
+8	CO	31	Denver	309	denverco	3005	112	1
+8	CO	31	Denver	309	denverco	3005	113	1
+8	CO	31	Denver	309	denverco	3005	115	1
+8	CO	31	Denver	309	denverco	3005	116	1
+8	CO	31	Denver	309	denverco	3005	201	1
+8	CO	31	Denver	309	denverco	3005	202	1
+8	CO	31	Denver	309	denverco	3005	203	1
+8	CO	31	Denver	309	denverco	3005	204	1
+8	CO	31	Denver	309	denverco	3005	205	2
+8	CO	31	Denver	309	denverco	3005	206	2
+8	CO	31	Denver	309	denverco	3005	207	3
+8	CO	31	Denver	309	denverco	3005	208	3
+8	CO	31	Denver	309	denverco	3005	209	1
+8	CO	31	Denver	309	denverco	3005	210	1
+8	CO	31	Denver	309	denverco	3005	211	1
+8	CO	31	Denver	309	denverco	3005	212	1
+8	CO	31	Denver	309	denverco	4002	204	1
+8	CO	31	Denver	309	denverco	4002	205	1
+8	CO	31	Denver	309	denverco	4002	206	2
+8	CO	31	Denver	309	denverco	4002	207	3
+8	CO	31	Denver	309	denverco	4002	208	3
+8	CO	31	Denver	309	denverco	4002	209	4
+8	CO	31	Denver	309	denverco	4002	210	4
+8	CO	31	Denver	309	denverco	4002	211	4
+8	CO	31	Denver	309	denverco	4002	212	5
+8	CO	31	Denver	309	denverco	4002	213	5
+8	CO	31	Denver	309	denverco	4002	214	6
+8	CO	31	Denver	309	denverco	4002	215	7
+8	CO	31	Denver	309	denverco	4002	216	7
+8	CO	31	Denver	309	denverco	4002	217	8
+8	CO	31	Denver	309	denverco	4002	307	8
+8	CO	31	Denver	309	denverco	4002	308	7
+8	CO	31	Denver	309	denverco	4002	309	6
+8	CO	31	Denver	309	denverco	4002	310	4
+8	CO	31	Denver	309	denverco	4002	311	6
+8	CO	31	Denver	309	denverco	4002	312	5
+8	CO	31	Denver	309	denverco	4002	313	4
+8	CO	31	Denver	309	denverco	4002	315	3
+8	CO	31	Denver	309	denverco	4002	316	2
+8	CO	31	Denver	309	denverco	4002	317	1
+8	CO	31	Denver	310	denverco	4501	102	8
+8	CO	31	Denver	310	denverco	4501	103	7
+8	CO	31	Denver	310	denverco	4501	104	7
+8	CO	31	Denver	310	denverco	4501	105	8
+8	CO	31	Denver	310	denverco	4501	108	8
+8	CO	31	Denver	310	denverco	4501	109	7
+8	CO	31	Denver	310	denverco	4501	110	7
+8	CO	31	Denver	310	denverco	4501	111	7
+8	CO	31	Denver	310	denverco	4501	112	8
+8	CO	31	Denver	310	denverco	4501	113	8
+8	CO	31	Denver	310	denverco	4501	203	7
+8	CO	31	Denver	310	denverco	4501	204	6
+8	CO	31	Denver	310	denverco	4501	205	7
+8	CO	31	Denver	310	denverco	4501	208	7
+8	CO	31	Denver	310	denverco	4501	209	6
+8	CO	31	Denver	310	denverco	4501	301	5
+8	CO	31	Denver	310	denverco	4501	302	6
+8	CO	31	Denver	310	denverco	4501	303	7
+8	CO	31	Denver	310	denverco	4501	304	8
+8	CO	31	Denver	310	denverco	4501	307	8
+8	CO	31	Denver	310	denverco	4501	308	7
+8	CO	31	Denver	310	denverco	4501	309	6
+8	CO	31	Denver	310	denverco	4501	310	1
+8	CO	31	Denver	310	denverco	4501	401	1
+8	CO	31	Denver	310	denverco	4501	402	2
+8	CO	31	Denver	310	denverco	4501	403	4
+8	CO	31	Denver	310	denverco	4501	404	2
+8	CO	31	Denver	310	denverco	4501	405	1
+8	CO	31	Denver	310	denverco	4501	406	1
+8	CO	31	Denver	310	denverco	4501	407	2
+8	CO	31	Denver	310	denverco	4501	408	3
+8	CO	31	Denver	310	denverco	4501	409	3
+8	CO	31	Denver	310	denverco	4501	410	4
+8	CO	31	Denver	310	denverco	4501	411	5
+8	CO	31	Denver	310	denverco	4501	412	5
+8	CO	31	Denver	310	denverco	4501	501	5
+8	CO	31	Denver	310	denverco	4501	502	5
+8	CO	31	Denver	310	denverco	4501	503	5
+8	CO	31	Denver	310	denverco	4501	504	4
+8	CO	31	Denver	310	denverco	4501	505	4
+8	CO	31	Denver	310	denverco	4501	506	4
+8	CO	31	Denver	310	denverco	4501	507	2
+8	CO	31	Denver	310	denverco	4501	508	1
+8	CO	31	Denver	310	denverco	4501	509	1
+8	CO	31	Denver	310	denverco	4501	510	1
+8	CO	31	Denver	310	denverco	4501	601	1
+8	CO	31	Denver	310	denverco	4501	602	2
+8	CO	31	Denver	310	denverco	4501	603	2
+8	CO	31	Denver	310	denverco	4501	605	1
+8	CO	31	Denver	310	denverco	4501	606	1
+8	CO	31	Denver	310	denverco	4501	607	1
+8	CO	31	Denver	310	denverco	4501	608	2
+8	CO	31	Denver	310	denverco	4501	609	3
+8	CO	31	Denver	310	denverco	4501	701	4
+8	CO	31	Denver	310	denverco	4501	702	4
+8	CO	31	Denver	310	denverco	4501	703	4
+8	CO	31	Denver	310	denverco	4501	704	5
+8	CO	31	Denver	310	denverco	4501	706	5
+8	CO	31	Denver	310	denverco	4501	707	4
+8	CO	31	Denver	310	denverco	4501	708	4
+8	CO	31	Denver	310	denverco	4501	709	5
+8	CO	31	Denver	310	denverco	4501	710	5
+8	CO	31	Denver	310	denverco	4601	105	8
+8	CO	31	Denver	310	denverco	4601	106	7
+8	CO	31	Denver	310	denverco	4601	107	7
+8	CO	31	Denver	310	denverco	4601	108	8
+8	CO	31	Denver	310	denverco	4601	206	8
+8	CO	31	Denver	310	denverco	4601	207	7
+8	CO	31	Denver	310	denverco	4601	208	8
+8	CO	31	Denver	310	denverco	4601	306	8
+8	CO	31	Denver	310	denverco	4601	307	8
+8	CO	31	Denver	310	denverco	4601	409	8
+8	CO	31	Denver	310	denverco	4601	410	7
+8	CO	31	Denver	310	denverco	4601	411	7
+8	CO	31	Denver	310	denverco	4601	412	6
+8	CO	31	Denver	310	denverco	4601	413	5
+8	CO	31	Denver	310	denverco	4601	414	4
+8	CO	31	Denver	310	denverco	4601	415	3
+8	CO	31	Denver	310	denverco	4601	416	1
+8	CO	31	Denver	310	denverco	4601	501	1
+8	CO	31	Denver	310	denverco	4601	502	1
+8	CO	31	Denver	310	denverco	4601	503	1
+8	CO	31	Denver	310	denverco	4601	504	3
+8	CO	31	Denver	310	denverco	4601	505	4
+8	CO	31	Denver	310	denverco	4601	506	4
+8	CO	31	Denver	310	denverco	4601	507	7
+8	CO	31	Denver	310	denverco	4601	508	7
+8	CO	31	Denver	310	denverco	4601	509	6
+8	CO	31	Denver	310	denverco	4601	511	5
+8	CO	31	Denver	310	denverco	4601	512	5
+8	CO	31	Denver	310	denverco	4601	513	4
+8	CO	31	Denver	310	denverco	4601	514	3
+8	CO	31	Denver	310	denverco	4601	515	2
+8	CO	31	Denver	310	denverco	4601	516	1
+8	CO	31	Denver	310	denverco	4601	601	1
+8	CO	31	Denver	310	denverco	4601	602	3
+8	CO	31	Denver	310	denverco	4601	603	4
+8	CO	31	Denver	310	denverco	4601	604	5
+8	CO	31	Denver	310	denverco	4601	605	5
+8	CO	31	Denver	310	denverco	4601	606	5
+8	CO	31	Denver	310	denverco	4601	607	5
+8	CO	31	Denver	310	denverco	4601	608	4
+8	CO	31	Denver	310	denverco	4601	609	3
+8	CO	31	Denver	310	denverco	4601	610	2
+8	CO	31	Denver	310	denverco	4601	612	1
+8	CO	31	Denver	310	denverco	4601	613	2
+8	CO	31	Denver	310	denverco	4601	614	3
+8	CO	31	Denver	310	denverco	4601	615	4
+8	CO	31	Denver	310	denverco	4601	616	5
+8	CO	31	Denver	310	denverco	4601	617	6
+8	CO	31	Denver	310	denverco	4601	701	6
+8	CO	31	Denver	310	denverco	4601	702	5
+8	CO	31	Denver	310	denverco	4601	703	4
+8	CO	31	Denver	310	denverco	4601	704	3
+8	CO	31	Denver	310	denverco	4601	705	2
+8	CO	31	Denver	310	denverco	4601	706	1
+8	CO	31	Denver	310	denverco	4601	707	1
+8	CO	31	Denver	310	denverco	4601	708	2
+8	CO	31	Denver	310	denverco	4601	709	3
+8	CO	31	Denver	310	denverco	4601	710	4
+8	CO	31	Denver	310	denverco	4601	711	5
+8	CO	31	Denver	310	denverco	4601	712	6
+8	CO	31	Denver	310	denverco	4801	102	8
+8	CO	31	Denver	310	denverco	4801	103	8
+8	CO	31	Denver	310	denverco	4801	104	7
+8	CO	31	Denver	310	denverco	4801	105	6
+8	CO	31	Denver	310	denverco	4801	106	5
+8	CO	31	Denver	310	denverco	4801	107	5
+8	CO	31	Denver	310	denverco	4801	108	4
+8	CO	31	Denver	310	denverco	4801	109	3
+8	CO	31	Denver	310	denverco	4801	110	2
+8	CO	31	Denver	310	denverco	4801	111	1
+8	CO	31	Denver	310	denverco	4801	201	1
+8	CO	31	Denver	310	denverco	4801	202	2
+8	CO	31	Denver	310	denverco	4801	203	3
+8	CO	31	Denver	310	denverco	4801	204	4
+8	CO	31	Denver	310	denverco	4801	205	5
+8	CO	31	Denver	310	denverco	4801	206	6
+8	CO	31	Denver	310	denverco	4801	207	7
+8	CO	31	Denver	310	denverco	4801	208	8
+8	CO	31	Denver	310	denverco	4801	302	8
+8	CO	31	Denver	310	denverco	4801	303	7
+8	CO	31	Denver	310	denverco	4801	304	6
+8	CO	31	Denver	310	denverco	4801	305	5
+8	CO	31	Denver	310	denverco	4801	306	4
+8	CO	31	Denver	310	denverco	4801	307	3
+8	CO	31	Denver	310	denverco	4801	308	2
+8	CO	31	Denver	310	denverco	4801	309	1
+8	CO	31	Denver	310	denverco	4801	401	1
+8	CO	31	Denver	310	denverco	4801	402	1
+8	CO	31	Denver	310	denverco	4801	403	1
+8	CO	31	Denver	310	denverco	4801	404	2
+8	CO	31	Denver	310	denverco	4801	405	3
+8	CO	31	Denver	310	denverco	4801	406	4
+8	CO	31	Denver	310	denverco	4801	407	5
+8	CO	31	Denver	310	denverco	4801	408	6
+8	CO	31	Denver	310	denverco	4801	504	6
+8	CO	31	Denver	310	denverco	4801	505	5
+8	CO	31	Denver	310	denverco	4801	506	6
+8	CO	31	Denver	310	denverco	4801	507	7
+8	CO	31	Denver	310	denverco	4801	508	7
+8	CO	31	Denver	310	denverco	4801	510	8
+8	CO	59	Jefferson	310	lakewoco	114	103	5
+8	CO	59	Jefferson	310	lakewoco	114	104	6
+8	CO	59	Jefferson	310	lakewoco	114	106	5
+8	CO	59	Jefferson	310	lakewoco	114	107	5
+8	CO	59	Jefferson	310	lakewoco	114	108	4
+8	CO	59	Jefferson	310	lakewoco	114	109	1
+8	CO	59	Jefferson	310	lakewoco	114	110	1
+8	CO	59	Jefferson	310	lakewoco	114	111	2
+8	CO	59	Jefferson	310	lakewoco	114	113	3
+8	CO	59	Jefferson	310	lakewoco	114	114	4
+8	CO	59	Jefferson	310	lakewoco	114	115	5
+8	CO	59	Jefferson	310	lakewoco	114	116	6
+8	CO	59	Jefferson	310	lakewoco	114	201	7
+8	CO	59	Jefferson	310	lakewoco	114	202	7
+8	CO	59	Jefferson	310	lakewoco	114	203	8
+8	CO	59	Jefferson	310	lakewoco	116	101	1
+8	CO	59	Jefferson	310	lakewoco	116	102	3
+8	CO	59	Jefferson	310	lakewoco	116	103	7
+8	CO	59	Jefferson	310	lakewoco	116	104	8
+8	CO	59	Jefferson	310	lakewoco	116	106	8
+8	CO	59	Jefferson	310	lakewoco	116	109	1
+8	CO	59	Jefferson	310	lakewoco	116	110	3
+8	CO	59	Jefferson	310	lakewoco	116	111	4
+8	CO	59	Jefferson	310	lakewoco	116	112	4
+8	CO	59	Jefferson	310	lakewoco	116	113	3
+8	CO	59	Jefferson	310	lakewoco	116	114	2
+8	CO	59	Jefferson	310	lakewoco	116	115	1
+8	CO	59	Jefferson	310	lakewoco	116	116	1
+8	CO	59	Jefferson	310	lakewoco	116	117	7
+8	CO	59	Jefferson	310	lakewoco	116	201	8
+8	CO	59	Jefferson	310	lakewoco	116	202	8
+8	CO	59	Jefferson	310	lakewoco	116	203	7
+8	CO	59	Jefferson	310	lakewoco	116	204	6
+8	CO	59	Jefferson	310	lakewoco	116	205	5
+8	CO	59	Jefferson	310	lakewoco	116	206	5
+8	CO	59	Jefferson	310	lakewoco	116	207	5
+8	CO	59	Jefferson	310	lakewoco	116	208	5
+8	CO	59	Jefferson	310	lakewoco	116	209	5
+8	CO	59	Jefferson	310	lakewoco	116	210	4
+8	CO	59	Jefferson	310	lakewoco	116	211	4
+8	CO	59	Jefferson	310	lakewoco	116	212	4
+8	CO	59	Jefferson	310	lakewoco	116	213	3
+8	CO	59	Jefferson	310	lakewoco	116	214	2
+8	CO	59	Jefferson	310	lakewoco	116	215	2
+8	CO	59	Jefferson	310	lakewoco	116	216	1
+8	CO	59	Jefferson	310	lakewoco	116	301	1
+8	CO	59	Jefferson	310	lakewoco	116	302	2
+8	CO	59	Jefferson	310	lakewoco	116	303	3
+8	CO	59	Jefferson	310	lakewoco	116	304	3
+8	CO	59	Jefferson	310	lakewoco	116	305	3
+8	CO	59	Jefferson	310	lakewoco	116	306	3
+8	CO	59	Jefferson	310	lakewoco	116	307	4
+8	CO	59	Jefferson	310	lakewoco	116	308	5
+8	CO	59	Jefferson	310	lakewoco	116	309	5
+8	CO	59	Jefferson	310	lakewoco	116	310	4
+8	CO	59	Jefferson	310	lakewoco	116	311	3
+8	CO	59	Jefferson	310	lakewoco	116	312	5
+8	CO	59	Jefferson	310	lakewoco	116	313	5
+8	CO	59	Jefferson	310	lakewoco	116	315	7
+8	CO	59	Jefferson	310	lakewoco	11550	101	1
+8	CO	59	Jefferson	310	lakewoco	11550	102	2
+8	CO	59	Jefferson	310	lakewoco	11550	103	3
+8	CO	59	Jefferson	310	lakewoco	11550	104	4
+8	CO	59	Jefferson	310	lakewoco	11550	105	4
+8	CO	59	Jefferson	310	lakewoco	11550	106	5
+8	CO	59	Jefferson	310	lakewoco	11550	107	6
+8	CO	59	Jefferson	310	lakewoco	11550	108	6
+8	CO	59	Jefferson	310	lakewoco	11550	109	7
+8	CO	59	Jefferson	310	lakewoco	11550	110	8
+8	CO	59	Jefferson	310	lakewoco	11550	112	7
+8	CO	59	Jefferson	310	lakewoco	11550	113	6
+8	CO	59	Jefferson	310	lakewoco	11550	114	5
+8	CO	59	Jefferson	310	lakewoco	11550	115	4
+8	CO	59	Jefferson	310	lakewoco	11550	116	4
+8	CO	59	Jefferson	310	lakewoco	11550	117	3
+8	CO	59	Jefferson	310	lakewoco	11550	118	2
+8	CO	59	Jefferson	310	lakewoco	11550	119	1
+8	CO	59	Jefferson	310	lakewoco	11550	120	1
+8	CO	59	Jefferson	310	lakewoco	11550	121	2
+8	CO	59	Jefferson	310	lakewoco	11550	122	3
+8	CO	59	Jefferson	310	lakewoco	11550	123	7
+8	CO	59	Jefferson	310	lakewoco	11550	204	7
+8	CO	59	Jefferson	310	lakewoco	11550	205	8
+8	CO	59	Jefferson	310	lakewoco	11550	206	7
+8	CO	59	Jefferson	310	lakewoco	11550	207	6
+8	CO	59	Jefferson	310	lakewoco	11550	208	6
+8	CO	59	Jefferson	310	lakewoco	11550	210	1
+8	CO	59	Jefferson	310	lakewoco	11550	211	3
+8	CO	59	Jefferson	310	lakewoco	11550	212	4
+8	CO	59	Jefferson	310	lakewoco	11550	213	5
+8	CO	59	Jefferson	310	lakewoco	11550	214	6
+8	CO	59	Jefferson	310	lakewoco	11550	215	6
+8	CO	59	Jefferson	310	lakewoco	11550	216	5
+8	CO	59	Jefferson	310	lakewoco	11550	217	4
+8	CO	59	Jefferson	310	lakewoco	11550	218	4
+8	CO	59	Jefferson	310	lakewoco	11550	219	3
+8	CO	59	Jefferson	310	lakewoco	11550	220	1
+8	CO	59	Jefferson	310	lakewoco	11550	221	1
+8	CO	59	Jefferson	310	lakewoco	11550	301	1
+8	CO	59	Jefferson	310	lakewoco	11801	101	1
+8	CO	59	Jefferson	310	lakewoco	11801	102	1
+8	CO	59	Jefferson	310	lakewoco	11801	103	2
+8	CO	59	Jefferson	310	lakewoco	11801	104	3
+8	CO	59	Jefferson	310	lakewoco	11801	105	3
+8	CO	59	Jefferson	310	lakewoco	11801	106	3
+8	CO	59	Jefferson	310	lakewoco	11801	107	4
+8	CO	59	Jefferson	310	lakewoco	11801	108	1
+8	CO	59	Jefferson	310	lakewoco	11801	109	4
+8	CO	59	Jefferson	310	lakewoco	11801	110	1
+8	CO	59	Jefferson	310	lakewoco	11801	112	1
+8	CO	59	Jefferson	310	lakewoco	11801	113	2
+8	CO	59	Jefferson	310	lakewoco	11801	114	3
+8	CO	59	Jefferson	310	lakewoco	11801	115	4
+8	CO	59	Jefferson	310	lakewoco	11801	204	8
+8	CO	59	Jefferson	310	lakewoco	11801	205	8
+8	CO	59	Jefferson	310	lakewoco	11801	206	8
+8	CO	59	Jefferson	310	lakewoco	11801	207	7
+8	CO	59	Jefferson	310	lakewoco	11801	209	5
+8	CO	59	Jefferson	310	lakewoco	11801	210	5
+8	CO	59	Jefferson	310	lakewoco	11801	211	6
+8	CO	59	Jefferson	310	lakewoco	11801	212	6
+8	CO	59	Jefferson	310	lakewoco	11801	213	7
+8	CO	59	Jefferson	310	lakewoco	11801	214	7
+8	CO	59	Jefferson	310	lakewoco	11801	215	8
+8	CO	59	Jefferson	310	lakewoco	11801	216	8
+8	CO	59	Jefferson	310	lakewoco	11801	217	8
+8	CO	59	Jefferson	310	lakewoco	11801	219	8
+8	CO	59	Jefferson	310	lakewoco	11801	220	5
+8	CO	59	Jefferson	310	lakewoco	11801	221	5
+8	CO	59	Jefferson	310	lakewoco	11801	222	5
+8	CO	59	Jefferson	310	lakewoco	11801	223	8
+8	CO	59	Jefferson	310	lakewoco	11801	901	5
+8	CO	59	Jefferson	310	lakewoco	11802	101	1
+8	CO	59	Jefferson	310	lakewoco	11802	102	3
+8	CO	59	Jefferson	310	lakewoco	11802	103	6
+8	CO	59	Jefferson	310	lakewoco	11802	104	7
+8	CO	59	Jefferson	310	lakewoco	11802	105	8
+8	CO	59	Jefferson	310	lakewoco	11802	106	8
+8	CO	59	Jefferson	310	lakewoco	11802	119	8
+8	CO	59	Jefferson	310	lakewoco	11802	120	8
+8	CO	59	Jefferson	310	lakewoco	11802	121	7
+8	CO	59	Jefferson	310	lakewoco	11802	122	6
+8	CO	59	Jefferson	310	lakewoco	11802	123	4
+8	CO	59	Jefferson	310	lakewoco	11802	124	5
+8	CO	59	Jefferson	310	lakewoco	11802	125	4
+8	CO	59	Jefferson	310	lakewoco	11802	126	3
+8	CO	59	Jefferson	310	lakewoco	11802	127	2
+8	CO	59	Jefferson	310	lakewoco	11802	128	1
+8	CO	59	Jefferson	310	lakewoco	11802	201	1
+8	CO	59	Jefferson	310	lakewoco	11802	202	3
+8	CO	59	Jefferson	310	lakewoco	11802	203	4
+8	CO	59	Jefferson	310	lakewoco	11802	204	5
+8	CO	59	Jefferson	310	lakewoco	11802	205	6
+8	CO	59	Jefferson	310	lakewoco	11802	206	7
+8	CO	59	Jefferson	310	lakewoco	11802	207	8
+8	CO	59	Jefferson	310	lakewoco	11802	208	8
+8	CO	59	Jefferson	310	lakewoco	11802	305	8
+8	CO	59	Jefferson	310	lakewoco	11802	306	8
+8	CO	59	Jefferson	310	lakewoco	11802	307	7
+8	CO	59	Jefferson	310	lakewoco	11802	308	6
+8	CO	59	Jefferson	310	lakewoco	11802	309	5
+8	CO	59	Jefferson	310	lakewoco	11802	310	4
+8	CO	59	Jefferson	310	lakewoco	11802	311	3
+8	CO	59	Jefferson	310	lakewoco	11802	312	2
+8	CO	59	Jefferson	310	lakewoco	11802	313	1
+8	CO	59	Jefferson	310	lakewoco	11802	314	1
+8	CO	59	Jefferson	310	lakewoco	11802	315	2
+8	CO	59	Jefferson	310	lakewoco	11802	316	3
+8	CO	59	Jefferson	310	lakewoco	11802	317	4
+8	CO	59	Jefferson	310	lakewoco	11802	318	5
+8	CO	59	Jefferson	310	lakewoco	11802	319	5
+8	CO	59	Jefferson	310	lakewoco	11802	320	4
+8	CO	59	Jefferson	310	lakewoco	11802	321	3
+8	CO	59	Jefferson	310	lakewoco	11802	322	2
+8	CO	59	Jefferson	310	lakewoco	11802	323	1
+8	CO	59	Jefferson	310	lakewoco	11802	401	6
+8	CO	59	Jefferson	310	lakewoco	11802	403	8
+8	CO	59	Jefferson	310	lakewoco	11802	404	8
+8	CO	59	Jefferson	310	lakewoco	11951	101	1
+8	CO	59	Jefferson	310	lakewoco	11951	102	1
+8	CO	59	Jefferson	310	lakewoco	11951	103	2
+8	CO	59	Jefferson	310	lakewoco	11951	104	2
+8	CO	59	Jefferson	310	lakewoco	11951	105	3
+8	CO	59	Jefferson	310	lakewoco	11951	106	4
+8	CO	59	Jefferson	310	lakewoco	11951	107	5
+8	CO	59	Jefferson	310	lakewoco	11951	108	6
+8	CO	59	Jefferson	310	lakewoco	11951	110	1
+8	CO	59	Jefferson	310	lakewoco	11951	111	3
+17	IL	31	Cook	301	chicagil	1005	410	8
+17	IL	31	Cook	301	chicagil	1005	411	8
+17	IL	31	Cook	301	chicagil	1005	501	7
+17	IL	31	Cook	301	chicagil	1005	502	7
+17	IL	31	Cook	301	chicagil	1005	503	6
+17	IL	31	Cook	301	chicagil	1005	504	6
+17	IL	31	Cook	301	chicagil	1005	505	5
+17	IL	31	Cook	301	chicagil	1005	506	5
+17	IL	31	Cook	301	chicagil	1005	507	4
+17	IL	31	Cook	301	chicagil	1005	508	4
+17	IL	31	Cook	301	chicagil	1005	509	3
+17	IL	31	Cook	301	chicagil	1005	510	3
+17	IL	31	Cook	301	chicagil	1005	601	2
+17	IL	31	Cook	301	chicagil	1005	602	1
+17	IL	31	Cook	301	chicagil	1005	603	1
+17	IL	31	Cook	301	chicagil	1005	604	2
+17	IL	31	Cook	301	chicagil	1704	101	1
+17	IL	31	Cook	301	chicagil	1704	102	1
+17	IL	31	Cook	301	chicagil	1704	103	1
+17	IL	31	Cook	301	chicagil	1704	104	1
+17	IL	31	Cook	301	chicagil	1704	105	2
+17	IL	31	Cook	301	chicagil	1704	106	3
+17	IL	31	Cook	301	chicagil	1704	107	3
+17	IL	31	Cook	301	chicagil	1704	108	3
+17	IL	31	Cook	301	chicagil	1704	109	3
+17	IL	31	Cook	301	chicagil	1704	201	5
+17	IL	31	Cook	301	chicagil	1704	202	7
+17	IL	31	Cook	301	chicagil	1704	203	7
+17	IL	31	Cook	301	chicagil	1704	204	5
+17	IL	31	Cook	301	chicagil	1704	205	5
+17	IL	31	Cook	301	chicagil	1704	206	7
+17	IL	31	Cook	301	chicagil	1704	207	5
+17	IL	31	Cook	301	chicagil	1704	208	7
+17	IL	31	Cook	301	chicagil	1704	301	7
+17	IL	31	Cook	301	chicagil	1704	302	7
+17	IL	31	Cook	301	chicagil	1704	303	7
+17	IL	31	Cook	301	chicagil	1704	304	7
+17	IL	31	Cook	301	chicagil	1704	305	7
+17	IL	31	Cook	301	chicagil	1704	306	4
+17	IL	31	Cook	301	chicagil	1704	307	5
+17	IL	31	Cook	301	chicagil	1704	308	5
+17	IL	31	Cook	301	chicagil	1704	309	5
+17	IL	31	Cook	301	chicagil	1704	310	5
+17	IL	31	Cook	301	chicagil	1704	401	2
+17	IL	31	Cook	301	chicagil	1704	402	3
+17	IL	31	Cook	301	chicagil	1704	403	3
+17	IL	31	Cook	301	chicagil	1704	404	4
+17	IL	31	Cook	301	chicagil	1704	405	1
+17	IL	31	Cook	301	chicagil	1704	406	1
+17	IL	31	Cook	301	chicagil	1704	407	1
+17	IL	31	Cook	301	chicagil	1704	408	1
+17	IL	31	Cook	301	chicagil	1704	409	1
+17	IL	31	Cook	302	chicagil	7005	509	7
+17	IL	31	Cook	302	chicagil	7005	510	7
+17	IL	31	Cook	302	chicagil	7005	511	6
+17	IL	31	Cook	302	chicagil	7005	512	5
+17	IL	31	Cook	302	chicagil	7005	513	6
+17	IL	31	Cook	302	chicagil	7005	514	5
+17	IL	31	Cook	302	chicagil	7005	601	4
+17	IL	31	Cook	302	chicagil	7005	602	3
+17	IL	31	Cook	302	chicagil	7005	603	2
+17	IL	31	Cook	302	chicagil	7005	604	1
+17	IL	31	Cook	302	chicagil	7005	605	2
+17	IL	31	Cook	302	chicagil	7005	606	3
+17	IL	31	Cook	302	chicagil	7005	607	1
+17	IL	31	Cook	319	wesholca	7005	608	8
+17	IL	31	Cook	302	chicagil	7005	609	2
+17	IL	31	Cook	302	chicagil	7005	610	3
+17	IL	31	Cook	302	chicagil	7005	611	1
+17	IL	31	Cook	302	chicagil	7005	612	5
+17	IL	31	Cook	302	chicagil	7005	613	5
+17	IL	31	Cook	302	chicagil	7005	614	7
+17	IL	31	Cook	302	chicagil	7005	615	7
+17	IL	31	Cook	302	chicagil	7005	616	8
+17	IL	31	Cook	302	chicagil	7203	101	8
+17	IL	31	Cook	302	chicagil	7203	102	7
+17	IL	31	Cook	302	chicagil	7203	103	7
+17	IL	31	Cook	302	chicagil	7203	104	8
+17	IL	31	Cook	302	chicagil	7203	105	8
+17	IL	31	Cook	302	chicagil	7203	106	7
+17	IL	31	Cook	302	chicagil	7203	107	7
+17	IL	31	Cook	302	chicagil	7203	108	8
+17	IL	31	Cook	302	chicagil	7203	401	1
+17	IL	31	Cook	302	chicagil	7203	402	2
+17	IL	31	Cook	302	chicagil	7203	403	3
+17	IL	31	Cook	302	chicagil	7203	404	3
+17	IL	31	Cook	302	chicagil	7203	405	4
+17	IL	31	Cook	302	chicagil	7203	406	4
+17	IL	31	Cook	302	chicagil	7203	407	5
+17	IL	31	Cook	302	chicagil	7203	408	5
+17	IL	31	Cook	302	chicagil	7203	409	6
+17	IL	31	Cook	302	chicagil	7203	410	6
+17	IL	31	Cook	302	chicagil	7203	501	6
+17	IL	31	Cook	302	chicagil	7203	502	5
+17	IL	31	Cook	302	chicagil	7203	503	4
+17	IL	31	Cook	302	chicagil	7203	504	3
+17	IL	31	Cook	302	chicagil	7203	505	2
+17	IL	31	Cook	302	chicagil	7203	506	1
+17	IL	31	Cook	302	chicagil	7203	507	1
+17	IL	31	Cook	302	chicagil	7203	508	2
+17	IL	31	Cook	302	chicagil	7203	509	3
+17	IL	31	Cook	302	chicagil	7203	510	4
+17	IL	31	Cook	302	chicagil	7203	511	5
+17	IL	31	Cook	302	chicagil	7203	512	6
+17	IL	31	Cook	302	chicagil	7401	101	1
+17	IL	31	Cook	302	chicagil	7401	102	1
+17	IL	31	Cook	302	chicagil	7401	103	1
+17	IL	31	Cook	302	chicagil	7401	104	2
+17	IL	31	Cook	302	chicagil	7401	105	2
+17	IL	31	Cook	302	chicagil	7401	106	2
+17	IL	31	Cook	302	chicagil	7401	107	2
+17	IL	31	Cook	302	chicagil	7401	109	2
+17	IL	31	Cook	302	chicagil	7401	110	4
+17	IL	31	Cook	302	chicagil	7401	111	4
+17	IL	31	Cook	302	chicagil	7401	112	4
+17	IL	31	Cook	302	chicagil	7401	201	6
+17	IL	31	Cook	302	chicagil	7401	202	6
+17	IL	31	Cook	302	chicagil	7401	203	6
+17	IL	31	Cook	302	chicagil	7401	204	6
+17	IL	31	Cook	302	chicagil	7401	205	8
+17	IL	31	Cook	302	chicagil	7401	206	8
+17	IL	31	Cook	302	chicagil	7401	207	8
+17	IL	31	Cook	302	chicagil	7401	208	8
+17	IL	31	Cook	302	chicagil	7402	101	1
+17	IL	31	Cook	302	chicagil	7402	102	1
+17	IL	31	Cook	302	chicagil	7402	103	1
+17	IL	31	Cook	302	chicagil	7402	104	1
+17	IL	31	Cook	302	chicagil	7402	105	3
+17	IL	31	Cook	302	chicagil	7402	106	3
+17	IL	31	Cook	302	chicagil	7402	107	3
+17	IL	31	Cook	302	chicagil	7402	108	3
+17	IL	31	Cook	302	chicagil	7402	201	5
+17	IL	31	Cook	302	chicagil	7402	202	5
+17	IL	31	Cook	302	chicagil	7402	203	5
+17	IL	31	Cook	302	chicagil	7402	204	5
+17	IL	31	Cook	302	chicagil	7402	205	6
+17	IL	31	Cook	302	chicagil	7402	206	6
+17	IL	31	Cook	302	chicagil	7402	207	6
+17	IL	31	Cook	302	chicagil	7402	208	7
+17	IL	31	Cook	302	chicagil	7402	209	6
+17	IL	31	Cook	302	chicagil	7402	301	6
+17	IL	31	Cook	302	chicagil	7402	302	6
+17	IL	31	Cook	302	chicagil	7402	303	5
+17	IL	31	Cook	302	chicagil	7402	304	5
+17	IL	31	Cook	302	chicagil	7402	305	5
+17	IL	31	Cook	302	chicagil	7402	306	5
+17	IL	31	Cook	302	chicagil	7402	401	3
+17	IL	31	Cook	302	chicagil	7402	402	1
+17	IL	31	Cook	302	chicagil	7402	403	3
+17	IL	31	Cook	302	chicagil	7402	404	1
+17	IL	31	Cook	302	chicagil	7402	405	1
+17	IL	31	Cook	301	norridil	7603	304	1
+17	IL	31	Cook	301	norridil	7603	306	2
+17	IL	31	Cook	301	norridil	7603	307	2
+17	IL	31	Cook	301	norridil	7603	309	6
+17	IL	31	Cook	301	norridil	7603	310	6
+17	IL	31	Cook	301	norridil	7603	401	6
+17	IL	31	Cook	301	norridil	7603	402	6
+17	IL	31	Cook	301	norridil	7603	405	5
+17	IL	31	Cook	301	norridil	7603	406	4
+17	IL	31	Cook	301	norridil	7603	407	3
+17	IL	31	Cook	301	norridil	7603	408	2
+17	IL	31	Cook	301	norridil	7603	409	1
+17	IL	31	Cook	301	norridil	7603	410	1
+17	IL	31	Cook	301	chicagil	7605	201	1
+17	IL	31	Cook	301	chicagil	7605	206	5
+17	IL	31	Cook	301	chicagil	7605	211	7
+17	IL	31	Cook	301	norridil	8105	211	5
+17	IL	31	Cook	301	norridil	8105	212	5
+17	IL	31	Cook	301	norridil	8105	213	3
+17	IL	31	Cook	301	norridil	8105	214	3
+17	IL	31	Cook	301	norridil	8105	215	1
+17	IL	31	Cook	301	norridil	8105	216	1
+17	IL	31	Cook	301	norridil	8105	301	1
+17	IL	31	Cook	301	norridil	8105	302	3
+17	IL	31	Cook	301	norridil	8105	303	5
+17	IL	31	Cook	301	norridil	8105	304	5
+17	IL	31	Cook	301	norridil	8105	305	5
+17	IL	31	Cook	301	norridil	8105	306	5
+17	IL	31	Cook	301	norridil	8105	307	3
+17	IL	31	Cook	301	norridil	8105	309	3
+17	IL	31	Cook	301	norridil	8105	310	3
+17	IL	31	Cook	301	norridil	8105	311	1
+17	IL	31	Cook	301	norridil	8105	312	1
+17	IL	31	Cook	301	norridil	8105	314	1
+17	IL	31	Cook	301	norridil	8105	401	1
+17	IL	31	Cook	301	norridil	8105	402	1
+17	IL	31	Cook	301	norridil	8105	403	1
+17	IL	31	Cook	301	norridil	8105	405	3
+17	IL	31	Cook	301	norridil	8105	406	3
+17	IL	31	Cook	301	norridil	8105	407	3
+17	IL	31	Cook	301	norridil	8105	408	5
+17	IL	31	Cook	301	norridil	8105	409	5
+17	IL	31	Cook	301	norridil	8105	410	5
+17	IL	31	Cook	301	norridil	8105	501	7
+17	IL	31	Cook	301	norridil	8105	503	7
+17	IL	31	Cook	301	norridil	8105	504	7
+17	IL	31	Cook	301	norridil	8105	505	7
+17	IL	31	Cook	301	norridil	8105	609	7
+17	IL	31	Cook	301	norridil	8105	612	8
+17	IL	31	Cook	301	norridil	8105	701	7
+17	IL	31	Cook	301	norridil	8105	703	6
+17	IL	31	Cook	301	norridil	8105	704	4
+17	IL	31	Cook	301	norridil	8105	705	5
+17	IL	31	Cook	301	norridil	8105	706	4
+17	IL	31	Cook	301	norridil	8105	707	4
+17	IL	31	Cook	301	norridil	8105	708	5
+17	IL	31	Cook	301	norridil	8105	709	5
+17	IL	31	Cook	301	norridil	8105	710	5
+17	IL	31	Cook	301	norridil	8105	801	3
+17	IL	31	Cook	301	norridil	8105	802	3
+17	IL	31	Cook	301	norridil	8105	803	1
+17	IL	31	Cook	301	norridil	8105	804	1
+17	IL	31	Cook	301	norridil	8105	805	3
+17	IL	31	Cook	301	norridil	8105	806	1
+17	IL	31	Cook	301	norridil	8105	807	3
+17	IL	31	Cook	301	norridil	8105	808	3
+17	IL	31	Cook	301	norridil	8105	809	3
+17	IL	31	Cook	301	norridil	8105	810	3
+17	IL	31	Cook	301	norridil	8105	811	1
+17	IL	31	Cook	302	eveparil	8216	107	7
+17	IL	31	Cook	302	eveparil	8216	108	7
+17	IL	31	Cook	302	eveparil	8216	109	6
+17	IL	31	Cook	302	eveparil	8216	110	6
+17	IL	31	Cook	302	eveparil	8216	111	5
+17	IL	31	Cook	302	eveparil	8216	112	5
+17	IL	31	Cook	302	eveparil	8216	113	3
+17	IL	31	Cook	302	eveparil	8216	114	3
+17	IL	31	Cook	302	eveparil	8216	115	1
+17	IL	31	Cook	302	eveparil	8216	201	1
+17	IL	31	Cook	302	eveparil	8216	202	3
+17	IL	31	Cook	302	eveparil	8216	203	3
+17	IL	31	Cook	302	eveparil	8216	204	1
+17	IL	31	Cook	302	eveparil	8216	205	1
+17	IL	31	Cook	302	eveparil	8216	206	1
+17	IL	31	Cook	302	eveparil	8216	207	3
+17	IL	31	Cook	302	eveparil	8216	208	3
+17	IL	31	Cook	302	eveparil	8216	209	1
+17	IL	31	Cook	302	eveparil	8216	210	1
+17	IL	31	Cook	302	eveparil	8216	211	3
+17	IL	31	Cook	302	eveparil	8216	212	5
+17	IL	31	Cook	302	eveparil	8216	213	5
+17	IL	31	Cook	302	eveparil	8216	214	5
+17	IL	31	Cook	302	eveparil	8216	301	7
+17	IL	31	Cook	302	eveparil	8216	303	7
+17	IL	31	Cook	302	eveparil	8216	304	7
+17	IL	31	Cook	302	eveparil	8216	409	7
+17	IL	31	Cook	302	eveparil	8216	410	7
+17	IL	31	Cook	302	eveparil	8216	411	7
+17	IL	31	Cook	302	eveparil	8216	412	7
+17	IL	31	Cook	302	eveparil	8216	503	5
+17	IL	31	Cook	302	eveparil	8216	504	5
+17	IL	31	Cook	302	eveparil	8216	505	3
+17	IL	31	Cook	302	eveparil	8216	506	1
+17	IL	31	Cook	302	eveparil	8216	507	3
+17	IL	31	Cook	302	eveparil	8216	508	1
+17	IL	31	Cook	302	eveparil	8216	509	1
+17	IL	31	Cook	302	eveparil	8216	510	3
+17	IL	31	Cook	302	eveparil	8216	511	3
+17	IL	31	Cook	302	eveparil	8216	512	1
+17	IL	31	Cook	302	eveparil	8219	101	1
+17	IL	31	Cook	302	eveparil	8219	102	3
+17	IL	31	Cook	302	eveparil	8219	104	4
+17	IL	31	Cook	302	eveparil	8219	105	4
+17	IL	31	Cook	302	eveparil	8219	106	1
+17	IL	31	Cook	302	eveparil	8219	107	2
+17	IL	31	Cook	302	eveparil	8219	108	4
+17	IL	31	Cook	302	eveparil	8219	109	5
+17	IL	31	Cook	302	eveparil	8219	110	7
+17	IL	31	Cook	302	eveparil	8219	111	7
+17	IL	31	Cook	302	eveparil	8219	112	5
+17	IL	31	Cook	302	eveparil	8219	113	5
+17	IL	31	Cook	302	eveparil	8219	114	7
+17	IL	31	Cook	302	eveparil	8219	115	5
+17	IL	31	Cook	302	eveparil	8219	116	7
+17	IL	31	Cook	302	eveparil	8219	309	7
+17	IL	31	Cook	302	eveparil	8219	310	4
+17	IL	31	Cook	302	eveparil	8219	311	2
+17	IL	31	Cook	302	eveparil	8219	312	3
+17	IL	31	Cook	302	eveparil	8219	313	2
+17	IL	31	Cook	302	eveparil	8219	314	1
+17	IL	31	Cook	302	eveparil	8219	315	1
+17	IL	31	Cook	302	eveparil	8219	401	1
+17	IL	31	Cook	302	eveparil	8219	402	1
+17	IL	31	Cook	302	eveparil	8219	403	1
+17	IL	31	Cook	302	eveparil	8219	404	3
+17	IL	31	Cook	302	eveparil	8219	405	3
+17	IL	31	Cook	302	eveparil	8219	406	5
+17	IL	31	Cook	302	eveparil	8219	407	5
+17	IL	31	Cook	302	eveparil	8219	408	7
+17	IL	31	Cook	302	eveparil	8219	409	7
+17	IL	31	Cook	302	eveparil	8219	410	5
+17	IL	31	Cook	302	eveparil	8219	411	7
+17	IL	31	Cook	302	eveparil	8219	501	7
+17	IL	31	Cook	302	eveparil	8219	502	7
+17	IL	31	Cook	302	eveparil	8219	503	7
+17	IL	31	Cook	302	eveparil	8219	504	7
+17	IL	31	Cook	302	eveparil	8219	505	7
+17	IL	31	Cook	302	eveparil	8219	506	5
+17	IL	31	Cook	302	eveparil	8219	507	5
+17	IL	31	Cook	302	eveparil	8219	508	5
+17	IL	31	Cook	302	eveparil	8219	509	5
+17	IL	31	Cook	302	eveparil	8219	510	5
+17	IL	31	Cook	302	eveparil	8219	601	3
+17	IL	31	Cook	302	eveparil	8219	602	3
+17	IL	31	Cook	302	eveparil	8219	603	3
+17	IL	31	Cook	302	eveparil	8219	604	3
+17	IL	31	Cook	302	eveparil	8219	605	3
+17	IL	31	Cook	302	eveparil	8219	606	1
+17	IL	31	Cook	302	eveparil	8219	607	1
+17	IL	31	Cook	302	eveparil	8219	608	1
+17	IL	31	Cook	302	eveparil	8219	609	1
+19	IA	163	Scott	307	davenpia	131	101	3
+19	IA	163	Scott	307	davenpia	131	102	1
+19	IA	163	Scott	307	davenpia	131	103	1
+19	IA	163	Scott	307	davenpia	131	104	1
+19	IA	163	Scott	307	davenpia	131	105	1
+19	IA	163	Scott	307	davenpia	131	106	1
+19	IA	163	Scott	307	davenpia	131	107	1
+19	IA	163	Scott	307	davenpia	131	109	1
+19	IA	163	Scott	307	davenpia	131	110	2
+19	IA	163	Scott	307	davenpia	131	111	3
+19	IA	163	Scott	307	davenpia	131	112	3
+19	IA	163	Scott	307	davenpia	131	113	3
+19	IA	163	Scott	307	davenpia	131	114	1
+19	IA	163	Scott	307	davenpia	131	201	1
+19	IA	163	Scott	307	davenpia	131	202	1
+19	IA	163	Scott	307	davenpia	131	203	1
+19	IA	163	Scott	307	davenpia	131	205	3
+19	IA	163	Scott	307	davenpia	131	206	1
+19	IA	163	Scott	307	davenpia	131	207	4
+19	IA	163	Scott	307	davenpia	131	209	3
+19	IA	163	Scott	307	davenpia	131	210	3
+19	IA	163	Scott	307	davenpia	131	211	2
+19	IA	163	Scott	307	davenpia	131	212	3
+19	IA	163	Scott	307	davenpia	131	301	4
+19	IA	163	Scott	307	davenpia	131	302	5
+19	IA	163	Scott	307	davenpia	131	303	5
+19	IA	163	Scott	307	davenpia	131	304	4
+19	IA	163	Scott	307	davenpia	131	305	5
+19	IA	163	Scott	307	davenpia	131	306	6
+19	IA	163	Scott	307	davenpia	131	307	7
+19	IA	163	Scott	307	davenpia	131	308	5
+19	IA	163	Scott	307	davenpia	131	309	6
+19	IA	163	Scott	307	davenpia	131	310	6
+19	IA	163	Scott	307	davenpia	131	313	7
+19	IA	163	Scott	307	davenpia	131	314	6
+19	IA	163	Scott	307	davenpia	131	401	7
+19	IA	163	Scott	307	davenpia	131	402	6
+19	IA	163	Scott	307	davenpia	131	403	6
+19	IA	163	Scott	307	davenpia	131	404	5
+19	IA	163	Scott	307	davenpia	131	406	4
+19	IA	163	Scott	307	davenpia	131	407	4
+19	IA	163	Scott	307	davenpia	131	408	4
+19	IA	163	Scott	307	davenpia	131	409	3
+19	IA	163	Scott	307	davenpia	131	410	3
+19	IA	163	Scott	307	davenpia	131	411	4
+19	IA	163	Scott	307	bettenia	132	101	1
+19	IA	163	Scott	307	bettenia	132	102	1
+19	IA	163	Scott	307	bettenia	132	104	5
+19	IA	163	Scott	307	bettenia	132	105	5
+19	IA	163	Scott	307	bettenia	132	106	6
+19	IA	163	Scott	307	bettenia	132	107	6
+19	IA	163	Scott	307	bettenia	132	108	7
+19	IA	163	Scott	307	bettenia	132	109	6
+19	IA	163	Scott	307	bettenia	132	110	6
+19	IA	163	Scott	307	bettenia	132	111	7
+19	IA	163	Scott	307	bettenia	132	112	8
+19	IA	163	Scott	307	bettenia	132	113	8
+19	IA	163	Scott	307	bettenia	132	115	8
+19	IA	163	Scott	307	bettenia	132	116	7
+19	IA	163	Scott	307	bettenia	132	117	6
+19	IA	163	Scott	307	bettenia	132	118	6
+19	IA	163	Scott	307	bettenia	132	119	7
+19	IA	163	Scott	307	bettenia	132	120	8
+19	IA	163	Scott	307	bettenia	132	121	8
+19	IA	163	Scott	307	bettenia	132	204	6
+19	IA	163	Scott	307	bettenia	132	205	5
+19	IA	163	Scott	307	bettenia	132	206	4
+19	IA	163	Scott	307	bettenia	132	207	2
+19	IA	163	Scott	307	bettenia	132	208	1
+19	IA	163	Scott	307	bettenia	132	301	1
+19	IA	163	Scott	307	bettenia	132	302	2
+19	IA	163	Scott	307	bettenia	132	303	3
+19	IA	163	Scott	307	bettenia	132	304	4
+19	IA	163	Scott	307	bettenia	132	305	4
+19	IA	163	Scott	307	bettenia	132	306	4
+19	IA	163	Scott	307	bettenia	132	307	4
+19	IA	163	Scott	307	bettenia	132	310	4
+19	IA	163	Scott	307	bettenia	132	311	1
+20	KS	91	Johnson	330	oveparks	52201	101	1
+20	KS	91	Johnson	330	oveparks	52201	102	1
+20	KS	91	Johnson	330	oveparks	52201	103	1
+20	KS	91	Johnson	330	oveparks	52201	104	2
+20	KS	91	Johnson	330	oveparks	52201	107	1
+20	KS	91	Johnson	330	oveparks	52201	108	2
+20	KS	91	Johnson	330	oveparks	52201	109	3
+20	KS	91	Johnson	330	oveparks	52201	110	1
+20	KS	91	Johnson	330	oveparks	52201	111	1
+20	KS	91	Johnson	330	oveparks	52201	112	1
+20	KS	91	Johnson	330	oveparks	52201	113	1
+20	KS	91	Johnson	330	oveparks	52201	114	1
+20	KS	91	Johnson	330	oveparks	52201	115	2
+20	KS	91	Johnson	330	oveparks	52201	116	2
+20	KS	91	Johnson	330	oveparks	52201	117	3
+20	KS	91	Johnson	330	oveparks	52201	118	1
+20	KS	91	Johnson	330	oveparks	52201	119	4
+20	KS	91	Johnson	330	oveparks	52201	122	1
+20	KS	91	Johnson	330	oveparks	52201	123	5
+20	KS	91	Johnson	330	oveparks	52201	124	5
+20	KS	91	Johnson	330	oveparks	52201	125	5
+20	KS	91	Johnson	330	oveparks	52201	126	5
+20	KS	91	Johnson	330	oveparks	52201	127	5
+20	KS	91	Johnson	330	oveparks	52201	128	5
+20	KS	91	Johnson	330	oveparks	52201	201	5
+20	KS	91	Johnson	330	oveparks	52201	202	6
+20	KS	91	Johnson	330	oveparks	52201	203	8
+20	KS	91	Johnson	330	oveparks	52201	205	7
+20	KS	91	Johnson	330	oveparks	52201	206	6
+20	KS	91	Johnson	330	oveparks	52201	207	7
+20	KS	91	Johnson	330	oveparks	52201	208	8
+20	KS	91	Johnson	330	oveparks	52201	209	7
+20	KS	91	Johnson	330	oveparks	52201	211	6
+20	KS	91	Johnson	330	oveparks	52201	212	7
+20	KS	91	Johnson	330	oveparks	52201	213	6
+20	KS	91	Johnson	330	oveparks	52201	214	6
+20	KS	91	Johnson	330	oveparks	52201	215	7
+20	KS	91	Johnson	330	oveparks	52201	216	7
+20	KS	91	Johnson	330	oveparks	52201	217	8
+20	KS	91	Johnson	330	oveparks	52201	218	8
+20	KS	209	Wyandotte	330	kancitks	435	109	7
+20	KS	209	Wyandotte	330	kancitks	435	111	7
+20	KS	209	Wyandotte	330	kancitks	435	113	8
+20	KS	209	Wyandotte	330	kancitks	435	114	7
+20	KS	209	Wyandotte	330	kancitks	435	116	5
+20	KS	209	Wyandotte	330	kancitks	435	117	5
+20	KS	209	Wyandotte	330	kancitks	435	118	6
+20	KS	209	Wyandotte	330	kancitks	435	119	6
+20	KS	209	Wyandotte	330	kancitks	435	120	5
+20	KS	209	Wyandotte	330	kancitks	435	121	5
+20	KS	209	Wyandotte	330	kancitks	435	122	6
+20	KS	209	Wyandotte	330	kancitks	435	123	6
+20	KS	209	Wyandotte	330	kancitks	435	124	6
+20	KS	209	Wyandotte	330	kancitks	435	125	6
+20	KS	209	Wyandotte	330	kancitks	435	126	1
+20	KS	209	Wyandotte	330	kancitks	435	203	4
+20	KS	209	Wyandotte	330	kancitks	435	204	4
+20	KS	209	Wyandotte	330	kancitks	435	211	3
+20	KS	209	Wyandotte	330	kancitks	435	215	1
+20	KS	209	Wyandotte	330	kancitks	435	216	1
+20	KS	209	Wyandotte	330	kancitks	435	222	3
+20	KS	209	Wyandotte	330	kancitks	435	223	2
+20	KS	209	Wyandotte	330	kancitks	435	224	1
+20	KS	209	Wyandotte	330	kancitks	435	225	1
+20	KS	209	Wyandotte	330	kancitks	435	226	1
+20	KS	209	Wyandotte	330	kancitks	436	609	1
+25	MA	21	Norfolk	300	dedhamma	4021	401	6
+25	MA	21	Norfolk	300	dedhamma	4021	402	7
+25	MA	21	Norfolk	300	dedhamma	4021	403	7
+25	MA	21	Norfolk	300	dedhamma	4021	404	6
+25	MA	21	Norfolk	300	dedhamma	4021	405	6
+25	MA	21	Norfolk	300	dedhamma	4021	406	4
+25	MA	21	Norfolk	300	dedhamma	4021	407	2
+25	MA	21	Norfolk	300	dedhamma	4021	408	1
+25	MA	21	Norfolk	300	dedhamma	4021	410	1
+25	MA	21	Norfolk	300	dedhamma	4021	411	1
+25	MA	21	Norfolk	300	dedhamma	4021	412	2
+25	MA	21	Norfolk	300	dedhamma	4021	413	5
+25	MA	21	Norfolk	300	dedhamma	4021	414	6
+25	MA	21	Norfolk	300	dedhamma	4021	501	6
+25	MA	21	Norfolk	300	dedhamma	4021	502	4
+25	MA	21	Norfolk	300	dedhamma	4021	503	3
+25	MA	21	Norfolk	300	dedhamma	4021	504	1
+25	MA	21	Norfolk	300	dedhamma	4021	505	2
+25	MA	21	Norfolk	300	dedhamma	4021	506	1
+25	MA	21	Norfolk	300	dedhamma	4021	507	1
+25	MA	25	Suffolk	300	bostonma	1304	208	5
+25	MA	25	Suffolk	300	bostonma	1304	209	3
+25	MA	25	Suffolk	300	bostonma	1304	210	1
+25	MA	25	Suffolk	300	bostonma	1304	211	2
+25	MA	25	Suffolk	300	bostonma	1304	212	1
+25	MA	25	Suffolk	300	bostonma	1304	213	1
+25	MA	25	Suffolk	300	bostonma	1304	214	1
+25	MA	25	Suffolk	300	bostonma	1304	215	1
+25	MA	25	Suffolk	300	bostonma	1304	216	1
+25	MA	25	Suffolk	300	bostonma	1304	218	1
+25	MA	25	Suffolk	300	bostonma	1304	219	3
+25	MA	25	Suffolk	300	bostonma	1304	220	2
+25	MA	25	Suffolk	300	bostonma	1304	221	3
+25	MA	25	Suffolk	300	bostonma	1304	301	5
+25	MA	25	Suffolk	300	bostonma	1304	304	5
+25	MA	25	Suffolk	300	bostonma	1304	305	6
+25	MA	25	Suffolk	300	bostonma	1304	307	6
+25	MA	25	Suffolk	300	bostonma	1304	314	6
+25	MA	25	Suffolk	300	bostonma	1304	317	6
+25	MA	25	Suffolk	300	bostonma	1304	318	8
+25	MA	25	Suffolk	300	bostonma	1304	320	7
+25	MA	25	Suffolk	300	bostonma	1304	404	6
+25	MA	25	Suffolk	300	bostonma	1304	406	7
+25	MA	25	Suffolk	300	bostonma	1304	407	8
+25	MA	25	Suffolk	300	bostonma	1304	408	8
+25	MA	25	Suffolk	300	bostonma	1304	409	8
+25	MA	25	Suffolk	300	bostonma	1304	410	3
+25	MA	25	Suffolk	300	bostonma	1304	411	4
+25	MA	25	Suffolk	300	bostonma	1304	412	4
+25	MA	25	Suffolk	300	bostonma	1304	413	4
+25	MA	25	Suffolk	300	bostonma	1304	414	3
+25	MA	25	Suffolk	300	bostonma	1304	415	2
+25	MA	25	Suffolk	300	bostonma	1304	416	1
+25	MA	25	Suffolk	300	bostonma	1304	417	1
+26	MI	99	Macomb	314	easdetmi	201201	101	8
+26	MI	99	Macomb	314	easdetmi	201201	102	8
+26	MI	99	Macomb	314	easdetmi	201201	103	8
+26	MI	99	Macomb	314	easdetmi	201201	104	7
+26	MI	99	Macomb	314	easdetmi	201201	105	7
+26	MI	99	Macomb	314	easdetmi	201201	106	7
+26	MI	99	Macomb	314	easdetmi	201201	107	6
+26	MI	99	Macomb	314	easdetmi	201201	108	6
+26	MI	99	Macomb	314	easdetmi	201201	109	6
+26	MI	99	Macomb	314	easdetmi	201201	110	5
+26	MI	99	Macomb	314	easdetmi	201201	111	5
+26	MI	99	Macomb	314	easdetmi	201201	112	5
+26	MI	99	Macomb	314	easdetmi	201201	201	4
+26	MI	99	Macomb	314	easdetmi	201201	202	3
+26	MI	99	Macomb	314	easdetmi	201201	203	2
+26	MI	99	Macomb	314	easdetmi	201201	204	1
+26	MI	99	Macomb	314	easdetmi	201201	205	1
+26	MI	99	Macomb	314	easdetmi	201201	206	2
+26	MI	99	Macomb	314	easdetmi	201201	207	3
+26	MI	99	Macomb	314	easdetmi	201201	208	4
+26	MI	99	Macomb	314	easdetmi	201201	209	4
+26	MI	99	Macomb	314	easdetmi	201201	210	3
+26	MI	99	Macomb	314	easdetmi	201201	211	2
+26	MI	99	Macomb	314	easdetmi	201201	212	1
+26	MI	99	Macomb	314	easdetmi	201201	301	1
+26	MI	99	Macomb	314	easdetmi	201201	302	2
+26	MI	99	Macomb	314	easdetmi	201201	303	3
+26	MI	99	Macomb	314	easdetmi	201201	304	4
+26	MI	99	Macomb	314	easdetmi	201201	305	5
+26	MI	99	Macomb	314	easdetmi	201201	306	6
+26	MI	99	Macomb	314	easdetmi	201201	307	7
+26	MI	99	Macomb	314	easdetmi	201201	308	8
+26	MI	99	Macomb	314	easdetmi	201201	309	7
+26	MI	99	Macomb	314	easdetmi	201201	310	4
+26	MI	99	Macomb	314	easdetmi	201201	311	1
+26	MI	99	Macomb	314	easdetmi	201201	401	1
+26	MI	99	Macomb	314	easdetmi	201201	402	4
+26	MI	99	Macomb	314	easdetmi	201201	403	7
+26	MI	99	Macomb	314	easdetmi	201201	405	8
+26	MI	99	Macomb	314	easdetmi	201201	406	7
+26	MI	99	Macomb	314	easdetmi	201201	407	6
+26	MI	99	Macomb	314	easdetmi	201201	408	5
+26	MI	99	Macomb	314	easdetmi	201201	409	4
+26	MI	99	Macomb	314	easdetmi	201201	410	3
+26	MI	99	Macomb	314	easdetmi	201201	411	2
+26	MI	99	Macomb	314	easdetmi	201201	412	1
+26	MI	99	Macomb	314	easdetmi	201201	501	1
+26	MI	99	Macomb	314	easdetmi	201201	503	3
+26	MI	99	Macomb	314	easdetmi	201201	504	1
+26	MI	99	Macomb	314	easdetmi	201201	505	4
+26	MI	99	Macomb	314	easdetmi	201201	506	4
+26	MI	99	Macomb	314	easdetmi	201201	507	5
+26	MI	99	Macomb	314	easdetmi	201201	508	5
+26	MI	99	Macomb	314	easdetmi	201201	511	6
+26	MI	99	Macomb	314	easdetmi	201201	512	7
+26	MI	125	Oakland	315	southfmi	103802	102	7
+26	MI	125	Oakland	315	southfmi	103802	107	8
+26	MI	125	Oakland	315	southfmi	103802	108	8
+26	MI	125	Oakland	315	southfmi	103802	111	7
+26	MI	125	Oakland	315	southfmi	103802	113	7
+26	MI	125	Oakland	315	southfmi	103802	201	6
+26	MI	125	Oakland	315	southfmi	103802	202	6
+26	MI	125	Oakland	315	southfmi	103802	203	6
+26	MI	125	Oakland	315	southfmi	103802	204	1
+26	MI	125	Oakland	315	southfmi	103802	210	2
+26	MI	125	Oakland	315	southfmi	103802	211	3
+26	MI	125	Oakland	315	southfmi	103802	212	3
+26	MI	125	Oakland	315	southfmi	103802	213	4
+26	MI	125	Oakland	315	southfmi	103802	214	5
+26	MI	125	Oakland	315	southfmi	103802	305	8
+26	MI	125	Oakland	315	southfmi	103802	306	8
+26	MI	125	Oakland	315	southfmi	103802	307	8
+26	MI	125	Oakland	315	southfmi	103802	308	7
+26	MI	125	Oakland	315	southfmi	103802	310	6
+26	MI	125	Oakland	315	southfmi	103802	311	6
+26	MI	125	Oakland	315	southfmi	103802	312	5
+26	MI	125	Oakland	315	southfmi	103802	313	4
+26	MI	125	Oakland	315	southfmi	103802	314	3
+26	MI	125	Oakland	315	southfmi	103802	315	2
+26	MI	125	Oakland	315	southfmi	103802	316	1
+26	MI	125	Oakland	315	southfmi	103802	317	1
+26	MI	125	Oakland	315	southfmi	103802	401	1
+26	MI	125	Oakland	315	southfmi	103802	402	1
+26	MI	125	Oakland	315	southfmi	103802	403	1
+26	MI	125	Oakland	315	southfmi	103802	404	6
+26	MI	125	Oakland	315	southfmi	103802	405	7
+26	MI	125	Oakland	315	southfmi	103802	406	7
+26	MI	125	Oakland	315	southfmi	103802	407	7
+26	MI	125	Oakland	315	southfmi	103802	408	7
+26	MI	125	Oakland	315	southfmi	103802	409	6
+26	MI	125	Oakland	315	southfmi	103802	410	6
+26	MI	125	Oakland	315	southfmi	103802	411	8
+26	MI	125	Oakland	315	southfmi	103802	412	8
+26	MI	125	Oakland	315	southfmi	103802	413	8
+26	MI	163	Wayne	311	gropopmi	870	101	1
+26	MI	163	Wayne	311	gropopmi	870	102	1
+26	MI	163	Wayne	311	gropopmi	870	103	1
+26	MI	163	Wayne	311	gropopmi	870	104	1
+26	MI	163	Wayne	311	gropopmi	870	105	3
+26	MI	163	Wayne	311	gropopmi	870	106	3
+26	MI	163	Wayne	311	gropopmi	870	107	3
+26	MI	163	Wayne	311	gropopmi	870	108	3
+26	MI	163	Wayne	311	gropopmi	870	201	4
+26	MI	163	Wayne	311	gropopmi	870	202	4
+26	MI	163	Wayne	311	gropopmi	870	203	4
+26	MI	163	Wayne	311	gropopmi	870	204	4
+26	MI	163	Wayne	311	gropopmi	870	205	5
+26	MI	163	Wayne	311	gropopmi	870	206	5
+26	MI	163	Wayne	311	gropopmi	870	207	5
+26	MI	163	Wayne	311	gropopmi	870	208	5
+26	MI	163	Wayne	311	gropopmi	870	301	6
+26	MI	163	Wayne	311	gropopmi	870	302	6
+26	MI	163	Wayne	311	gropopmi	870	303	6
+26	MI	163	Wayne	311	gropopmi	870	304	6
+26	MI	163	Wayne	311	gropopmi	870	305	6
+26	MI	163	Wayne	311	gropopmi	870	306	6
+26	MI	163	Wayne	311	gropopmi	870	307	6
+26	MI	163	Wayne	311	gropopmi	870	401	6
+26	MI	163	Wayne	311	gropopmi	870	402	6
+26	MI	163	Wayne	311	gropopmi	870	403	7
+26	MI	163	Wayne	311	gropopmi	870	406	5
+26	MI	163	Wayne	311	gropopmi	870	408	5
+26	MI	163	Wayne	311	gropopmi	870	501	4
+26	MI	163	Wayne	311	gropopmi	870	502	4
+26	MI	163	Wayne	311	gropopmi	870	504	3
+26	MI	163	Wayne	311	gropopmi	870	506	3
+26	MI	163	Wayne	311	gropopmi	870	601	3
+26	MI	163	Wayne	311	gropopmi	870	602	4
+26	MI	163	Wayne	311	gropopmi	870	603	5
+26	MI	163	Wayne	311	gropopmi	870	604	5
+26	MI	163	Wayne	311	gropopmi	870	605	4
+26	MI	163	Wayne	311	gropopmi	870	606	3
+26	MI	163	Wayne	311	gropopmi	870	607	3
+26	MI	163	Wayne	311	gropopmi	870	701	1
+26	MI	163	Wayne	311	gropopmi	870	702	1
+26	MI	163	Wayne	311	gropopmi	870	703	1
+26	MI	163	Wayne	311	gropopmi	870	704	1
+26	MI	163	Wayne	311	gropopmi	870	705	1
+26	MI	163	Wayne	311	gropopmi	870	706	2
+26	MI	163	Wayne	311	gropopmi	871	101	1
+26	MI	163	Wayne	311	gropopmi	871	102	1
+26	MI	163	Wayne	311	gropopmi	871	103	1
+26	MI	163	Wayne	311	gropopmi	871	104	1
+26	MI	163	Wayne	311	gropopmi	871	105	3
+26	MI	163	Wayne	311	gropopmi	871	106	3
+26	MI	163	Wayne	311	gropopmi	871	107	3
+26	MI	163	Wayne	311	gropopmi	871	108	3
+26	MI	163	Wayne	311	gropopmi	871	109	4
+26	MI	163	Wayne	311	gropopmi	871	110	4
+26	MI	163	Wayne	311	gropopmi	871	111	4
+26	MI	163	Wayne	311	gropopmi	871	112	4
+26	MI	163	Wayne	311	gropopmi	871	201	5
+26	MI	163	Wayne	311	gropopmi	871	202	5
+26	MI	163	Wayne	311	gropopmi	871	203	5
+26	MI	163	Wayne	311	gropopmi	871	204	5
+26	MI	163	Wayne	311	gropopmi	871	205	6
+26	MI	163	Wayne	311	gropopmi	871	206	7
+26	MI	163	Wayne	311	gropopmi	871	207	7
+26	MI	163	Wayne	311	gropopmi	871	208	6
+26	MI	163	Wayne	311	gropopmi	871	209	6
+26	MI	163	Wayne	311	gropopmi	871	210	6
+26	MI	163	Wayne	311	gropopmi	871	211	7
+26	MI	163	Wayne	311	gropopmi	871	301	7
+26	MI	163	Wayne	311	gropopmi	871	302	6
+26	MI	163	Wayne	311	gropopmi	871	303	6
+26	MI	163	Wayne	311	gropopmi	871	304	6
+26	MI	163	Wayne	311	gropopmi	871	305	6
+26	MI	163	Wayne	311	gropopmi	871	306	5
+26	MI	163	Wayne	311	gropopmi	871	307	5
+26	MI	163	Wayne	311	gropopmi	871	308	5
+26	MI	163	Wayne	311	gropopmi	871	309	5
+26	MI	163	Wayne	311	gropopmi	871	401	4
+26	MI	163	Wayne	311	gropopmi	871	402	4
+26	MI	163	Wayne	311	gropopmi	871	403	4
+26	MI	163	Wayne	311	gropopmi	871	404	4
+26	MI	163	Wayne	311	gropopmi	871	405	3
+26	MI	163	Wayne	311	gropopmi	871	406	3
+26	MI	163	Wayne	311	gropopmi	871	407	3
+26	MI	163	Wayne	311	gropopmi	871	408	3
+26	MI	163	Wayne	311	gropopmi	871	409	1
+26	MI	163	Wayne	311	gropopmi	871	410	1
+26	MI	163	Wayne	311	gropopmi	871	411	1
+26	MI	163	Wayne	311	gropopmi	871	412	1
+26	MI	163	Wayne	311	gropopmi	871	501	1
+26	MI	163	Wayne	311	gropopmi	871	502	3
+26	MI	163	Wayne	311	gropopmi	871	503	4
+26	MI	163	Wayne	311	gropopmi	871	504	5
+26	MI	163	Wayne	311	gropopmi	871	505	6
+26	MI	163	Wayne	311	gropopmi	871	506	6
+26	MI	163	Wayne	311	gropopmi	871	507	5
+26	MI	163	Wayne	311	gropopmi	871	508	4
+26	MI	163	Wayne	311	gropopmi	871	509	3
+26	MI	163	Wayne	311	gropopmi	871	510	1
+26	MI	163	Wayne	316	detroimi	35302	203	8
+26	MI	163	Wayne	316	detroimi	35302	204	8
+26	MI	163	Wayne	316	detroimi	35302	205	7
+26	MI	163	Wayne	316	detroimi	35302	206	7
+26	MI	163	Wayne	316	detroimi	35302	207	6
+26	MI	163	Wayne	316	detroimi	35302	208	6
+26	MI	163	Wayne	316	detroimi	35302	301	5
+26	MI	163	Wayne	316	detroimi	35302	302	5
+26	MI	163	Wayne	316	detroimi	35302	303	4
+26	MI	163	Wayne	316	detroimi	35302	304	4
+26	MI	163	Wayne	316	detroimi	35302	305	3
+26	MI	163	Wayne	316	detroimi	35302	306	3
+26	MI	163	Wayne	316	detroimi	35302	307	2
+26	MI	163	Wayne	316	detroimi	35302	308	2
+26	MI	163	Wayne	316	detroimi	35302	403	1
+26	MI	163	Wayne	316	detroimi	35302	404	1
+26	MI	163	Wayne	316	detroimi	35302	405	2
+26	MI	163	Wayne	316	detroimi	35302	406	3
+26	MI	163	Wayne	316	detroimi	35302	501	5
+26	MI	163	Wayne	316	detroimi	35302	502	6
+26	MI	163	Wayne	316	detroimi	35302	503	7
+26	MI	163	Wayne	316	detroimi	35302	504	8
+26	MI	163	Wayne	316	detroimi	35302	506	7
+26	MI	163	Wayne	316	detroimi	35302	507	6
+26	MI	163	Wayne	316	detroimi	35302	508	5
+26	MI	163	Wayne	316	detroimi	35302	601	4
+26	MI	163	Wayne	316	detroimi	35302	602	3
+26	MI	163	Wayne	316	detroimi	35302	603	2
+26	MI	163	Wayne	316	detroimi	35302	604	1
+26	MI	163	Wayne	316	detroimi	35302	605	1
+26	MI	163	Wayne	316	detroimi	35302	606	2
+26	MI	163	Wayne	316	detroimi	35302	607	3
+26	MI	163	Wayne	316	detroimi	35302	608	4
+26	MI	163	Wayne	316	detroimi	35302	701	3
+26	MI	163	Wayne	316	detroimi	35302	702	2
+26	MI	163	Wayne	316	detroimi	35302	703	1
+26	MI	163	Wayne	316	detroimi	35302	704	1
+26	MI	163	Wayne	315	detroimi	45802	104	4
+26	MI	163	Wayne	315	detroimi	45802	105	3
+26	MI	163	Wayne	315	detroimi	45802	106	2
+26	MI	163	Wayne	315	detroimi	45802	107	1
+26	MI	163	Wayne	315	detroimi	45802	108	1
+26	MI	163	Wayne	315	detroimi	45802	109	2
+26	MI	163	Wayne	315	detroimi	45802	110	3
+26	MI	163	Wayne	315	detroimi	45802	111	4
+26	MI	163	Wayne	315	detroimi	45802	201	4
+26	MI	163	Wayne	315	detroimi	45802	202	3
+26	MI	163	Wayne	315	detroimi	45802	203	2
+26	MI	163	Wayne	315	detroimi	45802	204	1
+26	MI	163	Wayne	315	detroimi	45802	205	1
+26	MI	163	Wayne	315	detroimi	45802	206	2
+26	MI	163	Wayne	315	detroimi	45802	207	3
+26	MI	163	Wayne	315	detroimi	45802	208	4
+26	MI	163	Wayne	315	detroimi	45802	209	4
+26	MI	163	Wayne	315	detroimi	45802	210	3
+26	MI	163	Wayne	315	detroimi	45802	211	2
+26	MI	163	Wayne	315	detroimi	45802	212	1
+26	MI	163	Wayne	315	detroimi	45802	301	1
+26	MI	163	Wayne	315	detroimi	45802	302	2
+26	MI	163	Wayne	315	detroimi	45802	303	3
+26	MI	163	Wayne	315	detroimi	45802	304	4
+26	MI	163	Wayne	315	detroimi	45802	305	4
+26	MI	163	Wayne	315	detroimi	45802	306	3
+26	MI	163	Wayne	315	detroimi	45802	307	2
+26	MI	163	Wayne	315	detroimi	45802	310	1
+26	MI	163	Wayne	315	detroimi	45802	401	1
+26	MI	163	Wayne	315	detroimi	45802	402	2
+26	MI	163	Wayne	315	detroimi	45802	403	2
+26	MI	163	Wayne	315	detroimi	45802	404	1
+26	MI	163	Wayne	315	detroimi	45802	405	1
+26	MI	163	Wayne	315	detroimi	45802	406	2
+26	MI	163	Wayne	315	detroimi	45802	407	2
+26	MI	163	Wayne	315	detroimi	45802	408	1
+26	MI	163	Wayne	315	detroimi	45802	409	1
+26	MI	163	Wayne	315	detroimi	45802	410	2
+26	MI	163	Wayne	315	detroimi	45901	105	1
+26	MI	163	Wayne	315	detroimi	45901	113	2
+26	MI	163	Wayne	315	detroimi	45901	114	2
+26	MI	163	Wayne	315	detroimi	45901	115	2
+26	MI	163	Wayne	315	detroimi	45901	116	2
+26	MI	163	Wayne	315	detroimi	45901	201	3
+26	MI	163	Wayne	315	detroimi	45901	202	3
+26	MI	163	Wayne	315	detroimi	45901	203	3
+26	MI	163	Wayne	315	detroimi	45901	204	4
+26	MI	163	Wayne	315	detroimi	45901	205	4
+26	MI	163	Wayne	315	detroimi	45901	206	4
+26	MI	163	Wayne	315	detroimi	45901	207	3
+26	MI	163	Wayne	315	detroimi	45901	208	3
+26	MI	163	Wayne	315	detroimi	45901	209	3
+26	MI	163	Wayne	315	detroimi	45901	210	3
+26	MI	163	Wayne	315	detroimi	45901	301	2
+26	MI	163	Wayne	315	detroimi	45901	302	2
+26	MI	163	Wayne	315	detroimi	45901	303	2
+26	MI	163	Wayne	315	detroimi	45901	304	2
+26	MI	163	Wayne	315	detroimi	45901	305	1
+26	MI	163	Wayne	315	detroimi	45901	306	1
+26	MI	163	Wayne	315	detroimi	45901	307	1
+26	MI	163	Wayne	315	detroimi	45901	308	1
+26	MI	163	Wayne	315	detroimi	45901	309	1
+26	MI	163	Wayne	315	detroimi	45901	310	2
+26	MI	163	Wayne	315	detroimi	45901	401	3
+26	MI	163	Wayne	315	detroimi	45901	402	4
+26	MI	163	Wayne	315	detroimi	45901	403	4
+26	MI	163	Wayne	315	detroimi	45901	404	3
+26	MI	163	Wayne	315	detroimi	45901	405	2
+26	MI	163	Wayne	315	detroimi	45901	406	1
+26	MI	163	Wayne	315	detroimi	45901	407	1
+26	MI	163	Wayne	315	detroimi	45901	408	2
+26	MI	163	Wayne	315	detroimi	45901	409	3
+26	MI	163	Wayne	315	detroimi	45901	410	4
+26	MI	163	Wayne	315	detroimi	45901	501	4
+26	MI	163	Wayne	315	detroimi	45901	502	4
+26	MI	163	Wayne	315	detroimi	45901	503	4
+26	MI	163	Wayne	315	detroimi	45901	504	4
+26	MI	163	Wayne	315	detroimi	45901	505	4
+26	MI	163	Wayne	315	detroimi	45901	508	3
+26	MI	163	Wayne	315	detroimi	45901	509	3
+26	MI	163	Wayne	315	detroimi	45901	510	3
+26	MI	163	Wayne	315	detroimi	45901	512	3
+26	MI	163	Wayne	315	detroimi	45901	601	2
+26	MI	163	Wayne	315	detroimi	45901	602	2
+26	MI	163	Wayne	315	detroimi	45901	603	2
+26	MI	163	Wayne	315	detroimi	45901	604	2
+26	MI	163	Wayne	315	detroimi	45901	605	2
+26	MI	163	Wayne	315	detroimi	45901	607	1
+26	MI	163	Wayne	315	detroimi	45901	609	1
+26	MI	163	Wayne	315	detroimi	45901	610	1
+26	MI	163	Wayne	315	detroimi	45901	611	1
+26	MI	163	Wayne	315	detroimi	45901	612	1
+26	MI	163	Wayne	314	detroimi	70702	101	1
+26	MI	163	Wayne	314	detroimi	70702	102	1
+26	MI	163	Wayne	314	detroimi	70702	103	1
+26	MI	163	Wayne	314	detroimi	70702	104	2
+26	MI	163	Wayne	314	detroimi	70702	105	2
+26	MI	163	Wayne	314	detroimi	70702	106	2
+26	MI	163	Wayne	314	detroimi	70702	107	3
+26	MI	163	Wayne	314	detroimi	70702	108	3
+26	MI	163	Wayne	314	detroimi	70702	109	3
+26	MI	163	Wayne	314	detroimi	70702	110	4
+26	MI	163	Wayne	314	detroimi	70702	111	4
+26	MI	163	Wayne	314	detroimi	70702	112	4
+26	MI	163	Wayne	314	detroimi	70702	201	5
+26	MI	163	Wayne	314	detroimi	70702	202	6
+26	MI	163	Wayne	314	detroimi	70702	203	7
+26	MI	163	Wayne	314	detroimi	70702	204	8
+26	MI	163	Wayne	314	detroimi	70702	205	8
+26	MI	163	Wayne	314	detroimi	70702	206	7
+26	MI	163	Wayne	314	detroimi	70702	207	6
+26	MI	163	Wayne	314	detroimi	70702	208	5
+26	MI	163	Wayne	314	detroimi	70702	209	5
+26	MI	163	Wayne	314	detroimi	70702	210	6
+26	MI	163	Wayne	314	detroimi	70702	211	7
+26	MI	163	Wayne	314	detroimi	70702	212	8
+26	MI	163	Wayne	314	detroimi	70702	301	8
+26	MI	163	Wayne	314	detroimi	70702	302	8
+26	MI	163	Wayne	314	detroimi	70702	305	7
+26	MI	163	Wayne	314	detroimi	70702	306	7
+26	MI	163	Wayne	314	detroimi	70702	307	6
+26	MI	163	Wayne	314	detroimi	70702	308	6
+26	MI	163	Wayne	314	detroimi	70702	402	5
+26	MI	163	Wayne	314	detroimi	70702	403	5
+26	MI	163	Wayne	314	detroimi	70702	404	4
+26	MI	163	Wayne	314	detroimi	70702	405	4
+26	MI	163	Wayne	314	detroimi	70702	406	3
+26	MI	163	Wayne	314	detroimi	70702	407	3
+26	MI	163	Wayne	314	detroimi	70702	408	2
+26	MI	163	Wayne	314	detroimi	70702	409	2
+26	MI	163	Wayne	314	detroimi	70702	410	1
+26	MI	163	Wayne	314	detroimi	70702	411	1
+26	MI	163	Wayne	314	detroimi	70703	101	1
+26	MI	163	Wayne	314	detroimi	70703	103	1
+26	MI	163	Wayne	314	detroimi	70703	104	1
+26	MI	163	Wayne	314	detroimi	70703	105	2
+26	MI	163	Wayne	314	detroimi	70703	106	2
+26	MI	163	Wayne	314	detroimi	70703	108	3
+26	MI	163	Wayne	314	detroimi	70703	109	3
+26	MI	163	Wayne	314	detroimi	70703	110	3
+26	MI	163	Wayne	314	detroimi	70703	201	4
+26	MI	163	Wayne	314	detroimi	70703	202	4
+26	MI	163	Wayne	314	detroimi	70703	203	4
+26	MI	163	Wayne	314	detroimi	70703	204	5
+26	MI	163	Wayne	314	detroimi	70703	205	5
+26	MI	163	Wayne	314	detroimi	70703	206	5
+26	MI	163	Wayne	314	detroimi	70703	207	6
+26	MI	163	Wayne	314	detroimi	70703	208	6
+26	MI	163	Wayne	314	detroimi	70703	209	6
+26	MI	163	Wayne	312	detroimi	70703	210	2
+26	MI	163	Wayne	314	detroimi	70703	211	7
+26	MI	163	Wayne	314	detroimi	70703	301	8
+26	MI	163	Wayne	314	detroimi	70703	302	8
+26	MI	163	Wayne	314	detroimi	70703	505	8
+26	MI	163	Wayne	314	detroimi	70703	506	8
+26	MI	163	Wayne	314	detroimi	70703	507	7
+26	MI	163	Wayne	314	detroimi	70703	508	7
+26	MI	163	Wayne	314	detroimi	70703	509	6
+26	MI	163	Wayne	314	detroimi	70703	510	6
+26	MI	163	Wayne	314	detroimi	70703	601	5
+26	MI	163	Wayne	314	detroimi	70703	602	5
+26	MI	163	Wayne	314	detroimi	70703	604	4
+26	MI	163	Wayne	314	detroimi	70703	605	4
+26	MI	163	Wayne	314	detroimi	70703	606	3
+26	MI	163	Wayne	314	detroimi	70703	607	3
+26	MI	163	Wayne	314	detroimi	70703	608	2
+26	MI	163	Wayne	314	detroimi	70703	609	1
+26	MI	163	Wayne	314	detroimi	70703	610	1
+26	MI	163	Wayne	312	detroimi	70801	101	1
+26	MI	163	Wayne	312	detroimi	70801	102	1
+26	MI	163	Wayne	312	detroimi	70801	103	1
+26	MI	163	Wayne	312	detroimi	70801	104	2
+26	MI	163	Wayne	312	detroimi	70801	105	2
+26	MI	163	Wayne	312	detroimi	70801	106	2
+26	MI	163	Wayne	312	detroimi	70801	201	3
+26	MI	163	Wayne	312	detroimi	70801	202	5
+26	MI	163	Wayne	312	detroimi	70801	203	5
+26	MI	163	Wayne	312	detroimi	70801	204	3
+26	MI	163	Wayne	312	detroimi	70801	205	3
+26	MI	163	Wayne	312	detroimi	70801	206	5
+26	MI	163	Wayne	312	detroimi	70801	301	5
+26	MI	163	Wayne	312	detroimi	70801	302	3
+26	MI	163	Wayne	312	detroimi	70801	303	3
+26	MI	163	Wayne	312	detroimi	70801	305	4
+26	MI	163	Wayne	312	detroimi	70801	306	5
+26	MI	163	Wayne	312	detroimi	70801	307	3
+26	MI	163	Wayne	312	detroimi	70801	401	3
+26	MI	163	Wayne	312	detroimi	70801	402	5
+26	MI	163	Wayne	312	detroimi	70801	403	5
+26	MI	163	Wayne	312	detroimi	70801	404	3
+26	MI	163	Wayne	312	detroimi	70801	405	3
+26	MI	163	Wayne	312	detroimi	70801	406	5
+26	MI	163	Wayne	312	detroimi	70801	407	5
+26	MI	163	Wayne	312	detroimi	70801	408	3
+26	MI	163	Wayne	312	detroimi	70801	501	3
+26	MI	163	Wayne	312	detroimi	70801	502	5
+26	MI	163	Wayne	312	detroimi	70801	503	5
+26	MI	163	Wayne	312	detroimi	70801	504	3
+26	MI	163	Wayne	312	detroimi	70801	505	3
+26	MI	163	Wayne	312	detroimi	70801	506	5
+26	MI	163	Wayne	312	detroimi	70801	507	5
+26	MI	163	Wayne	312	detroimi	70801	508	3
+26	MI	163	Wayne	312	detroimi	70801	601	2
+26	MI	163	Wayne	312	detroimi	70801	602	2
+26	MI	163	Wayne	312	detroimi	70801	603	2
+26	MI	163	Wayne	312	detroimi	70801	604	1
+26	MI	163	Wayne	312	detroimi	70801	605	1
+26	MI	163	Wayne	312	detroimi	70801	606	1
+26	MI	163	Wayne	312	detroimi	70804	101	1
+26	MI	163	Wayne	312	detroimi	70804	102	3
+26	MI	163	Wayne	312	detroimi	70804	103	1
+26	MI	163	Wayne	312	detroimi	70804	104	1
+26	MI	163	Wayne	312	detroimi	70804	106	3
+26	MI	163	Wayne	312	detroimi	70804	107	1
+26	MI	163	Wayne	312	detroimi	70804	108	3
+26	MI	163	Wayne	312	detroimi	70804	109	3
+26	MI	163	Wayne	312	detroimi	70804	110	1
+26	MI	163	Wayne	312	detroimi	70804	204	4
+26	MI	163	Wayne	312	detroimi	70804	205	4
+26	MI	163	Wayne	312	detroimi	70804	206	5
+26	MI	163	Wayne	312	detroimi	70804	207	5
+26	MI	163	Wayne	312	detroimi	70804	208	6
+26	MI	163	Wayne	312	detroimi	70804	209	7
+26	MI	163	Wayne	312	detroimi	70804	303	1
+26	MI	163	Wayne	312	detroimi	70804	304	2
+26	MI	163	Wayne	312	detroimi	70804	305	3
+26	MI	163	Wayne	312	detroimi	70804	308	5
+26	MI	163	Wayne	312	detroimi	70804	309	5
+26	MI	163	Wayne	312	detroimi	70804	401	5
+26	MI	163	Wayne	312	detroimi	70804	402	3
+26	MI	163	Wayne	312	detroimi	70804	403	2
+26	MI	163	Wayne	312	detroimi	70804	404	1
+26	MI	163	Wayne	312	detroimi	70804	405	1
+26	MI	163	Wayne	312	detroimi	70804	406	2
+26	MI	163	Wayne	312	detroimi	70804	407	3
+26	MI	163	Wayne	312	detroimi	70804	408	3
+26	MI	163	Wayne	312	detroimi	70804	409	5
+26	MI	163	Wayne	312	detroimi	70804	410	5
+26	MI	163	Wayne	312	detroimi	70804	501	5
+26	MI	163	Wayne	312	detroimi	70804	502	5
+26	MI	163	Wayne	312	detroimi	70804	503	5
+26	MI	163	Wayne	312	detroimi	70804	504	3
+26	MI	163	Wayne	312	detroimi	70804	505	3
+26	MI	163	Wayne	312	detroimi	70804	506	3
+26	MI	163	Wayne	312	detroimi	70804	507	2
+26	MI	163	Wayne	312	detroimi	70804	508	1
+26	MI	163	Wayne	312	detroimi	71001	101	1
+26	MI	163	Wayne	312	detroimi	71001	102	2
+26	MI	163	Wayne	312	detroimi	71001	103	1
+26	MI	163	Wayne	312	detroimi	71001	104	1
+26	MI	163	Wayne	312	detroimi	71001	105	1
+26	MI	163	Wayne	312	detroimi	71001	106	3
+26	MI	163	Wayne	312	detroimi	71001	107	3
+26	MI	163	Wayne	312	detroimi	71001	108	3
+26	MI	163	Wayne	312	detroimi	71001	109	3
+26	MI	163	Wayne	312	detroimi	71001	110	3
+26	MI	163	Wayne	312	detroimi	71001	111	3
+26	MI	163	Wayne	312	detroimi	71001	201	4
+26	MI	163	Wayne	312	detroimi	71001	202	4
+26	MI	163	Wayne	312	detroimi	71001	203	5
+26	MI	163	Wayne	312	detroimi	71001	204	5
+26	MI	163	Wayne	312	detroimi	71001	205	6
+26	MI	163	Wayne	312	detroimi	71001	206	5
+26	MI	163	Wayne	312	detroimi	71001	207	7
+26	MI	163	Wayne	312	detroimi	71001	208	7
+26	MI	163	Wayne	312	detroimi	71001	210	7
+26	MI	163	Wayne	312	detroimi	71001	211	7
+26	MI	163	Wayne	312	detroimi	71001	301	8
+26	MI	163	Wayne	312	detroimi	71001	308	8
+26	MI	163	Wayne	312	detroimi	71001	309	8
+26	MI	163	Wayne	312	detroimi	71001	401	8
+26	MI	163	Wayne	313	detroimi	71002	102	1
+26	MI	163	Wayne	313	detroimi	71002	103	2
+26	MI	163	Wayne	313	detroimi	71002	104	2
+26	MI	163	Wayne	313	detroimi	71002	105	3
+26	MI	163	Wayne	313	detroimi	71002	106	3
+26	MI	163	Wayne	313	detroimi	71002	107	4
+26	MI	163	Wayne	313	detroimi	71002	108	4
+26	MI	163	Wayne	313	detroimi	71002	109	5
+26	MI	163	Wayne	313	detroimi	71002	110	5
+26	MI	163	Wayne	313	detroimi	71002	201	6
+26	MI	163	Wayne	313	detroimi	71002	202	6
+26	MI	163	Wayne	313	detroimi	71002	203	7
+26	MI	163	Wayne	313	detroimi	71002	204	6
+26	MI	163	Wayne	313	detroimi	71002	205	7
+26	MI	163	Wayne	313	detroimi	71002	208	8
+26	MI	163	Wayne	316	deaheimi	84606	101	1
+26	MI	163	Wayne	316	deaheimi	84606	102	1
+26	MI	163	Wayne	316	deaheimi	84606	103	2
+26	MI	163	Wayne	316	deaheimi	84606	104	3
+26	MI	163	Wayne	316	deaheimi	84606	105	3
+26	MI	163	Wayne	316	deaheimi	84606	106	2
+26	MI	163	Wayne	316	deaheimi	84606	107	1
+26	MI	163	Wayne	316	deaheimi	84606	108	1
+26	MI	163	Wayne	316	deaheimi	84606	201	1
+26	MI	163	Wayne	316	deaheimi	84606	202	1
+26	MI	163	Wayne	316	deaheimi	84606	203	2
+26	MI	163	Wayne	316	deaheimi	84606	204	3
+26	MI	163	Wayne	316	deaheimi	84606	205	3
+26	MI	163	Wayne	316	deaheimi	84606	206	2
+26	MI	163	Wayne	316	deaheimi	84606	207	1
+26	MI	163	Wayne	316	deaheimi	84606	208	1
+26	MI	163	Wayne	316	deaheimi	84606	305	1
+26	MI	163	Wayne	316	deaheimi	84606	306	1
+26	MI	163	Wayne	316	deaheimi	84606	307	1
+26	MI	163	Wayne	316	deaheimi	84606	308	2
+26	MI	163	Wayne	316	deaheimi	84606	309	3
+26	MI	163	Wayne	316	deaheimi	84606	401	4
+26	MI	163	Wayne	316	deaheimi	84606	402	5
+26	MI	163	Wayne	316	deaheimi	84606	403	6
+26	MI	163	Wayne	316	deaheimi	84606	404	7
+26	MI	163	Wayne	316	deaheimi	84606	405	7
+26	MI	163	Wayne	316	deaheimi	84606	406	6
+26	MI	163	Wayne	316	deaheimi	84606	407	5
+26	MI	163	Wayne	316	deaheimi	84606	408	4
+26	MI	163	Wayne	316	deaheimi	84606	501	4
+26	MI	163	Wayne	316	deaheimi	84606	502	5
+26	MI	163	Wayne	316	deaheimi	84606	503	6
+26	MI	163	Wayne	316	deaheimi	84606	504	7
+26	MI	163	Wayne	316	deaheimi	84606	505	7
+26	MI	163	Wayne	316	deaheimi	84606	506	6
+26	MI	163	Wayne	316	deaheimi	84606	508	5
+26	MI	163	Wayne	313	gropoimi	87803	405	8
+26	MI	163	Wayne	313	gropoimi	87803	406	7
+26	MI	163	Wayne	313	gropoimi	87803	407	6
+26	MI	163	Wayne	313	gropoimi	87803	408	5
+26	MI	163	Wayne	313	gropoimi	87803	409	5
+26	MI	163	Wayne	313	gropoimi	87803	410	6
+26	MI	163	Wayne	313	gropoimi	87803	411	7
+26	MI	163	Wayne	313	gropoimi	87803	412	8
+26	MI	163	Wayne	313	gropoimi	87803	413	7
+26	MI	163	Wayne	313	gropoimi	87803	414	6
+26	MI	163	Wayne	313	gropoimi	87803	415	5
+26	MI	163	Wayne	313	gropoimi	87803	501	4
+26	MI	163	Wayne	313	gropoimi	87803	502	3
+26	MI	163	Wayne	313	gropoimi	87803	503	2
+26	MI	163	Wayne	313	gropoimi	87803	504	1
+26	MI	163	Wayne	313	gropoimi	87803	505	1
+26	MI	163	Wayne	313	gropoimi	87803	506	1
+26	MI	163	Wayne	313	gropoimi	87803	508	2
+26	MI	163	Wayne	313	gropoimi	87803	510	4
+26	MI	163	Wayne	313	gropoimi	87803	511	4
+26	MI	163	Wayne	312	harwoomi	87901	601	8
+26	MI	163	Wayne	312	harwoomi	87901	602	8
+26	MI	163	Wayne	312	harwoomi	87901	603	8
+26	MI	163	Wayne	312	harwoomi	87901	604	8
+26	MI	163	Wayne	312	harwoomi	87901	605	7
+26	MI	163	Wayne	312	harwoomi	87901	606	6
+26	MI	163	Wayne	312	harwoomi	87901	607	5
+26	MI	163	Wayne	312	harwoomi	87901	608	4
+26	MI	163	Wayne	312	harwoomi	87901	609	4
+26	MI	163	Wayne	312	harwoomi	87901	610	3
+26	MI	163	Wayne	312	harwoomi	87901	611	3
+26	MI	163	Wayne	312	harwoomi	87901	612	3
+26	MI	163	Wayne	312	harwoomi	87901	701	1
+26	MI	163	Wayne	312	harwoomi	87901	702	1
+26	MI	163	Wayne	312	harwoomi	87901	703	1
+26	MI	163	Wayne	312	harwoomi	87901	704	1
+26	MI	163	Wayne	312	harwoomi	87901	705	1
+26	MI	163	Wayne	312	harwoomi	87901	706	2
+26	MI	163	Wayne	312	harwoomi	87901	707	1
+26	MI	163	Wayne	312	harwoomi	87901	708	1
+26	MI	163	Wayne	312	harwoomi	87902	101	4
+26	MI	163	Wayne	312	harwoomi	87902	103	3
+26	MI	163	Wayne	312	harwoomi	87902	104	2
+26	MI	163	Wayne	312	harwoomi	87902	105	1
+26	MI	163	Wayne	312	harwoomi	87902	106	1
+26	MI	163	Wayne	312	harwoomi	87902	107	2
+26	MI	163	Wayne	312	harwoomi	87902	108	3
+26	MI	163	Wayne	312	harwoomi	87902	109	4
+26	MI	163	Wayne	312	harwoomi	87902	201	4
+26	MI	163	Wayne	312	harwoomi	87902	202	3
+26	MI	163	Wayne	312	harwoomi	87902	203	2
+26	MI	163	Wayne	312	harwoomi	87902	204	1
+26	MI	163	Wayne	312	harwoomi	87902	205	1
+26	MI	163	Wayne	312	harwoomi	87902	206	2
+26	MI	163	Wayne	312	harwoomi	87902	207	3
+26	MI	163	Wayne	312	harwoomi	87902	208	4
+26	MI	163	Wayne	312	harwoomi	87902	301	4
+26	MI	163	Wayne	312	harwoomi	87902	302	3
+26	MI	163	Wayne	312	harwoomi	87902	303	2
+26	MI	163	Wayne	312	harwoomi	87902	304	1
+26	MI	163	Wayne	312	harwoomi	87902	305	1
+26	MI	163	Wayne	312	harwoomi	87902	306	2
+26	MI	163	Wayne	312	harwoomi	87902	307	3
+26	MI	163	Wayne	312	harwoomi	87902	308	4
+26	MI	163	Wayne	312	harwoomi	87902	309	4
+26	MI	163	Wayne	312	harwoomi	87902	310	3
+26	MI	163	Wayne	312	harwoomi	87902	401	2
+26	MI	163	Wayne	312	harwoomi	87902	402	1
+26	MI	163	Wayne	312	harwoomi	87902	403	1
+26	MI	163	Wayne	312	harwoomi	87902	404	2
+26	MI	163	Wayne	312	harwoomi	87902	405	3
+26	MI	163	Wayne	312	harwoomi	87902	406	3
+26	MI	163	Wayne	312	harwoomi	87902	407	1
+26	MI	163	Wayne	312	harwoomi	87902	408	2
+26	MI	163	Wayne	312	harwoomi	87902	409	2
+26	MI	163	Wayne	312	harwoomi	87902	410	1
+26	MI	163	Wayne	312	harwoomi	87902	411	1
+26	MI	163	Wayne	312	harwoomi	87902	501	1
+26	MI	163	Wayne	312	harwoomi	87902	502	2
+26	MI	163	Wayne	312	harwoomi	87902	503	3
+26	MI	163	Wayne	312	harwoomi	87902	504	1
+26	MI	163	Wayne	312	harwoomi	87902	505	4
+26	MI	163	Wayne	312	harwoomi	87902	506	4
+26	MI	163	Wayne	312	harwoomi	87902	507	4
+26	MI	163	Wayne	312	harwoomi	87902	508	1
+26	MI	163	Wayne	312	harwoomi	87902	509	1
+26	MI	163	Wayne	312	harwoomi	87903	103	6
+26	MI	163	Wayne	312	harwoomi	87903	104	6
+26	MI	163	Wayne	312	harwoomi	87903	105	1
+26	MI	163	Wayne	312	harwoomi	87903	106	6
+26	MI	163	Wayne	312	harwoomi	87903	201	6
+26	MI	163	Wayne	312	harwoomi	87903	202	1
+26	MI	163	Wayne	312	harwoomi	87903	203	1
+26	MI	163	Wayne	312	harwoomi	87903	204	6
+26	MI	163	Wayne	312	harwoomi	87903	205	6
+26	MI	163	Wayne	312	harwoomi	87903	206	6
+26	MI	163	Wayne	312	harwoomi	87903	207	6
+27	MN	3	Anoka	322	colheimn	51502	104	7
+27	MN	3	Anoka	322	colheimn	51502	105	7
+27	MN	3	Anoka	322	colheimn	51502	106	6
+27	MN	3	Anoka	322	colheimn	51502	107	6
+27	MN	3	Anoka	322	colheimn	51502	108	5
+27	MN	3	Anoka	322	colheimn	51502	109	5
+27	MN	3	Anoka	322	colheimn	51502	209	2
+27	MN	3	Anoka	322	colheimn	51502	210	1
+27	MN	3	Anoka	322	colheimn	51502	211	1
+27	MN	3	Anoka	322	colheimn	51502	212	1
+27	MN	3	Anoka	322	colheimn	51502	213	1
+27	MN	3	Anoka	322	colheimn	51502	301	2
+27	MN	3	Anoka	322	colheimn	51502	302	2
+27	MN	3	Anoka	322	colheimn	51502	303	3
+27	MN	3	Anoka	322	colheimn	51502	305	3
+27	MN	3	Anoka	322	colheimn	51502	310	4
+27	MN	3	Anoka	322	colheimn	51502	311	4
+27	MN	53	Hennepin	322	minneamn	601	101	1
+27	MN	53	Hennepin	322	minneamn	601	102	1
+27	MN	53	Hennepin	322	minneamn	601	103	1
+27	MN	53	Hennepin	322	minneamn	601	104	1
+27	MN	53	Hennepin	322	minneamn	601	105	2
+27	MN	53	Hennepin	322	minneamn	601	106	2
+27	MN	53	Hennepin	322	minneamn	601	107	2
+27	MN	53	Hennepin	322	minneamn	601	108	2
+27	MN	53	Hennepin	322	minneamn	601	109	3
+27	MN	53	Hennepin	322	minneamn	601	110	3
+27	MN	53	Hennepin	322	minneamn	601	111	3
+27	MN	53	Hennepin	322	minneamn	601	201	4
+27	MN	53	Hennepin	322	minneamn	601	202	4
+27	MN	53	Hennepin	322	minneamn	601	203	4
+27	MN	53	Hennepin	322	minneamn	601	204	4
+27	MN	53	Hennepin	322	minneamn	601	205	5
+27	MN	53	Hennepin	322	minneamn	601	206	5
+27	MN	53	Hennepin	322	minneamn	601	207	5
+27	MN	53	Hennepin	322	minneamn	601	208	5
+27	MN	53	Hennepin	322	minneamn	601	209	6
+27	MN	53	Hennepin	322	minneamn	601	210	6
+27	MN	53	Hennepin	322	minneamn	601	211	6
+27	MN	53	Hennepin	322	minneamn	601	212	6
+27	MN	53	Hennepin	322	minneamn	601	214	6
+27	MN	53	Hennepin	322	minneamn	601	215	6
+27	MN	53	Hennepin	322	minneamn	601	216	6
+27	MN	53	Hennepin	322	minneamn	601	217	7
+27	MN	53	Hennepin	322	minneamn	601	218	7
+27	MN	53	Hennepin	322	minneamn	601	219	7
+27	MN	53	Hennepin	322	minneamn	601	220	7
+27	MN	53	Hennepin	322	minneamn	601	302	8
+27	MN	53	Hennepin	322	minneamn	601	303	8
+27	MN	53	Hennepin	322	minneamn	601	306	8
+27	MN	53	Hennepin	322	minneamn	601	307	8
+27	MN	53	Hennepin	322	minneamn	601	309	8
+27	MN	53	Hennepin	322	minneamn	601	310	8
+27	MN	53	Hennepin	322	minneamn	601	311	8
+27	MN	53	Hennepin	322	minneamn	601	312	8
+27	MN	53	Hennepin	322	minneamn	601	313	8
+27	MN	53	Hennepin	322	minneamn	601	314	7
+27	MN	53	Hennepin	322	minneamn	601	315	7
+27	MN	53	Hennepin	322	minneamn	601	316	7
+27	MN	53	Hennepin	322	minneamn	601	404	5
+27	MN	53	Hennepin	322	minneamn	601	405	5
+27	MN	53	Hennepin	322	minneamn	601	406	5
+27	MN	53	Hennepin	322	minneamn	601	407	5
+27	MN	53	Hennepin	322	minneamn	601	408	4
+27	MN	53	Hennepin	322	minneamn	601	409	4
+27	MN	53	Hennepin	322	minneamn	601	410	4
+27	MN	53	Hennepin	322	minneamn	601	411	4
+27	MN	53	Hennepin	322	minneamn	601	501	3
+27	MN	53	Hennepin	322	minneamn	601	502	3
+27	MN	53	Hennepin	322	minneamn	601	503	3
+27	MN	53	Hennepin	322	minneamn	601	504	3
+27	MN	53	Hennepin	322	minneamn	601	505	1
+27	MN	53	Hennepin	322	minneamn	601	506	2
+27	MN	53	Hennepin	322	minneamn	601	507	2
+27	MN	53	Hennepin	322	minneamn	601	508	2
+27	MN	53	Hennepin	322	minneamn	601	509	1
+27	MN	53	Hennepin	322	minneamn	601	510	1
+29	MO	95	Jackson	329	kancitmo	105	301	1
+29	MO	95	Jackson	329	kancitmo	105	302	1
+29	MO	95	Jackson	329	kancitmo	105	311	5
+29	MO	95	Jackson	329	kancitmo	105	313	5
+29	MO	95	Jackson	329	kancitmo	10302	101	4
+29	MO	95	Jackson	329	kancitmo	10302	103	3
+29	MO	95	Jackson	329	kancitmo	10302	104	3
+29	MO	95	Jackson	329	kancitmo	10302	107	3
+29	MO	95	Jackson	329	kancitmo	10302	108	2
+29	MO	95	Jackson	329	kancitmo	10302	109	1
+29	MO	95	Jackson	329	kancitmo	10302	110	2
+29	MO	95	Jackson	329	kancitmo	10302	111	2
+29	MO	95	Jackson	329	kancitmo	10302	112	1
+29	MO	95	Jackson	329	kancitmo	10302	114	1
+29	MO	95	Jackson	329	kancitmo	10302	117	2
+29	MO	95	Jackson	329	kancitmo	10302	118	1
+29	MO	95	Jackson	329	kancitmo	10302	119	1
+29	MO	95	Jackson	329	kancitmo	10302	201	2
+29	MO	95	Jackson	329	kancitmo	10302	202	2
+29	MO	95	Jackson	329	kancitmo	10302	204	1
+29	MO	95	Jackson	329	kancitmo	10302	215	4
+29	MO	95	Jackson	329	kancitmo	10302	222	6
+29	MO	95	Jackson	329	kancitmo	10302	225	5
+29	MO	95	Jackson	329	raytowmo	12501	402	7
+29	MO	95	Jackson	329	raytowmo	12501	403	7
+29	MO	95	Jackson	329	raytowmo	12501	404	6
+29	MO	95	Jackson	329	raytowmo	12501	406	5
+29	MO	95	Jackson	329	raytowmo	12501	407	3
+29	MO	95	Jackson	329	raytowmo	12501	408	1
+29	MO	95	Jackson	329	raytowmo	12501	409	1
+29	MO	95	Jackson	329	raytowmo	12501	410	1
+29	MO	95	Jackson	329	raytowmo	12501	411	2
+29	MO	95	Jackson	329	raytowmo	12501	412	4
+29	MO	95	Jackson	329	raytowmo	12501	413	1
+29	MO	95	Jackson	329	raytowmo	12501	414	1
+29	MO	95	Jackson	329	raytowmo	12801	501	3
+29	MO	95	Jackson	329	raytowmo	12801	503	8
+29	MO	95	Jackson	329	raytowmo	12801	504	7
+29	MO	95	Jackson	329	raytowmo	12801	505	8
+29	MO	95	Jackson	329	raytowmo	12801	506	7
+29	MO	95	Jackson	329	raytowmo	12801	509	3
+29	MO	95	Jackson	329	raytowmo	12801	510	1
+29	MO	95	Jackson	329	raytowmo	12801	511	1
+29	MO	95	Jackson	329	raytowmo	12801	512	1
+29	MO	95	Jackson	329	raytowmo	12801	513	1
+29	MO	95	Jackson	329	raytowmo	12801	514	1
+29	MO	95	Jackson	329	raytowmo	12801	601	1
+29	MO	95	Jackson	329	raytowmo	12801	602	5
+29	MO	95	Jackson	329	raytowmo	12801	603	6
+29	MO	95	Jackson	329	raytowmo	12801	604	6
+29	MO	95	Jackson	329	raytowmo	12801	605	6
+29	MO	95	Jackson	329	raytowmo	12801	606	6
+29	MO	95	Jackson	329	raytowmo	12801	607	6
+29	MO	95	Jackson	329	raytowmo	12801	608	1
+29	MO	95	Jackson	329	raytowmo	12801	701	1
+29	MO	95	Jackson	329	raytowmo	12801	702	2
+29	MO	95	Jackson	329	raytowmo	12801	703	3
+29	MO	95	Jackson	329	raytowmo	12801	704	4
+29	MO	95	Jackson	329	raytowmo	12801	705	5
+29	MO	95	Jackson	329	raytowmo	12801	706	6
+29	MO	95	Jackson	329	raytowmo	12801	707	4
+29	MO	95	Jackson	329	raytowmo	12801	708	4
+29	MO	95	Jackson	329	raytowmo	12801	709	1
+29	MO	95	Jackson	329	raytowmo	12801	710	1
+29	MO	95	Jackson	329	raytowmo	12801	711	1
+29	MO	95	Jackson	329	raytowmo	12801	712	4
+29	MO	95	Jackson	329	raytowmo	12801	713	5
+29	MO	95	Jackson	329	raytowmo	12801	714	5
+29	MO	95	Jackson	329	raytowmo	12801	715	5
+29	MO	95	Jackson	329	raytowmo	12801	716	5
+29	MO	95	Jackson	329	raytowmo	12801	801	1
+29	MO	95	Jackson	329	raytowmo	12801	802	2
+29	MO	95	Jackson	329	raytowmo	12801	803	3
+29	MO	95	Jackson	329	raytowmo	12801	804	3
+29	MO	95	Jackson	329	raytowmo	12801	805	3
+29	MO	95	Jackson	329	raytowmo	12801	806	3
+29	MO	95	Jackson	329	raytowmo	12801	807	1
+29	MO	95	Jackson	329	raytowmo	12801	808	1
+29	MO	95	Jackson	329	raytowmo	12801	809	1
+29	MO	95	Jackson	329	raytowmo	12801	811	1
+29	MO	95	Jackson	329	raytowmo	12801	812	1
+29	MO	95	Jackson	329	raytowmo	12801	813	1
+29	MO	95	Jackson	329	raytowmo	12801	815	3
+29	MO	95	Jackson	329	raytowmo	12801	817	5
+29	MO	95	Jackson	329	kancitmo	12901	101	2
+29	MO	95	Jackson	329	kancitmo	12901	102	3
+29	MO	95	Jackson	329	kancitmo	12901	103	3
+29	MO	95	Jackson	329	kancitmo	12901	104	3
+29	MO	95	Jackson	329	kancitmo	12901	105	3
+29	MO	95	Jackson	329	kancitmo	12901	106	3
+29	MO	95	Jackson	329	kancitmo	12901	107	3
+29	MO	95	Jackson	329	kancitmo	12901	108	5
+29	MO	95	Jackson	329	kancitmo	12901	129	2
+29	MO	95	Jackson	329	kancitmo	12901	130	1
+29	MO	95	Jackson	329	kancitmo	12901	131	1
+29	MO	95	Jackson	329	kancitmo	12901	132	1
+29	MO	95	Jackson	329	kancitmo	12901	134	1
+29	MO	95	Jackson	329	kancitmo	12901	135	1
+29	MO	95	Jackson	329	kancitmo	12901	137	1
+29	MO	95	Jackson	329	kancitmo	12901	138	1
+29	MO	95	Jackson	329	kancitmo	12901	218	8
+29	MO	95	Jackson	329	kancitmo	12901	219	7
+29	MO	95	Jackson	329	kancitmo	12901	220	6
+29	MO	95	Jackson	329	kancitmo	12901	221	5
+29	MO	95	Jackson	329	kancitmo	12901	222	4
+29	MO	95	Jackson	329	kancitmo	12901	223	3
+29	MO	95	Jackson	329	kancitmo	12901	224	3
+29	MO	95	Jackson	329	kancitmo	12901	225	1
+29	MO	95	Jackson	329	kancitmo	12901	226	2
+29	MO	95	Jackson	329	kancitmo	12901	227	1
+44	RI	7	Providence	323	providri	20	103	5
+44	RI	7	Providence	323	providri	20	104	5
+44	RI	7	Providence	323	providri	20	105	4
+44	RI	7	Providence	323	providri	20	106	4
+44	RI	7	Providence	323	providri	20	107	5
+44	RI	7	Providence	323	providri	20	108	4
+44	RI	7	Providence	323	providri	20	109	4
+44	RI	7	Providence	323	providri	20	110	3
+44	RI	7	Providence	323	providri	20	111	2
+44	RI	7	Providence	323	providri	20	113	2
+44	RI	7	Providence	323	providri	20	114	2
+44	RI	7	Providence	323	providri	20	115	1
+44	RI	7	Providence	323	providri	20	116	1
+44	RI	7	Providence	323	providri	20	117	1
+44	RI	7	Providence	323	providri	20	118	2
+44	RI	7	Providence	323	providri	20	119	2
+44	RI	7	Providence	323	providri	20	120	3
+44	RI	7	Providence	323	providri	20	201	5
+44	RI	7	Providence	323	providri	20	202	5
+44	RI	7	Providence	323	providri	20	203	6
+44	RI	7	Providence	323	providri	20	204	7
+44	RI	7	Providence	323	providri	20	205	7
+44	RI	7	Providence	323	providri	20	206	8
+44	RI	7	Providence	323	providri	20	210	8
+44	RI	7	Providence	323	providri	20	211	8
+44	RI	7	Providence	323	providri	20	213	6
+44	RI	7	Providence	323	providri	20	214	7
+44	RI	7	Providence	323	providri	20	215	7
+44	RI	7	Providence	323	providri	20	216	8
+44	RI	7	Providence	323	providri	20	217	8
+44	RI	7	Providence	323	providri	20	301	8
+44	RI	7	Providence	323	providri	20	310	8
+44	RI	7	Providence	323	providri	24	102	8
+44	RI	7	Providence	323	providri	24	103	8
+44	RI	7	Providence	323	providri	24	104	8
+44	RI	7	Providence	323	providri	24	105	7
+44	RI	7	Providence	323	providri	24	106	7
+44	RI	7	Providence	323	providri	24	107	7
+44	RI	7	Providence	323	providri	24	108	7
+44	RI	7	Providence	323	providri	24	109	7
+44	RI	7	Providence	323	providri	24	201	7
+44	RI	7	Providence	323	providri	24	202	6
+44	RI	7	Providence	323	providri	24	203	6
+44	RI	7	Providence	323	providri	24	204	5
+44	RI	7	Providence	323	providri	24	205	5
+44	RI	7	Providence	323	providri	24	206	5
+44	RI	7	Providence	323	providri	24	207	5
+44	RI	7	Providence	323	providri	24	208	5
+44	RI	7	Providence	323	providri	24	209	5
+44	RI	7	Providence	323	providri	24	210	6
+44	RI	7	Providence	323	providri	24	211	7
+44	RI	7	Providence	323	providri	24	212	8
+44	RI	7	Providence	323	providri	24	213	8
+44	RI	7	Providence	323	providri	24	214	8
+44	RI	7	Providence	323	providri	24	215	8
+44	RI	7	Providence	323	providri	24	301	8
+44	RI	7	Providence	323	providri	24	302	7
+44	RI	7	Providence	323	providri	24	303	6
+44	RI	7	Providence	323	providri	24	304	6
+44	RI	7	Providence	323	providri	24	306	5
+44	RI	7	Providence	323	providri	24	307	5
+44	RI	7	Providence	323	providri	24	308	6
+44	RI	7	Providence	323	providri	24	309	7
+44	RI	7	Providence	323	providri	24	310	7
+44	RI	7	Providence	323	providri	24	311	7
+44	RI	7	Providence	323	providri	24	312	7
+44	RI	7	Providence	323	providri	24	313	6
+44	RI	7	Providence	323	providri	24	314	6
+44	RI	7	Providence	323	providri	24	315	5
+44	RI	7	Providence	323	providri	24	316	6
+44	RI	7	Providence	323	providri	24	317	5
+44	RI	7	Providence	323	providri	24	318	5
+44	RI	7	Providence	323	providri	24	319	5
+44	RI	7	Providence	323	providri	24	320	4
+44	RI	7	Providence	323	providri	24	321	3
+44	RI	7	Providence	323	providri	24	322	3
+44	RI	7	Providence	323	providri	24	323	3
+44	RI	7	Providence	323	providri	24	324	3
+44	RI	7	Providence	323	providri	24	325	3
+44	RI	7	Providence	323	providri	24	326	3
+44	RI	7	Providence	323	providri	24	327	3
+44	RI	7	Providence	323	providri	24	328	3
+44	RI	7	Providence	323	providri	24	401	3
+44	RI	7	Providence	323	providri	24	402	3
+44	RI	7	Providence	323	providri	24	403	3
+44	RI	7	Providence	323	providri	24	404	4
+44	RI	7	Providence	323	providri	24	405	4
+44	RI	7	Providence	323	providri	24	406	4
+44	RI	7	Providence	323	providri	24	407	4
+44	RI	7	Providence	323	providri	24	408	5
+44	RI	7	Providence	323	providri	24	409	5
+44	RI	7	Providence	323	providri	24	503	2
+44	RI	7	Providence	323	providri	24	504	1
+44	RI	7	Providence	323	providri	24	506	1
+44	RI	7	Providence	323	providri	24	507	2
+44	RI	7	Providence	323	providri	24	508	1
+44	RI	7	Providence	323	providri	24	601	1
+44	RI	7	Providence	323	providri	24	602	1
+44	RI	7	Providence	323	providri	24	603	1
+44	RI	7	Providence	323	providri	24	604	1
+44	RI	7	Providence	323	providri	24	605	1
+44	RI	7	Providence	323	providri	24	606	2
+44	RI	7	Providence	323	providri	24	607	2
+44	RI	7	Providence	323	providri	24	609	1
+44	RI	7	Providence	323	providri	24	701	2
+44	RI	7	Providence	323	providri	24	702	4
+44	RI	7	Providence	323	providri	24	703	2
+44	RI	7	Providence	323	providri	24	704	2
+44	RI	7	Providence	323	providri	24	705	3
+44	RI	7	Providence	323	providri	24	706	2
+44	RI	7	Providence	323	providri	24	707	2
+44	RI	7	Providence	323	providri	24	708	2
+44	RI	7	Providence	323	providri	24	709	1
+44	RI	7	Providence	323	providri	28	101	1
+44	RI	7	Providence	323	providri	28	106	3
+44	RI	7	Providence	323	providri	28	110	1
+44	RI	7	Providence	323	providri	28	111	3
+44	RI	7	Providence	323	providri	28	112	3
+44	RI	7	Providence	323	providri	28	113	2
+44	RI	7	Providence	323	providri	28	114	1
+44	RI	7	Providence	323	providri	28	201	3
+44	RI	7	Providence	323	providri	28	202	4
+44	RI	7	Providence	323	providri	28	204	4
+44	RI	7	Providence	323	providri	28	205	4
+44	RI	7	Providence	323	providri	28	206	4
+44	RI	7	Providence	323	providri	28	207	5
+44	RI	7	Providence	323	providri	28	208	5
+44	RI	7	Providence	323	providri	28	209	4
+44	RI	7	Providence	323	providri	28	301	4
+44	RI	7	Providence	323	providri	28	302	4
+44	RI	7	Providence	323	providri	28	305	4
+44	RI	7	Providence	323	providri	28	307	4
+44	RI	7	Providence	323	providri	28	309	5
+44	RI	7	Providence	323	providri	28	310	5
+44	RI	7	Providence	323	providri	28	311	5
+44	RI	7	Providence	323	providri	28	312	6
+44	RI	7	Providence	323	providri	28	313	6
+44	RI	7	Providence	323	providri	28	314	6
+44	RI	7	Providence	323	providri	28	315	7
+44	RI	7	Providence	323	providri	28	316	7
+44	RI	7	Providence	323	providri	28	317	7
+44	RI	7	Providence	323	providri	28	408	6
+44	RI	7	Providence	323	providri	28	409	6
+44	RI	7	Providence	323	providri	28	411	6
+44	RI	7	Providence	323	providri	28	412	6
+44	RI	7	Providence	323	providri	28	413	6
+44	RI	7	Providence	323	providri	28	414	6
+44	RI	7	Providence	323	providri	28	415	6
+44	RI	7	Providence	323	providri	28	416	6
+44	RI	7	Providence	323	providri	28	417	6
+44	RI	7	Providence	323	providri	28	418	6
+44	RI	7	Providence	323	providri	28	419	6
+44	RI	7	Providence	323	providri	28	420	6
+44	RI	7	Providence	323	providri	28	421	6
+44	RI	7	Providence	323	providri	28	501	6
+44	RI	7	Providence	323	providri	28	502	5
+44	RI	7	Providence	323	providri	28	503	5
+44	RI	7	Providence	323	providri	28	504	5
+44	RI	7	Providence	323	providri	28	505	5
+44	RI	7	Providence	323	providri	28	506	5
+44	RI	7	Providence	323	providri	28	507	4
+44	RI	7	Providence	323	providri	28	508	5
+44	RI	7	Providence	323	providri	28	509	5
+44	RI	7	Providence	323	providri	28	510	4
+44	RI	7	Providence	323	providri	28	511	4
+44	RI	7	Providence	323	providri	28	512	5
+44	RI	7	Providence	323	providri	28	513	4
+44	RI	7	Providence	323	providri	28	514	4
+44	RI	7	Providence	323	providri	28	515	3
+44	RI	7	Providence	323	providri	28	516	3
+44	RI	7	Providence	323	providri	28	517	2
+44	RI	7	Providence	323	providri	28	518	3
+44	RI	7	Providence	323	providri	28	520	3
+44	RI	7	Providence	323	providri	28	522	2
+44	RI	7	Providence	323	providri	28	523	1
+44	RI	7	Providence	323	providri	28	524	1
+44	RI	7	Providence	323	providri	28	525	1
+44	RI	7	Providence	323	providri	28	526	2
+44	RI	7	Providence	323	providri	28	528	2
+44	RI	7	Providence	323	providri	29	106	1
+44	RI	7	Providence	323	providri	29	107	1
+44	RI	7	Providence	323	providri	29	108	3
+44	RI	7	Providence	323	providri	29	123	4
+44	RI	7	Providence	323	providri	29	124	4
+44	RI	7	Providence	323	providri	29	201	5
+44	RI	7	Providence	323	providri	29	202	5
+44	RI	7	Providence	323	providri	29	203	6
+44	RI	7	Providence	323	providri	29	204	6
+44	RI	7	Providence	323	providri	29	304	7
+44	RI	7	Providence	323	providri	29	305	7
+44	RI	7	Providence	323	providri	29	306	8
+44	RI	7	Providence	323	providri	29	328	8
+44	RI	7	Providence	323	providri	29	501	1
+44	RI	7	Providence	323	providri	29	502	5
+44	RI	7	Providence	323	providri	29	504	5
+44	RI	7	Providence	323	providri	29	505	5
+44	RI	7	Providence	323	providri	29	507	4
+44	RI	7	Providence	323	providri	29	508	4
+44	RI	7	Providence	323	providri	29	511	3
+44	RI	7	Providence	323	providri	29	512	3
+44	RI	7	Providence	323	providri	29	513	3
+44	RI	7	Providence	323	providri	29	514	2
+44	RI	7	Providence	323	providri	29	517	1
+44	RI	7	Providence	323	providri	29	601	1
+44	RI	7	Providence	323	providri	29	602	1
+44	RI	7	Providence	323	providri	29	603	1
+44	RI	7	Providence	323	providri	29	604	2
+44	RI	7	Providence	323	providri	29	605	3
+44	RI	7	Providence	323	providri	29	606	4
+44	RI	7	Providence	323	providri	29	607	6
+44	RI	7	Providence	323	providri	29	608	5
+44	RI	7	Providence	323	providri	29	609	5
+44	RI	7	Providence	323	providri	29	610	5
+44	RI	7	Providence	323	providri	29	611	6
+44	RI	7	Providence	323	providri	29	612	6
+44	RI	7	Providence	323	providri	29	613	7
+44	RI	7	Providence	323	providri	29	614	7
+44	RI	7	Providence	323	providri	29	615	7
+44	RI	7	Providence	323	providri	29	616	6
+44	RI	7	Providence	323	providri	29	617	6
+44	RI	7	Providence	323	providri	29	618	6
+44	RI	7	Providence	323	providri	29	619	6
+44	RI	7	Providence	323	providri	29	620	6
+44	RI	7	Providence	323	providri	29	621	6
+44	RI	7	Providence	323	providri	29	622	7
+44	RI	7	Providence	323	providri	29	623	7
+44	RI	7	Providence	323	providri	29	624	8
+44	RI	7	Providence	323	norprori	118	104	8
+44	RI	7	Providence	323	norprori	118	105	8
+44	RI	7	Providence	323	norprori	118	106	8
+44	RI	7	Providence	323	norprori	118	107	7
+44	RI	7	Providence	323	norprori	118	108	5
+44	RI	7	Providence	323	norprori	118	109	5
+44	RI	7	Providence	323	norprori	118	110	5
+44	RI	7	Providence	323	norprori	118	111	5
+44	RI	7	Providence	323	norprori	118	112	6
+44	RI	7	Providence	323	norprori	118	113	6
+44	RI	7	Providence	323	norprori	118	114	5
+44	RI	7	Providence	323	norprori	118	115	5
+44	RI	7	Providence	323	norprori	118	116	6
+44	RI	7	Providence	323	norprori	118	118	6
+44	RI	7	Providence	323	norprori	118	119	7
+44	RI	7	Providence	323	norprori	118	120	7
+44	RI	7	Providence	323	norprori	118	121	7
+44	RI	7	Providence	323	norprori	118	122	8
+44	RI	7	Providence	323	norprori	118	125	7
+44	RI	7	Providence	323	norprori	118	126	6
+44	RI	7	Providence	323	norprori	118	127	6
+44	RI	7	Providence	323	norprori	118	128	6
+44	RI	7	Providence	323	norprori	118	129	6
+44	RI	7	Providence	323	norprori	118	130	5
+44	RI	7	Providence	323	norprori	118	131	5
+44	RI	7	Providence	323	norprori	118	132	5
+44	RI	7	Providence	323	norprori	118	133	7
+44	RI	7	Providence	323	norprori	118	135	8
+44	RI	7	Providence	323	norprori	118	201	5
+44	RI	7	Providence	323	norprori	118	202	5
+44	RI	7	Providence	323	norprori	118	203	5
+44	RI	7	Providence	323	norprori	118	204	5
+44	RI	7	Providence	323	norprori	118	205	5
+44	RI	7	Providence	323	norprori	118	206	5
+44	RI	7	Providence	323	norprori	118	208	4
+44	RI	7	Providence	323	norprori	118	209	4
+44	RI	7	Providence	323	norprori	118	210	4
+44	RI	7	Providence	323	norprori	118	211	4
+44	RI	7	Providence	323	norprori	118	212	4
+44	RI	7	Providence	323	norprori	118	213	4
+44	RI	7	Providence	323	norprori	118	214	3
+44	RI	7	Providence	323	norprori	118	215	3
+44	RI	7	Providence	323	norprori	118	216	2
+44	RI	7	Providence	323	norprori	118	217	2
+44	RI	7	Providence	323	norprori	118	218	1
+44	RI	7	Providence	323	norprori	118	219	3
+44	RI	7	Providence	323	norprori	118	220	3
+44	RI	7	Providence	323	norprori	118	221	2
+44	RI	7	Providence	323	norprori	118	224	1
+44	RI	7	Providence	323	norprori	118	301	1
+44	RI	7	Providence	323	norprori	118	302	1
+44	RI	7	Providence	323	norprori	118	303	1
+44	RI	7	Providence	323	norprori	118	304	1
+44	RI	7	Providence	323	norprori	118	305	1
+44	RI	7	Providence	323	norprori	118	306	2
+44	RI	7	Providence	323	norprori	118	307	3
+44	RI	7	Providence	323	norprori	118	308	1
+44	RI	7	Providence	323	norprori	118	309	4
+44	RI	7	Providence	323	norprori	118	310	4
+44	RI	7	Providence	323	norprori	118	311	4
+44	RI	7	Providence	323	norprori	118	312	5
+44	RI	7	Providence	323	norprori	118	313	5
+44	RI	7	Providence	323	norprori	118	401	1
+44	RI	7	Providence	323	norprori	118	402	3
+44	RI	7	Providence	323	norprori	118	403	3
+44	RI	7	Providence	323	norprori	118	404	4
+44	RI	7	Providence	323	norprori	118	405	4
+44	RI	7	Providence	323	norprori	118	406	4
+44	RI	7	Providence	323	norprori	118	407	3
+44	RI	7	Providence	323	norprori	118	408	3
+44	RI	7	Providence	323	norprori	118	409	4
+44	RI	7	Providence	323	norprori	118	410	4
+44	RI	7	Providence	323	norprori	118	411	4
+44	RI	7	Providence	323	norprori	118	412	4
+44	RI	7	Providence	323	norprori	118	501	5
+44	RI	7	Providence	323	norprori	118	502	5
+44	RI	7	Providence	323	norprori	118	503	6
+44	RI	7	Providence	323	norprori	118	504	5
+44	RI	7	Providence	323	norprori	118	505	7
+44	RI	7	Providence	323	norprori	118	506	7
+44	RI	7	Providence	323	norprori	118	507	7
+44	RI	7	Providence	323	norprori	118	508	6
+44	RI	7	Providence	323	norprori	118	509	5
+44	RI	7	Providence	323	norprori	118	510	5
+44	RI	7	Providence	323	norprori	118	511	5
+44	RI	7	Providence	323	norprori	118	512	5
+44	RI	7	Providence	323	norprori	118	513	5
+44	RI	7	Providence	323	norprori	119	103	6
+44	RI	7	Providence	323	norprori	119	113	6
+44	RI	7	Providence	323	norprori	119	114	6
+44	RI	7	Providence	323	norprori	119	115	6
+44	RI	7	Providence	323	norprori	119	116	6
+44	RI	7	Providence	323	norprori	119	117	6
+44	RI	7	Providence	323	norprori	119	118	6
+44	RI	7	Providence	323	norprori	119	119	6
+44	RI	7	Providence	323	norprori	119	120	7
+44	RI	7	Providence	323	norprori	119	121	7
+44	RI	7	Providence	323	norprori	119	122	6
+44	RI	7	Providence	323	norprori	119	123	6
+44	RI	7	Providence	323	norprori	119	124	6
+44	RI	7	Providence	323	norprori	119	125	6
+44	RI	7	Providence	323	norprori	119	201	5
+44	RI	7	Providence	323	norprori	119	202	4
+44	RI	7	Providence	323	norprori	119	203	3
+44	RI	7	Providence	323	norprori	119	204	1
+44	RI	7	Providence	323	norprori	119	205	4
+44	RI	7	Providence	323	norprori	119	206	4
+44	RI	7	Providence	323	norprori	119	207	3
+44	RI	7	Providence	323	norprori	119	208	4
+44	RI	7	Providence	323	norprori	119	209	5
+44	RI	7	Providence	323	norprori	119	210	5
+44	RI	7	Providence	323	norprori	119	211	5
+44	RI	7	Providence	323	norprori	119	212	5
+44	RI	7	Providence	323	norprori	119	213	5
+44	RI	7	Providence	323	norprori	119	214	5
+44	RI	7	Providence	323	norprori	119	215	4
+44	RI	7	Providence	323	norprori	119	216	4
+44	RI	7	Providence	323	norprori	119	217	4
+44	RI	7	Providence	323	norprori	119	218	3
+44	RI	7	Providence	323	norprori	119	219	3
+44	RI	7	Providence	323	norprori	119	220	2
+44	RI	7	Providence	323	norprori	119	229	3
+44	RI	7	Providence	323	norprori	119	230	4
+44	RI	7	Providence	323	norprori	119	301	1
+44	RI	7	Providence	323	norprori	119	304	3
+44	RI	7	Providence	323	norprori	119	305	3
+44	RI	7	Providence	323	norprori	119	306	4
+44	RI	7	Providence	323	norprori	119	307	4
+44	RI	7	Providence	323	norprori	119	308	5
+44	RI	7	Providence	323	norprori	119	309	3
+44	RI	7	Providence	323	norprori	119	310	4
+44	RI	7	Providence	323	norprori	119	311	5
+44	RI	7	Providence	323	norprori	119	312	5
+44	RI	7	Providence	323	norprori	119	313	6
+44	RI	7	Providence	323	norprori	119	314	7
+44	RI	7	Providence	323	norprori	119	315	8
+44	RI	7	Providence	323	norprori	119	316	8
+44	RI	7	Providence	323	norprori	119	317	8
+44	RI	7	Providence	323	norprori	119	318	8
+44	RI	7	Providence	323	norprori	119	319	8
+44	RI	7	Providence	323	norprori	119	320	8
+44	RI	7	Providence	323	norprori	119	321	7
+44	RI	7	Providence	323	norprori	119	322	7
+44	RI	7	Providence	323	norprori	119	323	7
+44	RI	7	Providence	323	norprori	119	324	7
+44	RI	7	Providence	323	norprori	119	325	6
+44	RI	7	Providence	323	norprori	119	326	6
+44	RI	7	Providence	323	norprori	120	101	8
+44	RI	7	Providence	323	norprori	120	102	8
+44	RI	7	Providence	323	norprori	120	103	8
+44	RI	7	Providence	323	norprori	120	104	8
+44	RI	7	Providence	323	norprori	120	105	7
+44	RI	7	Providence	323	norprori	120	106	7
+44	RI	7	Providence	323	norprori	120	107	7
+44	RI	7	Providence	323	norprori	120	108	7
+44	RI	7	Providence	323	norprori	120	109	6
+44	RI	7	Providence	323	norprori	120	110	6
+44	RI	7	Providence	323	norprori	120	111	6
+44	RI	7	Providence	323	norprori	120	112	5
+44	RI	7	Providence	323	norprori	120	113	6
+44	RI	7	Providence	323	norprori	120	115	5
+44	RI	7	Providence	323	norprori	120	116	6
+44	RI	7	Providence	323	norprori	120	117	5
+44	RI	7	Providence	323	norprori	120	118	5
+44	RI	7	Providence	323	norprori	120	119	4
+44	RI	7	Providence	323	norprori	120	120	3
+44	RI	7	Providence	323	norprori	120	121	3
+44	RI	7	Providence	323	norprori	120	122	4
+44	RI	7	Providence	323	norprori	120	123	4
+44	RI	7	Providence	323	norprori	120	124	4
+44	RI	7	Providence	323	norprori	120	125	4
+44	RI	7	Providence	323	norprori	120	126	4
+44	RI	7	Providence	323	norprori	120	127	4
+44	RI	7	Providence	323	norprori	120	201	1
+44	RI	7	Providence	323	norprori	120	202	1
+44	RI	7	Providence	323	norprori	120	203	2
+44	RI	7	Providence	323	norprori	120	204	1
+44	RI	7	Providence	323	norprori	120	205	2
+44	RI	7	Providence	323	norprori	120	206	3
+44	RI	7	Providence	323	norprori	120	207	3
+44	RI	7	Providence	323	norprori	120	208	2
+44	RI	7	Providence	323	norprori	120	209	5
+44	RI	7	Providence	323	norprori	120	210	1
+44	RI	7	Providence	323	norprori	120	212	1
+44	RI	7	Providence	323	norprori	120	214	1
+44	RI	7	Providence	323	norprori	120	215	1
+44	RI	7	Providence	323	norprori	120	216	1
+44	RI	7	Providence	323	norprori	120	217	1
+44	RI	7	Providence	323	norprori	120	218	1
+44	RI	7	Providence	323	norprori	120	301	1
+44	RI	7	Providence	323	norprori	120	302	1
+44	RI	7	Providence	323	norprori	120	304	2
+44	RI	7	Providence	323	norprori	120	305	2
+44	RI	7	Providence	323	norprori	120	306	1
+44	RI	7	Providence	323	norprori	120	307	1
+44	RI	7	Providence	323	norprori	120	308	2
+44	RI	7	Providence	323	norprori	120	309	1
+44	RI	7	Providence	323	norprori	120	310	2
+44	RI	7	Providence	323	norprori	120	311	2
+44	RI	7	Providence	323	norprori	120	312	2
+44	RI	7	Providence	323	norprori	120	313	3
+44	RI	7	Providence	323	norprori	120	314	3
+44	RI	7	Providence	323	norprori	120	315	3
+44	RI	7	Providence	323	norprori	120	317	5
+44	RI	7	Providence	323	norprori	120	318	5
+44	RI	7	Providence	323	norprori	120	319	5
+44	RI	7	Providence	323	norprori	120	401	6
+44	RI	7	Providence	323	norprori	120	403	7
+44	RI	7	Providence	323	norprori	120	404	7
+44	RI	7	Providence	323	norprori	120	405	8
+44	RI	7	Providence	323	norprori	12102	401	8
+44	RI	7	Providence	323	norprori	12102	403	8
+44	RI	7	Providence	323	norprori	12102	404	8
+44	RI	7	Providence	323	norprori	12102	405	8
+44	RI	7	Providence	323	norprori	12102	409	8
+44	RI	7	Providence	323	norprori	12102	501	6
+44	RI	7	Providence	323	norprori	12102	502	6
+44	RI	7	Providence	323	norprori	12102	503	7
+44	RI	7	Providence	323	norprori	12102	504	6
+44	RI	7	Providence	323	norprori	12102	505	4
+44	RI	7	Providence	323	norprori	12102	506	4
+44	RI	7	Providence	323	norprori	12102	507	1
+44	RI	7	Providence	323	norprori	12102	508	3
+44	RI	7	Providence	323	norprori	12102	509	1
+44	RI	7	Providence	323	norprori	12102	510	1
+44	RI	7	Providence	323	norprori	12102	513	2
+44	RI	7	Providence	323	norprori	12102	516	4
+44	RI	7	Providence	323	norprori	12102	518	5
+44	RI	7	Providence	323	norprori	12102	602	1
+44	RI	7	Providence	323	norprori	12102	603	7
+44	RI	7	Providence	323	norprori	12102	604	8
+44	RI	7	Providence	323	norprori	12102	605	8
+6	CA	37	Los Angeles	317	losangca	106102	109	8
+6	CA	37	Los Angeles	317	losangca	106102	110	5
+6	CA	37	Los Angeles	317	losangca	106102	114	1
+6	CA	37	Los Angeles	317	losangca	106102	115	1
+6	CA	37	Los Angeles	317	losangca	106102	116	1
+6	CA	37	Los Angeles	317	losangca	106102	117	1
+6	CA	37	Los Angeles	317	losangca	106102	118	2
+6	CA	37	Los Angeles	317	losangca	106102	119	3
+6	CA	37	Los Angeles	317	losangca	106102	120	4
+6	CA	37	Los Angeles	317	losangca	106102	121	3
+6	CA	37	Los Angeles	317	losangca	106102	122	2
+6	CA	37	Los Angeles	317	losangca	106102	123	1
+6	CA	37	Los Angeles	317	losangca	106102	201	1
+6	CA	37	Los Angeles	317	losangca	106102	202	2
+6	CA	37	Los Angeles	317	losangca	106102	204	2
+6	CA	37	Los Angeles	317	losangca	106102	205	3
+6	CA	37	Los Angeles	317	losangca	106102	206	4
+6	CA	37	Los Angeles	317	losangca	106102	207	4
+6	CA	37	Los Angeles	317	losangca	106102	208	3
+6	CA	37	Los Angeles	317	losangca	106102	209	5
+6	CA	37	Los Angeles	317	losangca	106102	210	8
+6	CA	37	Los Angeles	317	losangca	106102	211	8
+6	CA	37	Los Angeles	317	losangca	106102	212	8
+6	CA	37	Los Angeles	317	losangca	106102	213	5
+6	CA	37	Los Angeles	317	losangca	106102	214	8

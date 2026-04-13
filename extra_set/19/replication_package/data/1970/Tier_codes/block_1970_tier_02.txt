@@ -1,0 +1,1790 @@
+Statefip	County	SMSA	Tract	jurcode	borderno	Block	tierno	pairno
+6	1	San Francisco	4002	oaklanca	39	101	1	1
+6	1	San Francisco	4002	oaklanca	39	102	1	1
+6	1	San Francisco	4002	oaklanca	39	103	1	1
+6	1	San Francisco	4002	oaklanca	39	104	1	1
+6	1	San Francisco	4002	oaklanca	39	106	1	1
+6	1	San Francisco	4002	oaklanca	39	107	2	1
+6	1	San Francisco	4002	oaklanca	39	108	1	1
+6	1	San Francisco	4002	oaklanca	39	109	2	1
+6	1	San Francisco	4002	oaklanca	39	110	3	1
+6	1	San Francisco	4002	oaklanca	39	201	3	1
+6	1	San Francisco	4002	oaklanca	39	202	3	1
+6	1	San Francisco	4002	oaklanca	39	203	3	1
+6	1	San Francisco	4002	oaklanca	39	204	4	1
+6	1	San Francisco	4002	oaklanca	39	207	4	1
+6	1	San Francisco	4002	oaklanca	39	301	3	1
+6	1	San Francisco	4002	oaklanca	39	302	2	1
+6	1	San Francisco	4002	oaklanca	39	303	1	1
+6	1	San Francisco	4002	oaklanca	39	304	1	1
+6	1	San Francisco	4002	oaklanca	39	305	2	1
+6	1	San Francisco	4002	oaklanca	39	306	1	1
+6	1	San Francisco	4002	oaklanca	39	308	2	1
+6	1	San Francisco	4003	oaklanca	39	103	5	1
+6	1	San Francisco	4003	oaklanca	39	104	5	1
+6	1	San Francisco	4003	oaklanca	39	105	6	1
+6	1	San Francisco	4003	oaklanca	39	106	6	1
+6	1	San Francisco	4003	oaklanca	39	107	7	1
+6	1	San Francisco	4003	oaklanca	39	108	8	1
+6	1	San Francisco	4004	oaklanca	39	101	1	1
+6	1	San Francisco	4004	oaklanca	39	102	1	1
+6	1	San Francisco	4004	oaklanca	39	103	1	1
+6	1	San Francisco	4004	oaklanca	39	104	1	1
+6	1	San Francisco	4004	oaklanca	39	105	1	1
+6	1	San Francisco	4004	oaklanca	39	106	1	1
+6	1	San Francisco	4004	oaklanca	39	205	1	1
+6	1	San Francisco	4005	oaklanca	39	101	1	1
+6	1	San Francisco	4005	oaklanca	39	102	1	1
+6	1	San Francisco	4005	oaklanca	39	307	1	1
+6	1	San Francisco	4005	oaklanca	39	402	1	1
+6	1	San Francisco	4005	oaklanca	39	403	1	1
+6	1	San Francisco	4005	oaklanca	39	404	1	1
+6	1	San Francisco	4005	oaklanca	39	405	1	1
+6	1	San Francisco	4005	oaklanca	39	406	1	1
+6	1	San Francisco	4005	oaklanca	39	407	1	1
+6	1	San Francisco	4007	oaklanca	39	101	1	1
+6	1	San Francisco	4007	oaklanca	39	102	1	1
+6	1	San Francisco	4007	oaklanca	39	105	1	1
+6	1	San Francisco	4007	oaklanca	39	106	1	1
+6	1	San Francisco	4007	oaklanca	39	107	1	1
+6	1	San Francisco	4007	oaklanca	39	108	1	1
+6	1	San Francisco	4008	oaklanca	39	103	1	1
+6	1	San Francisco	4008	oaklanca	39	108	1	1
+6	1	San Francisco	4008	oaklanca	39	201	1	1
+6	1	San Francisco	4008	oaklanca	39	209	1	1
+6	1	San Francisco	4008	oaklanca	39	210	1	1
+6	1	San Francisco	4008	oaklanca	39	211	1	1
+6	1	San Francisco	4237	berkelca	39	201	8	1
+6	1	San Francisco	4237	berkelca	39	202	8	1
+6	1	San Francisco	4237	berkelca	39	204	7	1
+6	1	San Francisco	4237	berkelca	39	209	6	1
+6	1	San Francisco	4237	berkelca	39	211	6	1
+6	1	San Francisco	4237	berkelca	39	212	6	1
+6	1	San Francisco	4237	berkelca	39	302	6	1
+6	1	San Francisco	4237	berkelca	39	304	7	1
+6	1	San Francisco	4237	berkelca	39	305	7	1
+6	1	San Francisco	4237	berkelca	39	306	8	1
+6	1	San Francisco	4237	berkelca	39	307	7	1
+6	1	San Francisco	4238	berkelca	39	201	1	1
+6	1	San Francisco	4238	berkelca	39	202	1	1
+6	1	San Francisco	4238	berkelca	39	203	1	1
+6	1	San Francisco	4238	berkelca	39	204	2	1
+6	1	San Francisco	4238	berkelca	39	208	3	1
+6	1	San Francisco	4238	berkelca	39	209	3	1
+6	1	San Francisco	4238	berkelca	39	211	3	1
+6	1	San Francisco	4238	berkelca	39	212	4	1
+6	1	San Francisco	4238	berkelca	39	213	3	1
+6	1	San Francisco	4238	berkelca	39	214	4	1
+6	1	San Francisco	4238	berkelca	39	216	5	1
+6	1	San Francisco	4238	berkelca	39	301	5	1
+6	1	San Francisco	4238	berkelca	39	302	5	1
+6	1	San Francisco	4238	berkelca	39	303	5	1
+6	1	San Francisco	4238	berkelca	39	304	5	1
+6	1	San Francisco	4238	berkelca	39	305	5	1
+6	1	San Francisco	4238	berkelca	39	306	6	1
+6	1	San Francisco	4238	berkelca	39	307	5	1
+6	1	San Francisco	4238	berkelca	39	308	4	1
+6	1	San Francisco	4238	berkelca	39	309	3	1
+6	1	San Francisco	4238	berkelca	39	310	2	1
+6	1	San Francisco	4238	berkelca	39	311	2	1
+6	1	San Francisco	4238	berkelca	39	312	2	1
+6	1	San Francisco	4238	berkelca	39	313	1	1
+6	1	San Francisco	4238	berkelca	39	314	1	1
+6	1	San Francisco	4239	berkelca	39	103	1	1
+6	1	San Francisco	4239	berkelca	39	104	1	1
+6	1	San Francisco	4239	berkelca	39	105	1	1
+6	1	San Francisco	4239	berkelca	39	108	1	1
+6	1	San Francisco	4239	berkelca	39	109	1	1
+6	1	San Francisco	4239	berkelca	39	119	1	1
+6	1	San Francisco	4239	berkelca	39	120	1	1
+6	1	San Francisco	4239	berkelca	39	121	1	1
+6	1	San Francisco	4239	berkelca	39	201	1	1
+6	1	San Francisco	4239	berkelca	39	210	1	1
+6	1	San Francisco	4239	berkelca	39	211	1	1
+6	1	San Francisco	4239	berkelca	39	212	1	1
+6	1	San Francisco	4239	berkelca	39	213	1	1
+6	1	San Francisco	4239	berkelca	39	214	1	1
+6	1	San Francisco	4239	berkelca	39	219	1	1
+6	1	San Francisco	4239	berkelca	39	220	1	1
+6	1	San Francisco	4239	berkelca	39	221	1	1
+6	1	San Francisco	4239	berkelca	39	222	1	1
+6	1	San Francisco	4239	berkelca	39	223	1	1
+6	1	San Francisco	4239	berkelca	39	224	1	1
+6	1	San Francisco	4239	berkelca	39	225	1	1
+6	1	San Francisco	4240	berkelca	39	406	1	1
+6	1	San Francisco	4240	berkelca	39	407	1	1
+6	1	San Francisco	4240	berkelca	39	408	1	1
+6	1	San Francisco	4240	berkelca	39	501	1	1
+6	1	San Francisco	4240	berkelca	39	502	1	1
+6	1	San Francisco	4240	berkelca	39	503	1	1
+6	1	San Francisco	4240	berkelca	39	508	1	1
+6	1	San Francisco	4240	berkelca	39	601	1	1
+6	1	San Francisco	4240	berkelca	39	602	1	1
+6	1	San Francisco	4240	berkelca	39	603	1	1
+6	1	San Francisco	4240	berkelca	39	604	1	1
+6	1	San Francisco	4240	berkelca	39	705	1	1
+6	1	San Francisco	4240	berkelca	39	706	1	1
+6	1	San Francisco	4240	berkelca	39	806	1	1
+6	13	San Francisco	3700	richmoca	40	208	1	1
+6	13	San Francisco	3700	richmoca	40	209	1	1
+6	13	San Francisco	3700	richmoca	40	210	1	1
+6	13	San Francisco	3700	richmoca	40	211	1	1
+6	13	San Francisco	3700	richmoca	40	213	1	1
+6	13	San Francisco	3700	richmoca	40	215	1	1
+6	13	San Francisco	3700	richmoca	40	218	1	1
+6	13	San Francisco	3700	richmoca	40	312	1	1
+6	13	San Francisco	3700	richmoca	40	313	1	1
+6	13	San Francisco	3700	richmoca	40	317	1	1
+6	13	San Francisco	3810	richmoca	40	105	5	1
+6	13	San Francisco	3810	richmoca	40	106	7	1
+6	13	San Francisco	3810	richmoca	40	107	8	1
+6	13	San Francisco	3810	richmoca	40	114	7	1
+6	13	San Francisco	3810	richmoca	40	115	6	1
+6	13	San Francisco	3810	richmoca	40	116	6	1
+6	13	San Francisco	3810	richmoca	40	117	5	1
+6	13	San Francisco	3810	richmoca	40	201	2	1
+6	13	San Francisco	3810	richmoca	40	202	1	1
+6	13	San Francisco	3810	richmoca	40	203	3	1
+6	13	San Francisco	3810	richmoca	40	204	4	1
+6	13	San Francisco	3810	richmoca	40	205	5	1
+6	13	San Francisco	3810	richmoca	40	206	5	1
+6	13	San Francisco	3810	richmoca	40	207	4	1
+6	13	San Francisco	3810	richmoca	40	208	5	1
+6	13	San Francisco	3810	richmoca	40	209	7	1
+6	13	San Francisco	3810	richmoca	40	301	8	1
+6	13	San Francisco	3820	richmoca	40	103	2	1
+6	13	San Francisco	3820	richmoca	40	104	2	1
+6	13	San Francisco	3820	richmoca	40	107	2	1
+6	13	San Francisco	3820	richmoca	40	110	1	1
+6	13	San Francisco	3820	richmoca	40	112	3	1
+6	13	San Francisco	3820	richmoca	40	113	3	1
+6	13	San Francisco	3820	richmoca	40	114	2	1
+6	13	San Francisco	3820	richmoca	40	116	3	1
+6	13	San Francisco	3820	richmoca	40	202	3	1
+6	13	San Francisco	3820	richmoca	40	203	4	1
+6	13	San Francisco	3820	richmoca	40	205	5	1
+6	13	San Francisco	3820	richmoca	40	207	5	1
+6	13	San Francisco	3820	richmoca	40	208	5	1
+6	13	San Francisco	3820	richmoca	40	209	4	1
+6	13	San Francisco	3820	richmoca	40	210	4	1
+6	13	San Francisco	3820	richmoca	40	211	4	1
+6	13	San Francisco	3820	richmoca	40	212	3	1
+6	13	San Francisco	3820	richmoca	40	213	3	1
+6	13	San Francisco	3820	richmoca	40	214	3	1
+6	13	San Francisco	3820	richmoca	40	301	2	1
+6	13	San Francisco	3820	richmoca	40	302	1	1
+6	13	San Francisco	3820	richmoca	40	303	1	1
+6	13	San Francisco	3820	richmoca	40	305	2	1
+6	13	San Francisco	3820	richmoca	40	306	2	1
+6	13	San Francisco	3820	richmoca	40	307	3	1
+6	13	San Francisco	3820	richmoca	40	308	3	1
+6	13	San Francisco	3820	richmoca	40	309	4	1
+6	13	San Francisco	3820	richmoca	40	310	3	1
+6	13	San Francisco	3820	richmoca	40	311	4	1
+6	13	San Francisco	3820	richmoca	40	312	4	1
+6	13	San Francisco	3820	richmoca	40	313	4	1
+6	13	San Francisco	3820	richmoca	40	314	5	1
+6	13	San Francisco	3820	richmoca	40	316	5	1
+6	13	San Francisco	3820	richmoca	40	317	4	1
+6	13	San Francisco	3820	richmoca	40	318	3	1
+6	13	San Francisco	3820	richmoca	40	319	2	1
+6	13	San Francisco	3820	richmoca	40	401	3	1
+6	13	San Francisco	3820	richmoca	40	402	5	1
+6	13	San Francisco	3820	richmoca	40	403	6	1
+6	13	San Francisco	3820	richmoca	40	404	6	1
+6	13	San Francisco	3820	richmoca	40	405	7	1
+6	13	San Francisco	3820	richmoca	40	406	7	1
+6	13	San Francisco	3820	richmoca	40	407	7	1
+6	13	San Francisco	3820	richmoca	40	408	8	1
+6	13	San Francisco	3830	richmoca	40	101	1	1
+6	13	San Francisco	3830	richmoca	40	103	1	1
+6	13	San Francisco	3830	richmoca	40	104	1	1
+6	13	San Francisco	3830	richmoca	40	107	1	1
+6	13	San Francisco	3830	richmoca	40	108	1	1
+6	13	San Francisco	3830	richmoca	40	113	1	1
+6	13	San Francisco	3830	richmoca	40	114	1	1
+6	13	San Francisco	3830	richmoca	40	213	1	1
+6	13	San Francisco	3830	richmoca	40	214	1	1
+6	13	San Francisco	3830	richmoca	40	215	1	1
+6	13	San Francisco	3830	richmoca	40	216	1	1
+6	13	San Francisco	3830	richmoca	40	217	1	1
+6	13	San Francisco	3830	richmoca	40	218	1	1
+6	13	San Francisco	3830	richmoca	40	219	1	1
+6	13	San Francisco	3830	richmoca	40	220	1	1
+6	13	San Francisco	3830	richmoca	40	221	1	1
+6	13	San Francisco	3830	richmoca	40	222	1	1
+6	13	San Francisco	3830	richmoca	40	223	1	1
+6	13	San Francisco	3830	richmoca	40	301	1	1
+6	13	San Francisco	3830	richmoca	40	303	1	1
+6	13	San Francisco	3830	richmoca	40	332	1	1
+6	13	San Francisco	3830	richmoca	40	334	1	1
+6	13	San Francisco	3840	elcerrca	40	216	1	1
+6	13	San Francisco	3840	elcerrca	40	217	1	1
+6	13	San Francisco	3840	elcerrca	40	218	1	1
+6	13	San Francisco	3840	elcerrca	40	301	1	1
+6	13	San Francisco	3840	elcerrca	40	321	1	1
+6	13	San Francisco	3840	elcerrca	40	322	1	1
+6	13	San Francisco	3840	elcerrca	40	401	1	1
+6	13	San Francisco	3840	elcerrca	40	402	1	1
+6	13	San Francisco	3840	elcerrca	40	403	1	1
+6	13	San Francisco	3840	elcerrca	40	404	1	1
+6	13	San Francisco	3840	elcerrca	40	406	1	1
+6	13	San Francisco	3840	elcerrca	40	410	1	1
+6	13	San Francisco	3840	elcerrca	40	411	1	1
+6	13	San Francisco	3860	elcerrca	40	106	2	1
+6	13	San Francisco	3860	elcerrca	40	202	5	1
+6	13	San Francisco	3860	elcerrca	40	206	3	1
+6	13	San Francisco	3860	elcerrca	40	207	5	1
+6	13	San Francisco	3860	elcerrca	40	208	6	1
+6	13	San Francisco	3860	elcerrca	40	301	6	1
+6	13	San Francisco	3860	elcerrca	40	302	7	1
+6	13	San Francisco	3860	elcerrca	40	303	8	1
+6	13	San Francisco	3860	elcerrca	40	308	8	1
+6	13	San Francisco	3860	elcerrca	40	309	7	1
+6	13	San Francisco	3860	elcerrca	40	310	6	1
+6	13	San Francisco	3860	elcerrca	40	401	4	1
+6	13	San Francisco	3860	elcerrca	40	402	3	1
+6	13	San Francisco	3860	elcerrca	40	403	3	1
+6	13	San Francisco	3860	elcerrca	40	404	5	1
+6	13	San Francisco	3860	elcerrca	40	405	4	1
+6	13	San Francisco	3860	elcerrca	40	501	2	1
+6	13	San Francisco	3860	elcerrca	40	502	2	1
+6	13	San Francisco	3860	elcerrca	40	505	1	1
+6	13	San Francisco	3860	elcerrca	40	507	2	1
+6	13	San Francisco	3860	elcerrca	40	508	1	1
+6	13	San Francisco	3860	elcerrca	40	509	1	1
+6	13	San Francisco	3860	elcerrca	40	510	1	1
+6	13	San Francisco	3860	elcerrca	40	511	1	1
+6	13	San Francisco	3860	elcerrca	40	513	2	1
+6	13	San Francisco	3860	elcerrca	40	515	2	1
+6	13	San Francisco	3870	elcerrca	40	302	1	1
+6	13	San Francisco	3870	elcerrca	40	303	1	1
+6	13	San Francisco	3870	elcerrca	40	307	1	1
+6	13	San Francisco	3880	elcerrca	40	108	1	1
+6	13	San Francisco	3880	elcerrca	40	109	1	1
+6	13	San Francisco	3880	elcerrca	40	210	1	1
+6	13	San Francisco	3880	elcerrca	40	211	1	1
+6	13	San Francisco	3891	elcerrca	40	111	1	1
+6	13	San Francisco	3892	elcerrca	40	101	1	1
+6	13	San Francisco	3892	elcerrca	40	102	1	1
+6	13	San Francisco	3892	elcerrca	40	103	1	1
+6	13	San Francisco	3892	elcerrca	40	104	1	1
+6	13	San Francisco	3892	elcerrca	40	106	1	1
+6	13	San Francisco	3892	elcerrca	40	107	1	1
+6	13	San Francisco	3892	elcerrca	40	108	1	1
+6	13	San Francisco	3892	elcerrca	40	111	1	1
+6	13	San Francisco	3892	elcerrca	40	201	1	1
+6	13	San Francisco	3892	elcerrca	40	209	1	1
+6	85	San Jose	5057	sanclaca	43	215	8	1
+6	85	San Jose	5057	sanclaca	43	216	8	1
+6	85	San Jose	5057	sanclaca	43	217	8	1
+6	85	San Jose	5057	sanclaca	43	218	8	1
+6	85	San Jose	5057	sanclaca	43	219	8	1
+6	85	San Jose	5057	sanclaca	43	220	8	1
+6	85	San Jose	5057	sanclaca	43	222	8	1
+6	85	San Jose	5057	sanclaca	43	223	8	1
+6	85	San Jose	5057	sanclaca	43	301	7	1
+6	85	San Jose	5057	sanclaca	43	302	8	1
+6	85	San Jose	5057	sanclaca	43	303	7	1
+6	85	San Jose	5057	sanclaca	43	304	6	1
+6	85	San Jose	5057	sanclaca	43	305	6	1
+6	85	San Jose	5057	sanclaca	43	306	6	1
+6	85	San Jose	5057	sanclaca	43	307	5	1
+6	85	San Jose	5057	sanclaca	43	308	5	1
+6	85	San Jose	5057	sanclaca	43	309	4	1
+6	85	San Jose	5057	sanclaca	43	310	4	1
+6	85	San Jose	5057	sanclaca	43	311	4	1
+6	85	San Jose	5057	sanclaca	43	312	3	1
+6	85	San Jose	5057	sanclaca	43	313	2	1
+6	85	San Jose	5057	sanclaca	43	314	2	1
+6	85	San Jose	5057	sanclaca	43	315	2	1
+6	85	San Jose	5057	sanclaca	43	316	3	1
+6	85	San Jose	5057	sanclaca	43	317	3	1
+6	85	San Jose	5057	sanclaca	43	318	2	1
+6	85	San Jose	5057	sanclaca	43	401	1	1
+6	85	San Jose	5057	sanclaca	43	402	1	1
+6	85	San Jose	5057	sanclaca	43	403	2	1
+6	85	San Jose	5057	sanclaca	43	404	3	1
+6	85	San Jose	5057	sanclaca	43	407	1	1
+6	85	San Jose	5057	sanclaca	43	409	1	1
+6	85	San Jose	5057	sanclaca	43	410	2	1
+6	85	San Jose	5057	sanclaca	43	411	2	1
+6	85	San Jose	5057	sanclaca	43	412	5	1
+6	85	San Jose	5057	sanclaca	43	415	7	1
+6	85	San Jose	5057	sanclaca	43	416	1	1
+6	85	San Jose	5058	sanjosca	43	107	2	1
+6	85	San Jose	5058	sanjosca	43	108	2	1
+6	85	San Jose	5058	sanjosca	43	110	3	1
+6	85	San Jose	5058	sanjosca	43	111	4	1
+6	85	San Jose	5058	sanjosca	43	112	5	1
+6	85	San Jose	5058	sanjosca	43	113	8	1
+6	85	San Jose	5058	sanjosca	43	301	8	1
+6	85	San Jose	5058	sanjosca	43	302	8	1
+6	85	San Jose	5058	sanjosca	43	303	6	1
+6	85	San Jose	5058	sanjosca	43	304	6	1
+6	85	San Jose	5058	sanjosca	43	305	7	1
+6	85	San Jose	5058	sanjosca	43	306	7	1
+6	85	San Jose	5058	sanjosca	43	307	6	1
+6	85	San Jose	5058	sanjosca	43	308	5	1
+6	85	San Jose	5058	sanjosca	43	309	5	1
+6	85	San Jose	5058	sanjosca	43	310	5	1
+6	85	San Jose	5058	sanjosca	43	311	4	1
+6	85	San Jose	5058	sanjosca	43	312	4	1
+6	85	San Jose	5058	sanjosca	43	313	4	1
+6	85	San Jose	5058	sanjosca	43	401	4	1
+6	85	San Jose	5058	sanjosca	43	402	3	1
+6	85	San Jose	5058	sanjosca	43	403	3	1
+6	85	San Jose	5058	sanjosca	43	404	2	1
+6	85	San Jose	5058	sanjosca	43	405	2	1
+6	85	San Jose	5058	sanjosca	43	406	4	1
+6	85	San Jose	5058	sanjosca	43	407	1	1
+6	85	San Jose	5058	sanjosca	43	408	1	1
+6	85	San Jose	5058	sanjosca	43	409	2	1
+6	85	San Jose	5058	sanjosca	43	410	2	1
+6	85	San Jose	5058	sanjosca	43	411	2	1
+6	85	San Jose	5058	sanjosca	43	412	2	1
+6	85	San Jose	5058	sanjosca	43	413	2	1
+6	85	San Jose	5058	sanjosca	43	414	2	1
+6	85	San Jose	5058	sanjosca	43	415	1	1
+6	85	San Jose	5058	sanjosca	43	417	1	1
+6	85	San Jose	5094	mouvieca	42	108	4	2
+6	85	San Jose	5094	mouvieca	41	201	1	2
+6	85	San Jose	5094	mouvieca	42	201	4	2
+6	85	San Jose	5094	mouvieca	42	202	3	2
+6	85	San Jose	5094	mouvieca	41	202	1	2
+6	85	San Jose	5094	mouvieca	42	203	3	2
+6	85	San Jose	5094	mouvieca	42	204	2	2
+6	85	San Jose	5094	mouvieca	42	205	3	2
+6	85	San Jose	5094	mouvieca	42	301	3	2
+6	85	San Jose	5094	mouvieca	42	302	3	2
+6	85	San Jose	5094	mouvieca	42	303	4	2
+6	85	San Jose	5094	mouvieca	42	304	3	2
+6	85	San Jose	5094	mouvieca	42	305	3	2
+6	85	San Jose	5094	mouvieca	42	306	3	2
+6	85	San Jose	5094	mouvieca	42	307	2	2
+6	85	San Jose	5094	mouvieca	42	308	2	2
+6	85	San Jose	5094	mouvieca	42	309	1	2
+6	85	San Jose	5094	mouvieca	42	310	2	2
+6	85	San Jose	5094	mouvieca	42	311	1	2
+6	85	San Jose	5102	losaltca	41	106	1	1
+6	85	San Jose	5102	losaltca	41	107	1	1
+6	85	San Jose	5102	losaltca	41	108	2	1
+6	85	San Jose	5102	losaltca	41	109	1	1
+6	85	San Jose	5102	losaltca	41	112	1	1
+6	85	San Jose	5102	losaltca	41	113	2	1
+6	85	San Jose	5102	losaltca	41	114	3	1
+6	85	San Jose	5102	losaltca	41	115	3	1
+6	85	San Jose	5102	losaltca	41	116	2	1
+6	85	San Jose	5102	losaltca	41	117	1	1
+6	85	San Jose	5102	losaltca	41	201	2	1
+6	85	San Jose	5102	losaltca	41	203	3	1
+6	85	San Jose	5102	losaltca	41	204	2	1
+6	85	San Jose	5104	losaltca	41	101	1	1
+6	85	San Jose	5104	losaltca	41	102	1	1
+6	85	San Jose	5104	losaltca	41	103	1	1
+6	85	San Jose	5104	losaltca	41	104	1	1
+6	85	San Jose	5104	losaltca	41	201	1	1
+6	85	San Jose	5104	losaltca	41	202	1	1
+6	85	San Jose	5104	losaltca	41	304	1	1
+6	85	San Jose	5104	losaltca	41	305	1	1
+6	85	San Jose	5104	losaltca	41	306	1	1
+6	85	San Jose	5104	losaltca	41	307	1	1
+6	85	San Jose	5104	losaltca	41	308	1	1
+6	85	San Jose	5104	losaltca	41	309	1	1
+6	85	San Jose	5104	losaltca	41	310	1	1
+6	85	San Jose	5105	losaltca	41	101	2	1
+6	85	San Jose	5105	losaltca	74	102	3	1
+6	85	San Jose	5105	losaltca	74	103	3	1
+6	85	San Jose	5105	losaltca	74	104	4	1
+6	85	San Jose	5105	losaltca	74	105	4	1
+6	85	San Jose	5105	losaltca	74	106	4	1
+6	85	San Jose	5105	losaltca	74	107	5	1
+6	85	San Jose	5105	losaltca	74	108	5	1
+6	85	San Jose	5105	losaltca	74	109	5	1
+6	85	San Jose	5105	losaltca	74	201	6	1
+6	85	San Jose	5105	losaltca	74	202	7	1
+6	85	San Jose	5105	losaltca	74	203	7	1
+6	85	San Jose	5105	losaltca	74	204	6	1
+6	85	San Jose	5105	losaltca	74	205	8	1
+6	85	San Jose	5105	losaltca	74	206	8	1
+6	85	San Jose	5105	losaltca	74	401	2	1
+6	85	San Jose	5105	losaltca	74	402	8	1
+6	85	San Jose	5105	losaltca	74	403	8	1
+6	85	San Jose	5105	losaltca	74	405	7	1
+6	85	San Jose	5105	losaltca	74	406	3	1
+6	85	San Jose	5105	losaltca	74	408	3	1
+6	85	San Jose	5105	losaltca	74	410	1	1
+6	85	San Jose	5105	losaltca	74	411	1	1
+6	85	San Jose	5106	palaltca	74	101	1	1
+6	85	San Jose	5106	palaltca	74	102	2	1
+6	85	San Jose	5106	palaltca	74	103	2	1
+6	85	San Jose	5106	palaltca	74	104	2	1
+6	85	San Jose	5106	palaltca	74	105	2	1
+6	85	San Jose	5106	palaltca	74	106	3	1
+6	85	San Jose	5106	palaltca	74	107	4	1
+6	85	San Jose	5106	palaltca	74	108	4	1
+6	85	San Jose	5106	palaltca	74	109	4	1
+6	85	San Jose	5106	palaltca	74	110	3	1
+6	85	San Jose	5106	palaltca	74	111	3	1
+6	85	San Jose	5106	palaltca	74	112	3	1
+6	85	San Jose	5106	palaltca	74	113	3	1
+6	85	San Jose	5106	palaltca	74	201	3	1
+6	85	San Jose	5106	palaltca	74	202	5	1
+6	85	San Jose	5106	palaltca	74	203	7	1
+6	85	San Jose	5106	palaltca	74	204	5	1
+6	85	San Jose	5106	palaltca	74	205	5	1
+6	85	San Jose	5106	palaltca	74	206	7	1
+6	85	San Jose	5106	palaltca	74	209	6	1
+6	85	San Jose	5106	palaltca	74	210	5	1
+6	85	San Jose	5106	palaltca	74	211	5	1
+6	85	San Jose	5106	palaltca	74	212	5	1
+6	85	San Jose	5106	palaltca	74	213	7	1
+6	85	San Jose	5106	palaltca	74	214	8	1
+6	85	San Jose	5106	palaltca	74	215	8	1
+6	85	San Jose	5106	palaltca	74	216	8	1
+6	85	San Jose	5106	palaltca	74	310	8	1
+6	85	San Jose	5106	palaltca	74	311	8	1
+6	85	San Jose	5106	palaltca	74	313	8	1
+6	85	San Jose	509801	mouvieca	41	101	1	1
+6	85	San Jose	509801	mouvieca	41	104	1	1
+6	85	San Jose	509801	mouvieca	41	105	1	1
+6	85	San Jose	509801	mouvieca	41	106	1	1
+6	85	San Jose	509801	mouvieca	41	107	1	1
+6	85	San Jose	509801	mouvieca	41	110	1	1
+6	85	San Jose	509801	mouvieca	41	201	1	1
+6	85	San Jose	509801	mouvieca	41	206	1	1
+6	85	San Jose	509801	mouvieca	41	208	1	1
+6	85	San Jose	509801	mouvieca	41	209	1	1
+6	85	San Jose	509801	mouvieca	41	210	2	1
+6	85	San Jose	509801	mouvieca	41	211	2	1
+6	85	San Jose	509801	mouvieca	41	302	3	1
+6	85	San Jose	509801	mouvieca	41	303	2	1
+6	85	San Jose	509801	mouvieca	41	306	3	1
+6	85	San Jose	509801	mouvieca	41	308	2	1
+6	85	San Jose	509801	mouvieca	41	309	1	1
+6	85	San Jose	509801	mouvieca	41	310	1	1
+6	85	San Jose	509801	mouvieca	41	401	1	1
+6	85	San Jose	509801	mouvieca	41	402	2	1
+6	85	San Jose	509801	mouvieca	41	403	3	1
+6	85	San Jose	509801	mouvieca	41	404	4	1
+6	85	San Jose	509801	mouvieca	41	405	4	1
+6	85	San Jose	509801	mouvieca	41	406	3	1
+6	85	San Jose	509801	mouvieca	41	407	3	1
+6	85	San Jose	509801	mouvieca	41	408	2	1
+6	85	San Jose	509801	mouvieca	41	409	2	1
+6	85	San Jose	509801	mouvieca	41	410	2	1
+6	85	San Jose	509801	mouvieca	41	411	1	1
+6	85	San Jose	509801	mouvieca	41	412	3	1
+6	85	San Jose	509802	mouvieca	41	205	8	1
+6	85	San Jose	509802	mouvieca	41	206	8	1
+6	85	San Jose	509802	mouvieca	41	301	7	1
+6	85	San Jose	509802	mouvieca	41	302	7	1
+6	85	San Jose	509802	mouvieca	41	303	7	1
+6	85	San Jose	509802	mouvieca	41	304	7	1
+6	85	San Jose	509802	mouvieca	41	305	6	1
+6	85	San Jose	509802	mouvieca	41	306	6	1
+6	85	San Jose	509802	mouvieca	41	307	6	1
+6	85	San Jose	509802	mouvieca	41	401	4	1
+6	85	San Jose	509802	mouvieca	41	402	5	1
+6	85	San Jose	509802	mouvieca	41	403	4	1
+6	85	San Jose	509802	mouvieca	41	404	5	1
+6	85	San Jose	509802	mouvieca	41	405	6	1
+6	85	San Jose	509802	mouvieca	41	406	7	1
+6	85	San Jose	510801	palaltca	42	107	8	1
+6	85	San Jose	510801	palaltca	42	109	8	1
+6	85	San Jose	510801	palaltca	42	201	6	1
+6	85	San Jose	510801	palaltca	42	202	7	1
+6	85	San Jose	510801	palaltca	42	203	7	1
+6	85	San Jose	510801	palaltca	42	206	4	1
+6	85	San Jose	510801	palaltca	42	301	4	1
+6	85	San Jose	510801	palaltca	42	302	5	1
+6	85	San Jose	510801	palaltca	42	303	5	1
+6	85	San Jose	510801	palaltca	42	304	5	1
+6	85	San Jose	510801	palaltca	42	305	6	1
+6	85	San Jose	510801	palaltca	42	306	5	1
+6	85	San Jose	510801	palaltca	42	307	7	1
+6	85	San Jose	510801	palaltca	42	308	5	1
+6	85	San Jose	510801	palaltca	42	401	6	1
+6	85	San Jose	510801	palaltca	42	402	7	1
+6	85	San Jose	510801	palaltca	42	403	8	1
+6	85	San Jose	510801	palaltca	42	404	8	1
+6	85	San Jose	510801	palaltca	42	408	8	1
+6	85	San Jose	510801	palaltca	42	409	7	1
+6	85	San Jose	510801	palaltca	42	410	8	1
+6	85	San Jose	510802	palaltca	42	101	3	1
+6	85	San Jose	510802	palaltca	42	103	4	1
+6	85	San Jose	510802	palaltca	42	104	3	1
+6	85	San Jose	510802	palaltca	42	105	2	1
+6	85	San Jose	510802	palaltca	42	106	3	1
+6	85	San Jose	510802	palaltca	42	107	2	1
+6	85	San Jose	510802	palaltca	42	108	2	1
+6	85	San Jose	510802	palaltca	42	110	3	1
+6	85	San Jose	510802	palaltca	42	111	3	1
+6	85	San Jose	510802	palaltca	42	112	3	1
+6	85	San Jose	510802	palaltca	42	114	1	1
+6	85	San Jose	510802	palaltca	42	115	2	1
+6	85	San Jose	510803	palaltca	42	101	8	1
+6	85	San Jose	510803	palaltca	42	102	6	1
+6	85	San Jose	510803	palaltca	42	103	7	1
+6	85	San Jose	510803	palaltca	42	104	7	1
+6	85	San Jose	510803	palaltca	42	106	6	1
+6	85	San Jose	510803	palaltca	42	107	4	1
+6	85	San Jose	510803	palaltca	42	108	4	1
+6	85	San Jose	510803	palaltca	42	109	5	1
+6	85	San Jose	510803	palaltca	42	110	6	1
+6	85	San Jose	510803	palaltca	42	201	6	1
+6	85	San Jose	510803	palaltca	42	202	6	1
+6	85	San Jose	510803	palaltca	42	203	5	1
+6	85	San Jose	510803	palaltca	42	204	5	1
+6	85	San Jose	510803	palaltca	42	205	4	1
+6	85	San Jose	510803	palaltca	42	206	5	1
+6	85	San Jose	510803	palaltca	42	207	4	1
+6	85	San Jose	510803	palaltca	42	208	5	1
+6	85	San Jose	510803	palaltca	42	209	6	1
+6	85	San Jose	510803	palaltca	42	210	6	1
+6	85	San Jose	510803	palaltca	42	211	6	1
+6	85	San Jose	510803	palaltca	42	213	5	1
+17	31	Chicago	8131	oakparil	23	513	1	1
+17	31	Chicago	8131	oakparil	23	512	1	1
+17	31	Chicago	8131	oakparil	23	511	1	1
+17	31	Chicago	8131	oakparil	23	510	1	1
+17	31	Chicago	8131	oakparil	23	307	1	1
+17	31	Chicago	8131	oakparil	23	306	1	1
+17	31	Chicago	8131	oakparil	23	303	1	1
+17	31	Chicago	8131	oakparil	23	302	1	1
+17	31	Chicago	8132	oakparil	23	205	1	1
+17	31	Chicago	8132	oakparil	23	206	1	1
+17	31	Chicago	8132	oakparil	23	207	1	1
+17	31	Chicago	8132	oakparil	23	208	1	1
+17	31	Chicago	8132	oakparil	23	301	1	1
+17	31	Chicago	8132	oakparil	23	302	1	1
+17	31	Chicago	8132	oakparil	23	303	1	1
+17	31	Chicago	8132	oakparil	23	304	1	1
+17	31	Chicago	8132	oakparil	23	607	1	1
+17	31	Chicago	8132	oakparil	23	604	1	1
+17	31	Chicago	8132	oakparil	23	603	1	1
+17	31	Chicago	8132	oakparil	23	601	1	1
+17	31	Chicago	8132	oakparil	23	202	2	1
+17	31	Chicago	8132	oakparil	23	201	2	1
+17	31	Chicago	8132	oakparil	23	307	2	1
+17	31	Chicago	8132	oakparil	23	306	2	1
+17	31	Chicago	8132	oakparil	23	305	2	1
+17	31	Chicago	8132	oakparil	23	606	2	1
+17	31	Chicago	8132	oakparil	23	605	2	1
+17	31	Chicago	8132	oakparil	23	602	2	1
+17	31	Chicago	8132	oakparil	23	108	3	1
+17	31	Chicago	8132	oakparil	23	109	3	1
+17	31	Chicago	8132	oakparil	23	401	3	1
+17	31	Chicago	8132	oakparil	23	402	3	1
+17	31	Chicago	8132	oakparil	23	403	3	1
+17	31	Chicago	8132	oakparil	23	404	3	1
+17	31	Chicago	8132	oakparil	23	507	3	1
+17	31	Chicago	8132	oakparil	23	508	3	1
+17	31	Chicago	8132	oakparil	23	509	3	1
+17	31	Chicago	8132	oakparil	23	103	4	1
+17	31	Chicago	8132	oakparil	23	102	4	1
+17	31	Chicago	8132	oakparil	23	408	4	1
+17	31	Chicago	8132	oakparil	23	407	4	1
+17	31	Chicago	8132	oakparil	23	406	4	1
+17	31	Chicago	8132	oakparil	23	405	4	1
+17	31	Chicago	8132	oakparil	23	506	4	1
+17	31	Chicago	8132	oakparil	23	505	4	1
+17	31	Chicago	8132	oakparil	23	504	4	1
+17	31	Chicago	8132	oakparil	23	503	4	1
+17	31	Chicago	8132	oakparil	23	502	6	1
+17	31	Chicago	8132	oakparil	23	501	6	1
+17	31	Chicago	8135	ciceroil	22	201	5	2
+17	31	Chicago	8135	ciceroil	22	202	4	2
+17	31	Chicago	8135	ciceroil	22	203	4	2
+17	31	Chicago	8135	ciceroil	22	204	4	2
+17	31	Chicago	8135	ciceroil	22	205	5	2
+17	31	Chicago	8135	ciceroil	22	206	5	2
+17	31	Chicago	8135	ciceroil	22	207	4	2
+17	31	Chicago	8135	ciceroil	22	208	5	2
+17	31	Chicago	8135	ciceroil	22	209	4	2
+17	31	Chicago	8135	ciceroil	22	301	3	2
+17	31	Chicago	8135	ciceroil	22	302	2	2
+17	31	Chicago	8135	ciceroil	22	303	1	2
+17	31	Chicago	8135	ciceroil	22	304	1	2
+17	31	Chicago	8135	ciceroil	22	305	2	2
+17	31	Chicago	8135	ciceroil	22	306	3	2
+17	31	Chicago	8135	ciceroil	22	307	3	2
+17	31	Chicago	8135	ciceroil	22	308	2	2
+17	31	Chicago	8135	ciceroil	22	309	1	2
+17	31	Chicago	8135	ciceroil	22	401	1	2
+17	31	Chicago	8135	ciceroil	22	402	2	2
+17	31	Chicago	8135	ciceroil	22	403	3	2
+17	31	Chicago	8135	ciceroil	22	404	3	2
+17	31	Chicago	8135	ciceroil	22	405	2	2
+17	31	Chicago	8135	ciceroil	22	406	1	2
+17	31	Chicago	8135	ciceroil	22	407	1	2
+17	31	Chicago	8135	ciceroil	22	503	1	2
+17	31	Chicago	8135	ciceroil	22	504	1	2
+17	31	Chicago	8140	ciceroil	22	105	1	1
+17	31	Chicago	8140	ciceroil	22	106	1	1
+17	31	Chicago	8140	ciceroil	22	208	1	1
+17	31	Chicago	8140	ciceroil	22	301	1	1
+17	31	Chicago	8140	ciceroil	22	403	1	1
+17	31	Chicago	8140	ciceroil	22	404	1	1
+17	31	Chicago	8145	ciceroil	22	113	1	1
+17	31	Chicago	8145	ciceroil	22	201	1	1
+17	31	Chicago	8145	ciceroil	22	214	1	1
+17	31	Chicago	8145	ciceroil	22	301	1	1
+17	31	Chicago	8145	ciceroil	22	311	1	1
+17	31	Chicago	8145	ciceroil	22	401	1	1
+17	31	Chicago	8145	ciceroil	22	411	1	1
+17	31	Chicago	8146	berwynil	22	101	1	2
+17	31	Chicago	8146	berwynil	22	108	1	2
+17	31	Chicago	8146	berwynil	22	201	1	2
+17	31	Chicago	8146	berwynil	22	202	1	2
+17	31	Chicago	8146	berwynil	23	101	1	2
+17	31	Chicago	8146	berwynil	23	102	1	2
+17	31	Chicago	8146	berwynil	23	103	1	2
+17	31	Chicago	8146	berwynil	23	104	1	2
+17	31	Chicago	8146	berwynil	23	405	1	2
+17	31	Chicago	8146	berwynil	23	406	1	2
+17	31	Chicago	8146	berwynil	23	407	1	2
+17	31	Chicago	8146	berwynil	23	408	1	2
+17	31	Chicago	8146	berwynil	23	501	1	2
+17	31	Chicago	8146	berwynil	23	502	1	2
+17	31	Chicago	8147	berwynil	23	101	1	1
+17	31	Chicago	8147	berwynil	23	102	1	1
+17	31	Chicago	8147	berwynil	23	103	1	1
+17	31	Chicago	8147	berwynil	23	104	1	1
+17	31	Chicago	8147	berwynil	23	405	1	1
+17	31	Chicago	8147	berwynil	23	406	1	1
+17	31	Chicago	8147	berwynil	23	407	1	1
+17	31	Chicago	8147	berwynil	23	408	1	1
+17	31	Chicago	8147	berwynil	23	501	1	1
+17	31	Chicago	8147	berwynil	23	502	1	1
+17	31	Chicago	8147	berwynil	23	108	2	1
+17	31	Chicago	8147	berwynil	23	107	2	1
+17	31	Chicago	8147	berwynil	23	106	2	1
+17	31	Chicago	8147	berwynil	23	105	2	1
+17	31	Chicago	8147	berwynil	23	404	2	1
+17	31	Chicago	8147	berwynil	23	403	2	1
+17	31	Chicago	8147	berwynil	23	402	2	1
+17	31	Chicago	8147	berwynil	23	401	2	1
+17	31	Chicago	8147	berwynil	23	504	2	1
+17	31	Chicago	8147	berwynil	23	503	2	1
+17	31	Chicago	8147	berwynil	23	201	3	1
+17	31	Chicago	8147	berwynil	23	204	3	1
+17	31	Chicago	8147	berwynil	23	205	3	1
+17	31	Chicago	8147	berwynil	23	208	3	1
+17	31	Chicago	8147	berwynil	23	301	3	1
+17	31	Chicago	8147	berwynil	23	304	3	1
+17	31	Chicago	8147	berwynil	23	305	3	1
+17	31	Chicago	8147	berwynil	23	308	3	1
+17	31	Chicago	8147	berwynil	23	505	3	1
+17	31	Chicago	8147	berwynil	23	506	3	1
+17	31	Chicago	8147	berwynil	23	202	4	1
+17	31	Chicago	8147	berwynil	23	203	4	1
+17	31	Chicago	8147	berwynil	23	206	4	1
+17	31	Chicago	8147	berwynil	23	207	4	1
+17	31	Chicago	8147	berwynil	23	302	4	1
+17	31	Chicago	8147	berwynil	23	303	4	1
+17	31	Chicago	8147	berwynil	23	306	4	1
+17	31	Chicago	8147	berwynil	23	307	4	1
+17	31	Chicago	8147	berwynil	23	508	4	1
+17	31	Chicago	8147	berwynil	23	507	4	1
+17	31	Chicago	8150	berwynil	22	101	1	1
+17	31	Chicago	8150	berwynil	22	102	2	1
+17	31	Chicago	8150	berwynil	22	103	2	1
+17	31	Chicago	8150	berwynil	22	104	1	1
+17	31	Chicago	8150	berwynil	22	107	2	1
+17	31	Chicago	8150	berwynil	22	108	1	1
+17	31	Chicago	8150	berwynil	22	109	1	1
+17	31	Chicago	8150	berwynil	22	110	2	1
+17	31	Chicago	8150	berwynil	22	201	3	1
+17	31	Chicago	8150	berwynil	22	202	4	1
+17	31	Chicago	8150	berwynil	22	203	4	1
+17	31	Chicago	8150	berwynil	22	204	3	1
+17	31	Chicago	8150	berwynil	22	207	4	1
+17	31	Chicago	8150	berwynil	22	208	3	1
+17	31	Chicago	8150	berwynil	22	209	3	1
+17	31	Chicago	8150	berwynil	22	210	4	1
+17	31	Chicago	8150	berwynil	22	301	5	1
+17	31	Chicago	8150	berwynil	22	302	6	1
+17	31	Chicago	8150	berwynil	22	303	7	1
+17	31	Chicago	8150	berwynil	22	304	8	1
+17	31	Chicago	8151	berwynil	22	101	1	1
+17	31	Chicago	8151	berwynil	22	102	1	1
+17	31	Chicago	8152	berwynil	22	101	1	1
+17	31	Chicago	8152	berwynil	22	108	1	1
+17	31	Chicago	8152	berwynil	22	109	1	1
+17	31	Chicago	8152	berwynil	22	204	1	1
+17	31	Chicago	8152	berwynil	22	205	1	1
+17	31	Chicago	8152	berwynil	22	302	1	1
+17	31	Chicago	8152	berwynil	22	309	1	1
+17	31	Chicago	8152	berwynil	22	401	1	1
+17	31	Chicago	8155	berwynil	22	101	1	1
+17	31	Chicago	8155	berwynil	22	102	1	1
+17	31	Chicago	8155	berwynil	22	110	1	1
+17	31	Chicago	8155	berwynil	22	111	1	1
+17	31	Chicago	8155	berwynil	22	204	1	1
+17	31	Chicago	8155	berwynil	22	205	1	1
+17	161	Rock Island-Davenport-Moline	222	molineil	26	105	5	1
+17	161	Rock Island-Davenport-Moline	222	molineil	26	501	1	1
+17	161	Rock Island-Davenport-Moline	222	molineil	26	502	1	1
+17	161	Rock Island-Davenport-Moline	222	molineil	26	503	2	1
+17	161	Rock Island-Davenport-Moline	222	molineil	26	504	3	1
+17	161	Rock Island-Davenport-Moline	222	molineil	26	516	4	1
+17	161	Rock Island-Davenport-Moline	224	molineil	26	405	8	1
+17	161	Rock Island-Davenport-Moline	224	molineil	26	407	8	1
+17	161	Rock Island-Davenport-Moline	224	molineil	26	408	7	1
+17	161	Rock Island-Davenport-Moline	224	molineil	26	409	6	1
+17	161	Rock Island-Davenport-Moline	224	molineil	26	410	5	1
+17	161	Rock Island-Davenport-Moline	224	molineil	26	411	4	1
+17	161	Rock Island-Davenport-Moline	224	molineil	26	412	3	1
+17	161	Rock Island-Davenport-Moline	224	molineil	26	413	2	1
+17	161	Rock Island-Davenport-Moline	224	molineil	26	414	1	1
+17	161	Rock Island-Davenport-Moline	224	molineil	26	415	1	1
+17	161	Rock Island-Davenport-Moline	224	molineil	26	416	2	1
+17	161	Rock Island-Davenport-Moline	224	molineil	26	417	3	1
+17	161	Rock Island-Davenport-Moline	224	molineil	26	418	4	1
+17	161	Rock Island-Davenport-Moline	224	molineil	26	419	5	1
+17	161	Rock Island-Davenport-Moline	224	molineil	26	420	6	1
+17	161	Rock Island-Davenport-Moline	224	molineil	26	421	6	1
+17	161	Rock Island-Davenport-Moline	224	molineil	26	422	7	1
+17	161	Rock Island-Davenport-Moline	224	molineil	26	423	7	1
+17	161	Rock Island-Davenport-Moline	224	molineil	26	424	8	1
+17	161	Rock Island-Davenport-Moline	227	rocislil	26	110	1	1
+17	161	Rock Island-Davenport-Moline	227	rocislil	26	111	1	1
+17	161	Rock Island-Davenport-Moline	227	rocislil	26	201	1	1
+17	161	Rock Island-Davenport-Moline	227	rocislil	26	203	1	1
+17	161	Rock Island-Davenport-Moline	227	rocislil	26	204	2	1
+17	161	Rock Island-Davenport-Moline	227	rocislil	26	205	2	1
+17	161	Rock Island-Davenport-Moline	227	rocislil	26	206	3	1
+17	161	Rock Island-Davenport-Moline	227	rocislil	26	207	3	1
+17	161	Rock Island-Davenport-Moline	227	rocislil	26	208	4	1
+17	161	Rock Island-Davenport-Moline	227	rocislil	26	209	4	1
+17	161	Rock Island-Davenport-Moline	227	rocislil	26	211	5	1
+17	161	Rock Island-Davenport-Moline	227	rocislil	26	212	6	1
+17	161	Rock Island-Davenport-Moline	227	rocislil	26	213	6	1
+17	161	Rock Island-Davenport-Moline	227	rocislil	26	214	7	1
+17	161	Rock Island-Davenport-Moline	227	rocislil	26	215	7	1
+17	161	Rock Island-Davenport-Moline	227	rocislil	26	301	8	1
+17	161	Rock Island-Davenport-Moline	227	rocislil	26	303	8	1
+17	161	Rock Island-Davenport-Moline	228	rocislil	26	101	1	1
+17	161	Rock Island-Davenport-Moline	228	rocislil	26	120	1	1
+17	161	Rock Island-Davenport-Moline	228	rocislil	26	102	2	1
+17	161	Rock Island-Davenport-Moline	228	rocislil	26	119	2	1
+17	161	Rock Island-Davenport-Moline	228	rocislil	26	103	3	1
+17	161	Rock Island-Davenport-Moline	228	rocislil	26	116	3	1
+17	161	Rock Island-Davenport-Moline	228	rocislil	26	104	4	1
+17	161	Rock Island-Davenport-Moline	228	rocislil	26	115	4	1
+17	161	Rock Island-Davenport-Moline	228	rocislil	26	105	5	1
+17	161	Rock Island-Davenport-Moline	228	rocislil	26	109	5	1
+17	161	Rock Island-Davenport-Moline	228	rocislil	26	106	6	1
+17	161	Rock Island-Davenport-Moline	228	rocislil	26	107	7	1
+17	161	Rock Island-Davenport-Moline	228	rocislil	26	108	8	1
+20	209	Kansas City	432	kancitks	27	101	1	1
+20	209	Kansas City	432	kancitks	27	102	1	1
+20	209	Kansas City	432	kancitks	27	103	2	1
+20	209	Kansas City	432	kancitks	27	104	2	1
+20	209	Kansas City	432	kancitks	27	106	5	1
+20	209	Kansas City	432	kancitks	27	107	5	1
+20	209	Kansas City	432	kancitks	27	108	5	1
+20	209	Kansas City	432	kancitks	27	109	6	1
+20	209	Kansas City	432	kancitks	27	110	6	1
+20	209	Kansas City	432	kancitks	27	111	6	1
+20	209	Kansas City	432	kancitks	27	112	6	1
+20	209	Kansas City	432	kancitks	27	113	5	1
+20	209	Kansas City	432	kancitks	27	114	4	1
+20	209	Kansas City	432	kancitks	27	115	3	1
+20	209	Kansas City	432	kancitks	27	116	1	1
+20	209	Kansas City	432	kancitks	27	201	1	1
+20	209	Kansas City	432	kancitks	27	202	1	1
+20	209	Kansas City	432	kancitks	27	203	1	1
+20	209	Kansas City	432	kancitks	27	205	2	1
+20	209	Kansas City	432	kancitks	27	206	2	1
+20	209	Kansas City	432	kancitks	27	207	2	1
+20	209	Kansas City	432	kancitks	27	208	3	1
+20	209	Kansas City	432	kancitks	27	210	5	1
+20	209	Kansas City	432	kancitks	27	211	6	1
+20	209	Kansas City	432	kancitks	27	212	7	1
+20	209	Kansas City	432	kancitks	27	213	7	1
+20	209	Kansas City	432	kancitks	27	306	7	1
+20	209	Kansas City	432	kancitks	27	307	7	1
+20	209	Kansas City	432	kancitks	27	308	6	1
+20	209	Kansas City	432	kancitks	27	309	6	1
+20	209	Kansas City	432	kancitks	27	310	5	1
+20	209	Kansas City	432	kancitks	27	311	5	1
+20	209	Kansas City	432	kancitks	27	312	4	1
+20	209	Kansas City	432	kancitks	27	313	3	1
+20	209	Kansas City	432	kancitks	27	314	3	1
+20	209	Kansas City	432	kancitks	27	315	2	1
+20	209	Kansas City	432	kancitks	27	316	1	1
+20	209	Kansas City	432	kancitks	27	401	1	1
+20	209	Kansas City	432	kancitks	27	403	2	1
+20	209	Kansas City	432	kancitks	27	404	2	1
+20	209	Kansas City	432	kancitks	27	405	3	1
+20	209	Kansas City	432	kancitks	27	406	4	1
+20	209	Kansas City	432	kancitks	27	408	5	1
+20	209	Kansas City	432	kancitks	27	409	5	1
+20	209	Kansas City	432	kancitks	27	410	6	1
+20	209	Kansas City	432	kancitks	27	411	6	1
+20	209	Kansas City	432	kancitks	27	412	7	1
+20	209	Kansas City	432	kancitks	27	413	7	1
+20	209	Kansas City	432	kancitks	27	414	7	1
+20	209	Kansas City	432	kancitks	27	415	8	1
+20	209	Kansas City	43101	kancitks	27	106	1	1
+20	209	Kansas City	43101	kancitks	27	116	1	1
+20	209	Kansas City	43101	kancitks	27	118	1	1
+20	209	Kansas City	43101	kancitks	27	122	1	1
+20	209	Kansas City	43101	kancitks	27	124	1	1
+20	209	Kansas City	43101	kancitks	27	125	1	1
+20	209	Kansas City	43101	kancitks	27	127	1	1
+27	53	Minneapolis-St. Paul	40	minneamn	28	201	1	1
+27	53	Minneapolis-St. Paul	50	minneamn	28	101	1	1
+27	53	Minneapolis-St. Paul	50	minneamn	28	111	1	1
+27	53	Minneapolis-St. Paul	50	minneamn	28	204	1	1
+27	53	Minneapolis-St. Paul	50	minneamn	28	205	1	1
+27	53	Minneapolis-St. Paul	50	minneamn	28	209	1	1
+27	53	Minneapolis-St. Paul	50	minneamn	28	211	1	1
+27	53	Minneapolis-St. Paul	50	minneamn	28	212	1	1
+27	53	Minneapolis-St. Paul	50	minneamn	28	216	2	1
+27	123	Minneapolis-St. Paul	332	stpaulmn	28	314	1	1
+27	123	Minneapolis-St. Paul	348	stpaulmn	28	103	1	1
+27	123	Minneapolis-St. Paul	348	stpaulmn	28	104	1	1
+27	123	Minneapolis-St. Paul	348	stpaulmn	28	108	1	1
+27	123	Minneapolis-St. Paul	348	stpaulmn	28	109	1	1
+27	123	Minneapolis-St. Paul	348	stpaulmn	28	107	2	1
+27	123	Minneapolis-St. Paul	348	stpaulmn	28	102	3	1
+27	123	Minneapolis-St. Paul	348	stpaulmn	28	105	3	1
+27	123	Minneapolis-St. Paul	348	stpaulmn	28	106	3	1
+27	123	Minneapolis-St. Paul	348	stpaulmn	28	111	3	1
+27	123	Minneapolis-St. Paul	348	stpaulmn	28	112	4	1
+27	123	Minneapolis-St. Paul	348	stpaulmn	28	201	5	1
+27	123	Minneapolis-St. Paul	348	stpaulmn	28	202	6	1
+27	123	Minneapolis-St. Paul	348	stpaulmn	28	209	6	1
+27	123	Minneapolis-St. Paul	348	stpaulmn	28	203	7	1
+27	123	Minneapolis-St. Paul	348	stpaulmn	28	208	7	1
+27	123	Minneapolis-St. Paul	348	stpaulmn	28	204	8	1
+27	123	Minneapolis-St. Paul	348	stpaulmn	28	207	8	1
+27	123	Minneapolis-St. Paul	348	stpaulmn	28	211	8	1
+29	95	Kansas City	46	kancitmo	27	118	1	1
+29	95	Kansas City	46	kancitmo	27	120	1	1
+29	95	Kansas City	46	kancitmo	27	201	1	1
+29	95	Kansas City	46	kancitmo	27	202	1	1
+29	95	Kansas City	46	kancitmo	27	213	1	1
+29	95	Kansas City	46	kancitmo	27	214	1	1
+29	95	Kansas City	70	kancitmo	27	103	8	1
+29	95	Kansas City	70	kancitmo	27	104	8	1
+29	95	Kansas City	70	kancitmo	27	204	8	1
+29	95	Kansas City	70	kancitmo	27	205	7	1
+29	95	Kansas City	70	kancitmo	27	206	6	1
+29	95	Kansas City	70	kancitmo	27	207	6	1
+29	95	Kansas City	70	kancitmo	27	208	7	1
+29	95	Kansas City	70	kancitmo	27	209	7	1
+29	95	Kansas City	70	kancitmo	27	210	7	1
+29	95	Kansas City	70	kancitmo	27	211	6	1
+29	95	Kansas City	70	kancitmo	27	212	6	1
+29	95	Kansas City	70	kancitmo	27	301	5	1
+29	95	Kansas City	70	kancitmo	27	302	4	1
+29	95	Kansas City	70	kancitmo	27	303	3	1
+29	95	Kansas City	70	kancitmo	27	304	2	1
+29	95	Kansas City	70	kancitmo	27	305	1	1
+29	95	Kansas City	70	kancitmo	27	306	1	1
+29	95	Kansas City	70	kancitmo	27	307	2	1
+29	95	Kansas City	70	kancitmo	27	308	3	1
+29	95	Kansas City	70	kancitmo	27	309	4	1
+29	95	Kansas City	70	kancitmo	27	310	5	1
+29	95	Kansas City	70	kancitmo	27	401	5	1
+29	95	Kansas City	70	kancitmo	27	402	4	1
+29	95	Kansas City	70	kancitmo	27	403	3	1
+29	95	Kansas City	70	kancitmo	27	404	2	1
+29	95	Kansas City	70	kancitmo	27	405	1	1
+29	95	Kansas City	70	kancitmo	27	406	1	1
+29	95	Kansas City	70	kancitmo	27	407	2	1
+29	95	Kansas City	70	kancitmo	27	408	3	1
+29	95	Kansas City	70	kancitmo	27	409	4	1
+29	95	Kansas City	70	kancitmo	27	410	5	1
+29	95	Kansas City	71	kancitmo	27	105	8	1
+29	95	Kansas City	71	kancitmo	27	106	7	1
+29	95	Kansas City	71	kancitmo	27	107	6	1
+29	95	Kansas City	71	kancitmo	27	108	5	1
+29	95	Kansas City	71	kancitmo	27	109	4	1
+29	95	Kansas City	71	kancitmo	27	110	3	1
+29	95	Kansas City	71	kancitmo	27	111	2	1
+29	95	Kansas City	71	kancitmo	27	112	1	1
+29	95	Kansas City	71	kancitmo	27	201	1	1
+29	95	Kansas City	71	kancitmo	27	202	2	1
+29	95	Kansas City	71	kancitmo	27	203	3	1
+29	95	Kansas City	71	kancitmo	27	204	4	1
+29	95	Kansas City	71	kancitmo	27	310	8	1
+29	95	Kansas City	71	kancitmo	27	311	7	1
+29	95	Kansas City	71	kancitmo	27	312	6	1
+29	95	Kansas City	71	kancitmo	27	401	5	1
+29	95	Kansas City	71	kancitmo	27	402	4	1
+29	95	Kansas City	71	kancitmo	27	403	3	1
+29	95	Kansas City	71	kancitmo	27	404	2	1
+29	95	Kansas City	71	kancitmo	27	405	1	1
+29	95	Kansas City	71	kancitmo	27	406	1	1
+29	95	Kansas City	71	kancitmo	27	407	2	1
+29	95	Kansas City	71	kancitmo	27	408	3	1
+29	95	Kansas City	71	kancitmo	27	409	4	1
+29	95	Kansas City	71	kancitmo	27	410	5	1
+29	95	Kansas City	71	kancitmo	27	411	6	1
+29	95	Kansas City	71	kancitmo	27	412	7	1
+34	3	New York City	381	norarlnj	36	507	1	1
+34	3	New York City	381	norarlnj	36	508	1	1
+34	3	New York City	381	norarlnj	36	510	1	1
+34	3	New York City	382	norarlnj	36	301	1	1
+34	3	New York City	382	norarlnj	36	302	1	1
+34	3	New York City	382	norarlnj	36	303	1	1
+34	3	New York City	382	norarlnj	36	305	1	1
+34	3	New York City	382	norarlnj	36	306	1	1
+34	3	New York City	382	norarlnj	36	307	1	1
+34	3	New York City	382	norarlnj	36	308	1	1
+34	3	New York City	382	norarlnj	36	401	1	1
+34	3	New York City	382	norarlnj	36	404	1	1
+34	3	New York City	383	norarlnj	36	504	8	1
+34	3	New York City	383	norarlnj	36	505	8	1
+34	3	New York City	383	norarlnj	36	508	8	1
+34	3	New York City	383	norarlnj	36	511	8	1
+34	3	New York City	383	norarlnj	36	601	7	1
+34	3	New York City	383	norarlnj	36	602	7	1
+34	3	New York City	383	norarlnj	36	603	7	1
+34	3	New York City	383	norarlnj	36	604	5	1
+34	3	New York City	383	norarlnj	36	605	5	1
+34	3	New York City	383	norarlnj	36	606	6	1
+34	3	New York City	383	norarlnj	36	607	5	1
+34	3	New York City	383	norarlnj	36	608	4	1
+34	3	New York City	383	norarlnj	36	609	3	1
+34	3	New York City	383	norarlnj	36	610	3	1
+34	3	New York City	383	norarlnj	36	611	3	1
+34	3	New York City	383	norarlnj	36	701	2	1
+34	3	New York City	383	norarlnj	36	702	2	1
+34	3	New York City	383	norarlnj	36	703	1	1
+34	3	New York City	383	norarlnj	36	704	1	1
+34	3	New York City	383	norarlnj	36	705	1	1
+34	3	New York City	383	norarlnj	36	706	1	1
+34	3	New York City	383	norarlnj	36	707	1	1
+34	13	New York City	6	newarknj	38	206	1	1
+34	13	New York City	6	newarknj	38	303	1	1
+34	13	New York City	7	newarknj	38	207	1	1
+34	13	New York City	9	newarknj	38	503	1	1
+34	13	New York City	9	newarknj	38	507	1	1
+34	13	New York City	9	newarknj	38	510	1	1
+34	13	New York City	17	newarknj	38	105	1	1
+34	13	New York City	17	newarknj	38	107	1	1
+34	13	New York City	17	newarknj	38	109	1	1
+34	13	New York City	18	newarknj	38	101	1	1
+34	13	New York City	18	newarknj	38	103	1	1
+34	13	New York City	18	newarknj	38	104	1	1
+34	13	New York City	19	newarknj	38	110	1	1
+34	13	New York City	19	newarknj	38	204	1	1
+34	13	New York City	19	newarknj	38	205	1	1
+34	13	New York City	19	newarknj	38	208	1	1
+34	13	New York City	19	newarknj	38	307	1	1
+34	13	New York City	19	newarknj	38	308	1	1
+34	13	New York City	19	newarknj	38	309	1	1
+34	13	New York City	20	newarknj	38	102	1	1
+34	13	New York City	20	newarknj	38	103	2	1
+34	13	New York City	20	newarknj	38	104	2	1
+34	13	New York City	20	newarknj	38	105	3	1
+34	13	New York City	20	newarknj	38	106	3	1
+34	13	New York City	20	newarknj	38	201	4	1
+34	13	New York City	20	newarknj	38	202	5	1
+34	13	New York City	20	newarknj	38	203	6	1
+34	13	New York City	20	newarknj	38	204	7	1
+34	13	New York City	20	newarknj	38	205	8	1
+34	13	New York City	20	newarknj	38	206	8	1
+34	13	New York City	20	newarknj	38	301	7	1
+34	13	New York City	20	newarknj	38	302	6	1
+34	13	New York City	20	newarknj	38	303	6	1
+34	13	New York City	20	newarknj	38	304	7	1
+34	13	New York City	20	newarknj	38	305	7	1
+34	13	New York City	20	newarknj	38	306	6	1
+34	13	New York City	20	newarknj	38	307	6	1
+34	13	New York City	20	newarknj	38	308	6	1
+34	13	New York City	20	newarknj	38	309	6	1
+34	13	New York City	22	newarknj	37	203	1	1
+34	13	New York City	22	newarknj	37	205	1	1
+34	13	New York City	22	newarknj	37	206	1	1
+34	13	New York City	22	newarknj	37	301	1	1
+34	13	New York City	22	newarknj	37	302	1	1
+34	13	New York City	23	newarknj	37	305	1	1
+34	13	New York City	23	newarknj	37	306	1	1
+34	13	New York City	23	newarknj	37	404	1	1
+34	13	New York City	23	newarknj	37	405	1	1
+34	13	New York City	23	newarknj	37	406	1	1
+34	13	New York City	23	newarknj	37	407	1	1
+34	13	New York City	23	newarknj	37	410	1	1
+34	13	New York City	24	newarknj	37	202	1	2
+34	13	New York City	24	newarknj	37	203	1	2
+34	13	New York City	24	newarknj	37	206	1	2
+34	13	New York City	24	newarknj	37	207	1	2
+34	13	New York City	24	newarknj	37	208	1	2
+34	13	New York City	24	newarknj	37	209	1	2
+34	13	New York City	24	newarknj	38	101	1	2
+34	13	New York City	24	newarknj	38	102	1	2
+34	13	New York City	24	newarknj	38	103	1	2
+34	13	New York City	24	newarknj	38	104	2	2
+34	13	New York City	24	newarknj	38	105	1	2
+34	13	New York City	24	newarknj	38	106	1	2
+34	13	New York City	24	newarknj	38	107	2	2
+34	13	New York City	24	newarknj	38	108	3	2
+34	13	New York City	24	newarknj	38	109	4	2
+34	13	New York City	24	newarknj	38	201	5	2
+34	13	New York City	24	newarknj	38	202	6	2
+34	13	New York City	24	newarknj	38	203	5	2
+34	13	New York City	24	newarknj	38	204	4	2
+34	13	New York City	24	newarknj	38	205	5	2
+34	13	New York City	24	newarknj	38	206	5	2
+34	13	New York City	24	newarknj	38	207	6	2
+34	13	New York City	24	newarknj	38	208	6	2
+34	13	New York City	24	newarknj	38	209	6	2
+34	13	New York City	25	newarknj	37	308	1	2
+34	13	New York City	25	newarknj	38	101	3	2
+34	13	New York City	25	newarknj	38	102	3	2
+34	13	New York City	25	newarknj	38	103	2	2
+34	13	New York City	25	newarknj	38	104	2	2
+34	13	New York City	25	newarknj	38	105	1	2
+34	13	New York City	25	newarknj	38	106	1	2
+34	13	New York City	25	newarknj	38	201	1	2
+34	13	New York City	25	newarknj	38	202	2	2
+34	13	New York City	25	newarknj	38	203	3	2
+34	13	New York City	25	newarknj	38	204	4	2
+34	13	New York City	25	newarknj	38	205	3	2
+34	13	New York City	25	newarknj	38	206	2	2
+34	13	New York City	25	newarknj	38	207	1	2
+34	13	New York City	25	newarknj	38	208	2	2
+34	13	New York City	25	newarknj	38	209	2	2
+34	13	New York City	25	newarknj	38	301	1	2
+34	13	New York City	25	newarknj	38	302	2	2
+34	13	New York City	25	newarknj	38	304	2	2
+34	13	New York City	25	newarknj	38	305	3	2
+34	13	New York City	25	newarknj	38	306	3	2
+34	13	New York City	25	newarknj	38	307	4	2
+34	13	New York City	25	newarknj	38	308	5	2
+34	13	New York City	26	newarknj	37	103	1	1
+34	13	New York City	26	newarknj	37	104	1	1
+34	13	New York City	26	newarknj	37	206	1	1
+34	13	New York City	35	newarknj	37	103	1	1
+34	13	New York City	35	newarknj	37	104	1	1
+34	13	New York City	35	newarknj	37	111	1	1
+34	13	New York City	35	newarknj	37	207	1	1
+34	13	New York City	37	newarknj	37	201	1	1
+34	13	New York City	42	newarknj	37	101	7	1
+34	13	New York City	42	newarknj	37	102	7	1
+34	13	New York City	42	newarknj	37	103	6	1
+34	13	New York City	42	newarknj	37	104	6	1
+34	13	New York City	42	newarknj	37	105	5	1
+34	13	New York City	42	newarknj	37	106	5	1
+34	13	New York City	42	newarknj	37	107	4	1
+34	13	New York City	42	newarknj	37	108	4	1
+34	13	New York City	42	newarknj	37	201	3	1
+34	13	New York City	42	newarknj	37	202	2	1
+34	13	New York City	42	newarknj	37	203	1	1
+34	13	New York City	42	newarknj	37	204	1	1
+34	13	New York City	42	newarknj	37	205	1	1
+34	13	New York City	42	newarknj	37	207	2	1
+34	13	New York City	42	newarknj	37	208	3	1
+34	13	New York City	43	newarknj	37	102	1	1
+34	13	New York City	43	newarknj	37	105	1	1
+34	13	New York City	43	newarknj	37	106	1	1
+34	13	New York City	43	newarknj	37	205	1	1
+34	13	New York City	43	newarknj	37	301	1	1
+34	13	New York City	43	newarknj	37	406	1	1
+34	13	New York City	43	newarknj	37	407	1	1
+34	13	New York City	45	newarknj	37	301	1	1
+34	13	New York City	45	newarknj	37	302	1	1
+34	13	New York City	45	newarknj	37	306	1	1
+34	13	New York City	45	newarknj	37	402	1	1
+34	13	New York City	102	easoranj	38	213	1	1
+34	13	New York City	102	easoranj	38	301	1	1
+34	13	New York City	102	easoranj	38	302	1	1
+34	13	New York City	103	easoranj	38	103	1	1
+34	13	New York City	108	easoranj	38	101	1	1
+34	13	New York City	108	easoranj	38	102	1	1
+34	13	New York City	108	easoranj	38	205	1	1
+34	13	New York City	108	easoranj	38	206	1	1
+34	13	New York City	109	easoranj	38	204	1	1
+34	13	New York City	109	easoranj	38	205	1	1
+34	13	New York City	109	easoranj	38	302	1	1
+34	13	New York City	109	easoranj	38	303	1	1
+34	13	New York City	115	easoranj	38	304	1	1
+34	13	New York City	115	easoranj	38	305	1	1
+34	13	New York City	115	easoranj	38	306	1	1
+34	13	New York City	115	easoranj	38	307	1	1
+34	13	New York City	117	easoranj	38	103	1	1
+34	13	New York City	117	easoranj	38	202	1	1
+34	13	New York City	117	easoranj	38	203	1	1
+34	13	New York City	118	easoranj	38	103	1	1
+34	13	New York City	118	easoranj	38	104	2	1
+34	13	New York City	118	easoranj	38	105	2	1
+34	13	New York City	118	easoranj	38	106	1	1
+34	13	New York City	118	easoranj	38	201	1	1
+34	13	New York City	118	easoranj	38	202	1	1
+34	13	New York City	118	easoranj	38	203	1	1
+34	13	New York City	118	easoranj	38	204	1	1
+34	13	New York City	118	easoranj	38	205	2	1
+34	13	New York City	118	easoranj	38	206	2	1
+34	13	New York City	118	easoranj	38	301	1	1
+34	13	New York City	118	easoranj	38	302	1	1
+34	13	New York City	118	easoranj	38	303	1	1
+34	13	New York City	118	easoranj	38	304	2	1
+34	13	New York City	118	easoranj	38	305	1	1
+34	13	New York City	123	irvingnj	37	105	1	1
+34	13	New York City	123	irvingnj	37	304	1	1
+34	13	New York City	123	irvingnj	37	305	1	1
+34	13	New York City	123	irvingnj	37	401	1	1
+34	13	New York City	123	irvingnj	37	402	1	1
+34	13	New York City	123	irvingnj	37	403	1	1
+34	13	New York City	123	irvingnj	37	404	1	1
+34	13	New York City	123	irvingnj	37	405	1	1
+34	13	New York City	125	irvingnj	37	101	1	1
+34	13	New York City	125	irvingnj	37	103	1	1
+34	13	New York City	125	irvingnj	37	104	1	1
+34	13	New York City	125	irvingnj	37	106	1	1
+34	13	New York City	125	irvingnj	37	202	1	1
+34	13	New York City	125	irvingnj	37	203	1	1
+34	13	New York City	125	irvingnj	37	304	1	1
+34	13	New York City	125	irvingnj	37	306	1	1
+34	13	New York City	125	irvingnj	37	401	1	1
+34	13	New York City	125	irvingnj	37	405	1	1
+34	13	New York City	126	irvingnj	37	107	1	1
+34	13	New York City	126	irvingnj	37	108	1	1
+34	13	New York City	126	irvingnj	37	201	1	1
+34	13	New York City	131	irvingnj	37	102	2	1
+34	13	New York City	131	irvingnj	37	105	2	1
+34	13	New York City	131	irvingnj	37	106	3	1
+34	13	New York City	131	irvingnj	37	107	3	1
+34	13	New York City	131	irvingnj	37	108	4	1
+34	13	New York City	131	irvingnj	37	201	4	1
+34	13	New York City	131	irvingnj	37	202	4	1
+34	13	New York City	131	irvingnj	37	203	3	1
+34	13	New York City	131	irvingnj	37	204	2	1
+34	13	New York City	131	irvingnj	37	101	1	1
+34	13	New York City	131	irvingnj	37	103	1	1
+34	13	New York City	131	irvingnj	37	104	1	1
+34	13	New York City	131	irvingnj	37	205	1	1
+34	13	New York City	131	irvingnj	37	206	1	1
+34	13	New York City	131	irvingnj	37	209	1	1
+34	13	New York City	132	irvingnj	37	101	1	1
+34	13	New York City	132	irvingnj	37	102	1	1
+34	13	New York City	132	irvingnj	37	303	1	1
+34	13	New York City	132	irvingnj	37	304	1	1
+34	13	New York City	132	irvingnj	37	305	1	1
+34	13	New York City	133	irvingnj	37	102	1	1
+34	13	New York City	133	irvingnj	37	104	1	1
+34	13	New York City	133	irvingnj	37	105	1	1
+34	13	New York City	133	irvingnj	37	204	1	1
+34	13	New York City	133	irvingnj	37	205	1	1
+34	13	New York City	133	irvingnj	37	302	1	1
+34	13	New York City	133	irvingnj	37	303	1	1
+34	13	New York City	133	irvingnj	37	304	1	1
+34	13	New York City	133	irvingnj	37	305	1	1
+34	13	New York City	133	irvingnj	37	306	1	1
+34	13	New York City	133	irvingnj	37	401	1	1
+34	13	New York City	133	irvingnj	37	402	1	1
+34	13	New York City	133	irvingnj	37	405	1	1
+34	13	New York City	133	irvingnj	37	501	1	1
+34	13	New York City	133	irvingnj	37	502	1	1
+34	13	New York City	133	irvingnj	37	503	1	1
+34	13	New York City	133	irvingnj	37	505	1	1
+34	13	New York City	162	montclnj	73	101	1	1
+34	13	New York City	162	montclnj	73	102	2	1
+34	13	New York City	162	montclnj	73	103	2	1
+34	13	New York City	162	montclnj	73	104	2	1
+34	13	New York City	162	montclnj	73	105	3	1
+34	13	New York City	162	montclnj	73	108	3	1
+34	13	New York City	162	montclnj	73	109	4	1
+34	13	New York City	162	montclnj	73	110	5	1
+34	13	New York City	162	montclnj	73	202	5	1
+34	13	New York City	162	montclnj	73	204	4	1
+34	13	New York City	162	montclnj	73	205	4	1
+34	13	New York City	162	montclnj	73	206	4	1
+34	13	New York City	162	montclnj	73	207	3	1
+34	13	New York City	162	montclnj	73	208	3	1
+34	13	New York City	162	montclnj	73	210	3	1
+34	13	New York City	162	montclnj	73	211	2	1
+34	13	New York City	162	montclnj	73	303	2	1
+34	13	New York City	162	montclnj	73	304	3	1
+34	13	New York City	162	montclnj	73	306	4	1
+34	13	New York City	162	montclnj	73	307	4	1
+34	13	New York City	162	montclnj	73	308	5	1
+34	13	New York City	162	montclnj	73	309	6	1
+34	13	New York City	162	montclnj	73	310	7	1
+34	17	New York City	2	jercitnj	34	102	1	1
+34	17	New York City	2	jercitnj	34	103	2	1
+34	17	New York City	2	jercitnj	34	104	1	1
+34	17	New York City	2	jercitnj	34	105	2	1
+34	17	New York City	2	jercitnj	34	106	3	1
+34	17	New York City	2	jercitnj	34	107	4	1
+34	17	New York City	2	jercitnj	34	201	5	1
+34	17	New York City	2	jercitnj	34	202	5	1
+34	17	New York City	2	jercitnj	34	203	6	1
+34	17	New York City	2	jercitnj	34	204	6	1
+34	17	New York City	2	jercitnj	34	205	7	1
+34	17	New York City	2	jercitnj	34	206	7	1
+34	17	New York City	2	jercitnj	34	207	8	1
+34	17	New York City	2	jercitnj	34	301	8	1
+34	17	New York City	2	jercitnj	34	302	8	1
+34	17	New York City	2	jercitnj	34	303	8	1
+34	17	New York City	3	jercitnj	34	105	1	1
+34	17	New York City	3	jercitnj	34	106	1	1
+34	17	New York City	3	jercitnj	34	107	1	1
+34	17	New York City	61	jercitnj	35	301	1	1
+34	17	New York City	61	jercitnj	35	406	1	1
+34	17	New York City	63	jercitnj	35	115	3	1
+34	17	New York City	63	jercitnj	35	201	4	1
+34	17	New York City	63	jercitnj	35	202	4	1
+34	17	New York City	63	jercitnj	35	203	5	1
+34	17	New York City	63	jercitnj	35	204	6	1
+34	17	New York City	63	jercitnj	35	205	7	1
+34	17	New York City	63	jercitnj	35	206	6	1
+34	17	New York City	63	jercitnj	35	301	8	1
+34	17	New York City	63	jercitnj	35	308	8	1
+34	17	New York City	101	bayonnnj	35	107	1	1
+34	17	New York City	101	bayonnnj	35	205	1	1
+34	17	New York City	102	bayonnnj	35	102	1	1
+34	17	New York City	102	bayonnnj	35	103	1	1
+34	17	New York City	103	easoranj	38	306	1	1
+34	17	New York City	103	easoranj	38	305	1	1
+34	17	New York City	103	easoranj	38	304	2	1
+34	17	New York City	103	easoranj	38	303	3	1
+34	17	New York City	103	easoranj	38	302	4	1
+34	17	New York City	103	easoranj	38	301	5	1
+34	17	New York City	103	easoranj	38	206	6	1
+34	17	New York City	103	easoranj	38	205	6	1
+34	17	New York City	103	easoranj	38	204	7	1
+34	17	New York City	103	easoranj	38	203	8	1
+34	17	New York City	103	easoranj	38	101	1	1
+34	17	New York City	123	kearnynj	36	101	1	1
+34	17	New York City	123	kearnynj	36	103	1	1
+34	17	New York City	123	kearnynj	36	104	1	1
+34	17	New York City	123	kearnynj	36	105	1	1
+34	17	New York City	123	kearnynj	36	106	1	1
+34	17	New York City	124	kearnynj	36	101	1	1
+34	17	New York City	124	kearnynj	36	102	1	1
+34	17	New York City	124	kearnynj	36	103	1	1
+34	17	New York City	124	kearnynj	36	105	1	1
+34	17	New York City	124	kearnynj	36	106	1	1
+34	17	New York City	124	kearnynj	36	111	1	1
+34	17	New York City	124	kearnynj	36	307	3	1
+34	17	New York City	124	kearnynj	36	308	3	1
+34	17	New York City	124	kearnynj	36	310	2	1
+34	17	New York City	124	kearnynj	36	312	2	1
+34	17	New York City	124	kearnynj	36	313	2	1
+34	17	New York City	124	kearnynj	36	403	1	1
+34	17	New York City	124	kearnynj	36	404	1	1
+34	17	New York City	124	kearnynj	36	405	1	1
+34	17	New York City	124	kearnynj	36	406	1	1
+34	17	New York City	124	kearnynj	36	407	1	1
+34	17	New York City	124	kearnynj	36	408	1	1
+34	17	New York City	124	kearnynj	36	409	1	1
+34	17	New York City	177	unicitnj	34	104	2	1
+34	17	New York City	177	unicitnj	34	106	1	1
+34	17	New York City	177	unicitnj	34	107	1	1
+34	17	New York City	177	unicitnj	34	108	1	1
+34	17	New York City	177	unicitnj	34	109	1	1
+34	17	New York City	177	unicitnj	34	201	1	1
+34	17	New York City	177	unicitnj	34	202	2	1
+34	17	New York City	177	unicitnj	34	204	2	1
+34	17	New York City	177	unicitnj	34	205	3	1
+34	17	New York City	177	unicitnj	34	206	3	1
+34	17	New York City	177	unicitnj	34	208	2	1
+34	17	New York City	177	unicitnj	34	209	4	1
+34	17	New York City	177	unicitnj	34	210	5	1
+34	17	New York City	178	unicitnj	34	103	1	1
+34	17	New York City	178	unicitnj	34	204	1	1
+34	31	New York City	1245	cliftonj	33	301	1	1
+34	31	New York City	1245	cliftonj	33	302	1	1
+34	31	New York City	1245	cliftonj	33	303	1	1
+34	31	New York City	1245	cliftonj	33	305	1	1
+34	31	New York City	1245	cliftonj	33	308	1	1
+34	31	New York City	1245	cliftonj	33	310	1	1
+34	31	New York City	1245	cliftonj	33	316	1	1
+34	31	New York City	1245	cliftonj	33	511	1	1
+34	31	New York City	1245	cliftonj	33	514	1	1
+34	31	New York City	1245	cliftonj	33	515	1	1
+34	31	New York City	1247	cliftonj	32	408	8	1
+34	31	New York City	1247	cliftonj	32	409	8	1
+34	31	New York City	1247	cliftonj	32	410	8	1
+34	31	New York City	1247	cliftonj	32	412	6	1
+34	31	New York City	1247	cliftonj	32	413	7	1
+34	31	New York City	1247	cliftonj	32	416	7	1
+34	31	New York City	1247	cliftonj	32	417	7	1
+34	31	New York City	1247	cliftonj	32	505	4	1
+34	31	New York City	1247	cliftonj	32	506	4	1
+34	31	New York City	1247	cliftonj	32	507	4	1
+34	31	New York City	1247	cliftonj	32	508	4	1
+34	31	New York City	1247	cliftonj	32	509	3	1
+34	31	New York City	1247	cliftonj	32	510	3	1
+34	31	New York City	1247	cliftonj	32	511	3	1
+34	31	New York City	1247	cliftonj	32	512	3	1
+34	31	New York City	1247	cliftonj	32	513	2	1
+34	31	New York City	1247	cliftonj	32	514	2	1
+34	31	New York City	1247	cliftonj	32	515	2	1
+34	31	New York City	1247	cliftonj	32	516	2	1
+34	31	New York City	1247	cliftonj	32	601	1	1
+34	31	New York City	1247	cliftonj	32	602	1	1
+34	31	New York City	1247	cliftonj	32	603	1	1
+34	31	New York City	1247	cliftonj	32	604	1	1
+34	31	New York City	1247	cliftonj	32	606	1	1
+34	31	New York City	1247	cliftonj	32	607	1	1
+34	31	New York City	1247	cliftonj	32	608	1	1
+34	31	New York City	1249	cliftonj	33	108	1	1
+34	31	New York City	1249	cliftonj	33	109	1	1
+34	31	New York City	1249	cliftonj	33	201	1	1
+34	31	New York City	1249	cliftonj	33	308	1	1
+34	31	New York City	1249	cliftonj	33	309	1	1
+34	31	New York City	1249	cliftonj	33	310	1	1
+34	31	New York City	1249	cliftonj	33	311	1	1
+34	31	New York City	1249	cliftonj	33	312	1	1
+34	31	New York City	1250	cliftonj	33	607	1	1
+34	31	New York City	1251	cliftonj	33	103	4	1
+34	31	New York City	1251	cliftonj	33	104	4	1
+34	31	New York City	1251	cliftonj	33	105	3	1
+34	31	New York City	1251	cliftonj	33	106	3	1
+34	31	New York City	1251	cliftonj	33	203	1	1
+34	31	New York City	1251	cliftonj	33	204	2	1
+34	31	New York City	1251	cliftonj	33	206	1	1
+34	31	New York City	1251	cliftonj	33	301	1	1
+34	31	New York City	1251	cliftonj	33	302	1	1
+34	31	New York City	1251	cliftonj	33	303	1	1
+34	31	New York City	1251	cliftonj	33	304	2	1
+34	31	New York City	1251	cliftonj	33	305	2	1
+34	31	New York City	1251	cliftonj	33	401	3	1
+34	31	New York City	1251	cliftonj	33	402	3	1
+34	31	New York City	1251	cliftonj	33	403	3	1
+34	31	New York City	1251	cliftonj	33	404	3	1
+34	31	New York City	1251	cliftonj	33	405	4	1
+34	31	New York City	1251	cliftonj	33	406	4	1
+34	31	New York City	1251	cliftonj	33	408	5	1
+34	31	New York City	1753	passainj	33	409	1	1
+34	31	New York City	1753	passainj	33	408	1	1
+34	31	New York City	1753	passainj	33	407	1	1
+34	31	New York City	1753	passainj	33	103	1	1
+34	31	New York City	1753	passainj	33	102	1	1
+34	31	New York City	1753	passainj	33	101	1	1
+34	31	New York City	1753	passainj	33	404	2	1
+34	31	New York City	1753	passainj	33	406	2	1
+34	31	New York City	1753	passainj	33	104	2	1
+34	31	New York City	1753	passainj	33	405	3	1
+34	31	New York City	1753	passainj	33	403	4	1
+34	31	New York City	1753	passainj	33	401	5	1
+34	31	New York City	1753	passainj	33	402	5	1
+34	31	New York City	1753	passainj	33	105	5	1
+34	31	New York City	1753	passainj	33	106	6	1
+34	31	New York City	1753	passainj	33	107	6	1
+34	31	New York City	1753	passainj	33	305	6	1
+34	31	New York City	1753	passainj	33	306	6	1
+34	31	New York City	1753	passainj	33	303	7	1
+34	31	New York City	1753	passainj	33	304	7	1
+34	31	New York City	1753	passainj	33	302	8	1
+34	31	New York City	1753	passainj	33	301	8	1
+34	31	New York City	1754	passainj	33	101	1	1
+34	31	New York City	1754	passainj	33	609	1	1
+34	31	New York City	1755	passainj	33	101	1	1
+34	31	New York City	1755	passainj	33	102	1	1
+34	31	New York City	1755	passainj	33	103	1	1
+34	31	New York City	1755	passainj	33	104	1	1
+34	31	New York City	1755	passainj	33	204	1	1
+34	31	New York City	1755	passainj	33	205	1	1
+34	31	New York City	1755	passainj	33	306	1	1
+34	31	New York City	1755	passainj	33	310	1	1
+34	31	New York City	1756	passainj	33	110	1	1
+34	31	New York City	1756	passainj	33	212	1	1
+34	31	New York City	1756	passainj	33	213	1	1
+34	31	New York City	1756	passainj	33	302	1	1
+34	31	New York City	1756	passainj	33	409	1	1
+34	31	New York City	1756	passainj	33	501	1	1
+34	31	New York City	1756	passainj	33	505	1	1
+34	31	New York City	1756	passainj	33	506	1	1
+34	31	New York City	1756	passainj	33	507	1	1
+34	31	New York City	1756	passainj	33	508	1	1
+34	31	New York City	1756	passainj	33	603	1	1
+34	31	New York City	1756	passainj	33	612	1	1
+34	31	New York City	1756	passainj	33	613	1	1
+34	31	New York City	1756	passainj	33	618	1	1
+34	31	New York City	1756	passainj	33	619	1	1
+34	31	New York City	1756	passainj	33	620	1	1
+34	31	New York City	1756	passainj	33	621	1	1
+34	31	New York City	1757	passainj	33	308	1	1
+34	31	New York City	1757	passainj	33	309	1	1
+34	31	New York City	1757	passainj	33	310	1	1
+34	31	New York City	1757	passainj	33	312	1	1
+34	31	New York City	1757	passainj	33	401	1	1
+34	31	New York City	1757	passainj	33	402	1	1
+34	31	New York City	1757	passainj	33	403	1	1
+34	31	New York City	1830	patersnj	32	101	1	1
+34	31	New York City	1830	patersnj	32	308	1	1
+34	31	New York City	1830	patersnj	32	309	1	1
+34	31	New York City	1830	patersnj	32	401	1	1
+34	31	New York City	1830	patersnj	32	404	1	1
+34	31	New York City	1830	patersnj	32	405	1	1
+34	31	New York City	1830	patersnj	32	406	1	1
+34	31	New York City	1830	patersnj	32	407	1	1
+34	31	New York City	1830	patersnj	32	502	1	1
+34	31	New York City	1830	patersnj	32	503	1	1
+34	31	New York City	1830	patersnj	32	604	1	1
+34	31	New York City	1831	patersnj	32	201	8	1
+34	31	New York City	1831	patersnj	32	202	8	1
+34	31	New York City	1831	patersnj	32	203	7	1
+34	31	New York City	1831	patersnj	32	204	7	1
+34	31	New York City	1831	patersnj	32	206	6	1
+34	31	New York City	1831	patersnj	32	207	5	1
+34	31	New York City	1831	patersnj	32	208	5	1
+34	31	New York City	1831	patersnj	32	209	4	1
+34	31	New York City	1831	patersnj	32	210	4	1
+34	31	New York City	1831	patersnj	32	301	3	1
+34	31	New York City	1831	patersnj	32	302	3	1
+34	31	New York City	1831	patersnj	32	303	2	1
+34	31	New York City	1831	patersnj	32	304	2	1
+34	31	New York City	1831	patersnj	32	305	1	1
+34	31	New York City	1831	patersnj	32	306	1	1
+34	31	New York City	1831	patersnj	32	307	1	1
+34	31	New York City	1831	patersnj	32	308	1	1
+34	31	New York City	1831	patersnj	32	401	2	1
+34	31	New York City	1831	patersnj	32	402	2	1
+34	31	New York City	1831	patersnj	32	403	2	1
+34	31	New York City	1831	patersnj	32	404	2	1
+34	31	New York City	1831	patersnj	32	405	2	1
+34	31	New York City	1831	patersnj	32	406	3	1
+34	31	New York City	1831	patersnj	32	407	3	1
+34	31	New York City	1831	patersnj	32	408	3	1
+34	31	New York City	1831	patersnj	32	409	3	1
+34	31	New York City	1831	patersnj	32	503	4	1
+34	31	New York City	1831	patersnj	32	504	4	1
+34	31	New York City	1831	patersnj	32	505	4	1
+34	31	New York City	1831	patersnj	32	506	4	1
+34	31	New York City	1831	patersnj	32	507	4	1
+34	31	New York City	1831	patersnj	32	508	4	1
+34	31	New York City	1831	patersnj	32	509	5	1
+34	31	New York City	1831	patersnj	32	601	6	1
+34	31	New York City	1831	patersnj	32	602	6	1
+34	31	New York City	1831	patersnj	32	603	6	1
+34	31	New York City	1831	patersnj	32	604	6	1
+34	31	New York City	1831	patersnj	32	605	6	1
+34	31	New York City	1831	patersnj	32	606	6	1
+34	31	New York City	1831	patersnj	32	609	7	1
+34	31	New York City	1831	patersnj	32	610	7	1
+34	31	New York City	1831	patersnj	32	611	8	1
+34	31	New York City	1831	patersnj	32	612	8	1
+34	31	New York City	1831	patersnj	32	701	8	1
+34	31	New York City	124301	cliftonj	73	205	8	1
+34	31	New York City	124301	cliftonj	73	206	8	1
+34	31	New York City	124301	cliftonj	73	207	7	1
+34	31	New York City	124301	cliftonj	73	208	5	1
+34	31	New York City	124301	cliftonj	73	209	5	1
+34	31	New York City	124301	cliftonj	73	210	7	1
+34	31	New York City	124301	cliftonj	73	211	7	1
+34	31	New York City	124301	cliftonj	73	212	6	1
+34	31	New York City	124301	cliftonj	73	301	6	1
+34	31	New York City	124301	cliftonj	73	302	6	1
+34	31	New York City	124301	cliftonj	73	303	7	1
+34	31	New York City	124301	cliftonj	73	304	7	1
+34	31	New York City	124301	cliftonj	73	305	6	1
+34	31	New York City	124301	cliftonj	73	306	6	1
+34	31	New York City	124301	cliftonj	73	308	5	1
+34	31	New York City	124301	cliftonj	73	405	3	1
+34	31	New York City	124301	cliftonj	73	406	4	1
+34	31	New York City	124301	cliftonj	73	407	3	1
+34	31	New York City	124301	cliftonj	73	408	4	1
+34	31	New York City	124301	cliftonj	73	410	3	1
+34	31	New York City	124301	cliftonj	73	411	3	1
+34	31	New York City	124301	cliftonj	73	501	2	1
+34	31	New York City	124301	cliftonj	73	502	2	1
+34	31	New York City	124301	cliftonj	73	503	3	1
+34	31	New York City	124301	cliftonj	73	504	3	1
+34	31	New York City	124301	cliftonj	73	505	3	1
+34	31	New York City	124301	cliftonj	73	506	2	1
+34	31	New York City	124301	cliftonj	73	507	2	1
+34	31	New York City	124301	cliftonj	73	508	2	1
+34	31	New York City	124301	cliftonj	73	509	2	1
+34	31	New York City	124301	cliftonj	73	510	1	1
+34	31	New York City	124301	cliftonj	73	511	1	1
+34	31	New York City	124301	cliftonj	73	512	1	1
+34	31	New York City	124301	cliftonj	73	514	1	1
+34	31	New York City	124401	cliftonj	33	101	1	1
+34	31	New York City	124401	cliftonj	33	102	1	1
+34	31	New York City	124401	cliftonj	33	109	1	1
+34	31	New York City	124401	cliftonj	33	110	1	1
+34	31	New York City	124401	cliftonj	33	111	1	1
+34	31	New York City	124401	cliftonj	33	205	1	1
+34	31	New York City	124401	cliftonj	33	206	1	1
+34	31	New York City	124401	cliftonj	33	207	1	1
+34	31	New York City	124401	cliftonj	33	216	1	1
+34	31	New York City	124401	cliftonj	33	301	1	1
+34	31	New York City	124401	cliftonj	33	303	1	1
+34	31	New York City	124401	cliftonj	33	304	1	1
+34	31	New York City	124402	cliftonj	33	104	1	1
+34	31	New York City	124402	cliftonj	33	105	1	1
+34	31	New York City	124402	cliftonj	33	106	1	1
+34	31	New York City	124402	cliftonj	33	107	1	1
+34	31	New York City	124402	cliftonj	33	108	1	1
+34	31	New York City	124402	cliftonj	33	324	1	1
+34	31	New York City	124402	cliftonj	33	331	1	1
+34	31	New York City	124601	cliftonj	32	102	1	1
+34	31	New York City	124601	cliftonj	32	103	1	1
+34	31	New York City	124601	cliftonj	32	104	1	1
+34	31	New York City	124601	cliftonj	32	105	1	1
+34	31	New York City	124601	cliftonj	32	106	1	1
+34	31	New York City	124601	cliftonj	32	107	1	1
+34	31	New York City	124601	cliftonj	32	108	1	1
+34	31	New York City	124601	cliftonj	32	109	1	1
+34	31	New York City	124601	cliftonj	32	110	1	1
+34	31	New York City	124601	cliftonj	32	202	1	1
+34	31	New York City	124601	cliftonj	32	203	1	1
+34	31	New York City	124601	cliftonj	32	204	1	1
+36	5	New York City	341	newyorny	31	101	1	1
+36	5	New York City	343	newyorny	31	103	1	1
+36	5	New York City	414	newyorny	31	107	5	1
+36	5	New York City	414	newyorny	31	108	6	1
+36	5	New York City	414	newyorny	31	109	7	1
+36	5	New York City	414	newyorny	31	201	7	1
+36	5	New York City	414	newyorny	31	202	7	1
+36	5	New York City	414	newyorny	31	203	6	1
+36	5	New York City	414	newyorny	31	204	6	1
+36	5	New York City	414	newyorny	31	205	5	1
+36	5	New York City	414	newyorny	31	206	5	1
+36	5	New York City	414	newyorny	31	301	4	1
+36	5	New York City	414	newyorny	31	304	3	1
+36	5	New York City	414	newyorny	31	305	4	1
+36	5	New York City	414	newyorny	31	306	4	1
+36	5	New York City	414	newyorny	75	101	1	1
+36	5	New York City	442	newyorny	75	102	1	1
+36	5	New York City	442	newyorny	75	103	1	1
+36	5	New York City	442	newyorny	75	109	1	1
+36	5	New York City	442	newyorny	75	111	1	1
+36	5	New York City	442	newyorny	75	112	1	1
+36	5	New York City	442	newyorny	75	113	1	1
+36	5	New York City	446	newyorny	75	102	1	1
+36	5	New York City	448	newyorny	75	101	1	1
+36	5	New York City	448	newyorny	75	102	1	1
+36	5	New York City	454	newyorny	75	102	1	1
+36	5	New York City	454	newyorny	75	103	1	1
+36	5	New York City	454	newyorny	75	104	1	1
+36	5	New York City	454	newyorny	75	105	1	1
+36	5	New York City	454	newyorny	75	106	1	1
+36	5	New York City	454	newyorny	75	303	1	1
+36	5	New York City	454	newyorny	75	304	1	1
+36	5	New York City	45102	newyorny	31	101	1	1
+36	5	New York City	45102	newyorny	31	105	1	1
+36	5	New York City	45102	newyorny	31	201	1	1
+36	35	Cleveland	1192	cleveloh	25	101	1	1
+36	35	Cleveland	1192	cleveloh	25	103	1	1
+36	35	Cleveland	1192	cleveloh	25	105	1	1
+36	35	Cleveland	1192	cleveloh	25	106	1	1
+36	35	Cleveland	1192	cleveloh	25	202	1	1
+36	35	Cleveland	1192	cleveloh	25	204	1	1
+36	59	New York City	3026	floparny	44	101	1	1
+36	59	New York City	3026	floparny	44	102	1	1
+36	59	New York City	3026	floparny	44	103	1	1
+36	59	New York City	3026	floparny	44	104	1	1
+36	59	New York City	3026	floparny	44	220	1	1
+36	59	New York City	3026	floparny	44	219	1	1
+36	59	New York City	3026	floparny	44	216	1	1
+36	59	New York City	3026	floparny	44	217	1	1
+36	59	New York City	3026	floparny	44	218	1	1
+36	59	New York City	3026	floparny	44	211	1	1
+36	59	New York City	3026	floparny	44	210	1	1
+36	59	New York City	3026	floparny	44	209	1	1
+36	59	New York City	3026	floparny	44	206	1	1
+36	59	New York City	3026	floparny	44	208	1	1
+36	59	New York City	3026	floparny	44	207	1	1
+36	59	New York City	3026	floparny	44	106	2	1
+36	59	New York City	3026	floparny	44	105	2	1
+36	59	New York City	3026	floparny	44	110	2	1
+36	59	New York City	3026	floparny	44	215	2	1
+36	59	New York City	3026	floparny	44	213	2	1
+36	59	New York City	3026	floparny	44	212	2	1
+36	59	New York City	3026	floparny	44	204	2	1
+36	59	New York City	3026	floparny	44	205	2	1
+36	59	New York City	3026	floparny	44	108	3	1
+36	59	New York City	3026	floparny	44	109	3	1
+36	59	New York City	3026	floparny	44	111	3	1
+36	59	New York City	3026	floparny	44	214	3	1
+36	59	New York City	3026	floparny	44	202	3	1
+36	59	New York City	3026	floparny	44	203	3	1
+36	59	New York City	3026	floparny	44	107	4	1
+36	59	New York City	3026	floparny	44	113	4	1
+36	59	New York City	3026	floparny	44	112	4	1
+36	59	New York City	3026	floparny	44	118	4	1
+36	59	New York City	3026	floparny	44	201	4	1
+36	59	New York City	3026	floparny	44	114	5	1
+36	59	New York City	3026	floparny	44	116	5	1
+36	59	New York City	3026	floparny	44	117	5	1
+36	59	New York City	3026	floparny	44	115	6	1
+36	81	New York City	157903	newyorny	44	404	1	1
+36	81	New York City	157903	newyorny	44	407	1	1
+36	81	New York City	157903	newyorny	44	408	1	1
+36	81	New York City	157903	newyorny	44	409	1	1
+36	81	New York City	157903	newyorny	44	410	1	1
+36	81	New York City	157903	newyorny	44	411	1	1
+36	81	New York City	157903	newyorny	44	308	1	1
+36	81	New York City	157903	newyorny	44	114	1	1
+36	81	New York City	157903	newyorny	44	113	1	1
+36	81	New York City	157903	newyorny	44	112	1	1
+36	81	New York City	157903	newyorny	44	108	1	1
+36	81	New York City	157903	newyorny	44	106	1	1
+36	81	New York City	157903	newyorny	44	107	1	1
+36	81	New York City	157903	newyorny	44	103	1	1
+36	81	New York City	157903	newyorny	44	102	2	1
+36	81	New York City	157903	newyorny	44	101	2	1
+36	81	New York City	157903	newyorny	44	104	2	1
+36	81	New York City	157903	newyorny	44	105	2	1
+36	81	New York City	157903	newyorny	44	109	2	1
+36	81	New York City	157903	newyorny	44	115	2	1
+36	81	New York City	157903	newyorny	44	307	2	1
+36	81	New York City	157903	newyorny	44	309	2	1
+36	81	New York City	157903	newyorny	44	310	2	1
+36	81	New York City	157903	newyorny	44	311	2	1
+36	81	New York City	157903	newyorny	44	406	2	1
+36	81	New York City	157903	newyorny	44	405	2	1
+36	81	New York City	157903	newyorny	44	403	2	1
+36	81	New York City	157903	newyorny	44	402	3	1
+36	81	New York City	157903	newyorny	44	401	3	1
+36	81	New York City	157903	newyorny	44	313	3	1
+36	81	New York City	157903	newyorny	44	312	3	1
+36	81	New York City	157903	newyorny	44	304	3	1
+36	81	New York City	157903	newyorny	44	305	3	1
+36	81	New York City	157903	newyorny	44	306	3	1
+36	81	New York City	157903	newyorny	44	201	3	1
+36	81	New York City	157903	newyorny	44	116	3	1
+36	81	New York City	157903	newyorny	44	111	3	1
+36	81	New York City	157903	newyorny	44	110	3	1
+36	81	New York City	157903	newyorny	44	202	4	1
+36	81	New York City	157903	newyorny	44	203	4	1
+36	81	New York City	157903	newyorny	44	204	4	1
+36	81	New York City	157903	newyorny	44	303	4	1
+36	81	New York City	157903	newyorny	44	302	4	1
+36	81	New York City	157903	newyorny	44	314	4	1
+36	81	New York City	157903	newyorny	44	301	5	1
+36	81	New York City	157903	newyorny	44	206	5	1
+36	81	New York City	157903	newyorny	44	205	5	1
+36	81	New York City	157903	newyorny	44	210	6	1
+36	81	New York City	157903	newyorny	44	209	6	1
+36	81	New York City	157903	newyorny	44	208	6	1
+36	81	New York City	157903	newyorny	44	207	6	1
+36	119	New York City	26	mtvernny	75	201	1	1
+36	119	New York City	26	mtvernny	75	202	1	1
+36	119	New York City	26	mtvernny	75	203	1	1
+36	119	New York City	26	mtvernny	75	204	1	1
+36	119	New York City	26	mtvernny	75	205	1	1
+36	119	New York City	26	mtvernny	75	302	1	1
+36	119	New York City	26	mtvernny	75	303	1	1
+36	119	New York City	26	mtvernny	75	307	1	1
+36	119	New York City	26	mtvernny	75	309	1	1
+36	119	New York City	26	mtvernny	75	401	1	1
+36	119	New York City	28	mtvernny	75	205	1	1
+36	119	New York City	28	mtvernny	75	206	1	1
+36	119	New York City	28	mtvernny	75	207	1	1
+36	119	New York City	28	mtvernny	75	208	1	1
+36	119	New York City	29	mtvernny	75	101	6	1
+36	119	New York City	29	mtvernny	75	102	6	1
+36	119	New York City	29	mtvernny	75	103	5	1
+36	119	New York City	29	mtvernny	75	104	5	1
+36	119	New York City	29	mtvernny	75	105	4	1
+36	119	New York City	29	mtvernny	75	106	3	1
+36	119	New York City	29	mtvernny	75	107	3	1
+36	119	New York City	29	mtvernny	75	201	2	1
+36	119	New York City	29	mtvernny	75	202	2	1
+36	119	New York City	29	mtvernny	75	203	1	1
+36	119	New York City	29	mtvernny	75	204	1	1
+36	119	New York City	29	mtvernny	75	205	1	1
+36	119	New York City	29	mtvernny	75	206	1	1
+36	119	New York City	29	mtvernny	75	207	1	1
+36	119	New York City	29	mtvernny	75	301	1	1
+36	119	New York City	29	mtvernny	75	302	2	1
+36	119	New York City	29	mtvernny	75	303	2	1
+36	119	New York City	29	mtvernny	75	304	2	1
+36	119	New York City	29	mtvernny	75	305	2	1
+36	119	New York City	29	mtvernny	75	306	3	1
+36	119	New York City	29	mtvernny	75	307	4	1
+36	119	New York City	30	mtvernny	75	206	1	1
+36	119	New York City	30	mtvernny	75	302	1	1
+36	119	New York City	30	mtvernny	75	303	1	1
+36	119	New York City	30	mtvernny	75	304	1	1
+36	119	New York City	35	mtvernny	75	204	1	1
+36	119	New York City	35	mtvernny	75	205	1	1
+36	119	New York City	35	mtvernny	75	303	1	1
+36	119	New York City	202			16	1	1
+36	119	New York City	202			13	1	1
+36	119	New York City	202			11	1	1
+36	119	New York City	1502	yonkerny	31	101	1	1
+36	119	New York City	1502	yonkerny	31	102	1	1
+36	119	New York City	1502	yonkerny	31	104	1	1
+36	119	New York City	1502	yonkerny	31	106	2	1
+36	119	New York City	1502	yonkerny	31	105	2	1
+36	119	New York City	1502	yonkerny	31	107	1	1
+36	119	New York City	1502	yonkerny	31	202	2	1
+36	119	New York City	1502	yonkerny	31	203	2	1
+36	119	New York City	1502	yonkerny	31	201	1	1
+36	119	New York City	1502	yonkerny	31	204	3	1
+36	119	New York City	1502	yonkerny	31	206	2	1
+36	119	New York City	1502	yonkerny	31	205	3	1
+36	119	New York City	1502	yonkerny	31	302	4	1
+36	119	New York City	1502	yonkerny	31	301	3	1
+36	119	New York City	1502	yonkerny	31	303	5	1
+36	119	New York City	1502	yonkerny	31	304	4	1
+36	119	New York City	1502	yonkerny	31	306	6	1
+36	119	New York City	1502	yonkerny	31	305	5	1
+36	119	New York City	1502	yonkerny	31	308	6	1
+36	119	New York City	1502	yonkerny	31	307	7	1
+36	119	New York City	1503	yonkerny	31	101	1	1
+36	119	New York City	1503	yonkerny	31	102	1	1
+36	119	New York City	1503	yonkerny	31	103	1	1
+36	119	New York City	1503	yonkerny	31	104	1	1
+36	119	New York City	1503	yonkerny	31	105	1	1
+39	35	Cleveland	1011	cleveloh	24	305	6	1
+39	35	Cleveland	1011	cleveloh	24	402	8	1
+39	35	Cleveland	1011	cleveloh	24	403	7	1
+39	35	Cleveland	1011	cleveloh	24	404	6	1
+39	35	Cleveland	1011	cleveloh	24	405	5	1
+39	35	Cleveland	1011	cleveloh	24	406	5	1
+39	35	Cleveland	1011	cleveloh	24	407	4	1
+39	35	Cleveland	1011	cleveloh	24	408	4	1
+39	35	Cleveland	1011	cleveloh	24	501	3	1
+39	35	Cleveland	1011	cleveloh	24	502	2	1
+39	35	Cleveland	1011	cleveloh	24	503	2	1
+39	35	Cleveland	1011	cleveloh	24	504	1	1
+39	35	Cleveland	1011	cleveloh	24	505	1	1
+39	35	Cleveland	1011	cleveloh	24	506	3	1
+39	35	Cleveland	1011	cleveloh	24	601	4	1
+39	35	Cleveland	1011	cleveloh	24	602	6	1
+39	35	Cleveland	1011	cleveloh	24	605	6	1
+39	35	Cleveland	1011	cleveloh	24	606	3	1
+39	35	Cleveland	1011	cleveloh	24	701	1	1
+39	35	Cleveland	1011	cleveloh	24	702	1	1
+39	35	Cleveland	1011	cleveloh	24	703	3	1
+39	35	Cleveland	1013	cleveloh	24	101	6	1
+39	35	Cleveland	1013	cleveloh	24	105	5	1
+39	35	Cleveland	1013	cleveloh	24	106	5	1
+39	35	Cleveland	1013	cleveloh	24	107	4	1
+39	35	Cleveland	1013	cleveloh	24	108	4	1
+39	35	Cleveland	1013	cleveloh	24	109	3	1
+39	35	Cleveland	1013	cleveloh	24	110	2	1
+39	35	Cleveland	1013	cleveloh	24	111	1	1
+39	35	Cleveland	1194	cleveloh	25	101	1	1
+39	35	Cleveland	1413	cleheioh	25	110	1	1
+39	35	Cleveland	1413	cleheioh	25	111	1	1
+39	35	Cleveland	1413	cleheioh	25	114	1	1
+39	35	Cleveland	1413	cleheioh	25	201	1	1
+39	35	Cleveland	1413	cleheioh	25	202	1	1
+39	35	Cleveland	1413	cleheioh	25	203	1	1
+39	35	Cleveland	1606	lakewooh	24	101	1	1
+39	35	Cleveland	1606	lakewooh	24	104	1	1
+39	35	Cleveland	1606	lakewooh	24	105	1	1
+39	35	Cleveland	1606	lakewooh	24	106	2	1
+39	35	Cleveland	1606	lakewooh	24	107	6	1
+39	35	Cleveland	1606	lakewooh	24	201	5	1
+39	35	Cleveland	1606	lakewooh	24	202	4	1
+39	35	Cleveland	1606	lakewooh	24	203	3	1					
+39	35	Cleveland	1606	lakewooh	24	204	2	1					
+39	35	Cleveland	1606	lakewooh	24	205	2	1					
+39	35	Cleveland	1606	lakewooh	24	206	1	1					 
+39	35	Cleveland	1606	lakewooh	24	301	1	1					
+39	35	Cleveland	1606	lakewooh	24	302	2	1					
+39	35	Cleveland	1606	lakewooh	24	303	3	1					
+39	35	Cleveland	1606	lakewooh	24	304	4	1					
+39	35	Cleveland	1606	lakewooh	24	305	5	1					
+39	35	Cleveland	1606	lakewooh	24	401	6	1					
+39	35	Cleveland	1606	lakewooh	24	402	7	1					
+39	35	Cleveland	1606	lakewooh	24	403	8	1					
+39	35	Cleveland	1606	lakewooh	24	504	8	1					
+39	35	Cleveland	1606	lakewooh	24	505	6	1					

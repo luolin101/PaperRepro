@@ -1,0 +1,32 @@
+infix dictionary using ELSEGIS_school_01.txt {
+
+statefip	148- 149
+counfip		150- 152
+zipcode		127- 131
+str state	125- 126
+str county	132- 147
+str city	112- 124
+oestate		2- 3
+oesystem	9- 13
+oeschool	4- 8
+enroll		158- 161
+str address	90- 111
+str schoolname	15- 44
+str gradePK		166-166
+str gradeK		166-167
+str grade1		168-168
+str grade2		169-169
+str grade3		170-170
+str grade4		171-171
+str grade5		172-172
+str grade6		173-173
+str grade7		174-174
+str grade8		175-175
+str grade9		176-176
+str grade10		177-177
+str grade11		178-178
+str grade12		179-179
+str gradePG		180-180
+str gradeUG		181-181
+str gradeSP		182-182
+}

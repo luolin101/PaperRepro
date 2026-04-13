@@ -1,0 +1,1055 @@
+---
+title: 'The Interactive Effects of Ambivalence and Certainty on Political Opinion Stability: Analyses'
+author: "Luttrell, Petty, & Brinol"
+output:
+  html_document:
+    theme: sandstone
+    toc: yes
+    toc_float: true
+    css: RMDfiles/rmd_css.css
+csl: RMDfiles/apa.csl
+bibliography: RMDfiles/references.bib
+link-citations: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+# Set Up Workspace
+
+```{r,  warning=F, message=F}
+source("setup.R")
+```
+
+<br>
+
+# Data
+
+These data are not ours to share and can be accessed via the Interuniversity Consortium for Political and Social Research (ICPSR): https://doi.org/10.3886/ICPSR03435.v1
+
+The following analyses are meant to be reproducible with the raw data as provided by the ICPSR.
+
+```{r, warning=F, message=F}
+df <- read_csv("FloridaVoters1999_RAW.csv")
+```
+
+<br>
+
+# Method
+
+## Participants
+
+Sample Size: `nrow(df)` = `r nrow(df)`
+
+<br>
+
+### Age
+
+```{r}
+df$Age <- df$AGE_D3
+df$Age[df$Age == 200] <- NA #Missing age data coded as 200
+summarize(df, Mean.Age = round(mean(Age, na.rm = T), 2),
+          SD.Age = round(sd(Age, na.rm = T), 2)) %>% kable() %>% 
+  kable_styling(bootstrap_options = c("hover", "condensed", "responsive"), 
+                full_width = F, position = "center")
+```
+
+<br>
+
+Missing data: *n* = `r sum(is.na(df$AGE_D3))`
+
+"Don't Know": *n* = `r sum(df$AGE_D3 == 200, na.rm = T)`
+
+<br>
+
+### Gender
+
+VAR: GEND_D9
+
+"Gender"
+
+1. Female 
+2. Male 
+
+```{r}
+df <- mutate(df, Gender = factor(GEND_D9, labels = c("Female", "Male")),
+             Gender.dum = case_when(Gender == "Female" ~ 0,
+                                    Gender == "Male" ~ 1))
+table(df$Gender, useNA = "ifany") %>% prop.table() %>% round(3) %>%
+  as.data.frame() %>% dplyr::rename(Proportion = Freq) %>% kable() %>% 
+  kable_styling(bootstrap_options = c("hover", "condensed", "responsive"), 
+                full_width = F, position = "center")
+```
+
+<br>
+
+Missing data: *n* = `r sum(is.na(df$GEND_D9))`
+
+<br>
+
+### Education
+
+VAR: SCALE_26
+
+"How many years of schooling have you had?"
+
+200 = "Don't know"
+
+<br>
+
+```{r}
+df$Education <- df$SKOOL_D2
+df$Education[df$Education == 200]  <- NA
+summarize(df, Mean.Education = round(mean(Education, na.rm = T), 2),
+          SD.Education = round(sd(Education, na.rm = T), 2)) %>% kable() %>% 
+  kable_styling(bootstrap_options = c("hover", "condensed", "responsive"), 
+                full_width = F, position = "center")
+```
+
+<br>
+
+Missing cases: *n* = `r sum(is.na(df$SKOOL_D2) == T)`
+
+"Don't Know": *n* = `r sum(df$SKOOL_D2 == 200, na.rm = T)`
+
+<br>
+
+### Ideology
+
+VAR: SCALE_26
+
+"We hear a lot of talk these days about liberals and conservatives. On a scale of ONE through SEVEN, where "1" is very liberal, and "7" is very conservative, where would you place yourself on this scale?"
+
+1. Very liberal 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. Very conservative
+9. Do not know
+
+<br>
+
+```{r}
+df$Ideology <- df$SCALE_26
+df$Ideology[df$Ideology == 9] <- NA
+summarize(df, Mean.Ideology = round(mean(Ideology, na.rm = T), 2),
+          SD.Ideology = round(sd(Ideology, na.rm = T), 2)) %>% kable() %>% 
+  kable_styling(bootstrap_options = c("hover", "condensed", "responsive"), 
+                full_width = F, position = "center")
+```
+
+<br>
+
+Missing cases: *n* = `r sum(is.na(df$SCALE_26) == T)`
+
+"Don't Know": *n* = `r sum(df$SCALE_26 == 9, na.rm = T)`
+
+<br>
+
+## Measures
+
+### Attitude Stability
+
+For simplicity, we recoded `ABORT_9` and `ABORT2_9` as "att1" and "att2"
+
+```{r}
+df$att1 <- df$ABORT_9
+df$att2 <- df$ABORT2_9
+```
+
+<br>
+
+Number refusing either attitude question (coded as "5"):
+
+`sum(df$att1 == 5 | df$att2 == 5) =` `r sum(df$att1 == 5 | df$att2 == 5, na.rm = T)`
+
+```{r}
+df$att1[df$att1 == 5] <- NA #Taking "refusals" and coding as missing
+df$att2[df$att2 == 5] <- NA #Taking "refusals" and coding as missing
+```
+
+<br>
+
+#### Dichotomous Change
+
+Coding attitude change as basic change/no-change dichotomy:
+
+```{r}
+df <- df %>% mutate(change.F = factor(att1 == att2, labels = c("Changed", "Didn't Change")), #Change as labeled factor
+                    change = abs(as.numeric(change.F) - 2)) #Dummy code change
+
+select(df, att1, att2, change.F, change) %>% sample_n(6)
+```
+
+<br>
+
+Breakdown of change/no-change...
+
+Absolute numbers:
+
+```{r}
+table(df$change.F)
+```
+
+<br>
+
+Proportion:
+
+```{r}
+table(df$change.F) %>% prop.table() %>% round(2)
+```
+
+<br>
+
+#### Unique Type of Change
+
+Coding for all types of change (and stability)
+
+```{r}
+df$changeFull <- 99
+df$changeFull[df$att1 == 1 & df$att2 == 1] <- 1
+df$changeFull[df$att1 == 1 & df$att2 == 2] <- 2
+df$changeFull[df$att1 == 1 & df$att2 == 3] <- 3
+df$changeFull[df$att1 == 1 & df$att2 == 4] <- 4
+df$changeFull[df$att1 == 2 & df$att2 == 1] <- 5
+df$changeFull[df$att1 == 2 & df$att2 == 2] <- 6
+df$changeFull[df$att1 == 2 & df$att2 == 3] <- 7
+df$changeFull[df$att1 == 2 & df$att2 == 4] <- 8
+df$changeFull[df$att1 == 3 & df$att2 == 1] <- 9
+df$changeFull[df$att1 == 3 & df$att2 == 2] <- 10
+df$changeFull[df$att1 == 3 & df$att2 == 3] <- 11
+df$changeFull[df$att1 == 3 & df$att2 == 4] <- 12
+df$changeFull[df$att1 == 4 & df$att2 == 1] <- 13
+df$changeFull[df$att1 == 4 & df$att2 == 2] <- 14
+df$changeFull[df$att1 == 4 & df$att2 == 3] <- 15
+df$changeFull[df$att1 == 4 & df$att2 == 4] <- 16
+
+df <- mutate(df, changeFull.F = factor(changeFull, labels = c('Pro-Choice -> Pro-Choice',
+                                                             'Pro-Choice -> Pro-Life',
+                                                             'Pro-Choice -> Neither',
+                                                             'Pro-Choice -> DK',
+                                                             'Pro-Life -> Pro-Choice',
+                                                             'Pro-Life -> Pro-Life',
+                                                             'Pro-Life -> Neither',
+                                                             'Pro-Life -> DK',
+                                                             'Neither -> Pro-Choice',
+                                                             'Neither -> Pro-Life',
+                                                             'Neither -> Neither',
+                                                             'Neither -> DK',
+                                                             'DK -> Pro-Choice',
+                                                             'DK -> Pro-Life',
+                                                             'DK -> Neither',
+                                                             'DK -> DK',
+                                                             'No Time 2 Attitude')))
+
+```
+
+<br>
+
+**Table 1**
+
+```{r}
+df %>% filter(changeFull < 99) %>%
+  group_by(changeFull.F) %>%
+  summarise(n = n()) %>%
+  mutate(prop = round(100*(n / sum(n)), 1))  %>% kable() %>% 
+  kable_styling(bootstrap_options = c("hover", "condensed", "responsive"), 
+                full_width = F, position = "center")
+  
+```
+
+<br>
+
+Number of people changing between "pro" and "anti":
+
+```{r}
+sum(df$changeFull == 2 | df$changeFull == 5)
+```
+
+<br>
+
+
+### Ambivalence
+
+#### "Mixed"
+
+VAR: ISSB_25b
+
+"I sometimes have mixed feelings and beliefs about the abortion issue."
+
+1. Strongly agree 
+2. Somewhat agree 
+3. Somewhat disagree 
+4. Strongly disagree 
+5. Neither agree/disagree
+6. Don't know
+
+<br>
+
+For simplicity, renmaing variable `ISSB_25B` to "mixed".
+
+```{r}
+df$mixed <- df$ISSB_25B
+```
+
+<br>
+
+Number of "don't know" responses:
+
+```{r}
+sum(df$mixed == 6, na.rm = T)
+```
+
+<br>
+
+Dropping "don't know" responses and recoding remaining responses to reflect a linear Likert scale:
+
+```{r}
+df$mixed[df$mixed == 6] <- NA 
+df$mixed <- recode(df$mixed, '1' = '5', '2' = '4', '3' = '2', '4' = '1', '5' = '3') %>% as.numeric() 
+```
+
+<br>
+
+#### Conflicted
+
+VAR: TORN_10a
+
+Responses rated "on a 7-point scale to indicate how similar or dissimilar the statement is to your own feelings about abortion. Using a scale of ONE through SEVEN, where 'ONE' means the statement is very similar to your own feelings and 'SEVEN' means it is not like your own feelings at all, where would you place yourself on the following statement..."
+
+"I sometimes find myself feeling 'torn' between two sides of the abortion issue."
+
+1. Very similar to own feelings 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. Not like own feelings at all 
+8. Do not know
+9. Refused
+
+<br>
+
+For simplicity, renmaing variable `TORN_10a` to "torn".
+
+```{r}
+df$torn <- df$TORN_10A
+```
+
+<br>
+
+Number of "don't know" responses:
+
+```{r}
+sum(df$torn == 8, na.rm = T)
+```
+
+<br>
+
+Dropping "don't know" and "refused" responses and recoding remaining responses so that higher values correspond with greater felt conflict:
+
+```{r}
+df$torn[df$torn == 8] <- NA #dropping DKs
+df$torn[df$torn == 9] <- NA #dropping refusals
+df$torn <- 8 - df$torn #Reverse score so higher numbers = higher ambivalence
+```
+
+<br>
+
+### Certainty
+
+VAR: ISSA_25A
+
+"I think my views about abortion are absolutely correct."
+
+1. Strongly agree 
+2. Somewhat agree 
+3. Somewhat disagree 
+4. Strongly disagree 
+5. Neither agree/disagree 
+6. Don't know
+
+<br>
+
+For simplicity, renaming variable `ISA2_25a` to "cert".
+
+```{r}
+df$cert <- df$ISSA_25A
+```
+
+<br>
+
+Number of "don't know" responses:
+
+```{r}
+sum(df$cert == 6, na.rm = T)
+```
+
+<br>
+
+Dropping "don't know" responses and recoding remaining responses to reflect a linear Likert scale:
+
+
+```{r}
+df$cert[df$cert == 6] <- NA 
+df$cert <- recode(df$cert, '1' = '5', '2' = '4', '3' = '2', '4' = '1', '5' = '3') %>% as.numeric() 
+```
+
+<br>
+
+# Results
+
+## Predicting retention
+
+Retention is defined here as recorded response (including refusal) for Wave 2 abortion attitudes. This definition serves the study's purpose and matches the survey document's reported number of participants completing Wave 2.
+
+```{r}
+df$retention <- factor(!is.na(df$ABORT2_9), labels = c("Dropped Out", "Answered T2"))
+table(df$retention)
+```
+
+<br>
+
+Logistic regression predicting retention:
+
+```{r}
+df$att.F <- factor(df$att1, labels = c("Pro-Choice", "Pro-life", "Neither", "Don't Know"))
+glm(retention ~ Age + Gender.dum + Education + Ideology + mixed + cert + torn + att.F, family = "binomial", df) %>% display.glm() %>% kable.lm()
+```
+
+<br>
+
+## Certainty and "Mixed" Predicting Response Instability
+
+### Table 2
+
+```{r}
+df.sub <- filter(df, !is.na(change))
+df.sub %>% select(cert, mixed, torn, Age, Education, Ideology) %>% 
+  psych::describe() %>% select(mean, sd) %>% round(2) %>% kable() %>% 
+  kable_styling(bootstrap_options = c("hover", "condensed", "responsive"), 
+                full_width = F, position = "center")
+```
+
+<br>
+
+```{r}
+select(df.sub, cert, mixed, torn, Age, Education, Ideology) %>% corstars() %>% 
+  kable() %>% 
+  kable_styling(bootstrap_options = c("hover", "condensed", "responsive"), 
+                full_width = F, position = "center")
+```
+
+
+
+<br>
+
+**Only Those Who Completed Both Waves** 
+
+* Certainty and Mixed: `r cor.test(df.sub$cert, df.sub$mixed) %>% papaja::apa_print() %>% with(full_result)` 
+* Certainty and Torn: `r cor.test(df.sub$cert, df.sub$torn) %>% papaja::apa_print() %>% with(full_result)` 
+* Mixed and Torn: `r cor.test(df.sub$mixed, df.sub$torn) %>% papaja::apa_print() %>% with(full_result)`
+
+<br>
+
+**Full Sample** 
+
+* Certainty and Mixed: `r cor.test(df$cert, df$mixed) %>% papaja::apa_print() %>% with(full_result)` 
+* Certainty and Torn: `r cor.test(df$cert, df$torn) %>% papaja::apa_print() %>% with(full_result)` 
+* Mixed and Torn: `r cor.test(df$mixed, df$torn) %>% papaja::apa_print() %>% with(full_result)`
+
+<br>
+
+### Effects on Any Change
+
+(Note: `df.sub` is used as the dataframe for these analyses because it restricts data to only to those who completed both waves.)
+
+*First, centering predictors:*
+
+```{r}
+df.sub <- df.sub %>% 
+  mutate(mixed.c = mixed - mean(mixed, na.rm = T),
+         torn.c = torn - mean(torn, na.rm = T),
+         cert.c = cert - mean(cert, na.rm = T))
+```
+
+
+```{r}
+model1 <- glm(change ~ Age + Gender.dum + Education + Ideology + mixed.c * cert.c, family = "binomial", df.sub)
+display.glm(model1) %>% kable.lm()
+```
+
+(Model estimated from *N* = `r nrow(model1$model)`; `r nrow(df.sub) - nrow(model1$model)` omitted due to missing data.)
+
+<br>
+
+#### Decomposing Interaction
+
+```{r}
+df.sub <- df.sub %>% 
+  mutate(mixed_low = mixed - mean(mixed, na.rm = T) + sd(mixed, na.rm = T),
+         mixed_high = mixed - mean(mixed, na.rm = T) - sd(mixed, na.rm = T),
+         cert_low = cert - mean(cert, na.rm = T) + sd(cert, na.rm = T),
+         cert_high = cert - 5)
+```
+
+<br>
+
+**Effect of Certainty at Low Ambivalence:**
+
+```{r}
+glm(change ~ Age + Gender.dum + Education + Ideology + mixed_low * cert, family = "binomial", df.sub) %>% display.glm() %>% filter(term == "cert") %>% kable.lm()
+```
+
+<br>
+
+**Effect of Certainty at High Ambivalence:**
+
+```{r}
+glm(change ~ Age + Gender.dum + Education + Ideology + mixed_high * cert, family = "binomial", df.sub) %>% display.glm() %>% filter(term == "cert") %>% kable.lm()
+```
+
+<br>
+
+**Effect of Ambivalence at Low Certainty:**
+
+```{r}
+glm(change ~ Age + Gender.dum + Education + Ideology + mixed * cert_low, family = "binomial", df.sub) %>% display.glm() %>% filter(term == "mixed") %>% kable.lm()
+```
+
+<br>
+
+**Effect of Ambivalence at High Certainty:**
+
+```{r}
+glm(change ~ Age + Gender.dum + Education + Ideology + mixed * cert_high, family = "binomial", df.sub) %>% display.glm() %>% filter(term == "mixed") %>% kable.lm()
+```
+
+<br>
+
+#### Figure 1
+
+```{r, fig.align='center', out.width="75%"}
+int.plot <- ggeffect(glm(change ~ Age + Gender.dum + Education + Ideology + mixed * cert, family = "binomial", df),
+         terms = c("cert", "mixed [meansd]")) %>%
+  mutate(mixed = factor(group, labels = c("Low Ambivalence (-1 SD)   ", 
+                                          "Average Ambivalence", 
+                                          "High Ambivalence (+1 SD)"))) %>%
+  filter(mixed != "Average Ambivalence") %>%
+  #filter(x == 1 | x == 5) %>%
+  ggplot(aes(x = x, y = predicted, linetype = mixed)) +
+  annotate(geom = "rect", xmin = min(df$cert, na.rm = T), 
+           xmax = mean(df$cert, na.rm = T) - sd(df$cert, na.rm = T),
+           ymin = 0, ymax = .5, fill = "grey", alpha = 0.25) + 
+  geom_line(size = 2) +
+  apatheme +
+  labs(y = "Probability of Response Change",
+       x = "Certainty",
+       linetype = "") +
+  scale_linetype_manual(values = c("dashed", "solid")) +
+  guides(fill = F, color = F,
+         linetype = guide_legend(keywidth = 0.75, default.unit = "inch")) +
+  theme(legend.position = "top",
+        text = element_text(size = 14, family = "Book Antiqua"),
+        axis.title.x = element_text(size = 16),
+        axis.title.y = element_text(size = 16),
+        legend.text = element_text(size = 15)) + 
+  ylim(c(0,0.5))
+
+print(int.plot)
+ggsave(plot = int.plot, "Fig1.png", type = "cairo-png", dpi = 600, width = 8, height = 5, units = "in") #Save graph
+```
+
+<br>
+
+
+### Effects on Pro-Anti Change
+
+Coding for 'strict' change:
+
+```{r}
+df$change_strict <- NA
+df$change_strict[df$changeFull == 2 | df$changeFull == 5] <- 1 #Pro-Choice -> Pro-Life OR Pro-Life -> Pro-Choice
+df$change_strict[df$changeFull == 1 | df$changeFull == 6] <- 0 #Stays Pro-Choice OR Stays Pro-Life
+```
+
+<br>
+
+Reducing data only to those showing "strict" change:
+
+```{r}
+df.strict <- df %>% filter(!is.na(change_strict)) %>% 
+  mutate(mixed.c = mixed - mean(mixed, na.rm = T),
+         torn.c = torn - mean(torn, na.rm = T),
+         cert.c = cert - mean(cert, na.rm = T),
+         mixed_low = mixed - mean(mixed, na.rm = T) + sd(mixed, na.rm = T),
+         mixed_high = mixed - mean(mixed, na.rm = T) - sd(mixed, na.rm = T),
+         cert_low = cert - mean(cert, na.rm = T) + sd(cert, na.rm = T),
+         cert_high = cert - 5)
+```
+
+<br>
+
+Degree of 'strict' change:
+
+```{r}
+df.strict %>%
+  group_by(change_strict) %>%
+  summarise(n = n()) %>%
+  mutate(prop = round(100*(n / sum(n)), 1))  %>% kable() %>% 
+  kable_styling(bootstrap_options = c("hover", "condensed", "responsive"), 
+                full_width = F, position = "center")
+```
+
+<br>
+
+```{r}
+model2 <- glm(change_strict ~ Age + Gender.dum + Education + Ideology + mixed.c * cert.c, family = "binomial", df.strict) 
+display.glm(model2) %>% kable.lm()
+```
+
+(Model estimated from *N* = `r nrow(model2$model)`; `r nrow(df.strict) - nrow(model2$model)` omitted due to missing data.)
+
+<br>
+
+*Rare Events Logistic Regression:*
+
+```{r}
+model2.relogit <- zelig(change_strict ~ Age + Gender.dum + Education + 
+                          Ideology + mixed.c * cert.c,
+                        data = df.strict, model = "relogit", cite = F)
+summary(model2.relogit)
+```
+
+<br>
+
+#### Decomposing Interaction
+
+**Effect of Certainty at Low Ambivalence:**
+
+```{r}
+glm(change_strict ~ Age + Gender.dum + Education + Ideology + mixed_low * cert, family = "binomial", df.strict) %>% display.glm() %>% filter(term == "cert") %>% kable.lm()
+```
+
+<br>
+
+**Effect of Certainty at High Ambivalence:**
+
+```{r}
+glm(change_strict ~ Age + Gender.dum + Education + Ideology + mixed_high * cert, family = "binomial", df.strict) %>% display.glm() %>% filter(term == "cert") %>% kable.lm()
+```
+
+<br>
+
+**Effect of Ambivalence at Low Certainty:**
+
+```{r}
+glm(change_strict ~ Age + Gender.dum + Education + Ideology + mixed * cert_low, family = "binomial", df.strict) %>% display.glm() %>% filter(term == "mixed") %>% kable.lm()
+```
+
+<br>
+
+**Effect of Ambivalence at High Certainty:**
+
+```{r}
+glm(change_strict ~ Age + Gender.dum + Education + Ideology + mixed * cert_high, family = "binomial", df.strict) %>% display.glm() %>% filter(term == "mixed") %>% kable.lm()
+```
+
+<br>
+
+## The Role of Feeling Conflicted
+
+### Effects on Any Change
+
+```{r}
+model3 <- glm(change ~ Age + Gender.dum + Education + Ideology + torn.c * cert.c, family = "binomial", df.sub)
+display.glm(model3) %>% kable.lm()
+```
+
+(Model estimated from *N* = `r nrow(model3$model)`; `r nrow(df.sub) - nrow(model3$model)` omitted due to missing data.)
+
+<br>
+
+### Effects on Pro-Anti Change
+
+```{r}
+model4 <- glm(change_strict ~ Age + Gender.dum + Education + Ideology + torn.c * cert.c, family = "binomial", df.strict)
+display.glm(model4) %>% kable.lm()
+```
+
+(Model estimated from *N* = `r nrow(model4$model)`; `r nrow(df.strict) - nrow(model4$model)` omitted due to missing data.)
+
+<br>
+
+*Rare Events Logistic Regression:*
+
+```{r}
+model4.relogit <- zelig(change_strict ~ Age + Gender.dum + Education + 
+                          Ideology + torn.c * cert.c,
+                        data = df.strict, model = "relogit", cite = F)
+summary(model4.relogit)
+```
+
+<br>
+
+
+### Controlling for Felt Conflict
+
+**Any Change:**
+
+```{r}
+glm(change ~ Age + Gender.dum + Education + Ideology + mixed.c * cert.c + torn.c, family = "binomial", df.sub) %>% display.glm() %>% kable.lm()
+```
+
+<br>
+
+**Pro-Anti Change:**
+
+```{r}
+glm(change_strict ~ Age + Gender.dum + Education + Ideology + mixed.c * cert.c + torn.c, family = "binomial", df.strict) %>% display.glm() %>% kable.lm()
+```
+
+<br>
+
+# Supplemental Analysis: Re-analyzing Luttrell, Petty, & Brinol (2016)
+
+Data for Luttrell et al. (2016; Study 1 and Study 2) are available in this project's OSF page.
+
+<br>
+
+## Study 1 
+
+```{r, warning=F, message=F}
+S1 <- read_csv("data/Supplement_Study1Data.csv") %>%
+  mutate(Date1 = as.Date(Date1, "%m/%d/%Y"),
+         Date2 = as.Date(Date2, "%m/%d/%Y"),
+         amb = (neg + pos)/2 - abs(neg - pos),
+         attT1 = (att1 + att2 + att3)/3,
+         attT2 = (att1_T2 + att2_T2 + att3_T2)/3,
+         change = abs(attT1 - attT2),
+         cert = select(., matches("cert[1-7]")) %>% rowMeans(na.rm = T),
+         ex = abs(attT1 - 4))
+```
+
+<br>
+
+For simplicity, we rename `subj1` as "torn" and `subj3` as "mixed" to highlight the unique items.
+
+```{r}
+S1 <- S1 %>% dplyr::rename(conflicted = subj1, mixed = subj3)
+```
+
+<br>
+
+Finally, all predictors are mean-centered:
+
+```{r}
+S1 <- S1 %>% 
+  mutate(ex.c = ex - mean(ex, na.rm = T),
+         amb.c = amb - mean(amb, na.rm = T),
+         cert.c = cert - mean(cert, na.rm = T),
+         mixed.c = mixed - mean(mixed, na.rm = T),
+         conflicted.c = conflicted - mean(conflicted, na.rm = T))
+```
+
+
+<br>
+
+### Originally Reported Effect
+
+```{r}
+lm(change ~ ex.c + amb.c * cert.c, S1) %>% display.lm() %>% kable.lm()
+``` 
+
+<br>
+
+### Using "Mixed" in place of objective ambivalence
+
+```{r}
+lm(change ~ ex.c + mixed.c * cert.c, S1) %>% display.lm() %>% kable.lm()
+```
+
+<br>
+
+```{r, fig.align='center', out.width="75%"}
+S1$ex.c <- scale(S1$ex, scale = F) %>% as.vector()
+figS1 <- ggeffect(lm(change ~ ex.c + mixed * cert, S1),
+         terms = c("cert", "mixed [meansd]")) %>%
+  mutate(mixed = factor(group, labels = c("Low 'Mixed' (-1 SD)   ",
+                                          "Mean Ambivalence",
+                                          "High 'Mixed' (+1 SD)"))) %>%
+  filter(mixed != "Mean Ambivalence") %>%
+  ggplot(aes(x = x, y = predicted, linetype = mixed)) +
+  annotate(geom = "rect", xmin = min(S1$cert, na.rm = T), 
+           xmax = mean(S1$cert, na.rm = T) - sd(S1$cert, na.rm = T),
+           ymin = 0, ymax = 1.4, fill = "grey", alpha = 0.25) + 
+    annotate(geom = "rect", xmin = mean(S1$cert, na.rm = T) + sd(S1$cert, na.rm = T), 
+           xmax = max(S1$cert, na.rm = T),
+           ymin = 0, ymax = 1.4, fill = "grey", alpha = 0.25) + 
+  geom_line(size = 2) +
+  apatheme +
+  labs(y = "Attitude Change (Absolute Value)",
+       x = "Certainty",
+       linetype = "") +
+  scale_linetype_manual(values = c("dashed", "solid")) +
+  guides(fill = F, color = F,
+         linetype = guide_legend(keywidth = 0.75, default.unit = "inch")) +
+  theme(legend.position = "top",
+        text = element_text(size = 14, family = "Book Antiqua"),
+        axis.title.x = element_text(size = 16),
+        axis.title.y = element_text(size = 16),
+        legend.text = element_text(size = 15)) + 
+  ylim(c(0,1.4))
+print(figS1)
+#ggsave(plot = figS1, "FigS1.png", type = "cairo-png", dpi = 600, width = 8, height = 5, units = "in") #Save graph
+```
+
+<br>
+
+### Using "Conflicted" in place of objective ambivalence
+
+```{r}
+lm(change ~ ex.c + conflicted.c * cert.c, S1) %>% display.lm() %>% kable.lm()
+```
+
+<br>
+
+## Study 2
+
+```{r, warning=F, message=F}
+S2 <- read_csv("data/Supplement_Study2Data.csv") %>%
+  mutate(Date1 = as.Date(Date1, "%m/%d/%Y"),
+         Date2 = as.Date(Date2, "%m/%d/%Y"),
+         Date3 = as.Date(Date3, "%m/%d/%Y"),
+         amb = (neg + pos)/2 - abs(neg - pos),
+         attT1 = (att1 + att2 + att3)/3,
+         attT2 = (att1_T2 + att2_T2 + att3_T2)/3,
+         attT3 = (att1_T3 + att2_T3 + att3_T3)/3,
+         change = abs(attT3 - attT1), #Paper focuses on the longer one-year delay
+         cert = select(., matches("cert[1-7]")) %>% rowMeans(na.rm = T),
+         ex = abs(attT1 - 4))
+
+```
+
+<br>
+
+For simplicity, we rename `subj1` as "torn" and `subj3` as "mixed" to highlight the unique items.
+
+```{r}
+S2 <- S2 %>% dplyr::rename(conflicted = subj1, mixed = subj3)
+```
+
+<br>
+
+Finally, all predictors are mean-centered:
+
+```{r}
+S2 <- S2 %>% 
+  mutate(ex.c = ex - mean(ex, na.rm = T),
+         amb.c = amb - mean(amb, na.rm = T),
+         cert.c = cert - mean(cert, na.rm = T),
+         mixed.c = mixed - mean(mixed, na.rm = T),
+         conflicted.c = conflicted - mean(conflicted, na.rm = T))
+```
+
+
+<br>
+
+### Originally Reported Effect
+
+```{r}
+lm(change ~ ex.c + amb.c * cert.c, S2) %>% display.lm() %>% kable.lm()
+``` 
+
+<br>
+
+### Using "Mixed" in place of objective ambivalence
+
+```{r}
+lm(change ~ ex.c + mixed.c * cert.c, S2) %>% display.lm() %>% kable.lm()
+```
+
+<br>
+
+```{r, fig.align='center', out.width="75%"}
+S2$ex.c <- scale(S2$ex, scale = F) %>% as.vector()
+figS2 <- ggeffect(lm(change ~ ex.c + mixed * cert, S2),
+         terms = c("cert", "mixed [meansd]")) %>%
+  mutate(mixed = factor(group, labels = c("Low 'Mixed' (-1 SD)   ",
+                                          "Mean Ambivalence",
+                                          "High 'Mixed' (+1 SD)"))) %>%
+  filter(mixed != "Mean Ambivalence") %>%
+  ggplot(aes(x = x, y = predicted, linetype = mixed)) +
+  annotate(geom = "rect", xmin = min(S2$cert, na.rm = T), 
+           xmax = mean(S2$cert, na.rm = T) - sd(S2$cert, na.rm = T),
+           ymin = 0, ymax = 1.4, fill = "grey", alpha = 0.25) + 
+    annotate(geom = "rect", xmin = mean(S2$cert, na.rm = T) + sd(S2$cert, na.rm = T), 
+           xmax = max(S2$cert, na.rm = T),
+           ymin = 0, ymax = 1.4, fill = "grey", alpha = 0.25) + 
+  geom_line(size = 2) +
+  apatheme +
+  labs(y = "Attitude Change (Absolute Value)",
+       x = "Certainty",
+       linetype = "") +
+  scale_linetype_manual(values = c("dashed", "solid")) +
+  guides(fill = F, color = F,
+         linetype = guide_legend(keywidth = 0.75, default.unit = "inch")) +
+  theme(legend.position = "top",
+        text = element_text(size = 14, family = "Book Antiqua"),
+        axis.title.x = element_text(size = 16),
+        axis.title.y = element_text(size = 16),
+        legend.text = element_text(size = 15)) + 
+  ylim(c(0,1.4))
+print(figS2)
+#ggsave(plot = figS2, "FigS2.png", type = "cairo-png", dpi = 600, width = 8, height = 5, units = "in") #Save graph
+```
+
+<br>
+
+### Using "Conflicted" in place of objective ambivalence:
+
+```{r}
+lm(change ~ ex.c + conflicted.c * cert.c, S2) %>% display.lm() %>% kable.lm()
+```
+
+<br>
+
+# Supplemental Analysis: Main Effects Models
+
+## Main Study (Table S2)
+
+**"Mixed": Any Change**
+
+```{r}
+glm(change ~ Age + Gender.dum + Education + Ideology + mixed.c + cert.c, 
+    family = "binomial", df.sub) %>%  display.glm() %>% kable.lm()
+```
+
+<br>
+
+**"Mixed": Strict Change**
+
+```{r}
+glm(change_strict ~ Age + Gender.dum + Education + Ideology + mixed.c + cert.c, 
+    family = "binomial", df.strict) %>%  display.glm() %>% kable.lm()
+```
+
+<br>
+
+
+**"Torn": Any Change**
+
+```{r}
+glm(change ~ Age + Gender.dum + Education + Ideology + torn.c + cert.c, 
+    family = "binomial", df.sub) %>%  display.glm() %>% kable.lm()
+```
+
+<br>
+
+**"Torn": Strict Change**
+
+```{r}
+glm(change_strict ~ Age + Gender.dum + Education + Ideology + torn.c + cert.c, 
+    family = "binomial", df.strict) %>%  display.glm() %>% kable.lm()
+```
+
+<br>
+
+
+## Re-Analyses (Table S3)
+
+### Study 1
+
+**Objective Ambivalence**
+
+```{r}
+lm(change ~ ex.c + amb.c + cert.c, S1) %>% display.lm() %>% kable.lm()
+```
+
+<br>
+
+**Mixed**
+
+```{r}
+lm(change ~ ex.c + mixed.c + cert.c, S1) %>% display.lm() %>% kable.lm()
+```
+
+<br>
+
+**Conflicted**
+
+```{r}
+lm(change ~ ex.c + conflicted.c + cert.c, S1) %>% display.lm() %>% kable.lm()
+```
+
+<br>
+
+### Study 2
+
+**Objective Ambivalence**
+
+```{r}
+lm(change ~ ex.c + amb.c + cert.c, S2) %>% display.lm() %>% kable.lm()
+```
+
+<br>
+
+**Mixed**
+
+```{r}
+lm(change ~ ex.c + mixed.c + cert.c, S2) %>% display.lm() %>% kable.lm()
+```
+
+<br>
+
+**Conflicted**
+
+```{r}
+lm(change ~ ex.c + conflicted.c + cert.c, S2) %>% display.lm() %>% kable.lm()
+```
+
+<br>
+
+# Supplemental Analysis: Models without Covariates
+
+**"Mixed": Any Change**
+
+```{r}
+glm(change ~ mixed.c * cert.c, family = "binomial", df.sub) %>% 
+  display.glm() %>% kable.lm()
+
+```
+
+<br>
+
+**"Mixed": Strict Change**
+
+```{r}
+glm(change_strict ~ mixed.c * cert.c, family = "binomial", df.strict) %>% 
+  display.glm() %>% kable.lm()
+```
+
+<br>
+
+**"Torn": Any Change**
+
+```{r}
+glm(change ~ torn.c * cert.c, family = "binomial", df.sub) %>%  
+  display.glm() %>% kable.lm()
+```
+
+<br>
+
+**"Torn": Strict Change**
+
+```{r}
+glm(change_strict ~ torn.c * cert.c, family = "binomial", df.strict) %>%
+  display.glm() %>% kable.lm()
+```
+
+<br>
+
+
+<br><br><br>

@@ -54,6 +54,18 @@ SKIP_CACHE=0
 - MATLAB: Automatically detected from system PATH if installed
 - Cache: Set `SKIP_CACHE=1` to disable caching
 
+## Project Structure
+
+```
+PaperRepro/
+├── research_agent/   # Core agent workflow and execution tools
+├── web/              # Web GUI
+├── benchmark/        # Benchmark evaluation scripts and docs
+├── extra_set/        # 20 additional social science examples
+├── prompts/          # System prompts for the four agents
+└── assest/           # Images and static assets
+```
+
 ## Usage
 
 ### 🔥 Web GUI

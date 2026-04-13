@@ -1,0 +1,599 @@
+This part of the replication file contains five sections. The first is how to merge the dataset that contains the main dependent variable used in the text, as 
+well as the dependent variables in the appendix. The second is how to merge the dataset that contains another dependent variable in the text, as well as how
+that variable was constructed from several sources. The third is how to merge the dataset that contains the main independent variable and several of the
+control variables. The fourth is how to construct the leader year dataset, which implies merging an extant leader year dataset and a country year dataset.
+The fifth and final section are instructions on how to construct the Mexico time-series dataset, which includes two variables.
+
+SECTION ONE: MAIN DEPENDENT VARIABLE USED IN TEXT, DIRECTED CREDIT, AND DEPENDENT VARIABLES USED IN APPENDIX
+
+The following variables are from Beck, Demirgüç-Kunt and Levine (2013). "Financial Structure and Development Dataset." I merged them to the main dataset using 
+the World Bank identifier. Namely: wbcode year
+
+Here is how to merge these variables:
+
+###open and get the master panel dataset, labeled "masterpaneluse.dta" ready###
+
+sort wbcode year
+
+###change the working directory to whatever folder you are storing the merging data in###
+
+###get the merging dataset, labeled "FinanceStr.dta" ready###
+
+sort wbcode year
+
+###in the open master panel dataset, merge "FinanceStr"###
+
+merge wbcode year using FinanceStr, _merge(_merge_FinanceStr) 
+
+###change the names of the following variables and label them###
+
+rename gfddei08 credittogovtstateenterp
+rename gfddei01 netinterestmargin
+rename gfddei05 returnassets
+rename gfddei04 overheadcosts 
+rename gfdddi05 llgdp
+rename gfdddi01 privatecredit
+rename gfddoi04 marketpower
+label variable credittogovtstateenterp “Directed_Credit”
+label variable netinterestmargin “Net_Interest_Margin”
+label variable returnassets “Return_Bank_Assets”
+label variable overheadcosts “Overhead_Costs”
+label variable llgdp “Liquidity”
+label variable privatecredit “Private_Credit”
+label variable marketpower “Market_Power”
+
+Here is information about the dataset and variables:
+
+The dataset is available to download here:
+
+http://econ.worldbank.org/WBSITE/EXTERNAL/EXTDEC/EXTRESEARCH/0,,contentMDK:20696167~pagePK:64214825~piPK:64214943~theSitePK:469382,00.html
+
+Here is a list of the variable names and their descriptions:
+
+Directed_Credit:
+ 
+Credit by domestic money banks to the government and state-owned enterprises as a percentage of GDP.
+
+Net_Interest_Margin:
+
+The accounting value of banks’ net interest revenue as a share of their interest-bearing assets: ((Interest Returns-Interest Expenses)/Total Earning Assets). 
+
+Return_Bank_Assets:
+
+Commercial banks’ net income to yearly averaged total assets. 
+
+Bank_Overhead_Costs: 
+
+Accounting value of banks’ overhead costs as a share of their interest-bearing assets: (Overhead Costs/Total Earning Assets). 
+
+Liquidity: 
+
+Liquid liabilities as a percent of GDP. 
+
+Private_Credit: 
+
+The credit made available by deposit taking banks is operationalized as a percentage of GDP.
+
+Market_Power:
+
+This is the Lerner Index. This is a measure of market power in the banking market that compares output pricing and marginal costs—namely, the markup. 
+
+
+SECTION TWO: CONSTRUCTING DIRECT TAXATION % GDP, THE SECOND DEPENDENT VARIABLE USED IN TEXT.                                 
+
+I personally created a variable named Total_Taxes_GDP (In the replication dataset this variable is renamed "final_totaltax_gdp_ratio"). This is originally contained 
+in the Stata dataset labeled "TaxesPanel.dta"
+
+This was then merged into the panel country year dataset using the following case identifier: ccodecow year. This is the Correlates of War designation for 
+countries, followed by the year of observation.  
+
+Here is how to merge these variables:
+
+###open and get the master panel dataset, labeled "masterpaneluse.dta" ready###
+
+sort ccodecow year
+
+###change the working directory to whatever folder you are storing the merging data in###
+
+###get the merging dataset, labeled "TaxesPanel.dta" ready###
+
+sort ccodecow year
+
+###in the open master panel dataset, merge "TaxesPanel"###
+
+merge ccodecow year using TaxesPanel, _merge(_merge_TaxesPanel) 
+
+Here is information about the dataset and variables:
+
+The Total_Taxes_GDP variable was made in an Excel spreadsheet using several different sources. Below I explain how I made that variable and the different sources 
+used, eventually itemizing each by country.   
+
+I measure total taxation as % GDP on an annual basis for each country in the dataset. Both the numerator and denominator (GDP) are in current local currency units. 
+The source for nominal GDP is always the World Bank Development Indicators (WBDI). I downloaded nominal GDP from the WBDI website (GDP (current LCU)) in Excel Form 
+and then used an Excel spreadsheet to generate the taxation to GDP ratio by hand. I did it this way because I was using several different sources for the numerator, 
+total taxation, and wanted to make sure I did not make a mistake.
+
+The WBDI website is available here, and the data downloads, if selected, into an Excel spreadsheet:
+ 
+http://databank.worldbank.org/data/reports.aspx?source=world-development-indicators
+
+For total taxation, the numerator, the sources vary by country and are discussed and identified below for each country. Total taxation was also compiled in an Excel 
+spreadsheet. Because I used several different sources, I copied and pasted the values from each source into the respective cells, one country at a time. This sometimes 
+involved keying in values by hand from hardcover books. Other times it meant splicing in values from other Excel spreadsheets that were generated by CD-ROM or were the 
+format used in websites where I downloaded the data. I then made the ratios, with nominal GDP as the numerator, by hand, using Excel formulas, in that same spreadsheet. 
+
+The Excel spreadsheet used to generate this variable is also stored here. It contains detailed notes for every single country year observation, including each source 
+used and any issues encountered. The Excel spreadsheet is called "TaxationMaster.xls." The Column in which the total taxation variable appears is Column BM of the
+first Excel workbook, labeled "Revenues." Note that the ratio is in decimal format; in the Stata file it is in percentage format. This called on replacing the original 
+Excel variable using the following command in Stata:
+
+replace Total_Taxes_GDP = Total_Taxes_GDP*100
+
+1. The general sources I used were:
+
+A.	The International Monetary Fund (IMF) Government Finance Statistics Yearbook (GFSY), hardcover edition, various years.
+B.	The International Monetary Fund (IMF) Government Finance Statistics Yearbook (GFSY), CD-ROM edition (1972 to 1989).
+C.	The International Monetary Fund (IMF) Government Finance Statistics Yearbook (GFSY), online edition.
+D.	The Global Development Network Growth Database, Government Finance Series.
+E.	The World Bank Development Indicators, Online edition.
+F.	The Organization for Economic Cooperation and Development (OECD) Factbook-Statistics, online edition.
+G.	The Economist Intelligence Unit (EIU) Country Reports, various
+H.	The IMF Country Reports, various.
+
+The majority of the data I used for direct taxation was from the first three sources identified above. The reason I pulled data from multiple sources, however, is that
+the different IMF datasets was not able to maximize coverage on its own. Nevertheless, I am confident that this variable is reliable and valid across space and time 
+because I standardized the tax data from non-IMF sources according to the fiscal categories employed by the IMF’s GFSY as outlined in the GFSY Manual (2001). I 
+categorized government revenues using the six major tax groups identified by the IMF and categorized according to their base: 1) income, profits and capital gains; 
+2) payroll and workforce; 3) property; 4) goods and services; 5) international trade/transactions; and 6) other taxes. 
+
+Following the IMF, government revenues from income, profits, and capital gains includes taxes on wages, salaries, and other compensation; taxes on interest, dividends,
+rent, and royalties; taxes on capital gains and losses on land, securities, and other assets; profits from corporations, partnerships, and sole proprietorships, as well
+as from estates and trusts; and taxable income from social security and other insurance schemes (IMF 2001: 50). The data sources I employed are below on a country-by-
+country basis.
+
+2. Sources used listed by country:
+  
+Afghanistan	IMF GFSY CD and Online Version	
+Albania	IMF GFSY CD and Online Version	
+Algeria	Statistical Yearbook of Algeria and IMF Online Version	
+Angola	EIU Country Report, IMF Staff Country Report and IMF Online Version	
+Argentina	IMF GFSY CD and Online Version	
+Armenia	IMF GFSY CD and Online Version	
+Australia	OECD	
+Austria	OECD	
+Azerbaijan	IMF GFSY CD and IMF Online Version	
+Bahrain	IMF GFSY CD and IMF Online Version	
+Bangladesh	IMF GFSY CD and IMF Online Version	
+Belarus	IMF GFSY CD and IMF Online Version	
+Belgium	OECD	
+Benin	IMF GFSY CD and IMF Online Version	
+Bhutan	IMF GFSY CD and IMF Online Version	
+Bolivia	IMF GFSY CD and IMF Online Version	
+Bosnia and Herzegovina	IMF GFSY CD and IMF Online Version	
+Botswana	IMF GFSY CD and IMF Online Version	
+Brazil	IMF GFSY CD and IMF Online Version	
+Bulgaria	IMF GFSY CD and IMF Online Version	
+Burkina Faso	Global Development Network Growth Database and IMF Online Version	
+Burundi	IMF GFSY CD and IMF Online Version	
+Cambodia	IMF GFSY CD and IMF Online Version	
+Cameroon	IMF GFSY CD and IMF Online Version	
+Canada	OECD	
+Central African Republic	IMF GFSY CD and IMF Online Version	
+Chad	Global Development Network Growth Database and IMF Online Version	
+Chile	IMF GFSY CD and IMF Online Version	
+China	IMF GFSY CD and IMF Online Version	
+Colombia	IMF GFSY CD and IMF Online Version	
+Comoros	IMF GFSY CD and IMF Online Version	
+Congo	Global Development Network Growth Database and IMF Online Version	
+Congo, Democratic Republic	Global Development Network Growth Database and IMF Online Version	
+Costa Rica	IMF GFSY CD and IMF Online Version	
+Cote d'Ivoire	Global Development Network Growth Database and IMF Online Version	
+Croatia	IMF GFSY CD and IMF Online Version	
+Cuba	IMF GFSY CD and IMF Online Version	
+Cyprus	IMF GFSY CD and IMF Online Version	
+Czech Republic	OECD	
+Czechoslovakia	Global Development Network Growth Database	
+Denmark	OECD	
+Djibouti	Global Development Network Growth Database and IMF Online Version	
+Dominican Republic	IMF GFSY CD and IMF Online Version	
+Ecuador	Ministerio de Finanzas de Ecuador	
+Egypt	IMF GFSY CD and IMF Online Version	
+El Salvador	IMF GFSY CD and IMF Online Version	
+Equatorial Guinea	IMF GFSY CD and Republic of Equatorial Guinea Statistical Appendix	
+Eritrea	IMF GFSY CD and IMF Online Version	
+Estonia	IMF GFSY CD and IMF Online Version	
+Ethiopia	Global Development Network Growth Database and IMF Online Version	
+Fiji	IMF GFSY CD and IMF Online Version	
+Finland	OECD	
+France	OECD	
+Gabon	Global Development Network Growth Database and IMF Online Version	
+Gambia	IMF GFSY CD and IMF Online Version	
+Georgia	IMF GFSY CD and IMF Online Version	
+Germany	OECD	
+Ghana	IMF GFSY CD and IMF Online Version	
+Greece	IMF GFSY CD and IMF Online Version	
+Guatemala	IMF GFSY CD and IMF Online Version	
+Guinea	IMF GFSY CD and IMF Online Version	
+Guinea-Bissau	IMF GFSY CD and IMF Online Version	
+Guyana	IMF GFSY CD and IMF Online Version	
+Haiti	IMF GFSY CD and IMF Online Version	
+Honduras	IMF GFSY CD and IMF Online Version	
+Hungary	IMF GFSY CD and IMF Online Version	
+India	IMF GFSY CD and IMF Online Version	
+Indonesia	IMF GFSY CD, Indonesian Financial Statistics and IMF Online Version	
+Iran	IMF GFSY CD and IMF Online Version	
+Iraq	IMF GFSY CD and IMF Online Version	
+Ireland	IMF GFSY CD and IMF Online Version	
+Israel	IMF GFSY CD and IMF Online Version	
+Italy	OECD	
+Jamaica	IMF GFSY CD and IMF Online Version	
+Japan	OECD	
+Jordan	IMF GFSY CD and IMF Online Version	
+Kazakhstan	IMF GFSY CD and IMF Online Version	
+Kenya	IMF GFSY CD and IMF Online Version	
+Korea, North	IMF GFSY CD and IMF Online Version	
+Korea, South	OECD	
+Kuwait	IMF GFSY CD and IMF Online Version	
+Kyrgyzstan	IMF GFSY CD and IMF Online Version	
+Laos	IMF GFSY CD and IMF Online Version	
+Latvia	IMF GFSY CD and IMF Online Version	
+Lebanon	IMF GFSY CD and IMF Online Version	
+Lesotho	Global Development Network Growth Database and IMF Online Version	
+Liberia	IMF GFSY CD and IMF Online Version	
+Libya	IMF GFSY CD and IMF Online Version	
+Lithuania	IMF GFSY CD and IMF Online Version	
+Macedonia	IMF GFSY CD and IMF Online Version	
+Madagascar	IMF GFSY CD and IMF Online Version	
+Malawi	IMF GFSY CD and IMF Online Version	
+Malaysia	IMF GFSY CD and IMF Online Version	
+Mali	IMF GFSY CD and IMF Online Version	
+Mauritania	Global Development Network Growth Database and IMF Online Version	
+Mauritius	Global Development Network Growth Database and IMF Online Version	
+Mexico	Instituto Nacional de Estadística y Geografía	
+Moldova	IMF GFSY CD and IMF Online Version	
+Mongolia	IMF GFSY CD and IMF Online Version	
+Morocco	IMF GFSY CD and IMF Online Version	
+Mozambique	IMF GFSY CD and IMF Online Version	
+Myanmar	IMF GFSY CD and IMF Online Version	
+Namibia	IMF GFSY CD and IMF Online Version	
+Nepal	IMF GFSY CD and IMF Online Version	
+Netherlands	OECD	
+New Zealand	OECD	
+Nicaragua	IMF GFSY CD and IMF Online Version	
+Niger	IMF GFSY CD and IMF Online Version	
+Nigeria	IMF GFSY Hardcover Version, Global Development Network Growth D.B.	
+Norway	OECD	
+Oman	IMF GFSY CD and IMF Online Version	
+Pakistan (-1971)	IMF GFSY CD and IMF Online Version	
+Panama	IMF GFSY CD and IMF Online Version	
+Papua New Guinea	IMF GFSY CD and IMF Online Version	
+Paraguay	IMF GFSY CD and IMF Online Version	
+Peru	IMF GFSY CD and IMF Online Version	
+Philippines	IMF GFSY CD and IMF Online Version	
+Poland	Global Development Network Growth Database and OECD	
+Portugal	OECD	
+Qatar	IMF GFSY CD and IMF Online Version	
+Romania	IMF GFSY CD and IMF Online Version	
+Russia	Global Development Network Growth Database and IMF Online Version	
+Rwanda	IMF GFSY CD and IMF Online Version	
+Saudi Arabia	IMF GFSY CD and IMF Online Version	
+Senegal	IMF GFSY CD and IMF Online Version	
+Serbia RB	IMF GFSY CD and IMF Online Version	
+Sierra Leone	IMF GFSY CD and IMF Online Version	
+Singapore	IMF GFSY CD and IMF Online Version	
+Slovakia	IMF GFSY CD and IMF Online Version	
+Slovenia	IMF GFSY CD and IMF Online Version	
+Solomon Islands	IMF GFSY CD and IMF Online Version	
+Somalia	IMF GFSY CD and IMF Online Version	
+South Africa	IMF GFSY CD and IMF Online Version	
+Spain	OECD	
+Sri Lanka	IMF GFSY CD and IMF Online Version	
+Sudan	IMF GFSY CD and IMF Online Version	
+Suriname	Global Development Network Growth Database and IMF Online Version	
+Swaziland	IMF GFSY CD and IMF Online Version	
+Sweden	OECD	
+Switzerland	OECD	
+Syria	IMF GFSY CD and IMF Online Version	
+Taiwan	IMF GFSY CD and IMF Online Version	
+Tajikistan	IMF GFSY CD and IMF Online Version	
+Tanzania	Global Development Network Growth Database and IMF Online Version	
+Thailand	IMF GFSY CD and IMF Online Version	
+Timor-Leste	WBDI	
+Togo	IMF GFSY CD and IMF Online Version	
+Trinidad and Tobago	Central Bank of Trinidad and Tobago	
+Tunisia	IMF GFSY CD and IMF Online Version	
+Turkey	IMF GFSY CD and OECD	
+Turkmenistan	IMF GFSY CD and IMF Online Version	
+Uganda	IMF GFSY CD and IMF Online Version	
+Ukraine	IMF GFSY CD and IMF Online Version	
+United Arab Emirates	IMF GFSY CD and World Bank Development Indicators	
+United Kingdom	IMF GFSY CD and IMF Online Version	
+United States	OECD	
+Uruguay	IMF GFSY CD and IMF Online Version	
+Uzbekistan	IMF GFSY CD and IMF Online Version	
+Venezuela	IMF GFSY CD and Gobierno Central Presupuestario de Venezuela	
+Vietnam	IMF GFSY CD and IMF Online Version	
+Yemen	IMF GFSY CD and IMF Online Version	
+Yugoslavia	IMF GFSY CD and IMF Online Version	
+Zambia	IMF GFSY CD, Zambian Central Bank and IMF Online Version	
+Zimbabwe	Global Development Network Growth Database and IMF Online Version	
+
+###To have the name match the replication dataset, the following command must be executed in Stata afer merging###
+
+rename Total_Taxes_GDP final_totaltax_gdp_ratio 
+
+
+SECTION THREE: MAIN INDEPENDENT VARIABLES AND CONTROL VARIABLES
+
+The following variables were all taken from the QOG Dataset, which compiles variables from different sources. 
+
+Teorell, Jan, Stefan Dahlberg, Sören Holmberg, Bo Rothstein, Felix Hartmann & Richard Svensson. 2015. The Quality of Government Standard Dataset, version Jan15.
+University of Gothenburg: The Quality of Government Institute.
+
+I used the Correlates of War identifier to  merge them to the main dataset. This is ccodecow year.
+
+Here is how to merge these variables:
+
+###open and get the master panel dataset, labeled "masterpaneluse.dta" ready###
+
+sort ccodecow year
+
+###change the working directory to whatever folder you are storing the merging data in###
+
+###get the merging dataset, labeled "QOGData.dta" ready###
+
+sort ccodecow year
+
+###in the open master panel dataset, merge "QOGData"###
+
+merge ccodecow year using QOGDataset, _merge(_merge_QOGData) 
+
+Here is information about the dataset and variables:
+
+###label the following variables###
+
+label variable wdi_oilrent "Oil_Rents"
+label variable wdi_gdpgr “Economic_Growth “
+label variable wdi_cgovd “Government_Debt”
+label variable wdi_fdiin “FDI”
+label variable h_f “Federalism”
+label variable p_polity2 “Regime_Type”
+label variable wdi_merchtrade “Trade Openness”
+label variable wdi_manvagdp “Manufacturing”
+
+The Quality of Governance Dataset is available for download here:
+
+http://www.qog.pol.gu.se
+
+Below I list the variable names and their original sources, which are also described in the Quality of Government Dataset codebook (go to above link).
+
+icrg_qog:
+Indicator of Quality of Government. The avg. of Corruption, Law and Order, and Bureaucracy indexes
+Political Risk Services
+
+Oil_Rents:
+Value of crude oil production (world prices) - production costs. In percent of GDP.
+World Bank Development Indicators
+
+Economic_Growth 
+Growth rate in % of GDP in 2005 dollars
+World Bank Development Indicators
+
+Government_Debt:
+Total domestic and foreign stock of central govt. liabilities % GDP.
+World Bank Development Indicators
+
+FDI: 
+Net inflows of Foreign Direct Investment % GDP.
+World Bank Development Indicators
+
+Federalism:
+A binary variable for whether there are independent Sub-federal Units with fiscal power.
+Henisz (2014)
+
+Regime_Type:
+This is an ordinal variable that is the combination of Democracy and Autocracy Scores
+Marshall and Jaggers (2008) 
+
+Trade_Openness:
+Merchandise exports + imports % GDP
+World Bank Development Indicators
+
+Manufacturing:
+Value Added in Manufacturing % GDP
+World Bank Development Indicators
+ 
+The following variable is from Abdul Abiad, Enrica Detragiache, and Thierry Tressel. 2008. "A New Database of Financial Reforms." It is an independent variable I used
+in the appendix. I used the World Bank case identifier, wbcode year, to merge it to the main dataset.
+
+Here is how to merge these variables:
+
+###open and get the master panel dataset, labeled "masterpaneluse.dta" ready###
+
+sort wbcode year
+
+###change the working directory to whatever folder you are storing the merging data in###
+
+###get the merging dataset, labeled "FinancialRef.dta" ready###
+
+sort wbcode year
+
+###in the open master panel dataset, merge "FinancialRef"###
+
+merge wbcode year using FinancialRef, _merge(_merge_FinancialRef) 
+
+###rename the following variable###
+
+label variable entrybarriers "Entry_Barriers"
+
+That dataset is available for download here:
+
+http://www.imf.org/external/pubs/cat/longres.aspx?sk=22485.0 
+
+Entry_Barriers:
+
+These are entry barries to the financial system. This is an ordinal index that runs from 0 to 3; higher values denote fewer barriers to entry.   
+
+The following variable, Inflation, is from Beck, Demirgüç-Kunt and Levine (2013). "Financial Structure and Development Dataset." This variable should already 
+have been merged. That's because the Financial Structure and Development Dataset contains the dependent variables described in Section 1 that were already 
+merged using the World Bank identifer, wbcode
+
+###rename gfddoe02 inflationavgindex###
+
+rename gfddoe02 inflationavgindex
+label variable inflationavgindex "Inflation"
+
+Inflation:
+
+This is an index, 2005 = 100, of Average Consumer Price Inflation.
+
+The following variable, Assassinations, is from Banks, Arthur. 2009. “Cross-National Time-Series Data Archive.” SUNY Binghamton. I merged using the Correlates of War 
+identifer. This is ccodecow year.
+
+Here is how to merge these variables:
+
+###open and get the master panel dataset, labeled "masterpaneluse.dta" ready###
+
+sort ccodecow year
+
+###change the working directory to whatever folder you are storing the merging data in###
+
+###get the merging dataset, labeled "Banks.dta" ready###
+
+sort ccodecow year
+
+###in the open master panel dataset, merge "Banks"###
+
+merge ccodecow year using Banks, _merge(_merge_Banks) 
+
+###rename assassinations###
+
+label variable assassinations "Political_Assassinations"
+
+The dataset is available for download here:
+ 
+http://www.databanks.sitehosting.net/.
+
+Political_Assassinations: 
+
+According to Banks, this is “any politically motivated murder or attempted murder of a high government official or politician.”
+
+From this dataset I also created some "legacy" variables that I separately merged to the main dataset, using ccodecow year
+
+Here is how to merge these variables:
+
+###open and get the master panel dataset, labeled "masterpaneluse.dta" ready###
+
+sort ccodecow year
+
+###change the working directory to whatever folder you are storing the merging data in###
+
+###get the merging dataset, labeled "AssaLegacy.dta" ready###
+
+sort ccodecow year
+
+###in the open master panel dataset, merge "AssaLegacy"###
+
+merge ccodecow year using AssaLegacy, _merge(_merge_AssaLegacy) 
+
+This is how the legacy variables were created:
+
+assassinations_64_76:
+
+egen assassinations_64_76 = sum(assassinations) if year > 1963 & year < 1977, by(ccode)
+generate NOT_SOVEREIGN_YET5 = 1 if year == 1976 & assassinations == .
+bysort ccode (NOT_SOVEREIGN_YET5): replace(NOT_SOVEREIGN_YET5) =  NOT_SOVEREIGN_YET5[1]
+
+assassinations_51-63:
+
+egen assassinations_51_63 = sum(assassinations) if year > 1950 & year < 1964, by(ccode)
+generate NOT_SOVEREIGN_YET3 = 1 if year == 1963 & assassinations == .
+bysort ccode (NOT_SOVEREIGN_YET3): replace(NOT_SOVEREIGN_YET3) =  NOT_SOVEREIGN_YET3[1]
+
+
+SECTION FOUR: THE LEADER YEAR DATASET
+
+This dataset was used to conduct analyses that appear in the Supplementary Appendix.
+
+I used the Albertus and Menaldo (2014), which contains variables at the leader year levels on executives' characteristics and whether they are democratically elected.
+The authors make use of data from several sources. These include the ARCHIGOS dataset and the Gandhi, Cheibub, and Vreeland (2010) dataset on regime type.
+
+The Albertus-Menaldo dataset is:
+
+Albertus, Michael, and Victor Menaldo. 2014. “Dealing with Dictators: Negotiated  Democratization and the Fate of Outgoing Autocrats.” International Studies Quarterly 
+58(3): 550-565.
+
+Those sources they use are as follows:
+
+Goemans, H. E., Kristian Skrede Gleditsch, and Giacomo Chiozza. 2011. “Archigos: A Database  of Leaders 1875–2004.”
+
+Cheibub, Jose Antonio, Jennifer Gandhi, and James Raymond Vreeland. 2010. “Democracy and  Dictatorship Revisited.” Public Choice 142: 67–101.
+
+I merged the IQG variable used in the text to this dataset using the ccodecow year identifer, which is at the country year. As disclosed above, this variable is 
+included in the Quality of Government Database.
+
+Here is how to merge these variables:
+
+###open and get the master leaderyear dataset, labeled "AlbertusMenaldo.dta" ready; this should be sorted by country year instead of leader year, however###
+
+sort ccodecow year
+
+###change the working directory to whatever folder you are storing the merging data in###
+
+###get the merging dataset, labeled "QOGData.dta" ready###
+
+sort ccodecow year
+
+###in the open master panel dataset, merge "QOGData"###
+
+merge ccodecow year using QOGData, _merge(_merge_QOGData) 
+
+The Albertus/Menaldo dataset contains material to make the following variable, which was used in the supplementary appendix of "The Fiscal Origins of Financial 
+Underdevelopment."
+
+generate Displacement = exit_tv
+replace Displacement = 0 if Displacement != 3
+replace Displacement = 1 if Displacement == 3
+
+I also used the following prefabricated variables from this data set:
+
+age0:
+
+The age at which a ruler obains power
+ 
+prevtimesinoffice:
+
+How many times previous the ruler had been in office
+
+irregular_entry:
+
+Whether the ruler obtained power irregularly
+
+fullregime_dummy_leader_pre1950:
+
+Whether the ruler is democratically elected or not.
+
+posttenurefate:
+
+What happens to the ruler after exiting power? It is coded as follows:
+
+-888 if still in power
+0 OK
+1 Exile
+2 Imprisonment (including house arrest)
+3 Death
+
+SECTION FIVE: THE TIMESERIES GRAPH FOR MEXICO
+
+This dataset is a time-series dataset of Mexico that includes the variables for directed credit and direct taxation that I graphed in Figure 1 of the text.
+
+Directed credit is from Schuler, Kurt. 2015. “Historical Financial Statistics.” CENTER FOR FINANCIAL STABILITY.
+
+I took the series named "Credit: to development banks" from an Excel spreadsheet labeled "MexicoFinance.xls" and transposed it using Excel. This is Row 27. Then, 
+I copied and pasted it into the Stata editor for a dataset that is called "MexicoCase.dta." That dataset was structured as a time-series dataset. I named the variable
+developmentbankcredit_GDP_pct   
+
+Direct Taxation is from INEGI. 2000. “Estadísticas Históricas de México.” Aguascalientes, Ags.: INEGI. I keyed in data from this source into an Excel spreadsheet.
+This is found in the file "MexicoTaxes.xls." It is in the second worksheet labeled "taxation divided by GDP." It is Column H, labeled "Direct Taxes, in percent." I 
+then copied and pasted this variable from that Excel spreadsheet into the "MexicoCase.dta" file; this meant copying and pasting the data from Excel into the Stata
+editor. I named the variable Mexico_IncomeTaxesCapGains 

@@ -1,0 +1,3 @@
+*GENERATING THE MEXICO FIGURE, FIGURE 1; first open the Mexico time series dataset labeled “Mexico Year Data” in Stata; the data is already primed for time series analysis; I’ve previously asked Stata to treat this data in that way by executing the following command: tsset year; this syntax creates the Figure 1 graph; it graphs directed credit to development Banks, lagged by one year, and total direct taxation between 1933 and 1975*  
+
+graph twoway (connect l.developmentbankcredit_GDP_pct year if year < 1975, msymbol(d) lpattern(line) lcolor(green) yaxis(1) r1title("")) (connect  Mexico_IncomeTaxesCapGains year if year < 1975, msymbol(d) lpattern(dash) lcolor(black) yaxis(2)), tlabel(1930 1940 1950 1960 1970)

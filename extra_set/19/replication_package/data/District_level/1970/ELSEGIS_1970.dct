@@ -1,0 +1,23 @@
+infix dictionary using /home/nber/lplatt/Tract_block/OCR_district/Raw_data/ELSEGIS_1970.txt {
+
+	oenum		1- 7
+str	distname	21- 50
+str	revschtax	84- 93
+str	revschsta	139- 148
+str	revschfed	304- 313
+str	celocadm	359- 368
+str	ceoaadm		370- 379
+str	celocsalp	381- 390
+str	ceoasalp	392- 401
+str	celocsalnp	403- 412
+str	ceoasalnp	414- 423
+str	celocinst	469- 478
+str	ceoainst	480- 489
+str	celoctot	711- 720
+str	ceoatot		722- 731
+str	assval		1086- 1096
+str	ptrate		1098- 1104
+str	amratio		1106- 1112
+	ada		1118- 1127
+
+}

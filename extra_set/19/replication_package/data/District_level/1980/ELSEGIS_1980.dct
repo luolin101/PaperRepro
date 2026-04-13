@@ -1,0 +1,24 @@
+infix dictionary using /home/nber/lplatt/Tract_block/OCR_district/Raw_data/02254-0001-Data.txt {
+
+	oenum		1- 7
+str	distname	8- 37
+	statefip	60- 61
+	countyfip	62- 64
+str	revschtax	108- 119
+str	revschsta	180- 191
+str	revschfed1	192- 203
+str	revschfed2	228- 239
+str	revschfed3	240- 251
+str	revschfed4	264- 275
+str	revschfed5	276- 287
+str	revschfed6	288- 299
+str	ceadm		384- 395
+str	ceinst		396- 407
+str	cesalp		480- 491
+str	cesalnp		492- 503
+str	assval		864- 875
+str	ptrate		888- 899
+str	amratio		876- 887
+	ada		852- 863
+
+}

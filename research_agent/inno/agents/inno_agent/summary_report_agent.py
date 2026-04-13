@@ -5,6 +5,7 @@ Generates a comprehensive markdown summary report from the three summary JSON fi
 import os
 import re
 from research_agent.inno.types import Agent, Result
+from research_agent.inno.prompt_loader import render_prompt
 from research_agent.inno.tools.terminal_tools import read_file
 from research_agent.inno.registry import register_agent, register_tool
 from research_agent.inno.environment.docker_env import DockerEnv, with_env
@@ -124,60 +125,11 @@ def get_summary_report_agent(model: str, **kwargs):
     
     def instructions(context_variables):
         workspace_dir = context_variables.get("workspace_dir", ".")
-        
-        return f"""You are a Summary Report Agent. Your task is to create a comprehensive markdown summary report.
 
-**Context**:
-- Workspace: {workspace_dir}
-
-**IMPORTANT**: Always explicitly state your thinking and reasoning steps before calling any tool.
-
-**Report Format**:
-
-The markdown report should include the following sections:
-
-1. **Overall Score**
-   - Display the final reproducibility score (1-4)
-   - Explain what the score means
-
-2. **Scoring Criteria**
-   - Explain the scoring system:
-     • 1: Major findings in the paper are irreproducible
-     • 2: There are minor inconsistencies and/or errors in the provided data and/or code
-     • 3: There are rounding errors or equivalent issues in the major findings
-     • 4: Major findings of the paper are fully reproducible
-
-3. **Overall Explanation**
-   - Provide a comprehensive explanation of why this score was given
-   - Summarize the overall reproduction attempt
-   - Highlight key successes and challenges
-
-4. **Item-by-Item Analysis**
-   - For each item to reproduce (figures, tables, claims), provide:
-     - Item identifier (e.g., "Figure 1", "Table 1")
-     - **How it was reproduced**: Describe the execution steps and files used
-     - **Modifications made**: List any changes made to original files
-     - **Output generated**: List the output files produced
-     - **Comparison result**: Describe how the reproduced result compares with the original
-     - **Reproducibility assessment**: State whether this item was successfully reproduced
-
-**Writing Guidelines**:
-- Use clear, professional language
-- Use proper markdown formatting (headers, lists, code blocks where appropriate)
-- Be thorough but concise
-- Make the report easy to read and understand
-
-**Tasks**:
-1. Read the provided summaries and score information from the user query
-2. Create the markdown report based on the report format above
-3. Write the report to `{workspace_dir}/reproducibility_report.md` using `write_markdown` tool (this tool will validate the markdown format)
-4. Call `case_resolved` when complete
-
-**Tools**:
-- `read_file`: Read files if needed
-- `write_markdown`: Write and validate the markdown report file
-- `case_resolved`: Report completion
-"""
+        return render_prompt(
+            "summary_report_agent_prompt.txt",
+            workspace_dir=workspace_dir,
+        )
 
     tools = [
         read_file, write_markdown, case_resolved
