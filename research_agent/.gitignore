@@ -26,4 +26,5 @@ cache_*/*
 
 .env
 
-*_tmp/*
+*_tmp/*extra_set/15/replication_package/QOGData.dta
+extra_set/14/replication_package/ChoicePanel2.dta
